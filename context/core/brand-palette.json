@@ -1,0 +1,33 @@
+{
+  "_instructions": "Brand color tokens. Reference these as CSS variables (var(--color-...)) in all site code. Source: ChatGPT palette suggestion (share link 6af2479b-15fc-83ea-b87c-e12eb18401fa). Confirm or replace with the operator's real brand colors before launch.",
+  "_metadata": {
+    "source": "https://chatgpt.com/share/6af2479b-15fc-83ea-b87c-e12eb18401fa",
+    "status": "proposed, pending owner confirmation",
+    "created_date": "2026-11-11",
+    "version": "1.0"
+  },
+  "colors": {
+    "forest-green": "#164A34",
+    "leaf-green": "#597C43",
+    "burnt-orange": "#C44A12",
+    "soft-white": "#F7F8F4",
+    "charcoal": "#1F2933"
+  },
+  "usage": {
+    "forest-green": "Header, navigation, footer, headings",
+    "leaf-green": "Service icons, secondary accents, highlights",
+    "burnt-orange": "Call Now and Get a Free Estimate buttons only",
+    "soft-white": "Main page backgrounds and content sections",
+    "charcoal": "Body text and supporting headings"
+  },
+  "distribution": "55% soft-white, 25% forest-green, 10% charcoal, 5% leaf-green, 5% burnt-orange",
+  "contrast_checks_wcag": {
+    "white-on-burnt-orange": 4.84,
+    "white-on-forest-green": 10.18,
+    "white-on-leaf-green": 4.78,
+    "charcoal-on-soft-white": 13.83,
+    "forest-green-on-soft-white": 9.54,
+    "burnt-orange-text-on-soft-white": 4.54
+  },
+  "css_variables": ":root {\n  --color-forest-green: #164A34;\n  --color-leaf-green: #597C43;\n  --color-burnt-orange: #C44A12;\n  --color-soft-white: #F7F8F4;\n  --color-charcoal: #1F2933;\n}"
+}

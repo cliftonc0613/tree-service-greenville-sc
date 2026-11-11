@@ -19,7 +19,7 @@
 Each head term gets one page. Two pages targeting the same phrase would compete with each other.
 
 | Keyword cluster | Monthly searches (US, 12-mo) | CPC | Target page |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | tree service greenville sc (+ tree trimming, tree company) | 880 | $3.52 | Home |
 | tree removal greenville sc | 480 | $12.82 | /tree-removal |
 | stump grinding greenville sc | 260 | $3.83 | /stump-grinding |
@@ -55,10 +55,10 @@ Core pages (10):
 
 Tier 1 location pages (4, full length, 1,000 to 1,200 words):
 
-11. `/simpsonville`, lead with removal
-12. `/taylors`, lead with service
-13. `/easley`, split service and removal
-14. `/greer`
+1. `/simpsonville`, lead with removal
+2. `/taylors`, lead with service
+3. `/easley`, split service and removal
+4. `/greer`
 
 ### Month two: tier 2 location pages (700 to 900 words)
 
@@ -98,7 +98,7 @@ Finished site: about 25 pages.
 ## 6. Content plan
 
 | Asset | Why | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `/tree-removal-cost` | Cost aggregators and a Reddit thread hold page one for "tree removal prices," per the playbook | Price ranges must be sourced. The playbook's $500 to $3,000+ figure is a market estimate, not a quote. |
 | FAQ section on service pages | People Also Ask shows real questions | Two confirmed questions: South Carolina rules when a neighbor's tree falls, and when county Public Works trims versus the homeowner. Verify the legal answers from primary sources before publishing. |
 | Emergency and storm page | Storm calls are the highest-value leads, even without measured volume | Keep it accurate about response times and service area. |
@@ -121,7 +121,7 @@ Finished site: about 25 pages.
 ## 8. Measurement
 
 | What | Cadence | Tool | Decision it drives |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ranking for the 10 head terms | Weekly during the first 90 days only | Any standard rank tracker | Confirms whether the site is moving toward top three |
 | Calls and call recordings | Monthly | GoHighLevel call tracking (local 864 number) | The real success metric. Calls matter more than rankings. |
 | Organic clicks to location pages | Monthly | Search Console | Which tier 2 and tier 3 pages to build next |
