@@ -2,26 +2,28 @@
   "_instructions": "Fill this out to document what you offer and how you're positioned. AI uses this to understand your business.",
   "_metadata": {
     "created_date": "2026-11-11T16:49:13.560304Z",
-    "updated_date": "2026-11-11T16:49:13.560304Z",
+    "updated_date": "2026-11-11T00:00:00Z",
     "version": "1.0"
   },
   "overview": {
     "_instructions": "The big picture of what you do.",
-    "business_name": "",
-    "what_you_do": "",
-    "who_you_serve": "",
-    "primary_transformation": "What change do you create for people?",
-    "mission": "Why does your business exist?",
-    "vision": "Where are you heading?"
+    "business_name": "Greenville Tree & Stump",
+    "what_you_do": "Tree removal, trimming, and stump grinding for homeowners in Greenville, SC and nearby towns.",
+    "who_you_serve": "Homeowners in Greenville, SC and nearby towns.",
+    "primary_transformation": "Homeowners go from worrying about a dangerous or overgrown tree to having it safely handled and the yard cleaned up.",
+    "mission": "To make Greenville homeowners' trees safe and their yards usable again, so they never have to gamble on a dangerous tree.",
+    "vision": "To become Greenville's most trusted tree service, known for safe work and clean yards."
   },
   "positioning": {
     "_instructions": "How you're different from everyone else.",
-    "unique_angle": "",
-    "what_makes_you_different": [],
-    "core_philosophy": "",
-    "methodology": "",
-    "problem_you_solve": "",
-    "core_value_proposition": ""
+    "unique_angle": "We treat safety first and always leave the yard clean.",
+    "what_makes_you_different": [
+      "Free estimates"
+    ],
+    "core_philosophy": "A tree is never worth the risk of a fall.",
+    "methodology": "From first call to finished yard: a free site visit, a recommendation of removal or trimming based on the tree's condition, and yard cleanup before we leave.",
+    "problem_you_solve": "A dangerous or overgrown tree on the homeowner's property, such as a leaning oak over the house, a stump in the yard, or a tree down after a storm.",
+    "core_value_proposition": "A safe, clean, one-call tree job from free estimate to finished yard."
   },
   "offerings": {
     "_instructions": "What can people buy or access?",
