@@ -1109,6 +1109,11 @@ a.card:hover {
 
 /* ---------- Accordion FAQ (native details/summary, no JS) ---------- */
 
+/* FAQ sections use a narrower grid than the rest of the site. */
+.faq-section > .container {
+  max-width: 64rem;
+}
+
 .faq {
   display: grid;
   gap: 0.6rem;
