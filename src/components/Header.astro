@@ -93,6 +93,15 @@ import Icon from '@/components/Icon.astro';
       if (d.open) { d.open = false; d.querySelector('summary')?.focus(); }
     });
   });
+  // Mobile submenus behave like an accordion: opening one closes the others.
+  const mobileGroups = document.querySelectorAll<HTMLDetailsElement>('.mobile-group');
+  mobileGroups.forEach((group) => {
+    group.addEventListener('toggle', () => {
+      if (!group.open) return;
+      mobileGroups.forEach((other) => { if (other !== group && other.open) other.open = false; });
+    });
+  });
+
   // Mobile menu: close it when the page starts to scroll, and fold its groups back up.
   // Scrolling inside the menu panel itself is a different scroll and does not close it.
   const mobileMenu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
