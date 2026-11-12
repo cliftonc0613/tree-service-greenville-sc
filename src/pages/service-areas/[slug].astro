@@ -51,13 +51,13 @@ const schema = [
       <h2>Services in {area.name}</h2>
       <div class="grid grid--3">
         {coreServices.map((s) => (
-          <a class="card" href={`/services/${s.slug}`}>
+          <a class="card" href={`/services/${area.slug}/${s.slug}`}>
             <h3>{s.name}</h3>
             <p>{s.summary}</p>
             <span class="card__more">Learn more</span>
           </a>
         ))}
-        <a class="card" href="/services/emergency-tree-removal">
+        <a class="card" href={`/services/${area.slug}/emergency-tree-removal`}>
           <h3>Emergency and storm removal</h3>
           <p>Trees down or leaning dangerously after a storm.</p>
           <span class="card__more">Learn more</span>

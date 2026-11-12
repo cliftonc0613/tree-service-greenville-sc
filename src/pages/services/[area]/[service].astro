@@ -1,0 +1,87 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import Sections from '@/components/Sections.astro';
+import Faq from '@/components/Faq.astro';
+import CtaBand from '@/components/CtaBand.astro';
+import { combos } from '@/data/combos';
+import { areas } from '@/data/areas';
+import { services } from '@/data/services';
+import { absoluteUrl } from '@/data/site';
+import type { Combo } from '@/data/combos';
+
+export function getStaticPaths() {
+  return combos.map((c) => {
+    const area = areas.find((a) => a.slug === c.area)!;
+    const service = services.find((s) => s.slug === c.service)!;
+    return { params: { area: c.area, service: c.service }, props: { combo: c, area, service } };
+  });
+}
+
+interface Props {
+  combo: Combo;
+  area: (typeof areas)[number];
+  service: (typeof services)[number];
+}
+
+const { combo, area, service } = Astro.props;
+const path = `/services/${area.slug}/${service.slug}`;
+
+// Sibling services in this town, so the page links across the 7 combos.
+const siblings = services.filter((s) => s.slug !== service.slug);
+
+const schema = [
+  {
+    '@type': 'Service',
+    '@id': `${absoluteUrl(path)}#service`,
+    name: `${service.name} in ${area.name}, SC`,
+    serviceType: service.name,
+    description: combo.metaDescription,
+    url: absoluteUrl(path),
+    provider: { '@id': `${absoluteUrl('/')}#business` },
+    areaServed: { '@type': 'City', name: area.name, containedInPlace: { '@type': 'State', name: 'South Carolina' } },
+  },
+];
+---
+
+<BaseLayout title={combo.title} description={combo.metaDescription} path={path} schema={schema}>
+  <PageHero
+    h1={combo.h1}
+    lead={combo.lead}
+    crumbs={[
+      { label: 'Service Areas', href: '/service-areas' },
+      { label: area.name, href: `/service-areas/${area.slug}` },
+      { label: service.name },
+    ]}
+    eyebrow={`${area.name}, SC`}
+    image={area.image}
+  />
+
+  <Sections sections={combo.sections} />
+
+  <Faq heading={`${service.name} in ${area.name}: questions`} faqs={combo.faqs} id="faq" />
+
+  <section class="section section--soft" style="padding-top:0">
+    <div class="container">
+      <h2>More in {area.name}</h2>
+      <div class="grid grid--3">
+        <a class="card" href={`/service-areas/${area.slug}`}>
+          <h3>{area.name} tree service</h3>
+          <span class="card__more">All services in {area.name}</span>
+        </a>
+        <a class="card" href={`/services/${service.slug}`}>
+          <h3>{service.name}</h3>
+          <span class="card__more">Our full {service.name.toLowerCase()} page</span>
+        </a>
+        {siblings.slice(0, 4).map((s) => (
+          <a class="card" href={`/services/${area.slug}/${s.slug}`}>
+            <h3>{s.name} in {area.name}</h3>
+            <span class="card__more">Learn more</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaBand heading={`${service.name} in ${area.name}?`} text="Tell us about the tree or the yard. We will call you back to set up a free visit and a written quote." />
+</BaseLayout>

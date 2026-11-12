@@ -111,6 +111,12 @@ Launch is 16 pages: home, the Services hub and seven service pages, the Service 
 
 The playbook planned 25 pages. The extra page is the new `/services` hub. The Service Areas hub also moves from month three to launch, because every town page sits under it. At launch it lists only the four tier 1 towns. The other towns are added as their pages are published.
 
+### City and service combo pages (added November 12, 2026)
+
+Approved by the owner. Each launch town has a page for each of the seven services, 28 in total, at `/services/[town]/[service]`. Each page has its own copy and links to its town page, its service page, and the other services in the same town. Town pages link to these combo pages instead of the parent service pages.
+
+**Cannibalization watch.** Two combo pages target the same phrase as a town page: "tree removal Simpsonville" (the Simpsonville town page owns it) and "tree service Taylors" (the Taylors town page owns it). Keep their copy distinct from the town page, and watch Search Console for the split. If one page starts winning both, merge them.
+
 ### URL structure decision
 
 **Services:** `/services/[service-type]`. **Towns:** `/service-areas/[city]`. Both page types follow one pattern, each with a hub page as the parent.

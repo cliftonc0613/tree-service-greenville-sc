@@ -31,6 +31,7 @@ Items that must be resolved by the owner or verified against real sources before
 - [ ] **Search Console.** Submit `sitemap-index.xml` on launch day (site-architecture.md, build order step 2).
 - [ ] **Citations.** Submit the directory list in the playbook once NAP is final: Bing Places, Apple Business Connect, Yelp, and the directories in seo-strategy section 7.
 - [ ] **Hosting.** Plan is Cloudflare Pages (free tier). Output is static. Confirm the build command `npm run build` and output directory `dist`.
+- [ ] **Combo pages (28).** `/services/[town]/[service]` for the four launch towns. Each needs an owner review of the copy. Watch for cannibalization with the Simpsonville removal and Taylors tree service town pages (see site-architecture.md). The Simpsonville removal combo and the town page both target "tree removal Simpsonville".
 - [ ] **Tier 2 and Tier 3 towns.** Month two and three per site-architecture.md. Do not link to them until their pages exist. The Service Areas hub and dropdown list only the four launch towns.
 
 ## Known deferred items
