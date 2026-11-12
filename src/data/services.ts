@@ -157,6 +157,7 @@ export const services: Service[] = [
 
   {
     slug: 'stump-grinding',
+    image: { src: '/images/pages/stump-grinding.jpg', alt: 'Illustration of a stump grinder working on a stump in a neat front yard, wood chips flying' },
     name: 'Stump Grinding',
     icon: 'stump',
     title: 'Stump Grinding in Greenville, SC | Greenville Tree & Stump',
@@ -216,6 +217,7 @@ export const services: Service[] = [
 
   {
     slug: 'arborist',
+    image: { src: '/images/pages/arborist.jpg', alt: 'Illustration of a large tree trunk and root flare with textured bark at its base' },
     name: 'Arborist Services',
     icon: 'clipboard',
     title: 'Arborist in Greenville, SC | Greenville Tree & Stump',
@@ -276,6 +278,7 @@ export const services: Service[] = [
 
   {
     slug: 'emergency-tree-removal',
+    image: { src: '/images/pages/emergency-tree-removal.jpg', alt: 'Illustration of a fallen oak limb across a suburban driveway after a storm' },
     name: 'Emergency Tree Removal',
     icon: 'storm',
     title: 'Emergency Tree Removal | Greenville Tree & Stump',
