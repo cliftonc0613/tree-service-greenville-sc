@@ -6,6 +6,7 @@ import type { Area } from '@/data/types';
 export const areas: Area[] = [
   {
     slug: 'simpsonville',
+    image: { src: '/images/pages/simpsonville.jpg', alt: 'Illustration of a tree-lined residential street with mature trees and brick homes' },
     name: 'Simpsonville',
     county: 'Greenville County',
     tier: 1,
@@ -68,6 +69,7 @@ export const areas: Area[] = [
 
   {
     slug: 'taylors',
+    image: { src: '/images/pages/taylors.jpg', alt: 'Illustration of a calm river with pine and hardwood banks' },
     name: 'Taylors',
     county: 'Greenville County',
     tier: 1,
@@ -130,6 +132,7 @@ export const areas: Area[] = [
 
   {
     slug: 'easley',
+    image: { src: '/images/pages/easley.jpg', alt: 'Illustration of pine-covered hills beyond a fence line in the South Carolina Upstate' },
     name: 'Easley',
     county: 'Pickens County',
     tier: 1,
@@ -185,6 +188,7 @@ export const areas: Area[] = [
 
   {
     slug: 'greer',
+    image: { src: '/images/pages/greer.jpg', alt: 'Illustration of a crew trimming a young tree in a newer subdivision' },
     name: 'Greer',
     county: 'Greenville and Spartanburg counties',
     tier: 1,

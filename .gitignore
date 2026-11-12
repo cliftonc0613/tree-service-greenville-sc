@@ -7,3 +7,5 @@ dist/
 .env.*
 !.env.example
 .claude.backup.*/
+# Raw AI generations are large (about 77 MB); the web-sized copies in public/images/pages are what ship.
+knowledge/generations/

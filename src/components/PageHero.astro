@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { business } from '@/data/site';
+import type { PageImage } from '@/data/types';
 
 interface Crumb {
   label: string;
@@ -13,12 +14,19 @@ interface Props {
   crumbs: Crumb[];
   eyebrow?: string;
   showCta?: boolean;
+  /** Optional background image. Pages without one keep the plain forest-green band. */
+  image?: PageImage;
 }
 
-const { h1, lead, crumbs, eyebrow, showCta = true } = Astro.props;
+const { h1, lead, crumbs, eyebrow, showCta = true, image } = Astro.props;
 ---
 
-<section class="page-hero">
+<section class:list={['page-hero', image && 'page-hero--image']}>
+  {image && (
+    <div class="page-hero__media">
+      <img src={image.src} alt={image.alt} width="1440" height="803" decoding="async" />
+    </div>
+  )}
   <div class="container">
     <Breadcrumbs items={crumbs} />
     {eyebrow && <span class="eyebrow">{eyebrow}</span>}

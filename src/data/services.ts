@@ -6,6 +6,7 @@ import type { Service } from '@/data/types';
 export const services: Service[] = [
   {
     slug: 'tree-removal',
+    image: { src: '/images/pages/tree-removal.jpg', alt: 'Illustration of two tree crew members using ropes to lower a cut section of a large oak beside a suburban house' },
     name: 'Tree Removal',
     icon: 'tree',
     title: 'Tree Removal in Greenville, SC | Greenville Tree & Stump',
@@ -85,6 +86,7 @@ export const services: Service[] = [
 
   {
     slug: 'tree-trimming',
+    image: { src: '/images/pages/tree-trimming.jpg', alt: 'Illustration of an arborist on a ladder trimming limbs near a roofline with a pole saw' },
     name: 'Tree Trimming and Pruning',
     icon: 'saw',
     title: 'Tree Trimming in Greenville, SC | Greenville Tree & Stump',
@@ -340,6 +342,7 @@ export const services: Service[] = [
 
   {
     slug: 'tree-removal-cost',
+    image: { src: '/images/pages/removal-cost.jpg', alt: 'Illustration of a homeowner and an estimator looking up at a large oak in a backyard' },
     name: 'Tree Removal Cost',
     icon: 'dollar',
     title: 'Tree Removal Cost, Greenville SC | Greenville Tree & Stump',
@@ -422,6 +425,7 @@ export const services: Service[] = [
 
   {
     slug: 'land-clearing',
+    image: { src: '/images/pages/land-clearing.jpg', alt: 'Illustration of a cleared wooded lot with brush piles and standing pines in the Upstate hills' },
     name: 'Land Clearing',
     icon: 'land',
     title: 'Land Clearing in Greenville, SC | Greenville Tree & Stump',

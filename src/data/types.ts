@@ -34,8 +34,16 @@ export type IconName =
   | 'phone'
   | 'check';
 
+export interface PageImage {
+  /** Path under /public, e.g. /images/pages/tree-removal.jpg */
+  src: string;
+  /** Descriptive alt text. These are AI-generated illustrations, so say so. */
+  alt: string;
+}
+
 export interface Service {
   slug: string;
+  image?: PageImage;
   /** Short name for nav and cards, e.g. "Tree Removal". */
   name: string;
   icon: IconName;
@@ -63,6 +71,7 @@ export interface Service {
 
 export interface Area {
   slug: string;
+  image?: PageImage;
   name: string;
   /** e.g. "Greenville County" */
   county: string;
