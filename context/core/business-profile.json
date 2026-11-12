@@ -46,8 +46,38 @@
     ],
     "paid_offerings": [
       {
-        "name": "",
-        "description": "",
+        "name": "Tree removal",
+        "description": "Safe removal of dangerous, dead, or unwanted trees from a homeowner's property.",
+        "pricing_model": "",
+        "where_to_get_it": ""
+      },
+      {
+        "name": "Trimming and pruning",
+        "description": "Trimming and pruning to clear overgrown branches and keep trees healthy and safe.",
+        "pricing_model": "",
+        "where_to_get_it": ""
+      },
+      {
+        "name": "Stump grinding",
+        "description": "Grinding down stumps left in the yard after a tree is removed.",
+        "pricing_model": "",
+        "where_to_get_it": ""
+      },
+      {
+        "name": "Arborist services",
+        "description": "Professional assessment of a tree's health and hazards, with a recommendation on what it needs.",
+        "pricing_model": "",
+        "where_to_get_it": ""
+      },
+      {
+        "name": "Emergency storm removal",
+        "description": "Removal of trees that have come down or are leaning dangerously after a storm.",
+        "pricing_model": "",
+        "where_to_get_it": ""
+      },
+      {
+        "name": "Land clearing",
+        "description": "Clearing trees and brush from a lot or property.",
         "pricing_model": "",
         "where_to_get_it": ""
       }
