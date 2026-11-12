@@ -291,7 +291,6 @@ h2 + .callout {
 /* Single-column estimate block: headline, copy, and form stacked, capped at a readable width. */
 .estimate-stack {
   max-width: 48rem;
-  margin-inline: auto;
 }
 
 .estimate-stack > .card {
