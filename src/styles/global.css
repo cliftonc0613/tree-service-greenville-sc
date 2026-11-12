@@ -861,6 +861,11 @@ body.has-callbar {
 
 .hero__panel p:last-child { margin-bottom: 0; }
 
+/* Phones: the sticky call bar already covers this, so the panel is hidden below 768px. */
+@media (max-width: 47.99rem) {
+  .hero__panel { display: none; }
+}
+
 .hero__ridge {
   position: absolute;
   left: 0;
