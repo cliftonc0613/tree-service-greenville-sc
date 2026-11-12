@@ -29,9 +29,19 @@
     "_instructions": "What can people buy or access?",
     "free_offerings": [
       {
-        "name": "",
-        "description": "",
-        "where_to_get_it": ""
+        "name": "Free site visit and estimate",
+        "description": "We'll come out to look at your tree, explain what needs doing, and give you a written quote at no charge.",
+        "where_to_get_it": "Website download page, or by phone"
+      },
+      {
+        "name": "Storm damage checklist",
+        "description": "A one-page guide to what to do when a tree is down or leaning after a storm: what to keep clear, what to avoid, and when to call a professional.",
+        "where_to_get_it": "Website download page"
+      },
+      {
+        "name": "Tree care guide",
+        "description": "Simple advice on pruning, watering, and spotting a dangerous tree before it becomes an emergency.",
+        "where_to_get_it": "Website download page"
       }
     ],
     "paid_offerings": [
