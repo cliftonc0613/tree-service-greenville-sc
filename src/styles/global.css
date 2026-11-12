@@ -27,7 +27,7 @@
   --radius-card: 0.75rem;
   --shadow-card: 0 1px 2px rgb(31 41 51 / 0.06), 0 8px 24px rgb(31 41 51 / 0.06);
   --container: 72rem;
-  --header-h: 4.5rem;
+  --header-h: 4.75rem;
 }
 
 /* Dark mode is not offered: the brand is designed for daylight reading on job sites and phones. */
@@ -375,8 +375,21 @@ a:hover {
 }
 
 .brand img {
-  height: 3.25rem;
+  height: 3.5rem;
   width: auto;
+}
+
+/* Never squeeze the logo: it keeps its aspect ratio at every width. */
+.brand { flex: none; }
+
+@media (min-width: 64rem) {
+  :root { --header-h: 5.5rem; }
+  .brand img { height: 4rem; }
+}
+
+@media (min-width: 80rem) {
+  :root { --header-h: 6rem; }
+  .brand img { height: 4.5rem; }
 }
 
 .brand__text {
