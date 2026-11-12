@@ -1,5 +1,5 @@
 {
-  "_instructions": "This is your Voice DNA\u2014your unique communication signature. Use this to brief AI agents, writers, and team members on how to sound authentically like you.",
+  "_instructions": "This is your Voice DNA—your unique communication signature. Use this to brief AI agents, writers, and team members on how to sound authentically like you.",
   "_metadata": {
     "created_date": "2026-11-11T16:49:13.560304Z",
     "updated_date": "2026-11-11T16:49:13.560304Z",
@@ -7,7 +7,7 @@
   },
   "personality_and_tone": {
     "_instructions": "Your communication personality and how you come across.",
-    "overall_tone": "",
+    "overall_tone": "Plainspoken, reassuring, and professional.",
     "personality_adjectives": [],
     "energy_level": "",
     "humor_style": "",
