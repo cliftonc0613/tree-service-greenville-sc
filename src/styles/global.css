@@ -100,7 +100,7 @@ a:hover {
 
 /* On dark surfaces the ring is white (forest on forest would vanish; orange measured 2.1:1). */
 .utility-bar :focus-visible,
-.site-header :focus-visible,
+.mobile-panel :focus-visible,
 .hero :focus-visible,
 .page-hero :focus-visible,
 .section--forest :focus-visible,
@@ -352,9 +352,10 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: var(--color-forest-green);
-  color: var(--color-white);
-  box-shadow: 0 2px 10px rgb(15 50 36 / 0.25);
+  background: var(--color-white);
+  color: var(--color-forest-green);
+  border-bottom: 1px solid var(--color-line);
+  box-shadow: 0 2px 10px rgb(15 50 36 / 0.08);
 }
 
 .site-header__inner {
@@ -369,17 +370,13 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  color: var(--color-white);
+  color: var(--color-forest-green);
   text-decoration: none;
 }
 
 .brand img {
-  height: 3rem;
+  height: 3.25rem;
   width: auto;
-  box-sizing: content-box;
-  padding: 0.25rem 0.6rem;
-  background: var(--color-white);
-  border-radius: 0.5rem;
 }
 
 .brand__text {
@@ -414,7 +411,7 @@ a:hover {
   font-size: 1rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--color-white);
+  color: var(--color-forest-green);
   text-decoration: none;
   border-radius: 0.3rem;
   cursor: pointer;
@@ -422,8 +419,10 @@ a:hover {
 }
 
 .nav-desktop > a:hover,
-.nav-desktop summary:hover {
-  background: rgb(255 255 255 / 0.1);
+.nav-desktop summary:hover,
+.nav-desktop details[open] summary {
+  background: var(--color-soft-white);
+  color: var(--color-forest-deep);
 }
 
 .nav-desktop summary::-webkit-details-marker {
@@ -441,8 +440,9 @@ a:hover {
   min-width: 17rem;
   background: var(--color-white);
   color: var(--color-charcoal);
+  border: 1px solid var(--color-line);
   border-radius: var(--radius-card);
-  box-shadow: 0 12px 32px rgb(15 50 36 / 0.25);
+  box-shadow: 0 12px 32px rgb(15 50 36 / 0.18);
   padding: 0.5rem;
   display: grid;
   gap: 0.1rem;
@@ -486,9 +486,9 @@ a:hover {
   width: 3rem;
   height: 3rem;
   background: transparent;
-  border: 2px solid rgb(255 255 255 / 0.5);
+  border: 2px solid var(--color-forest-green);
   border-radius: 0.4rem;
-  color: var(--color-white);
+  color: var(--color-forest-green);
   cursor: pointer;
 }
 
@@ -527,7 +527,7 @@ a:hover {
 }
 
 .mobile-menu[open] .menu-toggle {
-  background: rgb(255 255 255 / 0.12);
+  background: var(--color-soft-white);
 }
 
 .mobile-panel a {
