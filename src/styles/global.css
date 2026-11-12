@@ -416,7 +416,6 @@ h2 + .callout {
   justify-content: space-between;
   min-height: var(--header-h);
   gap: 1rem;
-  transition: min-height 220ms ease;
 }
 
 .brand {
@@ -430,7 +429,6 @@ h2 + .callout {
 .brand img {
   height: 3.5rem;
   width: auto;
-  transition: height 220ms ease;
 }
 
 /* Never squeeze the logo: it keeps its aspect ratio at every width. */
