@@ -54,26 +54,47 @@
       },
       "problems_and_pain_points": {
         "_instructions": "What's keeping them up at night.",
-        "top_pain_points": [],
+        "top_pain_points": [
+          "A tree leaning toward the house",
+          "Fear of storm damage",
+          "Cost surprises",
+          "A mess left in the yard"
+        ],
         "cost_of_problem": {
-          "time": "",
-          "money": "",
-          "opportunity": "",
-          "morale": ""
+          "time": "Days spent waiting for a quote, and time spent finding a company they can trust.",
+          "money": "Damage to a fence or roof, the price of an emergency call, and cost surprises.",
+          "opportunity": "A yard that is unusable or unsafe while the tree is still a hazard.",
+          "morale": "Stress whenever a storm is forecast."
         },
-        "previous_solutions_attempted": [],
-        "why_previous_solutions_failed": ""
+        "previous_solutions_attempted": [
+          "Handling it themselves with a saw or ladder",
+          "Asking a neighbor or handyman",
+          "Getting quotes from other tree companies"
+        ],
+        "why_previous_solutions_failed": "A saw or ladder is unsafe for a tall tree, a neighbor or handyman lacked the equipment or insurance, and other quotes were too high, too vague, or never came back."
       },
       "goals_and_desired_outcomes": {
         "_instructions": "What they want to achieve.",
-        "primary_goal": "",
+        "primary_goal": "Getting the tree safely removed or trimmed, keeping the house undamaged, and finishing the job without a headache.",
         "success_definition": {
-          "metrics": [],
-          "feelings": [],
-          "results": []
+          "metrics": [
+            "The tree is gone or trimmed",
+            "The house has no damage",
+            "They paid the quoted price"
+          ],
+          "feelings": [
+            "They felt safe during the work"
+          ],
+          "results": [
+            "The yard was left clean"
+          ]
         },
-        "secondary_goals": [],
-        "timeline": ""
+        "secondary_goals": [
+          "Keeping the yard usable for their family",
+          "Avoiding future storm damage",
+          "Having one company to call for later trimming"
+        ],
+        "timeline": "This week for urgent problem trees, and within a month for routine trimming."
       },
       "budget_and_decision_making": {
         "_instructions": "Money and how they decide.",
