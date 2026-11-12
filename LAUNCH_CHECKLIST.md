@@ -27,7 +27,7 @@ Items that must be resolved by the owner or verified against real sources before
 
 ## SEO and technical
 
-- [ ] **Titles.** Several titles run 61 to 70 characters because the brand suffix is long. Shorten the longest (emergency, easley, about) if needed.
+- [x] **Titles.** All 18 page titles are now 60 characters or fewer, measured from the built HTML with `&` unescaped. Brand suffix kept on every page.
 - [ ] **Search Console.** Submit `sitemap-index.xml` on launch day (site-architecture.md, build order step 2).
 - [ ] **Citations.** Submit the directory list in the playbook once NAP is final: Bing Places, Apple Business Connect, Yelp, and the directories in seo-strategy section 7.
 - [ ] **Hosting.** Plan is Cloudflare Pages (free tier). Output is static. Confirm the build command `npm run build` and output directory `dist`.

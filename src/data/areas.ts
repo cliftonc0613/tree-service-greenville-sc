@@ -134,7 +134,7 @@ export const areas: Area[] = [
     county: 'Pickens County',
     tier: 1,
     leadService: 'balanced',
-    title: 'Tree Service and Removal in Easley, SC | Greenville Tree & Stump',
+    title: 'Tree Service in Easley, SC | Greenville Tree & Stump',
     metaDescription:
       'Tree service and removal in Easley, SC. Trimming, dangerous tree removal, and stump grinding with a free written estimate. Call us to set up a visit.',
     h1: 'Tree Service and Removal in Easley, SC',

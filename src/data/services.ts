@@ -216,7 +216,7 @@ export const services: Service[] = [
     slug: 'arborist',
     name: 'Arborist Services',
     icon: 'clipboard',
-    title: 'Arborist Services in Greenville, SC | Greenville Tree & Stump',
+    title: 'Arborist in Greenville, SC | Greenville Tree & Stump',
     metaDescription:
       'Tree assessments in Greenville, SC for health and hazards, with a plain recommendation on what your tree needs. Free written estimate. Call today.',
     h1: 'Arborist Services in Greenville, SC',
@@ -276,7 +276,7 @@ export const services: Service[] = [
     slug: 'emergency-tree-removal',
     name: 'Emergency Tree Removal',
     icon: 'storm',
-    title: 'Emergency Tree Removal in Greenville, SC | Greenville Tree & Stump',
+    title: 'Emergency Tree Removal | Greenville Tree & Stump',
     metaDescription:
       'Emergency tree removal in Greenville, SC after storm damage. A tree on the house, in the yard, or leaning dangerously. Call us, then we confirm the plan.',
     h1: 'Emergency and Storm Tree Removal in Greenville, SC',
@@ -342,7 +342,7 @@ export const services: Service[] = [
     slug: 'tree-removal-cost',
     name: 'Tree Removal Cost',
     icon: 'dollar',
-    title: 'Tree Removal Cost in Greenville, SC | Greenville Tree & Stump',
+    title: 'Tree Removal Cost, Greenville SC | Greenville Tree & Stump',
     metaDescription:
       'What tree removal and trimming cost in Greenville, SC, with the factors that change the price. Free written estimate for your exact tree. Call us.',
     h1: 'Tree Removal Cost in Greenville, SC',
