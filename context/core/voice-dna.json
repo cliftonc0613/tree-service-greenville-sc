@@ -27,44 +27,95 @@
       "Respect for the customer's property",
       "Clear follow-through"
     ],
-    "beliefs_about_audience": "",
-    "signature_conviction": "",
-    "non_negotiables": []
+    "beliefs_about_audience": "Homeowners and property managers deserve straight answers, people can make good decisions when they have the facts, and customers want to be treated like neighbors.",
+    "signature_conviction": "A tree is never worth the risk of a fall, so we put safety before speed or price and we don't call a job finished until the yard is clean.",
+    "non_negotiables": [
+      "Never hide the price",
+      "Never promise a date we can't keep",
+      "Never pressure anyone to decide on the spot",
+      "Never downplay a safety risk"
+    ]
   },
   "language_and_patterns": {
     "_instructions": "Your distinctive language choices and communication patterns.",
-    "signature_phrases": [],
-    "thought_structure_patterns": [],
-    "avoided_words_or_phrases": [],
-    "punctuation_style": "",
-    "slang_and_jargon": []
+    "signature_phrases": [
+      "Free estimate, no pressure.",
+      "Safety first, every time.",
+      "We leave it cleaner than we found it.",
+      "One call, from free estimate to finished yard.",
+      "A tree is never worth the risk of a fall."
+    ],
+    "thought_structure_patterns": [
+      "Step-by-step explanations",
+      "Short lists",
+      "Before and after",
+      "Everyday analogies"
+    ],
+    "avoided_words_or_phrases": [
+      "\"Guaranteed\" and other promises we can't back up",
+      "\"Cheap\" or \"lowest price\"",
+      "High-pressure phrases like \"act now\" or \"today only\"",
+      "Tree-trade jargon that confuses homeowners"
+    ],
+    "punctuation_style": "Plain periods with few exclamation points, short sentences, no em dashes, and no ellipses.",
+    "slang_and_jargon": [
+      "Plain terms like yard, limb, and stump",
+      "A light Upstate touch like y'all"
+    ]
   },
   "storytelling_and_connection": {
     "_instructions": "How you tell stories and connect with your audience.",
-    "storytelling_style": "",
-    "preferred_story_types": [],
-    "credibility_approach": "",
-    "vulnerability_stance": "",
-    "how_you_make_audience_feel": []
+    "storytelling_style": "Problem, work, result: here's the problem, here's what we did, here's how it looks now. Sometimes opens with a quick hook, then explains the lesson.",
+    "preferred_story_types": [
+      "Customer transformations",
+      "Storm-response stories",
+      "Before-and-after cleanups"
+    ],
+    "credibility_approach": "Written quotes, proof of insurance, and before-and-after photos.",
+    "vulnerability_stance": "Selective: open about fixes when something goes wrong, but mostly professional.",
+    "how_you_make_audience_feel": [
+      "Understood",
+      "Reassured",
+      "Respected",
+      "Like they have a neighbor they can count on"
+    ]
   },
   "audience_connection": {
     "_instructions": "How you directly engage with your audience.",
-    "audience_address_style": "",
-    "brand_authenticity_balance": ""
+    "audience_address_style": "First person (\"we\") for what the crew does, direct address (\"you\") to the homeowner or property manager, and occasional questions to the reader.",
+    "brand_authenticity_balance": "Consistent on safety, honesty, and plain talk, but flexible in tone and wording as the business grows."
   },
   "communication_guidelines": {
     "_instructions": "Guidelines for anyone writing or speaking in your voice.",
     "must_haves": [
-      "What must be present in every piece of communication?"
+      "Safety first, stated plainly",
+      "Honesty about price and scope",
+      "Plain language a homeowner or property manager can follow",
+      "A free estimate offer where relevant, with no pressure to decide on the spot",
+      "Respect for the customer's property, including cleanup before leaving"
     ],
     "never_include": [
-      "What should never appear in your communication?"
+      "\"Guaranteed\" or other promises the business can't back up",
+      "\"Cheap\" or \"lowest price\"",
+      "High-pressure phrases like \"act now\" or \"today only\"",
+      "Tree-trade jargon without a plain explanation",
+      "Hidden prices or vague scope",
+      "A date the business can't keep",
+      "Downplayed safety risks"
     ],
     "red_flags": [
-      "Warning signs that something doesn't sound like you?"
+      "Urgency or pressure to decide on the spot",
+      "Jargon that a homeowner would have to look up",
+      "Minimizing a hazard or a safety concern",
+      "Pricing or scope that isn't written out",
+      "Slang or hype that doesn't sound calm and direct"
     ],
     "examples_of_on_brand": [
-      "Examples of communication that perfectly captures your voice?"
+      "Free estimate, no pressure.",
+      "Safety first, every time.",
+      "We leave it cleaner than we found it.",
+      "One call, from free estimate to finished yard.",
+      "A tree is never worth the risk of a fall."
     ]
   }
 }
