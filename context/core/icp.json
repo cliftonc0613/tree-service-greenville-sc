@@ -98,29 +98,78 @@
       },
       "budget_and_decision_making": {
         "_instructions": "Money and how they decide.",
-        "budget_range": "",
-        "decision_makers_involved": [],
-        "decision_making_process": "",
-        "sales_cycle_length": ""
+        "budget_range": "Market benchmark (source not specified; not a confirmed customer budget). Trimming: small (under 25 ft) $75-$450, medium (25-50 ft) $150-$600, large (50-75 ft) $300-$1,000, very large (75+ ft) $700-$2,000+. Cutting down/removal: small $150-$500, medium $450-$1,200, large $800-$1,500, very large $1,000-$2,500+.",
+        "decision_makers_involved": [
+          "The homeowner",
+          "Their spouse or partner"
+        ],
+        "decision_making_process": "They search online, read reviews, get two or three quotes, compare price and trust, then choose.",
+        "sales_cycle_length": "Same day for emergencies, and one to two weeks for routine trims while they collect quotes."
       },
       "content_and_communication_preferences": {
         "_instructions": "How they like to learn and where they hang out.",
-        "preferred_content_formats": [],
-        "online_communities_and_platforms": [],
-        "publications_blogs_and_influencers": [],
-        "discovery_methods": []
+        "preferred_content_formats": [
+          "Photos of past jobs",
+          "A short video",
+          "A written checklist",
+          "Text messages",
+          "Phone calls"
+        ],
+        "online_communities_and_platforms": [
+          "Facebook groups",
+          "Nextdoor",
+          "Reddit r/greenville",
+          "Google search and Maps",
+          "Yelp"
+        ],
+        "publications_blogs_and_influencers": [
+          "None"
+        ],
+        "discovery_methods": [
+          "A Google search when a problem comes up",
+          "A neighbor's recommendation",
+          "A Nextdoor or Facebook post",
+          "A yard sign or truck they've seen"
+        ]
       },
       "objections_and_hesitations": {
         "_instructions": "What might stop them from buying.",
-        "common_objections": [],
-        "solution_disqualifiers": [],
-        "change_concerns": []
+        "common_objections": [
+          "Worrying about being overcharged",
+          "Not trusting a company they've never heard of",
+          "Doubting that a quick job will be done safely"
+        ],
+        "solution_disqualifiers": [
+          "No written quote",
+          "No proof of insurance",
+          "Pressure to decide on the spot",
+          "A crew that leaves a mess"
+        ],
+        "change_concerns": [
+          "Switching from a company they've used before",
+          "Trusting a new crew with a big tree near the house",
+          "Paying upfront before the work is done"
+        ]
       },
       "buying_signals_and_readiness": {
         "_instructions": "When they're ready and what wins them over.",
-        "buying_signals": [],
-        "competitive_advantages": [],
-        "deal_breakers": []
+        "buying_signals": [
+          "A tree has already dropped a limb or cracked a fence",
+          "They've searched for a quote",
+          "A storm is forecast",
+          "They've called two companies already"
+        ],
+        "competitive_advantages": [
+          "Free written estimates",
+          "Safety first",
+          "A clean yard every time"
+        ],
+        "deal_breakers": [
+          "No written quote",
+          "No proof of insurance",
+          "Pressure to decide on the spot",
+          "A crew that leaves a mess"
+        ]
       }
     }
   ]
