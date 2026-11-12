@@ -100,7 +100,6 @@ a:hover {
 
 /* On dark surfaces the ring is white (forest on forest would vanish; orange measured 2.1:1). */
 .utility-bar :focus-visible,
-.mobile-panel :focus-visible,
 .hero :focus-visible,
 .page-hero :focus-visible,
 .section--forest :focus-visible,
@@ -596,9 +595,10 @@ h2 + .callout {
   left: 0;
   right: 0;
   top: 100%;
-  background: var(--color-forest-deep);
-  padding: 1rem 0 1.5rem;
-  box-shadow: 0 12px 24px rgb(15 50 36 / 0.3);
+  background: var(--color-white);
+  border-top: 1px solid var(--color-line);
+  padding: 0.5rem 0 1rem;
+  box-shadow: 0 12px 24px rgb(15 50 36 / 0.15);
   max-height: calc(100vh - var(--header-h));
   overflow-y: auto;
 }
@@ -618,18 +618,18 @@ h2 + .callout {
 .mobile-panel a {
   display: block;
   padding: 0.8rem 0.25rem;
-  color: var(--color-white);
+  color: var(--color-forest-green);
   text-decoration: none;
   font-family: var(--font-display);
   font-size: 1.1rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  border-bottom: 1px solid rgb(255 255 255 / 0.12);
+  border-bottom: 1px solid var(--color-line);
 }
 
 /* Collapsible Services and Service Areas groups in the mobile menu. */
 .mobile-group {
-  border-bottom: 1px solid rgb(255 255 255 / 0.12);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .mobile-group > summary {
@@ -637,7 +637,7 @@ h2 + .callout {
   align-items: center;
   justify-content: space-between;
   padding: 0.8rem 0.25rem;
-  color: var(--color-white);
+  color: var(--color-forest-green);
   font-family: var(--font-display);
   font-size: 1.1rem;
   letter-spacing: 0.04em;
@@ -654,23 +654,24 @@ h2 + .callout {
   content: '+';
   font-size: 1.5rem;
   line-height: 1;
-  color: var(--color-leaf-tint);
+  color: var(--color-leaf-green);
 }
 
 .mobile-group[open] > summary::after {
   content: '\2212';
 }
 
-.mobile-group > summary:focus-visible {
-  outline-color: var(--color-white);
-}
-
 .mobile-group a {
   border-bottom: 0;
 }
 
+/* No divider under the last item. */
+.mobile-panel > .container > a:last-child {
+  border-bottom: 0;
+}
+
 .mobile-panel .mobile-sub--all {
-  color: var(--color-leaf-tint);
+  color: var(--color-leaf-green);
   font-weight: 700;
 }
 
@@ -680,18 +681,7 @@ h2 + .callout {
   text-transform: none;
   font-family: var(--font-body);
   font-weight: 600;
-  color: var(--color-leaf-tint);
-}
-
-.mobile-panel .btn {
-  width: 100%;
-  margin-top: 1rem;
-  border: 0;
-  font-size: 1.1rem;
-}
-
-.mobile-panel .btn + .btn {
-  margin-top: 0.6rem;
+  color: var(--color-forest-green);
 }
 
 @media (min-width: 64rem) {
