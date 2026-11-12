@@ -295,7 +295,12 @@
             "Zero claims this year",
             "Vendors arrive on the scheduled day"
           ],
-          "feelings": [],
+          "feelings": [
+            "Relieved",
+            "In control",
+            "Confident",
+            "Unbothered"
+          ],
           "results": [
             "A clean and safe property",
             "Tenants or customers never notice the work"
