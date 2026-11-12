@@ -63,13 +63,17 @@ import Icon from '@/components/Icon.astro';
         <div class="container">
           <details class="mobile-group">
             <summary>Services</summary>
-            {nav.services.map((s) => <a class="mobile-sub" href={s.href}>{s.label}</a>)}
-            <a class="mobile-sub mobile-sub--all" href={nav.servicesAll.href}>{nav.servicesAll.label}</a>
+            <div class="mobile-group__body">
+              {nav.services.map((s) => <a class="mobile-sub" href={s.href}>{s.label}</a>)}
+              <a class="mobile-sub mobile-sub--all" href={nav.servicesAll.href}>{nav.servicesAll.label}</a>
+            </div>
           </details>
           <details class="mobile-group">
             <summary>Service Areas</summary>
-            {nav.areas.map((a) => <a class="mobile-sub" href={a.href}>{a.label}</a>)}
-            <a class="mobile-sub mobile-sub--all" href={nav.areasAll.href}>{nav.areasAll.label}</a>
+            <div class="mobile-group__body">
+              {nav.areas.map((a) => <a class="mobile-sub" href={a.href}>{a.label}</a>)}
+              <a class="mobile-sub mobile-sub--all" href={nav.areasAll.href}>{nav.areasAll.label}</a>
+            </div>
           </details>
           <a href={nav.about.href}>{nav.about.label}</a>
           <a href={nav.contact.href}>{nav.contact.label}</a>
@@ -82,47 +86,128 @@ import Icon from '@/components/Icon.astro';
 </header>
 
 <script>
-  // Close open nav dropdowns on Escape or when clicking elsewhere.
-  const menus = document.querySelectorAll<HTMLDetailsElement>('.nav-desktop details, .mobile-menu');
+  // Shared motion settings. Reduced-motion users get instant open and close.
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const EASE = 'cubic-bezier(0.2, 0.7, 0.2, 1)';
+  const DUR = 240;
+
+  // Slide a submenu body open or closed. Resolves when the animation has finished.
+  const slide = (body: HTMLElement, open: boolean): Promise<void> => {
+    if (reduce) return Promise.resolve();
+    const h = body.scrollHeight;
+    const frames: Keyframe[] = open
+      ? [{ height: '0px', opacity: 0 }, { height: `${h}px`, opacity: 1 }]
+      : [{ height: `${h}px`, opacity: 1 }, { height: '0px', opacity: 0 }];
+    body.style.overflow = 'hidden';
+    const anim = body.animate(frames, { duration: DUR, easing: EASE, fill: 'forwards' });
+    return anim.finished.then(() => { anim.cancel(); body.style.overflow = ''; });
+  };
+
+  // Fade and lift the whole menu panel in or out.
+  const fade = (el: HTMLElement, open: boolean): Promise<void> => {
+    if (reduce) return Promise.resolve();
+    const frames: Keyframe[] = open
+      ? [{ opacity: 0, transform: 'translateY(-8px)' }, { opacity: 1, transform: 'none' }]
+      : [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateY(-8px)' }];
+    const anim = el.animate(frames, { duration: DUR, easing: EASE, fill: 'forwards' });
+    return anim.finished.then(() => anim.cancel());
+  };
+
+  // Mobile menu: groups are accordion-style, open and close with motion, and close on page scroll.
+  const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
+  const panel = menu?.querySelector<HTMLElement>('.mobile-panel') ?? null;
+  const groups = Array.from(document.querySelectorAll<HTMLDetailsElement>('.mobile-group'));
+  const bodyOf = (g: HTMLDetailsElement) => g.querySelector<HTMLElement>('.mobile-group__body');
+
+  const closeGroup = async (g: HTMLDetailsElement) => {
+    const b = bodyOf(g);
+    if (!g.open || !b) return;
+    await slide(b, false);
+    g.open = false;
+  };
+
+  const openGroup = async (g: HTMLDetailsElement) => {
+    const b = bodyOf(g);
+    if (!b) return;
+    g.open = true;
+    await slide(b, true);
+  };
+
+  let openedAt = 0;
+  let menuBusy = false;
+
+  const openMenu = async () => {
+    if (!menu || !panel) return;
+    menu.open = true;
+    openedAt = window.scrollY;
+    await fade(panel, true);
+  };
+
+  const closeMenu = async () => {
+    if (!menu || !panel || !menu.open) return;
+    await Promise.all(groups.filter((g) => g.open).map(closeGroup));
+    await fade(panel, false);
+    menu.open = false;
+  };
+
+  if (menu) {
+    menu.querySelector('summary')?.addEventListener('click', async (e) => {
+      e.preventDefault();
+      if (menuBusy) return;
+      menuBusy = true;
+      try { menu.open ? await closeMenu() : await openMenu(); } finally { menuBusy = false; }
+    });
+
+    // Close when the page scrolls. Scrolling inside the panel does not count, and a nudge under 8px is ignored.
+    window.addEventListener('scroll', () => {
+      if (menu.open && !menuBusy && Math.abs(window.scrollY - openedAt) > 8) {
+        menuBusy = true;
+        closeMenu().finally(() => { menuBusy = false; });
+      }
+    }, { passive: true });
+
+    // Tapping outside the menu closes it.
+    document.addEventListener('click', (e) => {
+      if (menu.open && !menuBusy && !menu.contains(e.target as Node)) {
+        menuBusy = true;
+        closeMenu().finally(() => { menuBusy = false; });
+      }
+    });
+  }
+
+  groups.forEach((g) => {
+    g.querySelector('summary')?.addEventListener('click', async (e) => {
+      e.preventDefault();
+      if (g.dataset.busy) return;
+      g.dataset.busy = '1';
+      try {
+        if (g.open) {
+          await closeGroup(g);
+        } else {
+          // Accordion: opening this group closes any other open group.
+          await Promise.all(groups.filter((o) => o !== g && o.open).map(closeGroup));
+          await openGroup(g);
+        }
+      } finally {
+        delete g.dataset.busy;
+      }
+    });
+  });
+
+  // Desktop dropdowns: opening one closes the other, and a click outside closes them.
+  const desktopMenus = document.querySelectorAll<HTMLDetailsElement>('.nav-desktop details');
   document.addEventListener('click', (e) => {
-    menus.forEach((d) => { if (d.open && !d.contains(e.target as Node)) d.open = false; });
+    desktopMenus.forEach((d) => { if (d.open && !d.contains(e.target as Node)) d.open = false; });
   });
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
-    menus.forEach((d) => {
+    desktopMenus.forEach((d) => {
       if (d.open) { d.open = false; d.querySelector('summary')?.focus(); }
     });
   });
-  // Mobile submenus behave like an accordion: opening one closes the others.
-  const mobileGroups = document.querySelectorAll<HTMLDetailsElement>('.mobile-group');
-  mobileGroups.forEach((group) => {
-    group.addEventListener('toggle', () => {
-      if (!group.open) return;
-      mobileGroups.forEach((other) => { if (other !== group && other.open) other.open = false; });
-    });
-  });
-
-  // Mobile menu: close it when the page starts to scroll, and fold its groups back up.
-  // Scrolling inside the menu panel itself is a different scroll and does not close it.
-  const mobileMenu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
-  if (mobileMenu) {
-    let openedAt = 0;
-    mobileMenu.addEventListener('toggle', () => {
-      if (mobileMenu.open) {
-        openedAt = window.scrollY;
-      } else {
-        mobileMenu.querySelectorAll<HTMLDetailsElement>('.mobile-group').forEach((g) => { g.open = false; });
-      }
-    });
-    window.addEventListener('scroll', () => {
-      if (mobileMenu.open && Math.abs(window.scrollY - openedAt) > 8) mobileMenu.open = false;
-    }, { passive: true });
-  }
-
-  // Opening one desktop dropdown closes the other.
-  menus.forEach((d) => d.addEventListener('toggle', () => {
+  desktopMenus.forEach((d) => d.addEventListener('toggle', () => {
     if (!d.open) return;
-    menus.forEach((o) => { if (o !== d && o.open) o.open = false; });
+    desktopMenus.forEach((o) => { if (o !== d && o.open) o.open = false; });
   }));
 </script>
 
