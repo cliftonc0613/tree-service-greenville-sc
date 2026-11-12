@@ -15,13 +15,18 @@
       "Careful",
       "Down-to-earth"
     ],
-    "energy_level": "",
-    "humor_style": "",
-    "vulnerability_balance": ""
+    "energy_level": "Calm and balanced",
+    "humor_style": "Light and friendly: a touch of warmth or a gentle joke, never at the customer's expense.",
+    "vulnerability_balance": "Mostly professional with a friendly, neighborly touch."
   },
   "core_values_and_beliefs": {
     "_instructions": "What drives your communication and what you stand for.",
-    "core_communication_values": [],
+    "core_communication_values": [
+      "Safety first",
+      "Honesty about price and scope",
+      "Respect for the customer's property",
+      "Clear follow-through"
+    ],
     "beliefs_about_audience": "",
     "signature_conviction": "",
     "non_negotiables": []
