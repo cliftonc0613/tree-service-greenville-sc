@@ -188,7 +188,7 @@ export const areas: Area[] = [
 
   {
     slug: 'greer',
-    image: { src: '/images/pages/greer.jpg', alt: 'Illustration of a crew trimming a young tree in a newer subdivision' },
+    image: { src: '/images/pages/greer.jpg', alt: 'Illustration of a very large, tall mature oak behind a brick house at the edge of the woods, with a small tree worker at its base for scale' },
     name: 'Greer',
     county: 'Greenville and Spartanburg counties',
     tier: 1,
