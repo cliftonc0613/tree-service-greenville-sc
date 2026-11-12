@@ -861,11 +861,12 @@ body.has-callbar {
 
 .hero__panel p:last-child { margin-bottom: 0; }
 
-/* Phones: the sticky call bar already covers calling and estimates, so the panel and hero buttons are hidden below 768px. */
+/* Phones: the sticky call bar already covers calling and estimates, so the panel, hero buttons, and trust badges are hidden below 768px. */
 @media (max-width: 47.99rem) {
   .hero__panel { display: none; }
   .hero .btn-row,
-  .page-hero .btn-row { display: none; }
+  .page-hero .btn-row,
+  .hero__badges { display: none; }
 }
 
 .hero__ridge {
