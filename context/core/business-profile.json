@@ -94,13 +94,29 @@
         "where_to_get_it": ""
       }
     ],
-    "service_delivery_methods": []
+    "service_delivery_methods": [
+      "On-site crew at the customer's property",
+      "In-person site visit and written quote",
+      "Phone booking",
+      "Online request through the website"
+    ]
   },
   "audience": {
     "_instructions": "Who your customers are and what they need.",
-    "key_pain_points": [],
-    "expected_outcomes": [],
-    "customer_journey_stage": ""
+    "key_pain_points": [
+      "A tree leaning toward the house",
+      "Fear of storm damage",
+      "Not knowing if a tree company is trustworthy",
+      "Cost surprises",
+      "A mess left in the yard"
+    ],
+    "expected_outcomes": [
+      "A safe yard",
+      "A tree removed without damage to the house",
+      "A clean finished property",
+      "A fair price with no surprises"
+    ],
+    "customer_journey_stage": "Customers who have spotted a problem tree and need it handled now, and customers planning ahead for routine trimming."
   },
   "operations": {
     "_instructions": "How you run your business.",
