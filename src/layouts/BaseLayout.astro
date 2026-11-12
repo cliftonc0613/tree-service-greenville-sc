@@ -41,5 +41,22 @@ const { title, description, path, schema = [], noindex = false, callbar = true }
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      // Brush underline draw-in. Runs before first paint; skipped for reduced motion
+      // or browsers without IntersectionObserver, which keep the static stroke.
+      (function () {
+        if (!('IntersectionObserver' in window)) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        var marks = document.querySelectorAll('.hl');
+        if (!marks.length) return;
+        document.documentElement.classList.add('hl-armed');
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { e.target.classList.add('is-drawn'); io.unobserve(e.target); }
+          });
+        }, { rootMargin: '0px 0px -12% 0px' });
+        marks.forEach(function (el) { io.observe(el); });
+      })();
+    </script>
   </body>
 </html>

@@ -248,12 +248,37 @@ h2 + .callout {
 }
 
 .hl {
+  position: relative;
+  display: inline-block;
   color: var(--color-leaf-green);
-  text-decoration-line: underline;
-  text-decoration-thickness: 0.16em;
-  text-underline-offset: 0.12em;
-  text-decoration-color: var(--color-leaf-green);
-  text-decoration-skip-ink: none;
+  isolation: isolate;
+}
+
+/* Hand-drawn brush stroke under the highlighted words.
+   The shape is a mask; the fill is currentColor, so it follows the palette variables
+   (leaf green on light surfaces, leaf tint on dark ones). The mask's "black" is alpha only. */
+.hl::after {
+  content: '';
+  position: absolute;
+  left: -0.06em;
+  right: -0.1em;
+  bottom: -0.26em;
+  height: 0.42em;
+  z-index: -1;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M3 12.5C40 9.5 92 7.8 142 8.2c22 .2 41-1.7 55-4.6-1.2 4-5.6 6.6-12.4 7.6-33 4.6-85 5.7-125 6.8-20 .6-37 1.4-53 1.7C3.6 19.5 1.2 17.6 1.3 15.6c.1-1.4.7-2.5 1.7-3.1z' fill='black'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M3 12.5C40 9.5 92 7.8 142 8.2c22 .2 41-1.7 55-4.6-1.2 4-5.6 6.6-12.4 7.6-33 4.6-85 5.7-125 6.8-20 .6-37 1.4-53 1.7C3.6 19.5 1.2 17.6 1.3 15.6c.1-1.4.7-2.5 1.7-3.1z' fill='black'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+
+/* Draw-in: only armed when JS runs and motion is allowed. Without it, the stroke is simply there. */
+.hl-armed .hl::after {
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.75s cubic-bezier(0.65, 0, 0.35, 1) 0.2s;
+}
+
+.hl-armed .hl.is-drawn::after {
+  clip-path: inset(0 0 0 0);
 }
 
 /* On dark surfaces the highlight switches to the light green tint (7.4:1 on forest). */
@@ -262,7 +287,6 @@ h2 + .callout {
 .page-hero .hl,
 .cta-band .hl {
   color: var(--color-leaf-tint);
-  text-decoration-color: var(--color-leaf-tint);
 }
 
 /* ---------- Buttons ---------- */
