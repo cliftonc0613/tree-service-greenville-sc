@@ -194,6 +194,25 @@ import Icon from '@/components/Icon.astro';
     });
   });
 
+  // Shrink the header after the page scrolls down. The gap between the two thresholds
+  // (shrink past 60px, grow back under 8px) stops it flickering around a single point.
+  const siteHeader = document.querySelector<HTMLElement>('.site-header');
+  if (siteHeader) {
+    let shrunk = false;
+    const updateHeader = () => {
+      const y = window.scrollY;
+      if (!shrunk && y > 60) {
+        shrunk = true;
+        siteHeader.classList.add('is-shrunk');
+      } else if (shrunk && y < 8) {
+        shrunk = false;
+        siteHeader.classList.remove('is-shrunk');
+      }
+    };
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
+  }
+
   // Desktop dropdowns: opening one closes the other, and a click outside closes them.
   const desktopMenus = document.querySelectorAll<HTMLDetailsElement>('.nav-desktop details');
   document.addEventListener('click', (e) => {

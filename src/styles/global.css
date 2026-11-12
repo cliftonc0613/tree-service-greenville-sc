@@ -416,6 +416,7 @@ h2 + .callout {
   justify-content: space-between;
   min-height: var(--header-h);
   gap: 1rem;
+  transition: min-height 220ms ease;
 }
 
 .brand {
@@ -429,6 +430,7 @@ h2 + .callout {
 .brand img {
   height: 3.5rem;
   width: auto;
+  transition: height 220ms ease;
 }
 
 /* Never squeeze the logo: it keeps its aspect ratio at every width. */
@@ -702,6 +704,24 @@ h2 + .callout {
 /* Small phones: slightly smaller logo so the logo, call icon, and menu fit on one row. */
 @media (max-width: 25.99rem) {
   .brand img { height: 2.75rem; }
+}
+
+/* Shrunken header after scrolling: shorter bar and a smaller logo. */
+.site-header.is-shrunk .site-header__inner {
+  min-height: 3.75rem;
+}
+
+.site-header.is-shrunk .brand img {
+  height: 2.75rem;
+}
+
+@media (max-width: 25.99rem) {
+  .site-header.is-shrunk .brand img { height: 2.25rem; }
+}
+
+@media (min-width: 64rem) {
+  .site-header.is-shrunk .site-header__inner { min-height: 4.25rem; }
+  .site-header.is-shrunk .brand img { height: 3rem; }
 }
 
 /* Sticky mobile call bar (site-architecture.md section 4). */
