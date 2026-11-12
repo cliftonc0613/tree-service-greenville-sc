@@ -270,27 +270,90 @@
           "The owner",
           "A property manager who handles vendors"
         ],
-        "decision_making_process": "",
-        "sales_cycle_length": ""
+        "decision_making_process": "They search online or ask other managers, get multiple quotes, check insurance and references, then choose one vendor to use for all properties.",
+        "sales_cycle_length": "Same day for emergencies or storm damage, and one to four weeks for routine work."
       },
       "content_and_communication_preferences": {
         "_instructions": "How they like to learn and where they hang out.",
-        "preferred_content_formats": [],
-        "online_communities_and_platforms": [],
-        "publications_blogs_and_influencers": [],
-        "discovery_methods": []
+        "preferred_content_formats": [
+          "Email",
+          "Phone calls",
+          "Written quote with scope and insurance details",
+          "Photos of past commercial jobs"
+        ],
+        "online_communities_and_platforms": [
+          "LinkedIn",
+          "Facebook groups",
+          "Google search and Maps",
+          "BiggerPockets"
+        ],
+        "publications_blogs_and_influencers": [
+          "The Hustle (https://thehustle.co/)",
+          "Morning Brew (https://www.morningbrew.com/)",
+          "CO by U.S. Chamber of Commerce (https://www.uschamber.com/co)",
+          "SCORE (https://www.score.org/)",
+          "Entrepreneur (https://www.entrepreneur.com/)",
+          "Upstate Business Journal (https://upstatebusinessjournal.com/)",
+          "UpState Community Press (https://upstate.press/)",
+          "GSA Business Report (https://gsabusiness.com/)",
+          "Greenville Journal (https://greenvillejournal.com/)",
+          "How I Built This (https://www.npr.org/series/490248027/how-i-built-this)",
+          "Small Business Big Marketing (https://smallbusinessbigmarketing.com/)",
+          "Side Hustle School (https://sidehustleschool.com/)",
+          "UpState Press Podcast (https://upstate.press/)",
+          "My First Million (https://www.mfmpod.com/)",
+          "Small Business Administration (https://www.sba.gov/)",
+          "Google Small Business (https://smallbusiness.withgoogle.com/)",
+          "Forbes Small Business (https://www.forbes.com/small-business/)",
+          "Small Business Trends (https://smallbiztrends.com/)",
+          "Fast Company (https://www.fastcompany.com/)"
+        ],
+        "discovery_methods": [
+          "A Google search",
+          "A recommendation from another property manager",
+          "A vendor already used at another property",
+          "A truck or sign they've seen"
+        ]
       },
       "objections_and_hesitations": {
         "_instructions": "What might stop them from buying.",
-        "common_objections": [],
-        "solution_disqualifiers": [],
-        "change_concerns": []
+        "common_objections": [
+          "Cost overruns across multiple properties",
+          "Not trusting a company they haven't used before",
+          "Doubting a vendor will do the work without disrupting tenants or customers"
+        ],
+        "solution_disqualifiers": [
+          "No written quote with scope",
+          "No proof of insurance",
+          "Can't commit to a schedule",
+          "Crew leaves a mess"
+        ],
+        "change_concerns": [
+          "Switching from a vendor they already use",
+          "Trusting a new crew near tenants or customers",
+          "Committing to one vendor for every property"
+        ]
       },
       "buying_signals_and_readiness": {
         "_instructions": "When they're ready and what wins them over.",
-        "buying_signals": [],
-        "competitive_advantages": [],
-        "deal_breakers": []
+        "buying_signals": [
+          "A tree has damaged a building or lot",
+          "A tenant or customer complaint",
+          "A storm was forecast or just happened",
+          "They've asked for quotes on multiple properties"
+        ],
+        "competitive_advantages": [
+          "Free written estimates",
+          "Safety first",
+          "A clean yard every time",
+          "Commercial and HOA tree service"
+        ],
+        "deal_breakers": [
+          "No written quote",
+          "No proof of insurance",
+          "A vendor who doesn't show up",
+          "Work that disrupts tenants or customers"
+        ]
       }
     }
   ]
