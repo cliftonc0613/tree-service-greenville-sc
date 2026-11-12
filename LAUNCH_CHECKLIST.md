@@ -36,4 +36,5 @@ Items that must be resolved by the owner or verified against real sources before
 ## Known deferred items
 
 - Only the 16 launch pages plus privacy and 404 are built. Tier 2 and 3 town pages, `/services/[area]/[slug]` combo pages, and a blog are not part of the launch set.
-- Browser QA across desktop, tablet, and mobile was not run in this build. Run it before launch.
+- Design audit run (accessibility, visual critique, polish). Browser-checked at 1440, 1024, 768, and 390 px on home, cost, contact, and a town page, with scripted checks (overflow, tap targets, headings, labels, tel links) on 18 built pages. Still to do before launch: a real-device pass on iOS Safari and Android Chrome, and a screen-reader pass.
+- The home hero has no photo. The ridge line and contact panel are stand-ins until real crew and equipment photos exist.

@@ -13,7 +13,7 @@ import Icon from '@/components/Icon.astro';
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="brand" href="/" aria-label="Greenville Tree and Stump, home">
-      <img src="/images/logo.png" alt="Greenville Tree and Stump logo" width="150" height="48" />
+      <img src="/images/logo.png" alt="" width="150" height="48" />
     </a>
 
     <nav class="nav-desktop" aria-label="Main">
@@ -70,6 +70,25 @@ import Icon from '@/components/Icon.astro';
     </details>
   </div>
 </header>
+
+<script>
+  // Close open nav dropdowns on Escape or when clicking elsewhere.
+  const menus = document.querySelectorAll<HTMLDetailsElement>('.nav-desktop details, .mobile-menu');
+  document.addEventListener('click', (e) => {
+    menus.forEach((d) => { if (d.open && !d.contains(e.target as Node)) d.open = false; });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    menus.forEach((d) => {
+      if (d.open) { d.open = false; d.querySelector('summary')?.focus(); }
+    });
+  });
+  // Opening one desktop dropdown closes the other.
+  menus.forEach((d) => d.addEventListener('toggle', () => {
+    if (!d.open) return;
+    menus.forEach((o) => { if (o !== d && o.open) o.open = false; });
+  }));
+</script>
 
 <div class="mobile-callbar" role="region" aria-label="Quick contact">
   <a href={business.phoneHref}>

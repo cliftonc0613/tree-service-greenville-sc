@@ -21,7 +21,7 @@ const { h1, lead, crumbs, eyebrow, showCta = true } = Astro.props;
 <section class="page-hero">
   <div class="container">
     <Breadcrumbs items={crumbs} />
-    {eyebrow && <span class="eyebrow" style="color:#cfe3b8">{eyebrow}</span>}
+    {eyebrow && <span class="eyebrow">{eyebrow}</span>}
     <h1>{h1}</h1>
     <p class="lead">{lead}</p>
     {showCta && (

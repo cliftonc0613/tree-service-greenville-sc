@@ -49,9 +49,14 @@ const schema = [
   <section class="hero">
     <div class="hero__media" aria-hidden="true">
       <!-- Photo placeholder: replace with a real Greenville crew, equipment, or yard photo (playbook image direction). -->
+      <svg class="hero__ridge" viewBox="0 0 1440 120" preserveAspectRatio="none" focusable="false">
+        <path d="M0 120V78l120-26 150 30 170-52 190 46 150-34 180 40 160-44 170 36 150-24v90z" />
+      </svg>
     </div>
     <div class="container hero__inner">
-      <span class="eyebrow" style="color:#cfe3b8">Greenville, SC and the Upstate</span>
+     <div class="hero__grid">
+      <div>
+      <span class="eyebrow">Greenville, SC and the Upstate</span>
       <h1>Safe tree removal and stump work in Greenville</h1>
       <p class="lead">
         A tree is never worth the risk of a fall. We handle removal, trimming, and stump grinding for homes and properties around Greenville. Free estimate, no pressure, and we leave the yard cleaner than we found it.
@@ -65,6 +70,14 @@ const schema = [
         <li><Icon name="shield" />Safety first, every time</li>
         <li><Icon name="broom" />Yard cleaned before we leave</li>
       </ul>
+      </div>
+      <aside class="hero__panel" aria-labelledby="hero-panel-heading">
+        <h2 id="hero-panel-heading">Talk to a person</h2>
+        <a class="phone-link" href={business.phoneHref}>{business.phoneDisplay}</a>
+        <p>Call and tell us about the tree. We set up a free site visit and put the quote in writing.</p>
+        <p><strong>Tree on a power line?</strong> Stay clear and call the power company or 911 first. Then call us.</p>
+      </aside>
+     </div>
     </div>
   </section>
 
@@ -166,7 +179,7 @@ const schema = [
   </section>
 
   <section class="section section--soft" id="home-estimate-section" aria-labelledby="home-estimate-heading">
-    <div class="container split">
+    <div class="container split split--top">
       <div>
         <span class="eyebrow">Free estimate</span>
         <h2 id="home-estimate-heading">Tell us about your tree</h2>
