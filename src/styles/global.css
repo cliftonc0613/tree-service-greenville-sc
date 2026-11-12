@@ -288,6 +288,15 @@ h2 + .callout {
   color: var(--color-leaf-tint);
 }
 
+/* Single-column estimate block: headline, copy, and form stacked, capped at a readable width. */
+.estimate-stack {
+  max-width: 48rem;
+}
+
+.estimate-stack > .card {
+  margin-top: 2rem;
+}
+
 /* ---------- Buttons ---------- */
 
 .btn {
