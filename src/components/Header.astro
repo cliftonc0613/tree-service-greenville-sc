@@ -93,6 +93,23 @@ import Icon from '@/components/Icon.astro';
       if (d.open) { d.open = false; d.querySelector('summary')?.focus(); }
     });
   });
+  // Mobile menu: close it when the page starts to scroll, and fold its groups back up.
+  // Scrolling inside the menu panel itself is a different scroll and does not close it.
+  const mobileMenu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
+  if (mobileMenu) {
+    let openedAt = 0;
+    mobileMenu.addEventListener('toggle', () => {
+      if (mobileMenu.open) {
+        openedAt = window.scrollY;
+      } else {
+        mobileMenu.querySelectorAll<HTMLDetailsElement>('.mobile-group').forEach((g) => { g.open = false; });
+      }
+    });
+    window.addEventListener('scroll', () => {
+      if (mobileMenu.open && Math.abs(window.scrollY - openedAt) > 8) mobileMenu.open = false;
+    }, { passive: true });
+  }
+
   // Opening one desktop dropdown closes the other.
   menus.forEach((d) => d.addEventListener('toggle', () => {
     if (!d.open) return;

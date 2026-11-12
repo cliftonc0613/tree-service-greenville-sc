@@ -601,6 +601,7 @@ h2 + .callout {
   box-shadow: 0 12px 24px rgb(15 50 36 / 0.15);
   max-height: calc(100vh - var(--header-h));
   overflow-y: auto;
+  overscroll-behavior: contain; /* scrolling the menu does not scroll (and close over) the page */
 }
 
 .mobile-menu {
