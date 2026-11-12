@@ -1,0 +1,38 @@
+---
+import type { Section } from '@/data/types';
+
+interface Props {
+  sections: Section[];
+  /** Start heading level for the first section. Default h2. */
+  tone?: 'white' | 'soft';
+}
+
+const { sections, tone = 'white' } = Astro.props;
+---
+
+{sections.map((s, i) => (
+  <section class:list={['section', tone === 'white' ? 'section--white' : undefined]} aria-labelledby={`sec-${i}`}>
+    <div class="container">
+      <div class="prose" style="max-width: 48rem;">
+        <h2 id={`sec-${i}`}>{s.heading}</h2>
+        {s.paragraphs.map((p) => <p>{p}</p>)}
+        {s.bullets && (
+          <ul class="checklist">
+            {s.bullets.map((b) => <li>{b}</li>)}
+          </ul>
+        )}
+        {s.subsections?.map((sub) => (
+          <div>
+            <h3>{sub.heading}</h3>
+            {sub.paragraphs.map((p) => <p>{p}</p>)}
+            {sub.bullets && (
+              <ul class="checklist">
+                {sub.bullets.map((b) => <li>{b}</li>)}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+))}

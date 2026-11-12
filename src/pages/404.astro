@@ -1,0 +1,20 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { business } from '@/data/site';
+---
+
+<BaseLayout title="Page Not Found | Greenville Tree & Stump" description="That page could not be found. Find tree services in Greenville, SC or call us for a free estimate." path="/404" noindex={true} callbar={true}>
+  <section class="section section--white">
+    <div class="container prose" style="max-width:40rem">
+      <span class="eyebrow">Error 404</span>
+      <h1>We could not find that page</h1>
+      <p>The link may be old, or the page may have moved. You can start from one of these:</p>
+      <div class="btn-row">
+        <a class="btn btn--ghost" href="/">Home</a>
+        <a class="btn btn--ghost" href="/services">Our services</a>
+        <a class="btn btn--ghost" href="/service-areas">Service areas</a>
+        <a class="btn btn--cta" href={business.phoneHref}>Call {business.phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

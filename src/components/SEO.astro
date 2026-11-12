@@ -1,0 +1,58 @@
+---
+import { business, SITE_URL, absoluteUrl } from '@/data/site';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  schema?: object[];
+  noindex?: boolean;
+}
+
+const { title, description, path, schema = [], noindex = false } = Astro.props;
+const canonical = absoluteUrl(path);
+const ogImage = absoluteUrl('/images/og-default.jpg');
+
+const businessId = `${SITE_URL.replace(/\/$/, '')}/#business`;
+
+// LocalBusiness is emitted on every page so the entity is consistent sitewide.
+// Fields that are placeholders are omitted rather than guessed (no fabricated address, rating, or credentials).
+const localBusiness = {
+  '@type': 'TreeService',
+  '@id': businessId,
+  name: business.name,
+  description: business.description,
+  url: absoluteUrl('/'),
+  telephone: business.phoneDisplay,
+  email: business.email,
+  areaServed: [
+    { '@type': 'City', name: 'Greenville', containedInPlace: { '@type': 'State', name: 'South Carolina' } },
+    { '@type': 'City', name: 'Simpsonville' },
+    { '@type': 'City', name: 'Taylors' },
+    { '@type': 'City', name: 'Easley' },
+    { '@type': 'City', name: 'Greer' },
+  ],
+  priceRange: '$$',
+  image: ogImage,
+};
+
+const graph = [localBusiness, ...schema];
+const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content={business.name} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+<script type="application/ld+json" set:html={jsonLd} />

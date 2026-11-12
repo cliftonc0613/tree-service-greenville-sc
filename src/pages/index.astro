@@ -1,0 +1,185 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import Faq from '@/components/Faq.astro';
+import LeadForm from '@/components/LeadForm.astro';
+import CtaBand from '@/components/CtaBand.astro';
+import { business, absoluteUrl } from '@/data/site';
+import { services } from '@/data/services';
+import { areas } from '@/data/areas';
+
+const title = 'Tree Service in Greenville, SC | Greenville Tree & Stump';
+const description =
+  'Tree removal, trimming, and stump grinding in Greenville, SC. Free written estimates, safety first, and a clean yard before we leave. Call us today.';
+
+const cards = ['tree-removal', 'tree-trimming', 'stump-grinding', 'arborist'].map(
+  (slug) => services.find((s) => s.slug === slug)!,
+);
+
+const homeFaqs = [
+  {
+    q: 'Do you charge for the estimate?',
+    a: 'No. The site visit and the written quote are free, and there is no pressure to decide on the spot.',
+  },
+  {
+    q: 'What areas do you serve?',
+    a: 'Greenville and nearby Upstate towns, including Simpsonville, Taylors, Easley, and Greer. Call with your address to confirm.',
+  },
+  {
+    q: 'Can you handle a tree that is down after a storm?',
+    a: 'Yes. Call us. If a tree is touching a power line, call the power company or 911 first and stay clear.',
+  },
+  {
+    q: 'Will I know the price before the work starts?',
+    a: 'Yes. You get a written quote with the scope, the method, and the cleanup spelled out before any work begins.',
+  },
+];
+
+const schema = [
+  {
+    '@type': 'WebSite',
+    '@id': `${absoluteUrl('/')}#website`,
+    name: business.name,
+    url: absoluteUrl('/'),
+  },
+];
+---
+
+<BaseLayout title={title} description={description} path="/" schema={schema}>
+  <section class="hero">
+    <div class="hero__media" aria-hidden="true">
+      <!-- Photo placeholder: replace with a real Greenville crew, equipment, or yard photo (playbook image direction). -->
+    </div>
+    <div class="container hero__inner">
+      <span class="eyebrow" style="color:#cfe3b8">Greenville, SC and the Upstate</span>
+      <h1>Safe tree removal and stump work in Greenville</h1>
+      <p class="lead">
+        A tree is never worth the risk of a fall. We handle removal, trimming, and stump grinding for homes and properties around Greenville. Free estimate, no pressure, and we leave the yard cleaner than we found it.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn--cta" href="#home-estimate">Get a Free Estimate</a>
+        <a class="btn btn--outline" href={business.phoneHref}>Call {business.phoneDisplay}</a>
+      </div>
+      <ul class="hero__badges">
+        <li><Icon name="check" />Free written estimates</li>
+        <li><Icon name="shield" />Safety first, every time</li>
+        <li><Icon name="broom" />Yard cleaned before we leave</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--white" aria-labelledby="problem-heading">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">The problem</span>
+        <h2 id="problem-heading">A tree leaning toward the house is not a yard problem</h2>
+        <p>It is a safety problem. The same goes for a dead limb over the driveway, a stump in the middle of the lawn, or a tree that came down in the last storm.</p>
+        <p>Most homeowners in Greenville do not want to climb a ladder or pick up a saw. They want the tree handled, the house undamaged, and no surprises on the bill.</p>
+      </div>
+      <div class="card" style="background:var(--color-soft-white)">
+        <h3>What worries homeowners most</h3>
+        <ul class="checklist">
+          <li>A tree falling on the house in a storm</li>
+          <li>Being overcharged or surprised by the price</li>
+          <li>Hiring someone uninsured or unsafe</li>
+          <li>A crew that leaves a mess in the yard</li>
+        </ul>
+        <p style="margin:0">We answer each of these in writing before any work starts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="plan-heading">
+    <div class="container">
+      <span class="eyebrow">How it works</span>
+      <h2 id="plan-heading">One call, from free estimate to finished yard</h2>
+      <ol class="steps">
+        <li>
+          <h3>Call or request an estimate</h3>
+          <p>Tell us about the tree or the yard. We will call you back to set a time for a free site visit.</p>
+        </li>
+        <li>
+          <h3>Get a written quote</h3>
+          <p>We explain the work in plain language and put the scope, method, and cleanup in writing.</p>
+        </li>
+        <li>
+          <h3>We do the work and clean up</h3>
+          <p>We take care of the tree, clear the work area, and leave the yard clean before we go.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--white" aria-labelledby="services-heading">
+    <div class="container">
+      <span class="eyebrow">Our services</span>
+      <h2 id="services-heading">Tree work for Greenville homes and yards</h2>
+      <div class="grid grid--2">
+        {cards.map((s) => (
+          <a class="card" href={`/services/${s.slug}`}>
+            <span class="icon-badge"><Icon name={s.icon} /></span>
+            <h3>{s.name}</h3>
+            <p>{s.summary}</p>
+            <span class="card__more">Read more</span>
+          </a>
+        ))}
+      </div>
+      <div class="btn-row" style="margin-top:1.75rem">
+        <a class="btn btn--ghost" href="/services">All services</a>
+        <a class="btn btn--ghost" href="/services/emergency-tree-removal">Storm damage</a>
+        <a class="btn btn--ghost" href="/services/tree-removal-cost">Removal cost</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--forest" aria-labelledby="why-heading">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Why homeowners call us</span>
+        <h2 id="why-heading">Safety first, honest price, clean yard</h2>
+        <p class="lead">We would rather tell you a tree can be saved than sell you a removal it does not need. And we would rather tell you the price up front than let it surprise you.</p>
+      </div>
+      <ul class="checklist" style="font-size:1.08rem">
+        <li>Free site visit and written quote</li>
+        <li>We explain the method and the risks before we start</li>
+        <li>No pressure to decide on the spot</li>
+        <li>Clear cleanup before we leave</li>
+        <li>Plain answers about scope and price</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--white" aria-labelledby="areas-heading">
+    <div class="container">
+      <span class="eyebrow">Service areas</span>
+      <h2 id="areas-heading">Greenville and nearby Upstate towns</h2>
+      <div class="grid grid--4">
+        {areas.map((a) => (
+          <a class="card" href={`/service-areas/${a.slug}`}>
+            <h3>{a.name}, SC</h3>
+            <span class="card__more">Local tree service</span>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top:1.5rem"><a href="/service-areas">See all service areas</a></p>
+    </div>
+  </section>
+
+  <section class="section section--soft" id="home-estimate-section" aria-labelledby="home-estimate-heading">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Free estimate</span>
+        <h2 id="home-estimate-heading">Tell us about your tree</h2>
+        <p>A short message is enough. We will call you back. You will not be pushed to decide on the spot.</p>
+        <p><a href={business.phoneHref} class="phone-link">Or call {business.phoneDisplay}</a></p>
+      </div>
+      <div class="card" id="home-estimate">
+        <LeadForm id="home-estimate-form-id" heading="Request a free estimate" />
+      </div>
+    </div>
+  </section>
+
+  <Faq heading="Questions homeowners ask us" faqs={homeFaqs} id="faq" />
+
+  <CtaBand heading="Storm damage or a tree that cannot wait?" text="Call us now. If a tree is touching a power line, call the power company or 911 first and stay clear." />
+</BaseLayout>

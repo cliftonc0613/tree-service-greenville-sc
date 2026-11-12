@@ -1,0 +1,52 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import Icon from '@/components/Icon.astro';
+import CtaBand from '@/components/CtaBand.astro';
+import { services } from '@/data/services';
+
+const title = 'Our Tree Services and Stump Work | Greenville Tree & Stump';
+const description =
+  'Tree removal, trimming, stump grinding, arborist assessments, storm work, and land clearing. Free written estimates from Greenville Tree & Stump.';
+---
+
+<BaseLayout title={title} description={description} path="/services">
+  <PageHero
+    h1="Our Tree Services"
+    lead="Tree removal, trimming, stump grinding, arborist assessments, storm work, and land clearing for homes and properties around Greenville. Every job starts with a free site visit and a written quote."
+    crumbs={[{ label: 'Services' }]}
+    eyebrow="What we do"
+  />
+
+  <section class="section section--white">
+    <div class="container">
+      <p class="lead" style="margin-bottom:2rem">Pick the service that matches your tree or yard. Not sure? Call us and we will tell you what fits.</p>
+      <div class="grid grid--2">
+        {services.map((s) => (
+          <a class="card" href={`/services/${s.slug}`}>
+            <span class="icon-badge"><Icon name={s.icon} /></span>
+            <h2 style="font-size:1.45rem;text-transform:none;letter-spacing:0.02em">{s.name}</h2>
+            <p>{s.summary}</p>
+            <span class="card__more">Read more</span>
+          </a>
+        ))}
+        <a class="card" href="/services/tree-removal-cost">
+          <span class="icon-badge"><Icon name="dollar" /></span>
+          <h2 style="font-size:1.45rem;text-transform:none;letter-spacing:0.02em">Tree Removal Cost</h2>
+          <p>Typical price ranges, what changes the price, and how to compare written quotes.</p>
+          <span class="card__more">Read more</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft" style="padding-top:0">
+    <div class="container prose" style="max-width:48rem">
+      <h2>How we work</h2>
+      <p>Every service follows the same plan. We come out for a free site visit, explain what the tree needs in plain language, give you a written quote, and clean up before we leave.</p>
+      <p>We do not promise a date we cannot keep, and we will not pressure you to decide on the spot. Call and we will tell you the earliest visit we can offer.</p>
+    </div>
+  </section>
+
+  <CtaBand heading="Tell us about your tree" text="A short description is enough. We will call you back to set up a free site visit." />
+</BaseLayout>

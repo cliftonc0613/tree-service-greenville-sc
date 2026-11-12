@@ -1,0 +1,34 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { business } from '@/data/site';
+
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  h1: string;
+  lead: string;
+  crumbs: Crumb[];
+  eyebrow?: string;
+  showCta?: boolean;
+}
+
+const { h1, lead, crumbs, eyebrow, showCta = true } = Astro.props;
+---
+
+<section class="page-hero">
+  <div class="container">
+    <Breadcrumbs items={crumbs} />
+    {eyebrow && <span class="eyebrow" style="color:#cfe3b8">{eyebrow}</span>}
+    <h1>{h1}</h1>
+    <p class="lead">{lead}</p>
+    {showCta && (
+      <div class="btn-row" style="margin-top:1.5rem">
+        <a class="btn btn--cta" href="/contact#estimate">Get a Free Estimate</a>
+        <a class="btn btn--outline" href={business.phoneHref}>Call {business.phoneDisplay}</a>
+      </div>
+    )}
+  </div>
+</section>

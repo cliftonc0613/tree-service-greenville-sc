@@ -1,0 +1,43 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import { business } from '@/data/site';
+
+const title = 'Privacy Policy | Greenville Tree & Stump';
+const description = 'How Greenville Tree & Stump handles the contact details you send us through this website.';
+---
+
+<BaseLayout title={title} description={description} path="/privacy-policy" noindex={false}>
+  <PageHero
+    h1="Privacy Policy"
+    lead="What we collect when you contact us, and what we do with it."
+    crumbs={[{ label: 'Privacy Policy' }]}
+    showCta={false}
+  />
+
+  <section class="section section--white">
+    <div class="container prose" style="max-width:48rem">
+      <div class="callout callout--placeholder">
+        <strong>Draft:</strong> This policy is a starting point written from the site's contact form. Have it reviewed before launch and add the legal entity name.
+      </div>
+
+      <h2>What we collect</h2>
+      <p>When you request an estimate, we collect the details you type into the form: your name, phone number, and optionally your email, town, the service you need, and a message about the tree or job. We do not ask for payment or account details through this site.</p>
+
+      <h2>How we use it</h2>
+      <p>We use these details to call you back, set up a site visit, and send a written quote. We do not sell your information.</p>
+
+      <h2>Who receives it</h2>
+      <p>The request is sent to the lead system we use to manage calls and quotes. Those providers receive only what is needed to follow up with you.</p>
+
+      <h2>How long we keep it</h2>
+      <p>We keep request details for as long as needed to quote and complete the work, and for our records. Ask us to delete your details at any time.</p>
+
+      <h2>Your choices</h2>
+      <p>You can ask what we have stored, correct it, or ask us to delete it. Contact us at <a href={`mailto:${business.email}`}>{business.email}</a> or call {business.phoneDisplay}.</p>
+
+      <h2>Changes</h2>
+      <p>We may update this page. The date at the top of the page shows the latest change.</p>
+    </div>
+  </section>
+</BaseLayout>

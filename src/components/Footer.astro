@@ -1,0 +1,47 @@
+---
+import { business, nav } from '@/data/site';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <h2>{business.name}</h2>
+        <p>{business.description}</p>
+        <p>
+          <a href={business.phoneHref} class="phone-link">{business.phoneDisplay}</a>
+        </p>
+        <p><a href={nav.estimate.href}>Request a free estimate</a></p>
+      </div>
+      <nav aria-label="Footer services">
+        <h2>Services</h2>
+        <ul>
+          {nav.services.map((s) => <li><a href={s.href}>{s.label}</a></li>)}
+          <li><a href={nav.servicesAll.href}>{nav.servicesAll.label}</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer service areas">
+        <h2>Service Areas</h2>
+        <ul>
+          {nav.areas.map((a) => <li><a href={a.href}>{a.label}</a></li>)}
+          <li><a href={nav.areasAll.href}>{nav.areasAll.label}</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer company">
+        <h2>Company</h2>
+        <ul>
+          <li><a href={nav.about.href}>{nav.about.label}</a></li>
+          <li><a href={nav.contact.href}>{nav.contact.label}</a></li>
+          <li><a href={nav.estimate.href}>{nav.estimate.label}</a></li>
+          <li><a href={nav.privacy.href}>{nav.privacy.label}</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="site-footer__base">
+      <span>&copy; {year} {business.name}. All rights reserved.</span>
+      <a href={nav.privacy.href}>Privacy Policy</a>
+    </div>
+  </div>
+</footer>

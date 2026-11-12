@@ -1,0 +1,36 @@
+---
+import type { Faq } from '@/data/types';
+import { absoluteUrl } from '@/data/site';
+
+interface Props {
+  heading?: string;
+  faqs: Faq[];
+  id?: string;
+}
+
+const { heading = 'Common questions', faqs, id = 'faq' } = Astro.props;
+const ld = {
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+---
+
+<section class="section section--white" aria-labelledby={`${id}-heading`} id={id}>
+  <div class="container">
+    <span class="eyebrow">FAQ</span>
+    <h2 id={`${id}-heading`}>{heading}</h2>
+    <div class="faq">
+      {faqs.map((f) => (
+        <details>
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', ...ld })} />

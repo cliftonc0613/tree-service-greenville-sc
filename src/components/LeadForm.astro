@@ -1,0 +1,180 @@
+---
+import { business } from '@/data/site';
+
+interface Props {
+  /** Pre-selected service name (matches the Service Select options below). */
+  defaultService?: string;
+  /** Town the visitor is in, if the page is a town page. */
+  defaultArea?: string;
+  heading?: string;
+  id?: string;
+}
+
+const {
+  defaultService = '',
+  defaultArea = '',
+  heading = 'Request a free estimate',
+  id = 'estimate',
+} = Astro.props;
+
+const services = [
+  'Tree removal',
+  'Tree trimming and pruning',
+  'Stump grinding',
+  'Arborist assessment',
+  'Emergency or storm damage',
+  'Land clearing',
+  'Crane removal',
+  'Commercial or HOA service',
+  'Not sure yet',
+];
+---
+
+<form class="form lead-form" id={`${id}-form`} data-lead-form data-webhook={business.leadWebhookUrl} novalidate>
+  <h2 id={`${id}-heading`}>{heading}</h2>
+  <p>Tell us what is going on with the tree. We will call you back to set up a free site visit. No pressure to decide on the spot.</p>
+
+  <div class="form__row">
+    <div class="field">
+      <label for={`${id}-name`}>Full name <span aria-hidden="true">*</span></label>
+      <input id={`${id}-name`} name="name" type="text" autocomplete="name" required />
+    </div>
+    <div class="field">
+      <label for={`${id}-phone`}>Phone <span aria-hidden="true">*</span></label>
+      <input id={`${id}-phone`} name="phone" type="tel" autocomplete="tel" required inputmode="tel" />
+    </div>
+  </div>
+
+  <div class="form__row">
+    <div class="field">
+      <label for={`${id}-email`}>Email</label>
+      <input id={`${id}-email`} name="email" type="email" autocomplete="email" />
+    </div>
+    <div class="field">
+      <label for={`${id}-area`}>Town or area</label>
+      <input id={`${id}-area`} name="area" type="text" autocomplete="address-level2" value={defaultArea} placeholder="Simpsonville, Taylors, Greenville" />
+    </div>
+  </div>
+
+  <div class="field">
+    <label for={`${id}-service`}>What do you need?</label>
+    <select id={`${id}-service`} name="service">
+      <option value="">Choose one</option>
+      {services.map((s) => (
+        <option value={s} selected={s === defaultService}>{s}</option>
+      ))}
+    </select>
+  </div>
+
+  <div class="field">
+    <label for={`${id}-message`}>Describe the tree or job</label>
+    <textarea id={`${id}-message`} name="message" rows="4" placeholder="For example: an oak leaning toward the back of the house, or a stump by the driveway."></textarea>
+    <p class="hint">Please do not include payment or account details here.</p>
+  </div>
+
+  <!-- Honeypot: hidden from people, often filled in by bots. -->
+  <div class="hp" aria-hidden="true">
+    <label for={`${id}-website`}>Leave this field empty</label>
+    <input id={`${id}-website`} name="website" type="text" tabindex="-1" autocomplete="off" />
+  </div>
+
+  <div class="btn-row">
+    <button class="btn btn--cta" type="submit" data-submit>Request My Free Estimate</button>
+    <a class="btn btn--ghost" href={business.phoneHref}>Or call {business.phoneDisplay}</a>
+  </div>
+
+  <div class="form-status" role="status" aria-live="polite" data-status></div>
+</form>
+
+<style>
+  .hp {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+</style>
+
+<script>
+  // Lead submission. Rules:
+  //  - Real CORS POST with JSON (no mode: "no-cors"), so we can check res.ok.
+  //  - Success is only reported when the endpoint answers with a 2xx status.
+  //  - If no webhook is configured, we say so instead of pretending the request was sent.
+  const forms = document.querySelectorAll<HTMLFormElement>('[data-lead-form]');
+
+  forms.forEach((form) => {
+    const status = form.querySelector<HTMLElement>('[data-status]');
+    const submit = form.querySelector<HTMLButtonElement>('[data-submit]');
+    const endpoint = form.dataset.webhook ?? '';
+
+    const say = (state: 'ok' | 'error', text: string) => {
+      if (!status) return;
+      status.dataset.state = state;
+      status.textContent = text;
+    };
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!status || !submit) return;
+
+      const data = new FormData(form);
+      if (String(data.get('website') ?? '') !== '') {
+        // Bot trap tripped. Pretend success without sending anything.
+        say('ok', 'Thanks. We will be in touch soon.');
+        form.reset();
+        return;
+      }
+
+      const name = String(data.get('name') ?? '').trim();
+      const phone = String(data.get('phone') ?? '').trim();
+      if (!name || !phone) {
+        say('error', 'Please add your name and phone number so we can call you back.');
+        return;
+      }
+
+      if (!endpoint) {
+        say(
+          'error',
+          'Online requests are not connected yet. Please call us instead. We will still answer.',
+        );
+        return;
+      }
+
+      submit.disabled = true;
+      submit.textContent = 'Sending...';
+      say('ok', '');
+      status.textContent = '';
+
+      const payload = {
+        name,
+        phone,
+        email: String(data.get('email') ?? '').trim(),
+        area: String(data.get('area') ?? '').trim(),
+        service: String(data.get('service') ?? ''),
+        message: String(data.get('message') ?? '').trim(),
+        source_page: window.location.pathname,
+        submitted_at: new Date().toISOString(),
+      };
+
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        form.reset();
+        say('ok', 'Thanks. We got your request and will call you to set up a free visit.');
+      } catch {
+        say(
+          'error',
+          'We could not send your request. Please call us so we can take it directly.',
+        );
+      } finally {
+        submit.disabled = false;
+        submit.textContent = 'Request My Free Estimate';
+      }
+    });
+  });
+</script>

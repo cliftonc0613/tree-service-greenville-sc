@@ -1,0 +1,88 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import Sections from '@/components/Sections.astro';
+import Faq from '@/components/Faq.astro';
+import CtaBand from '@/components/CtaBand.astro';
+import { services } from '@/data/services';
+import { absoluteUrl } from '@/data/site';
+import type { Service } from '@/data/types';
+
+export function getStaticPaths() {
+  return services.map((s) => ({ params: { slug: s.slug }, props: { service: s } }));
+}
+
+interface Props {
+  service: Service;
+}
+
+const { service } = Astro.props;
+const path = `/services/${service.slug}`;
+const related = service.related.map((r) => ({
+  href: `/services/${r.slug}`,
+  name: services.find((s) => s.slug === r.slug)?.name ?? r.anchor,
+}));
+
+const schema = [
+  {
+    '@type': 'Service',
+    '@id': `${absoluteUrl(path)}#service`,
+    name: service.name,
+    serviceType: service.name,
+    description: service.metaDescription,
+    url: absoluteUrl(path),
+    provider: { '@id': `${absoluteUrl('/')}#business` },
+    areaServed: { '@type': 'City', name: 'Greenville', containedInPlace: { '@type': 'State', name: 'South Carolina' } },
+  },
+];
+---
+
+<BaseLayout title={service.title} description={service.metaDescription} path={path} schema={schema}>
+  <PageHero
+    h1={service.h1}
+    lead={service.lead}
+    crumbs={[{ label: 'Services', href: '/services' }, { label: service.name }]}
+    eyebrow="Our services"
+  />
+
+  <Sections sections={service.sections} />
+
+  {service.steps && (
+    <section class="section section--soft">
+      <div class="container">
+        <span class="eyebrow">How it works</span>
+        <h2>From the first call to a finished yard</h2>
+        <ol class="steps">
+          {service.steps.map((st) => (
+            <li>
+              <h3>{st.title}</h3>
+              <p>{st.text}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  <Faq heading={`${service.name}: common questions`} faqs={service.faqs} id="faq" />
+
+  <section class="section section--soft" style="padding-top:0">
+    <div class="container">
+      <h2>Related services</h2>
+      <div class="grid grid--3">
+        {related.map((r) => (
+          <a class="card" href={r.href}>
+            <h3>{r.name}</h3>
+            <span class="card__more">Learn more</span>
+          </a>
+        ))}
+        <a class="card" href="/services">
+          <h3>All services</h3>
+          <span class="card__more">See the full list</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <CtaBand heading={service.ctaHeading} text={service.ctaText} />
+</BaseLayout>

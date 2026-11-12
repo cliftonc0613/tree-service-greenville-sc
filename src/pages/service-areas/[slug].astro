@@ -1,0 +1,88 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import Sections from '@/components/Sections.astro';
+import Faq from '@/components/Faq.astro';
+import CtaBand from '@/components/CtaBand.astro';
+import { areas } from '@/data/areas';
+import { services } from '@/data/services';
+import { absoluteUrl } from '@/data/site';
+import type { Area } from '@/data/types';
+
+export function getStaticPaths() {
+  return areas.map((a) => ({ params: { slug: a.slug }, props: { area: a } }));
+}
+
+interface Props {
+  area: Area;
+}
+
+const { area } = Astro.props;
+const path = `/service-areas/${area.slug}`;
+
+const coreServices = ['tree-removal', 'tree-trimming', 'stump-grinding'].map(
+  (slug) => services.find((s) => s.slug === slug)!,
+);
+
+const schema = [
+  {
+    '@type': 'WebPage',
+    '@id': `${absoluteUrl(path)}#webpage`,
+    url: absoluteUrl(path),
+    name: area.h1,
+    about: { '@type': 'City', name: area.name },
+  },
+];
+---
+
+<BaseLayout title={area.title} description={area.metaDescription} path={path} schema={schema}>
+  <PageHero
+    h1={area.h1}
+    lead={area.lead}
+    crumbs={[{ label: 'Service Areas', href: '/service-areas' }, { label: area.name }]}
+    eyebrow={area.county}
+  />
+
+  <Sections sections={area.sections} />
+
+  <section class="section section--soft" style="padding-top:0">
+    <div class="container">
+      <h2>Services in {area.name}</h2>
+      <div class="grid grid--3">
+        {coreServices.map((s) => (
+          <a class="card" href={`/services/${s.slug}`}>
+            <h3>{s.name}</h3>
+            <p>{s.summary}</p>
+            <span class="card__more">Learn more</span>
+          </a>
+        ))}
+        <a class="card" href="/services/emergency-tree-removal">
+          <h3>Emergency and storm removal</h3>
+          <p>Trees down or leaning dangerously after a storm.</p>
+          <span class="card__more">Learn more</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white">
+    <div class="container prose" style="max-width:48rem">
+      <h2>About the area</h2>
+      <p>{area.geography}</p>
+      <p>
+        Nearby towns we serve:
+        {area.nearby.map((n, i) => (
+          <>
+            {i > 0 && ', '}
+            <a href={`/service-areas/${n.slug}`}>{n.name}</a>
+          </>
+        ))}
+        . <a href="/service-areas">See all service areas</a>.
+      </p>
+    </div>
+  </section>
+
+  <Faq heading={`${area.name} tree service: common questions`} faqs={area.faqs} id="faq" />
+
+  <CtaBand heading={`Tree work in ${area.name}?`} text="Tell us about the tree or the yard. We will call you back to set up a free visit and a written quote." />
+</BaseLayout>

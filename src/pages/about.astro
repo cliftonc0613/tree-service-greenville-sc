@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import CtaBand from '@/components/CtaBand.astro';
+
+const title = 'About Greenville Tree & Stump | Tree Service in Greenville, SC';
+const description =
+  'Greenville Tree & Stump does tree removal, trimming, and stump grinding for Greenville, SC homes. Safety first, honest pricing, and a clean yard before we leave.';
+---
+
+<BaseLayout title={title} description={description} path="/about">
+  <PageHero
+    h1="About Greenville Tree & Stump"
+    lead="Our job is to make Greenville homeowners' trees safe and their yards usable again, so they never have to gamble on a dangerous tree."
+    crumbs={[{ label: 'About' }]}
+    eyebrow="Who we are"
+  />
+
+  <section class="section section--white">
+    <div class="container prose" style="max-width:48rem">
+      <h2>How we work</h2>
+      <p>Every job starts the same way. We come out for a free site visit, look at the tree and the space around it, and explain what it needs. Then we give you a written quote with the scope, the method, and the cleanup spelled out.</p>
+      <p>We put safety before speed or price. A tree is never worth the risk of a fall, so when a tree is a hazard, we say so plainly. When a tree can be saved, we say that too.</p>
+      <p>We do not call a job finished until the yard is clean.</p>
+
+      <h2>What you can expect from us</h2>
+      <ul class="checklist">
+        <li>Free estimates with no pressure to decide on the spot</li>
+        <li>Honesty about price and scope, in writing</li>
+        <li>Plain language, not tree-trade jargon</li>
+        <li>Respect for your property, including cleanup before we leave</li>
+        <li>A call back when we say we will call back</li>
+      </ul>
+
+      <h2>Who we serve</h2>
+      <p>Homeowners in Greenville, SC and nearby Upstate towns, including people with a leaning oak over the house, a stump in the yard, or a tree down after a storm. We also quote commercial and HOA tree work, one property at a time.</p>
+
+      <h2>Our background</h2>
+      <div class="callout callout--placeholder">
+        <strong>Placeholders:</strong> Owner name, founding year, licensing, insurance, and certifications are not yet confirmed. Add each one here only after the operator provides proof. Do not publish unconfirmed credentials.
+      </div>
+    </div>
+  </section>
+
+  <CtaBand heading="Start with a free estimate" text="Tell us about your tree. We will call you back to set up a free site visit." />
+</BaseLayout>

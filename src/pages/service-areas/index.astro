@@ -1,0 +1,43 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import CtaBand from '@/components/CtaBand.astro';
+import { areas } from '@/data/areas';
+
+const title = 'Service Areas Around Greenville | Greenville Tree & Stump';
+const description =
+  'Tree removal, trimming, and stump grinding across Greenville and nearby Upstate towns. Free written estimates from Greenville Tree & Stump.';
+---
+
+<BaseLayout title={title} description={description} path="/service-areas">
+  <PageHero
+    h1="Areas We Serve Around Greenville"
+    lead="We work in Greenville and the towns around it. Pick your town for local details, or call us to confirm coverage for your address."
+    crumbs={[{ label: 'Service Areas' }]}
+    eyebrow="Coverage"
+  />
+
+  <section class="section section--white">
+    <div class="container">
+      <div class="grid grid--2">
+        {areas.map((a) => (
+          <a class="card" href={`/service-areas/${a.slug}`}>
+            <span class="eyebrow" style="margin-bottom:0.3rem">{a.county}</span>
+            <h2 style="font-size:1.5rem;text-transform:none;letter-spacing:0.02em">{a.name}, SC</h2>
+            <p>{a.summary}</p>
+            <span class="card__more">View {a.name} page</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft" style="padding-top:0">
+    <div class="container prose" style="max-width:48rem">
+      <h2>Not sure if we cover your town?</h2>
+      <p>Call us with your address. We will tell you honestly whether we can get a crew there and the earliest visit we can offer.</p>
+    </div>
+  </section>
+
+  <CtaBand heading="Check your address" text="Call or send a request. We will confirm coverage and set up a free site visit." />
+</BaseLayout>

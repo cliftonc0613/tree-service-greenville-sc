@@ -1,0 +1,62 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import LeadForm from '@/components/LeadForm.astro';
+import Icon from '@/components/Icon.astro';
+import { business } from '@/data/site';
+
+const title = 'Contact Greenville Tree & Stump | Free Estimates';
+const description =
+  'Call or request a free tree estimate from Greenville Tree & Stump. Tree removal, trimming, and stump grinding in Greenville, SC. We call you back.';
+---
+
+<BaseLayout title={title} description={description} path="/contact" callbar={false}>
+  <PageHero
+    h1="Contact Greenville Tree & Stump"
+    lead="Call us, or send a short request and we will call you back to set up a free site visit."
+    crumbs={[{ label: 'Contact' }]}
+    showCta={false}
+    eyebrow="Get in touch"
+  />
+
+  <section class="section section--white">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Call</span>
+        <h2>Talk to us now</h2>
+        <p><a class="phone-link" href={business.phoneHref} style="font-size:1.9rem;color:var(--color-burnt-orange)">{business.phoneDisplay}</a></p>
+        <p>Storm damage or a tree that cannot wait? Call us. If a tree is touching a power line, call the power company or 911 first and stay clear.</p>
+        <h3>Service area</h3>
+        <p>Greenville, Simpsonville, Taylors, Easley, Greer, and nearby Upstate towns. <a href="/service-areas">See all service areas</a>.</p>
+        <h3>Hours</h3>
+        <p>{business.hours}</p>
+        <div class="callout callout--placeholder">
+          <strong>Placeholder:</strong> Add the business email, the GoHighLevel tracking number, and any published office hours before launch.
+        </div>
+      </div>
+      <div id="estimate" class="card">
+        <LeadForm id="estimate" heading="Request a free estimate" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft" style="padding-top:0">
+    <div class="container grid grid--3">
+      <div class="card">
+        <span class="icon-badge"><Icon name="clipboard" /></span>
+        <h3>Free written quote</h3>
+        <p>The site visit and the written quote cost you nothing.</p>
+      </div>
+      <div class="card">
+        <span class="icon-badge"><Icon name="shield" /></span>
+        <h3>Safety first</h3>
+        <p>We tell you the risks in plain language before any work starts.</p>
+      </div>
+      <div class="card">
+        <span class="icon-badge"><Icon name="broom" /></span>
+        <h3>Clean yard</h3>
+        <p>We clear the work area before we leave.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
