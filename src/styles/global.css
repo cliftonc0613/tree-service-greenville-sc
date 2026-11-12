@@ -676,6 +676,10 @@ h2 + .callout {
 }
 
 .mobile-panel .mobile-sub {
+  display: flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding-block: 0.4rem;
   padding-left: 1rem;
   font-size: 0.95rem;
   text-transform: none;
