@@ -197,3 +197,41 @@ const schema = [
 
   <CtaBand heading="Storm damage or a tree that cannot wait?" text="Call us now. If a tree is touching a power line, call the power company or 911 first and stay clear." />
 </BaseLayout>
+
+<script>
+  // Restrained motion for the home page. Static HTML is already complete,
+  // and reduced-motion users get no animation at all.
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (!reduceMotion) {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Hero intro: image settles, then copy and panel arrive in sequence.
+    const intro = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    intro
+      .from('.hero__media img', { scale: 1.05, opacity: 0, duration: 1.6, ease: 'power2.out' }, 0)
+      .from('.hero .eyebrow', { y: 12, opacity: 0, duration: 0.6 }, 0.1)
+      .from('.hero h1', { y: 28, opacity: 0, duration: 0.9 }, 0.2)
+      .from('.hero .lead', { y: 16, opacity: 0, duration: 0.7 }, 0.45)
+      .from('.hero .btn-row .btn', { y: 12, opacity: 0, duration: 0.5, stagger: 0.08 }, 0.6)
+      .from('.hero__badges li', { y: 10, opacity: 0, duration: 0.45, stagger: 0.06 }, 0.75)
+      .from('.hero__panel', { y: 24, opacity: 0, duration: 0.9 }, 0.5);
+
+    // Section headings ease in once as they reach the viewport.
+    gsap.utils.toArray<HTMLElement>('main h2').forEach((el) => {
+      gsap.from(el, {
+        y: 18,
+        opacity: 0,
+        duration: 0.7,
+        ease: 'power2.out',
+        scrollTrigger: { trigger: el, start: 'top 88%', once: true },
+      });
+    });
+
+    // Fonts and images can shift layout after load, so measure again.
+    window.addEventListener('load', () => ScrollTrigger.refresh());
+  }
+</script>
