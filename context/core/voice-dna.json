@@ -8,7 +8,13 @@
   "personality_and_tone": {
     "_instructions": "Your communication personality and how you come across.",
     "overall_tone": "Plainspoken, reassuring, and professional.",
-    "personality_adjectives": [],
+    "personality_adjectives": [
+      "Honest",
+      "Direct",
+      "Neighborly",
+      "Careful",
+      "Down-to-earth"
+    ],
     "energy_level": "",
     "humor_style": "",
     "vulnerability_balance": ""
