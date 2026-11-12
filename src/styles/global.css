@@ -545,6 +545,25 @@ h2 + .callout {
   padding: 0.45rem 1rem;
 }
 
+/* Phone and menu button sit together on the right on phones and tablets. */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-call {
+  width: 2.75rem;
+  height: 2.75rem;
+  min-height: 0;
+  padding: 0;
+}
+
+.header-call svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 .menu-toggle {
   display: inline-flex;
   align-items: center;
@@ -631,7 +650,12 @@ h2 + .callout {
 @media (min-width: 64rem) {
   .nav-desktop { display: flex; }
   .header-ctas { display: inline-flex; }
-  .mobile-menu { display: none; }
+  .header-actions { display: none; }
+}
+
+/* Small phones: slightly smaller logo so the logo, call icon, and menu fit on one row. */
+@media (max-width: 25.99rem) {
+  .brand img { height: 2.75rem; }
 }
 
 /* Sticky mobile call bar (site-architecture.md section 4). */
