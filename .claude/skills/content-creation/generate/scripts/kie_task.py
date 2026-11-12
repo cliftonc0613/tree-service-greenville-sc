@@ -91,7 +91,9 @@ def upload_ref(path, key):
         "file": (p.name, p.read_bytes(), ctype),
         "uploadPath": (None, "images/generate-refs", "text/plain"),
     })
-    url = (resp.get("data") or {}).get("fileUrl")
+    data = resp.get("data") or {}
+    # Kie now returns "downloadUrl"; older responses used "fileUrl". Accept either.
+    url = data.get("fileUrl") or data.get("downloadUrl")
     if not url:
         sys.exit(f"upload failed for {path}: {resp}")
     print(f"uploaded ref: {p.name} -> {url}", file=sys.stderr)
