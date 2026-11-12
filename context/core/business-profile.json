@@ -48,50 +48,50 @@
       {
         "name": "Tree removal",
         "description": "Safe removal of dangerous, dead, or unwanted trees from a homeowner's property.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       },
       {
         "name": "Trimming and pruning",
         "description": "Trimming and pruning to clear overgrown branches and keep trees healthy and safe.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       },
       {
         "name": "Stump grinding",
         "description": "Grinding down stumps left in the yard after a tree is removed.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       },
       {
         "name": "Arborist services",
         "description": "Professional assessment of a tree's health and hazards, with a recommendation on what it needs.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       },
       {
         "name": "Emergency storm removal",
         "description": "Removal of trees that have come down or are leaning dangerously after a storm.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       },
       {
         "name": "Land clearing",
         "description": "Clearing trees and brush from a lot or property.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       },
       {
         "name": "Crane tree removal",
         "description": "Crane-assisted removal of large or hard-to-reach trees.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       },
       {
         "name": "Commercial and HOA tree service",
         "description": "Tree removal, trimming, and care for businesses, HOAs, and other commercial properties.",
-        "pricing_model": "",
-        "where_to_get_it": ""
+        "pricing_model": "Free written estimate, then a quote per job.",
+        "where_to_get_it": "Booked by phone or website."
       }
     ],
     "service_delivery_methods": [
