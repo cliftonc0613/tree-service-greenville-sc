@@ -214,6 +214,17 @@ a:hover {
   gap: 1.25rem;
 }
 
+/* A heading that introduces a card grid, step list, FAQ, or checklist needs more air than body copy.
+   The heading's own 0.6em bottom margin collapses into this one, so the larger value wins. */
+h2 + .grid,
+h2 + .steps,
+h2 + .faq,
+h2 + .checklist,
+h2 + .btn-row,
+h2 + .callout {
+  margin-top: 2.5rem;
+}
+
 @media (min-width: 40rem) {
   .grid--2 { grid-template-columns: repeat(2, 1fr); }
   .grid--3 { grid-template-columns: repeat(3, 1fr); }
