@@ -4,7 +4,7 @@
     "created_date": "2026-11-11T16:49:13.560304Z",
     "updated_date": "2026-11-12T00:00:00Z",
     "version": "1.0",
-    "total_personas": 1
+    "total_personas": 2
   },
   "personas": [
     {
@@ -16,7 +16,7 @@
       },
       "demographics": {
         "_instructions": "Who they are: age, industry, role, company size, location, income.",
-        "age_range": "35 to 44",
+        "age_range": "25 to 65",
         "industries": [
           "Not applicable (residential homeowners)"
         ],
@@ -170,6 +170,127 @@
           "Pressure to decide on the spot",
           "A crew that leaves a mess"
         ]
+      }
+    },
+    {
+      "persona_name": "Small business owner",
+      "persona_id": "small-business-owner",
+      "_metadata": {
+        "created_date": "2026-11-12T00:00:00Z",
+        "updated_date": "2026-11-12T00:00:00Z"
+      },
+      "demographics": {
+        "_instructions": "Who they are: age, industry, role, company size, location, income.",
+        "age_range": "25 to 55",
+        "industries": [
+          "Landscaping companies",
+          "Property management",
+          "Real estate investors"
+        ],
+        "company_size": "Solo, startup, SMB, and enterprise (all sizes)",
+        "job_title_or_role": [
+          "Owner",
+          "Property manager",
+          "Landlord",
+          "Real estate investor"
+        ],
+        "location": "Greenville, SC and Greenville County, plus nearby towns within about 25 miles. Tier 1: Simpsonville, Taylors, Easley, Greer. Tier 2: Mauldin, Fountain Inn, Travelers Rest, Five Forks, Powdersville, Berea, Wade Hampton. Tier 3: Piedmont, Pickens, Woodruff. Also served: Parker, Gantt, Sans Souci, Welcome, Judson, Dunean, City View, Golden Grove, Lyman, Duncan, Wellford, Liberty, Central, Williamston, Pelzer, Slater-Marietta, Tigerville, Landrum, Gray Court (source: knowledge/research/playbook.md).",
+        "income_or_revenue_level": "Small operations"
+      },
+      "psychographics_and_mindset": {
+        "_instructions": "How they think: values, beliefs, mindset, aspirations, fears, vision.",
+        "core_values": [
+          "Protecting property value",
+          "Minimizing liability",
+          "Reliable vendors",
+          "No disruption to tenants or customers"
+        ],
+        "mindset_or_philosophy": "Tree work is a maintenance cost that prevents bigger liability, and they want it handled quickly by someone they can trust to show up.",
+        "aspirations": [
+          "Keeping the property safe and attractive",
+          "Avoiding claims or complaints",
+          "Keeping tenants or customers happy",
+          "Having one vendor to call for every property"
+        ],
+        "fears_and_anxieties": [
+          "A tree or limb injuring someone on the property",
+          "An insurance claim or lawsuit",
+          "A vendor who doesn't show up",
+          "Work that disrupts tenants or customers"
+        ],
+        "ideal_future_state": "A portfolio where the trees are safe, the claims are zero, and I don't get calls about the yard."
+      },
+      "problems_and_pain_points": {
+        "_instructions": "What's keeping them up at night.",
+        "top_pain_points": [
+          "Trees near buildings or parking areas",
+          "Finding a vendor who responds quickly",
+          "Storm damage across multiple properties",
+          "Inconsistent quotes and quality"
+        ],
+        "cost_of_problem": {
+          "time": "Time lost chasing vendors and comparing inconsistent quotes.",
+          "money": "Damage and claims from trees near buildings or parking areas, plus storm cleanup across multiple properties.",
+          "opportunity": "Tenants or customers frustrated by an unsafe or disrupted lot.",
+          "morale": "Stress after a storm and ongoing worry about liability."
+        },
+        "previous_solutions_attempted": [
+          "Using a landscaper or maintenance crew for tree work",
+          "Hiring the cheapest vendor",
+          "Getting multiple quotes per property"
+        ],
+        "why_previous_solutions_failed": "Landscapers lacked the equipment or insurance for large trees, the cheapest vendor didn't show up or did poor work, and collecting quotes for every property took too long with prices all over the place."
+      },
+      "goals_and_desired_outcomes": {
+        "_instructions": "What they want to achieve.",
+        "primary_goal": "Keeping every property safe and claim-free while getting reliable vendors who show up.",
+        "success_definition": {
+          "metrics": [
+            "Zero claims this year",
+            "Vendors arrive on the scheduled day"
+          ],
+          "feelings": [],
+          "results": [
+            "A clean and safe property",
+            "Tenants or customers never notice the work"
+          ]
+        },
+        "secondary_goals": [
+          "Keep tenants or customers satisfied",
+          "Reduce repeat maintenance calls",
+          "One vendor for all properties",
+          "Predictable maintenance costs"
+        ],
+        "timeline": "This week for urgent hazards or storm damage, and within a month for routine maintenance."
+      },
+      "budget_and_decision_making": {
+        "_instructions": "Money and how they decide.",
+        "budget_range": "Market benchmark, raised 20% over the Homeowner benchmark (source not specified; not a confirmed customer budget). Trimming: small (under 25 ft) $90-$540, medium (25-50 ft) $180-$720, large (50-75 ft) $360-$1,200, very large (75+ ft) $840-$2,400+. Cutting down/removal: small $180-$600, medium $540-$1,440, large $960-$1,800, very large $1,200-$3,000+.",
+        "decision_makers_involved": [
+          "The owner",
+          "A property manager who handles vendors"
+        ],
+        "decision_making_process": "",
+        "sales_cycle_length": ""
+      },
+      "content_and_communication_preferences": {
+        "_instructions": "How they like to learn and where they hang out.",
+        "preferred_content_formats": [],
+        "online_communities_and_platforms": [],
+        "publications_blogs_and_influencers": [],
+        "discovery_methods": []
+      },
+      "objections_and_hesitations": {
+        "_instructions": "What might stop them from buying.",
+        "common_objections": [],
+        "solution_disqualifiers": [],
+        "change_concerns": []
+      },
+      "buying_signals_and_readiness": {
+        "_instructions": "When they're ready and what wins them over.",
+        "buying_signals": [],
+        "competitive_advantages": [],
+        "deal_breakers": []
       }
     }
   ]
