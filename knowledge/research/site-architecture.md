@@ -103,6 +103,20 @@ graph TD
 
 Launch is 14 pages, month two brings the total to 21, and month three to 25.
 
+### URL structure decision
+
+All service and town pages are flat, one level under the root. There is no `/services/` folder and no `/services/[service-type]` pattern.
+
+Reasons:
+- **Keyword mapping.** The playbook assigns each head term a flat URL (`/tree-removal`, `/stump-grinding`, and so on). Changing them would break that mapping.
+- **Site size.** At about 25 pages, a two-level flat structure is enough. A `/services/` layer adds depth without adding findability.
+- **Consistency.** Town pages are also at the root (`/simpsonville`). A services folder would put one page type under a folder and the other at the root.
+- **No parent page needed.** The home page already targets the main term and links to every service. A `/services/` index would be a thin page competing with it.
+
+Tradeoff: breadcrumbs stay short (`Home > Tree Removal`) and do not show a deeper path.
+
+Alternative if the owner wants a services hub: add `/services/` as an index page and move the seven service pages under it. That changes the URL map, the sitemap, the header and footer links, and the breadcrumbs. Keyword mapping stays the same, but the URLs change, so the change should be made before launch.
+
 ## 4. Navigation spec
 
 **Header (4 top-level items):**
