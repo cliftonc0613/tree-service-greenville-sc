@@ -1,5 +1,6 @@
 ---
 import type { Section } from '@/data/types';
+import Heading from '@/components/Heading.astro';
 
 interface Props {
   sections: Section[];
@@ -14,7 +15,7 @@ const { sections, tone = 'white' } = Astro.props;
   <section class:list={['section', tone === 'white' ? 'section--white' : undefined]} aria-labelledby={`sec-${i}`}>
     <div class="container">
       <div class="prose" style="max-width: 48rem;">
-        <h2 id={`sec-${i}`}>{s.heading}</h2>
+        <Heading id={`sec-${i}`} text={s.heading} />
         {s.paragraphs.map((p) => <p>{p}</p>)}
         {s.bullets && (
           <ul class="checklist">

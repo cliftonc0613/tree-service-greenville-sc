@@ -236,6 +236,24 @@ a:hover {
   .split--reverse { grid-template-columns: 0.9fr 1.1fr; }
 }
 
+.hl {
+  color: var(--color-leaf-green);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.16em;
+  text-underline-offset: 0.12em;
+  text-decoration-color: var(--color-leaf-green);
+  text-decoration-skip-ink: none;
+}
+
+/* On dark surfaces the highlight switches to the light green tint (7.4:1 on forest). */
+.section--forest .hl,
+.hero .hl,
+.page-hero .hl,
+.cta-band .hl {
+  color: var(--color-leaf-tint);
+  text-decoration-color: var(--color-leaf-tint);
+}
+
 /* ---------- Buttons ---------- */
 
 .btn {

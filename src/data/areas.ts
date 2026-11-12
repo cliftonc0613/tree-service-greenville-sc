@@ -20,7 +20,7 @@ export const areas: Area[] = [
     summary: 'Dangerous, dead, or unwanted tree removal for Simpsonville homeowners.',
     sections: [
       {
-        heading: 'Tree removal for Simpsonville homes',
+        heading: 'Tree removal for *Simpsonville* homes',
         paragraphs: [
           'Simpsonville has a mix of older lots with big hardwoods and newer subdivisions with young trees that are starting to crowd fences, decks, and roofs. Removal is the most common call we expect here, especially when a tree has cracked, leaned, or dropped limbs after a storm.',
           'We look at the tree, the target, and the access on the site visit. Then we explain the method in plain language and put the scope in writing.',
@@ -33,13 +33,13 @@ export const areas: Area[] = [
         ],
       },
       {
-        heading: 'Trimming and stump work nearby',
+        heading: 'Trimming and *stump work* nearby',
         paragraphs: [
           'Many Simpsonville homeowners want a tree removed and the stump ground in one visit. We can quote both together. If the tree only needs pruning, we will tell you that too.',
         ],
       },
       {
-        heading: 'Clean yards before we leave',
+        heading: 'Clean *yards* before we leave',
         paragraphs: [
           'We leave the yard cleaner than we found it. The written quote explains what is included in the cleanup so there are no surprises.',
         ],
@@ -83,7 +83,7 @@ export const areas: Area[] = [
     summary: 'Trimming, removal, and stump grinding for Taylors homeowners.',
     sections: [
       {
-        heading: 'Tree trimming and removal in Taylors',
+        heading: 'Tree trimming and removal in *Taylors*',
         paragraphs: [
           'Taylors yards often have large shade trees close to homes, and pines that drop limbs after heavy weather. Routine trimming keeps branches off the roof and away from power lines. When a tree is dead or unsafe, removal is the honest answer.',
           'We will tell you which one your tree needs. If pruning is enough, we will say so.',
@@ -96,13 +96,13 @@ export const areas: Area[] = [
         ],
       },
       {
-        heading: 'Planning ahead for routine trimming',
+        heading: 'Planning ahead for *routine trimming*',
         paragraphs: [
           'If you want one company to call for trims every season, we can set up a plan. You get a written quote for each visit and the same crew who knows your yard.',
         ],
       },
       {
-        heading: 'Clean up before we leave',
+        heading: 'Clean up before *we leave*',
         paragraphs: [
           'We clean the work area before we leave. Ask about the brush and wood during the estimate, so the written quote is clear.',
         ],
@@ -146,7 +146,7 @@ export const areas: Area[] = [
     summary: 'Trimming, removal, and stump grinding for Easley homeowners.',
     sections: [
       {
-        heading: 'Trimming and removal in Easley',
+        heading: 'Trimming and removal in *Easley*',
         paragraphs: [
           'Easley homes often sit on wooded lots, so the work includes both routine trimming and the occasional tree that needs to come down. We look at the whole tree before deciding, and we explain the options in plain language.',
         ],
@@ -158,7 +158,7 @@ export const areas: Area[] = [
         ],
       },
       {
-        heading: 'Quotes that are easy to compare',
+        heading: 'Quotes that are *easy to compare*',
         paragraphs: [
           'Every quote is written. It names the scope, the method, the cleanup, and any stump or crane work, so you can compare it with other companies on the same terms.',
         ],
@@ -202,7 +202,7 @@ export const areas: Area[] = [
     summary: 'Trimming, removal, and stump grinding for Greer homeowners.',
     sections: [
       {
-        heading: 'Tree service for Greer homes',
+        heading: 'Tree service for *Greer* homes',
         paragraphs: [
           'Greer has established neighborhoods with mature trees and newer subdivisions where young trees are growing into their spaces. Trimming keeps them in shape. Removal is the right call when a tree is dead, leaning, or storm-damaged.',
         ],
@@ -214,7 +214,7 @@ export const areas: Area[] = [
         ],
       },
       {
-        heading: 'One company for the whole yard',
+        heading: 'One company for the *whole yard*',
         paragraphs: [
           'Many Greer homeowners want one company to call for trims, removals, and stumps. We quote each job in writing so you can plan the year and the budget.',
         ],

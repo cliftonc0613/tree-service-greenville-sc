@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Icon from '@/components/Icon.astro';
 import Faq from '@/components/Faq.astro';
 import LeadForm from '@/components/LeadForm.astro';
+import Heading from '@/components/Heading.astro';
 import CtaBand from '@/components/CtaBand.astro';
 import { business, absoluteUrl } from '@/data/site';
 import { services } from '@/data/services';
@@ -85,7 +86,7 @@ const schema = [
     <div class="container split">
       <div>
         <span class="eyebrow">The problem</span>
-        <h2 id="problem-heading">A tree leaning toward the house is not a yard problem</h2>
+        <Heading id="problem-heading" text="A tree leaning toward the house is not a *yard problem*" />
         <p>It is a safety problem. The same goes for a dead limb over the driveway, a stump in the middle of the lawn, or a tree that came down in the last storm.</p>
         <p>Most homeowners in Greenville do not want to climb a ladder or pick up a saw. They want the tree handled, the house undamaged, and no surprises on the bill.</p>
       </div>
@@ -105,7 +106,7 @@ const schema = [
   <section class="section section--soft" aria-labelledby="plan-heading">
     <div class="container">
       <span class="eyebrow">How it works</span>
-      <h2 id="plan-heading">One call, from free estimate to finished yard</h2>
+      <Heading id="plan-heading" text="One call, from free estimate to *finished yard*" />
       <ol class="steps">
         <li>
           <h3>Call or request an estimate</h3>
@@ -126,7 +127,7 @@ const schema = [
   <section class="section section--white" aria-labelledby="services-heading">
     <div class="container">
       <span class="eyebrow">Our services</span>
-      <h2 id="services-heading">Tree work for Greenville homes and yards</h2>
+      <Heading id="services-heading" text="Tree work for *Greenville* homes and yards" />
       <div class="grid grid--2">
         {cards.map((s) => (
           <a class="card" href={`/services/${s.slug}`}>
@@ -149,7 +150,7 @@ const schema = [
     <div class="container split">
       <div>
         <span class="eyebrow">Why homeowners call us</span>
-        <h2 id="why-heading">Safety first, honest price, clean yard</h2>
+        <Heading id="why-heading" text="Safety first, honest price, *clean yard*" />
         <p class="lead">We would rather tell you a tree can be saved than sell you a removal it does not need. And we would rather tell you the price up front than let it surprise you.</p>
       </div>
       <ul class="checklist" style="font-size:1.08rem">
@@ -165,7 +166,7 @@ const schema = [
   <section class="section section--white" aria-labelledby="areas-heading">
     <div class="container">
       <span class="eyebrow">Service areas</span>
-      <h2 id="areas-heading">Greenville and nearby Upstate towns</h2>
+      <Heading id="areas-heading" text="Greenville and nearby *Upstate towns*" />
       <div class="grid grid--4">
         {areas.map((a) => (
           <a class="card" href={`/service-areas/${a.slug}`}>
@@ -182,7 +183,7 @@ const schema = [
     <div class="container split split--top">
       <div>
         <span class="eyebrow">Free estimate</span>
-        <h2 id="home-estimate-heading">Tell us about your tree</h2>
+        <Heading id="home-estimate-heading" text="Tell us about *your tree*" />
         <p>A short message is enough. We will call you back. You will not be pushed to decide on the spot.</p>
         <p><a href={business.phoneHref} class="phone-link">Or call {business.phoneDisplay}</a></p>
       </div>
@@ -192,7 +193,7 @@ const schema = [
     </div>
   </section>
 
-  <Faq heading="Questions homeowners ask us" faqs={homeFaqs} id="faq" />
+  <Faq heading="Questions *homeowners* ask us" faqs={homeFaqs} id="faq" />
 
   <CtaBand heading="Storm damage or a tree that cannot wait?" text="Call us now. If a tree is touching a power line, call the power company or 911 first and stay clear." />
 </BaseLayout>

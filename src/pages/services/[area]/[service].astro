@@ -57,7 +57,7 @@ const schema = [
     image={area.image}
   />
 
-  <Sections sections={combo.sections} />
+  <Sections sections={combo.sections.map((sec) => ({ ...sec, heading: sec.heading.replace(area.name, `*${area.name}*`) }))} />
 
   <Faq heading={`${service.name} in ${area.name}: questions`} faqs={combo.faqs} id="faq" />
 

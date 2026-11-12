@@ -1,0 +1,12 @@
+---
+import { highlight } from '@/lib/highlight';
+
+interface Props {
+  text: string;
+  id?: string;
+}
+
+const { text, id } = Astro.props;
+---
+
+<h2 id={id} set:html={highlight(text)} />

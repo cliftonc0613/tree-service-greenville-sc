@@ -18,7 +18,7 @@ export const services: Service[] = [
     summary: 'Safe removal of dangerous, dead, or unwanted trees, with a free written estimate first.',
     sections: [
       {
-        heading: 'When a tree needs to come down',
+        heading: 'When a tree needs to *come down*',
         paragraphs: [
           'Some trees can be saved with pruning. Others cannot. A tree is never worth the risk of a fall, so when the tree is a hazard, we would rather tell you plainly and handle it.',
           'Common reasons homeowners call us for removal:',
@@ -33,14 +33,14 @@ export const services: Service[] = [
         ],
       },
       {
-        heading: 'Crane removal for large or hard-to-reach trees',
+        heading: 'Crane removal for *large* or hard-to-reach trees',
         paragraphs: [
           'Some trees are too large or too close to the house to take down in sections by hand. For those jobs, we can use crane-assisted removal, which lifts sections out so they do not land on what you want to keep.',
           'Crane work costs more than a standard removal. We will explain whether a crane is needed during the site visit, and the written quote will show it as its own line.',
         ],
       },
       {
-        heading: 'What happens to the stump and the yard',
+        heading: 'What happens to the *stump* and the yard',
         paragraphs: [
           'A removed tree leaves a stump. If you want the stump gone too, we can grind it down. See our stump grinding page for how that works. Ask us for both on one quote if you want one visit and one bill.',
           'We clean up the work area before we leave. Ask during your estimate what is included with the wood and brush, so the written quote is clear about it.',
@@ -98,14 +98,14 @@ export const services: Service[] = [
     summary: 'Clear overgrown branches and keep healthy trees safe. Free written estimate.',
     sections: [
       {
-        heading: 'Why pruning matters',
+        heading: 'Why *pruning* matters',
         paragraphs: [
           'Pruning is cutting branches back so the tree stays healthy and the branches stay away from the house, power lines, and walkways. The right cuts help a tree grow in a balanced shape and make it less likely to drop a heavy limb in a storm.',
           'Good pruning is about the tree, not only the look. We cut to the branch collar where it makes sense, and we avoid cutting more than the tree can handle in one season.',
         ],
       },
       {
-        heading: 'Common trimming jobs',
+        heading: 'Common *trimming* jobs',
         paragraphs: ['Homeowners call us for trimming in a few common situations:'],
         bullets: [
           'Limbs hanging over the roof, gutters, or a driveway',
@@ -116,14 +116,14 @@ export const services: Service[] = [
         ],
       },
       {
-        heading: 'Trees we see often in the Upstate',
+        heading: 'Trees we see often in the *Upstate*',
         paragraphs: [
           'Greenville yards often have water oaks, loblolly pines, Bradford pears, and sweetgums. Each grows differently and breaks differently. Bradford pears in particular can split at the crotch as they age, which is why a periodic look is worth the time.',
           'Tell us what kind of tree you have at the start. It helps us plan the cuts and the timing.',
         ],
       },
       {
-        heading: 'Routine trimming and planning ahead',
+        heading: 'Routine trimming and *planning ahead*',
         paragraphs: [
           'Not every trim is urgent. If you want to plan one season ahead, we can look at the tree, note what it needs, and give you a written quote you can schedule when it suits you. One company to call for later trims is one of the simplest ways to keep a yard in order.',
         ],
@@ -168,21 +168,21 @@ export const services: Service[] = [
     summary: 'Grind old stumps out of the yard so you can use the space again.',
     sections: [
       {
-        heading: 'Why grind a stump',
+        heading: 'Why *grind* a stump',
         paragraphs: [
           'A stump is a tripping hazard and it attracts pests and fungus. It also takes up space you may want for a garden, a patio, or a lawn. Grinding it down clears the spot so you can plant, build, or seed.',
           'If the tree came down in a storm or was removed by someone else, a stump can stay for years. We can grind it whenever you are ready.',
         ],
       },
       {
-        heading: 'How our stump grinding works',
+        heading: 'How our *stump grinding* works',
         paragraphs: [
           'We look at the stump, its size, how close it is to the house or a fence, and what is buried around it. Roots and nearby structures change the method and the price, so we check them on the site visit.',
           'The written quote lists the stump, the work area, and the cleanup. Ask us about the grindings and the soil before you sign if you want a specific finish.',
         ],
       },
       {
-        heading: 'Stumps and nearby work',
+        heading: 'Stumps and *nearby work*',
         paragraphs: [
           'Many homeowners want the tree removed and the stump ground in one visit. That saves a second trip and makes the whole job one bill. Ask for the two together on your estimate request.',
         ],
@@ -227,7 +227,7 @@ export const services: Service[] = [
     summary: 'An honest look at a tree’s health and hazards, with a plain recommendation.',
     sections: [
       {
-        heading: 'What an assessment covers',
+        heading: 'What an *assessment* covers',
         paragraphs: [
           'We look at the trunk, the root flare, the main limbs, the canopy, and the ground around the tree. We check for signs of decay, cracks, dead wood, root damage, and lean. We also look at the targets: the house, the driveway, and anywhere people walk or park.',
         ],
@@ -239,14 +239,14 @@ export const services: Service[] = [
         ],
       },
       {
-        heading: 'Why a second opinion helps',
+        heading: 'Why a *second opinion* helps',
         paragraphs: [
           'Many homeowners are told a tree must come down when it can be saved, or that it is fine when it is not. A plain assessment gives you facts to decide with, and you are not pressured to do the work.',
           'If we recommend removal, we will say so. If a tree can be saved with pruning or cabling, we will tell you that too.',
         ],
       },
       {
-        heading: 'Commercial and HOA properties',
+        heading: 'Commercial and *HOA* properties',
         paragraphs: [
           'We also assess trees on commercial and HOA properties, where liability and tenant safety matter. The assessment is written up so you can share it with an owner, board, or insurer. Each property is quoted separately.',
         ],
@@ -287,27 +287,27 @@ export const services: Service[] = [
     summary: 'Removal of trees that are down or leaning dangerously after a storm.',
     sections: [
       {
-        heading: 'If a tree is on a power line, call the utility first',
+        heading: 'If a tree is on a power line, *call the utility first*',
         paragraphs: [
           'Do not go near a tree that touches a power line. Stay clear, keep others away, and call your power company or 911. Do not try to cut the tree or the line yourself. Once the utility confirms it is safe, call us.',
         ],
       },
       {
-        heading: 'What to do until we arrive',
+        heading: 'What to do *until we arrive*',
         paragraphs: [
           'Keep people and pets away from the tree and the area under any loose limbs. Do not climb onto a roof to look at a tree. If the tree is on the house, leave the house if it is unsafe to be inside. Take photos from a safe spot for your insurance claim.',
           'A one-page storm damage checklist covers these steps in more detail. Ask for it when you call.',
         ],
       },
       {
-        heading: 'What we do on an emergency call',
+        heading: 'What we do on an *emergency* call',
         paragraphs: [
           'We come out to look at the tree, the damage, and the access. We will tell you what we can safely do first and what needs more time. We do not promise a date we cannot keep, and we do not pressure you to decide on the spot.',
           'Storm work can change fast. We will give you a written quote for the work, including what is needed to clear the area and how the cleanup will be handled.',
         ],
       },
       {
-        heading: 'Insurance and storm claims',
+        heading: 'Insurance and *storm claims*',
         paragraphs: [
           'Your insurance company may need photos, dates, and a written quote before work starts. Tell us if the claim is open. We will put the scope and the price in writing so you have what you need.',
         ],
@@ -354,7 +354,7 @@ export const services: Service[] = [
     summary: 'Typical ranges and the factors that move the price, with a free written quote for your tree.',
     sections: [
       {
-        heading: 'Typical price ranges',
+        heading: 'Typical *price ranges*',
         paragraphs: [
           'The ranges below are market benchmarks for tree work by size. They are not a quote. Your price depends on the tree, the site, and the work you need.',
         ],
@@ -382,7 +382,7 @@ export const services: Service[] = [
         ],
       },
       {
-        heading: 'What changes the price',
+        heading: 'What *changes* the price',
         paragraphs: ['Four things move the number more than any other:'],
         bullets: [
           'Height and trunk width',
@@ -392,7 +392,7 @@ export const services: Service[] = [
         ],
       },
       {
-        heading: 'How to compare quotes fairly',
+        heading: 'How to *compare quotes* fairly',
         paragraphs: [
           'Compare written quotes with the same scope. Check what is included: the method, the cleanup, the wood and brush, and any stump work. A low number with no scope is harder to trust than a fair number with the details written out.',
           'Ask every company whether they carry proof of insurance and whether the quote covers the crew on site. We will show you ours on request.',
@@ -437,20 +437,20 @@ export const services: Service[] = [
     summary: 'Clear trees and brush from a lot or property, with a free written estimate.',
     sections: [
       {
-        heading: 'Clearing a lot before you build or plant',
+        heading: 'Clearing a *lot* before you build or plant',
         paragraphs: [
           'Lots often need clearing before a house, a driveway, a garden, or a pasture. We clear the trees and brush you want gone and leave the areas you want kept.',
           'Walk the property with us before you call, if you can. Mark the trees you want to keep and the boundaries. It helps the quote and the work.',
         ],
       },
       {
-        heading: 'Forestry mulching and other options',
+        heading: 'Forestry *mulching* and other options',
         paragraphs: [
           'Depending on the lot and what you plan to do with it, forestry mulching may be an option for brush and small trees. We will tell you during the site visit whether it fits your land.',
         ],
       },
       {
-        heading: 'Commercial and HOA lots',
+        heading: 'Commercial and *HOA* lots',
         paragraphs: [
           'Clearing for commercial, HOA, or development work is quoted per property. Tell us about the timeline, the access, and any county or HOA rules that apply.',
         ],
