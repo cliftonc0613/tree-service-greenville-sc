@@ -627,6 +627,53 @@ h2 + .callout {
   border-bottom: 1px solid rgb(255 255 255 / 0.12);
 }
 
+/* Collapsible Services and Service Areas groups in the mobile menu. */
+.mobile-group {
+  border-bottom: 1px solid rgb(255 255 255 / 0.12);
+}
+
+.mobile-group > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 0.25rem;
+  color: var(--color-white);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobile-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.mobile-group > summary::after {
+  content: '+';
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-leaf-tint);
+}
+
+.mobile-group[open] > summary::after {
+  content: '\2212';
+}
+
+.mobile-group > summary:focus-visible {
+  outline-color: var(--color-white);
+}
+
+.mobile-group a {
+  border-bottom: 0;
+}
+
+.mobile-panel .mobile-sub--all {
+  color: var(--color-leaf-tint);
+  font-weight: 700;
+}
+
 .mobile-panel .mobile-sub {
   padding-left: 1rem;
   font-size: 0.95rem;

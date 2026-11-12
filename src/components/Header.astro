@@ -61,10 +61,16 @@ import Icon from '@/components/Icon.astro';
       </summary>
       <div class="mobile-panel">
         <div class="container">
-          <a href="/services">Services</a>
-          {nav.services.map((s) => <a class="mobile-sub" href={s.href}>{s.label}</a>)}
-          <a href="/service-areas">Service Areas</a>
-          {nav.areas.map((a) => <a class="mobile-sub" href={a.href}>{a.label}</a>)}
+          <details class="mobile-group">
+            <summary>Services</summary>
+            {nav.services.map((s) => <a class="mobile-sub" href={s.href}>{s.label}</a>)}
+            <a class="mobile-sub mobile-sub--all" href={nav.servicesAll.href}>{nav.servicesAll.label}</a>
+          </details>
+          <details class="mobile-group">
+            <summary>Service Areas</summary>
+            {nav.areas.map((a) => <a class="mobile-sub" href={a.href}>{a.label}</a>)}
+            <a class="mobile-sub mobile-sub--all" href={nav.areasAll.href}>{nav.areasAll.label}</a>
+          </details>
           <a href={nav.about.href}>{nav.about.label}</a>
           <a href={nav.contact.href}>{nav.contact.label}</a>
           <a class="btn btn--cta" href={business.phoneHref}>Call {business.phoneDisplay}</a>
