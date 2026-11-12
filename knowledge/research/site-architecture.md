@@ -209,7 +209,7 @@ Each segment is linked except the current page.
 3. Month two: add tier 2 towns, and add each to the hub and dropdown when live.
 4. Month three: add tier 3 towns.
 
-## Open items in source files
+## Source file status
 
-- `seo-strategy-greenville-sc.md` section 2 lists "tree trimming" in the home cluster. It should move to `/services/tree-trimming`.
-- `seo-strategy-greenville-sc.md` and `playbook.md` use root-level service and town URLs (`/tree-removal`, `/simpsonville`) and `/areas-we-serve`. These should become `/services/[service-type]`, `/service-areas/[city]`, and `/service-areas` to match this plan.
+- `seo-strategy-greenville-sc.md` is updated to match this plan: new URLs, the two hubs, "tree trimming" moved to `/services/tree-trimming`, and the launch counts (16 pages at launch, about 26 when finished).
+- `playbook.md` is the dated November 11 research record. It names pages in words, not URLs, and still describes a 25-page site with the area hub in month three. It is left unchanged. This plan and the SEO strategy file supersede it for structure.

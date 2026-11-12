@@ -20,15 +20,15 @@ Each head term gets one page. Two pages targeting the same phrase would compete 
 
 | Keyword cluster | Monthly searches (US, 12-mo) | CPC | Target page |
 | --- | --- | --- | --- |
-| tree service greenville sc (+ tree trimming, tree company) | 880 | $3.52 | Home |
-| tree removal greenville sc | 480 | $12.82 | /tree-removal |
-| stump grinding greenville sc | 260 | $3.83 | /stump-grinding |
-| arborist greenville sc | 260 | $10.83 | /arborist |
-| tree pruning greenville sc | 210 | n/a | /tree-trimming |
-| tree removal simpsonville sc | 210 | n/a | /simpsonville |
-| tree service taylors sc | 210 | $22.33 | /taylors |
-| tree service easley sc | 70 | $23.95 | /easley |
-| land clearing greenville sc | 40 | $7.10 | /land-clearing |
+| tree service greenville sc (+ tree company) | 880 | $3.52 | Home |
+| tree removal greenville sc | 480 | $12.82 | /services/tree-removal |
+| stump grinding greenville sc | 260 | $3.83 | /services/stump-grinding |
+| arborist greenville sc | 260 | $10.83 | /services/arborist |
+| tree trimming and tree pruning greenville sc | 210 | n/a | /services/tree-trimming |
+| tree removal simpsonville sc | 210 | n/a | /service-areas/simpsonville |
+| tree service taylors sc | 210 | $22.33 | /service-areas/taylors |
+| tree service easley sc | 70 | $23.95 | /service-areas/easley |
+| land clearing greenville sc | 40 | $7.10 | /services/land-clearing |
 
 **Demand math:** about 2,000 searches a month inside Greenville, and about 2,900 once suburbs within 25 miles are counted. A page-four or page-five organic spot might earn 5 to 8% of clicks, roughly 30 to 60 calls a month. Plan on the low end.
 
@@ -38,38 +38,42 @@ Each head term gets one page. Two pages targeting the same phrase would compete 
 
 ## 3. Site architecture
 
-### Launch (about 14 pages)
+Services live under `/services/[service-type]` and towns under `/service-areas/[city]`, each with a hub page. See `knowledge/research/site-architecture.md` for the full hierarchy, navigation, and internal linking plan.
 
-Core pages (10):
+### Launch (about 16 pages)
+
+Core pages (12):
 
 1. `/` home: tree service in Greenville, SC (2,200 words)
-2. `/tree-removal` (1,500 words)
-3. `/tree-trimming` (1,300 words)
-4. `/stump-grinding` (1,200 words)
-5. `/arborist` (1,200 words)
-6. `/emergency-tree-removal` (1,000 words)
-7. `/tree-removal-cost` (1,200 words)
-8. `/land-clearing` (800 words)
-9. `/about` (400 words)
-10. `/contact` (200 words)
+2. `/services`: hub page that introduces and links every service (400 words)
+3. `/services/tree-removal` (1,500 words)
+4. `/services/tree-trimming` (1,300 words)
+5. `/services/stump-grinding` (1,200 words)
+6. `/services/arborist` (1,200 words)
+7. `/services/emergency-tree-removal` (1,000 words)
+8. `/services/tree-removal-cost` (1,200 words)
+9. `/services/land-clearing` (800 words)
+10. `/service-areas`: hub page, lists the four launch towns at first and grows as town pages go live
+11. `/about` (400 words)
+12. `/contact` (200 words)
 
 Tier 1 location pages (4, full length, 1,000 to 1,200 words):
 
-1. `/simpsonville`, lead with removal
-2. `/taylors`, lead with service
-3. `/easley`, split service and removal
-4. `/greer`
+1. `/service-areas/simpsonville`, lead with removal
+2. `/service-areas/taylors`, lead with service
+3. `/service-areas/easley`, split service and removal
+4. `/service-areas/greer`
 
 ### Month two: tier 2 location pages (700 to 900 words)
 
-`/mauldin`, `/fountain-inn`, `/travelers-rest`, `/five-forks`, `/powdersville`, `/berea`, `/wade-hampton`
+`/service-areas/mauldin`, `/service-areas/fountain-inn`, `/service-areas/travelers-rest`, `/service-areas/five-forks`, `/service-areas/powdersville`, `/service-areas/berea`, `/service-areas/wade-hampton`
 
-### Month three: tier 3 pages and hub
+### Month three: tier 3 pages and full hub
 
-- `/piedmont`, `/pickens`, `/woodruff` (500 words each)
-- `/areas-we-serve`: one hub page with a line for every other town (Parker, Gantt, Sans Souci, Welcome, Judson, Dunean, City View, Golden Grove, Lyman, Duncan, Wellford, Liberty, Central, Williamston, Pelzer, Slater-Marietta, Tigerville, Landrum, Gray Court)
+- `/service-areas/piedmont`, `/service-areas/pickens`, `/service-areas/woodruff` (500 words each)
+- Fill out the `/service-areas` hub with a line for every other town (Parker, Gantt, Sans Souci, Welcome, Judson, Dunean, City View, Golden Grove, Lyman, Duncan, Wellford, Liberty, Central, Williamston, Pelzer, Slater-Marietta, Tigerville, Landrum, Gray Court)
 
-Finished site: about 25 pages.
+Finished site: about 26 pages.
 
 ---
 
@@ -99,7 +103,7 @@ Finished site: about 25 pages.
 
 | Asset | Why | Notes |
 | --- | --- | --- |
-| `/tree-removal-cost` | Cost aggregators and a Reddit thread hold page one for "tree removal prices," per the playbook | Price ranges must be sourced. The playbook's $500 to $3,000+ figure is a market estimate, not a quote. |
+| `/services/tree-removal-cost` | Cost aggregators and a Reddit thread hold page one for "tree removal prices," per the playbook | Price ranges must be sourced. The playbook's $500 to $3,000+ figure is a market estimate, not a quote. |
 | FAQ section on service pages | People Also Ask shows real questions | Two confirmed questions: South Carolina rules when a neighbor's tree falls, and when county Public Works trims versus the homeowner. Verify the legal answers from primary sources before publishing. |
 | Emergency and storm page | Storm calls are the highest-value leads, even without measured volume | Keep it accurate about response times and service area. |
 | Listicle: "5 best tree service companies in Greenville, SC" | The playbook suggests it for AI-surfacing | **Hold this.** Ranking the site's own business in a list of real companies is only honest if the criteria are stated and the companies are real and verifiable. Decide the criteria before drafting. |
@@ -154,9 +158,9 @@ Playbook guidance: after rental, watch call volume rather than rankings. Investi
 ## 10. Next steps
 
 1. Confirm the domain and brand (decisions 1, 2, and 5).
-2. Build the 10 core pages and the four tier 1 location pages in Astro, using the on-page rules in section 4.
+2. Build the 12 core pages (including the `/services` and `/service-areas` hubs) and the four tier 1 location pages in Astro, using the on-page rules in section 4.
 3. Set up Search Console and submit the sitemap on launch day.
 4. Submit the directory and citation list in section 7 once NAP is final.
 5. Start weekly ranking checks on the 10 head terms and monthly call reviews.
-6. Add tier 2 pages in month two and tier 3 plus the hub in month three.
+6. Add tier 2 pages in month two and tier 3 pages plus the full hub in month three.
 7. Day-90 checkpoint against the success test in section 1.
