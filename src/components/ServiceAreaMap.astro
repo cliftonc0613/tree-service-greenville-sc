@@ -1,0 +1,86 @@
+---
+import { business } from '@/data/site';
+
+// Downtown Greenville, SC. The circle is drawn around this point.
+const CENTER = { lat: 34.8526, lng: -82.394 };
+// 25 miles, in metres for the Maps API.
+const RADIUS_MILES = 25;
+const hasKey = Boolean(business.mapsApiKey);
+const embedSrc = `https://www.google.com/maps?q=${CENTER.lat},${CENTER.lng}&z=9&output=embed`;
+---
+
+<figure class="service-map">
+  {
+    hasKey ? (
+      <div
+        id="service-map"
+        class="service-map__canvas"
+        role="img"
+        aria-label={`Map of Greenville, SC with a ${RADIUS_MILES}-mile circle showing our service area`}
+        data-key={business.mapsApiKey}
+        data-lat={CENTER.lat}
+        data-lng={CENTER.lng}
+        data-radius-miles={RADIUS_MILES}
+      />
+    ) : (
+      <iframe
+        class="service-map__canvas"
+        title="Map of Greenville, SC"
+        src={embedSrc}
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      />
+    )
+  }
+  <figcaption>
+    {hasKey
+      ? `Our service area: a ${RADIUS_MILES}-mile circle around downtown Greenville, SC. Towns on the edge of the circle may need a call first.`
+      : 'Greenville, SC and the Upstate towns around it. Call us with your address to confirm coverage.'}
+  </figcaption>
+</figure>
+
+<script>
+  // Draw the service-area circle with the Maps JavaScript API. Runs only when a key is set.
+  const el = document.getElementById('service-map');
+
+  const init = () => {
+    if (!el || !(window as any).google) return;
+    const g = (window as any).google.maps;
+    const css = getComputedStyle(document.documentElement);
+    const forest = css.getPropertyValue('--color-forest-green').trim();
+    const leaf = css.getPropertyValue('--color-leaf-green').trim();
+
+    const center = { lat: Number(el.dataset.lat), lng: Number(el.dataset.lng) };
+    const radius = Number(el.dataset.radiusMiles) * 1609.344;
+
+    const map = new g.Map(el, {
+      center,
+      zoom: 9,
+      mapTypeControl: false,
+      streetViewControl: false,
+      fullscreenControl: true,
+    });
+
+    new g.Circle({
+      map,
+      center,
+      radius,
+      strokeColor: forest,
+      strokeOpacity: 0.9,
+      strokeWeight: 2,
+      fillColor: leaf,
+      fillOpacity: 0.12,
+    });
+
+    new g.Marker({ map, position: center, title: 'Greenville, SC' });
+    map.fitBounds(new g.Circle({ center, radius }).getBounds());
+  };
+
+  if (el?.dataset.key) {
+    (window as any).initServiceMap = init;
+    const s = document.createElement('script');
+    s.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(el.dataset.key)}&callback=initServiceMap`;
+    s.async = true;
+    document.head.appendChild(s);
+  }
+</script>

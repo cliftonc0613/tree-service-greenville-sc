@@ -26,6 +26,10 @@ export const business = {
   // The form refuses to claim success when this is empty.
   leadWebhookUrl: import.meta.env.PUBLIC_LEAD_WEBHOOK_URL ?? '',
 
+  // Google Maps JavaScript API key for the contact-page service-area map. Set PUBLIC_GOOGLE_MAPS_KEY.
+  // Restrict the key to the site's domain in Google Cloud. Without it the page shows a plain Greenville map, with no 25-mile circle.
+  mapsApiKey: import.meta.env.PUBLIC_GOOGLE_MAPS_KEY ?? '',
+
   // Service-area business: no public street address is published.
   hours: 'Call or send a request any time. We reply as soon as a crew lead is free.',
 

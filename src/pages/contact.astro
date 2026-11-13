@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHero from '@/components/PageHero.astro';
 import LeadForm from '@/components/LeadForm.astro';
+import ServiceAreaMap from '@/components/ServiceAreaMap.astro';
 import Icon from '@/components/Icon.astro';
 import { business } from '@/data/site';
 
@@ -34,6 +35,7 @@ const description =
         <div class="callout callout--placeholder">
           <strong>Placeholder:</strong> Add the business email, the GoHighLevel tracking number, and any published office hours before launch.
         </div>
+        <ServiceAreaMap />
       </div>
       <div id="estimate" class="card">
         <LeadForm id="estimate" heading="Request a free estimate" />
