@@ -1,4 +1,4 @@
-// City + service combo pages: /services/[area]/[service]/ (28 pages: 4 launch towns x 7 services).
+// City + service combo pages: /services/[area]/[service]/ (98 pages: 14 towns x 7 services).
 // Each entry has its own copy. Do not reuse paragraphs across entries (playbook: avoid duplicate location copy).
 // Rules: plain periods, no em dashes, no unsourced prices, no credentials, no guaranteed dates.
 // Geography only from the verified-pending list in LAUNCH_CHECKLIST.md.
@@ -440,6 +440,1071 @@ export const combos: Combo[] = [
     ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the boundary'] }],
     faqs: [
       { q: 'Do you work with builders in Greer?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+  // ---------- Mauldin ----------
+  {
+    area: 'mauldin', service: 'tree-removal',
+    title: 'Tree Removal Mauldin, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Mauldin, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Removal in Mauldin, SC',
+    lead: 'Removing a tree near a Mauldin house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    sections: [{ heading: 'Removal near Mauldin homes', paragraphs: [
+      'Many Mauldin lots have a tree close to the house, a garage, or a shared fence. The method that works in an open yard may not work there, so we plan the cuts around what is nearby.',
+      'We look at the tree, the drop zone, and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
+    faqs: [
+      { q: 'Can you remove a tree close to a house in Mauldin?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the site visit and say what it will take.' },
+      { q: 'How do I get a removal quote in Mauldin?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+    ],
+  },
+  {
+    area: 'mauldin', service: 'tree-trimming',
+    title: 'Tree Trimming Mauldin, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Mauldin, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
+    h1: 'Tree Trimming in Mauldin, SC',
+    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Mauldin. We trim to keep the tree healthy and the branches clear.',
+    sections: [{ heading: 'Trimming for Mauldin yards', paragraphs: [
+      'Newer Mauldin subdivisions have young trees that are growing into fences and roof lines. Older lots have larger shade trees that need regular cuts to stay balanced.',
+      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want the same crew to check the tree each year.',
+    ], bullets: ['Branches over the roof, gutters, or siding', 'Limbs rubbing a fence, power line, or garage', 'Crowded canopies that block light to the yard'] }],
+    faqs: [
+      { q: 'How often should a Mauldin tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the site visit.' },
+      { q: 'Do you clean up the brush after trimming in Mauldin?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+    ],
+  },
+  {
+    area: 'mauldin', service: 'stump-grinding',
+    title: 'Stump Grinding Mauldin, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Mauldin, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
+    h1: 'Stump Grinding in Mauldin, SC',
+    lead: 'A stump left after a removal in Mauldin can sit in the yard for years. We grind it down so the space can be planted, paved, or mowed.',
+    sections: [{ heading: 'Grinding stumps in Mauldin', paragraphs: [
+      'Stumps can become a trip hazard and a home for pests and rot. Grinding clears the spot for a garden bed, patio, or new lawn.',
+      'Roots and nearby structures change the method, so we check the stump and the ground around it on the visit. Ask for stump grinding with the removal if you want one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway, fence, or patio', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump next to a Mauldin fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'mauldin', service: 'arborist',
+    title: 'Arborist Assessments Mauldin, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Mauldin, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
+    h1: 'Arborist Assessments in Mauldin, SC',
+    lead: 'Not sure whether a Mauldin tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
+    sections: [{ heading: 'Assessing a Mauldin tree', paragraphs: [
+      'An assessment looks at the trunk, the root flare, the branch unions, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
+      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching. We will say which.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
+    faqs: [
+      { q: 'Do you assess trees in Mauldin before removal?', a: 'Yes. An assessment helps you decide between removal, trimming, or waiting. Ask about it when you call.' },
+      { q: 'Will I get a written report for a Mauldin tree?', a: 'You get written findings and options after the visit. Ask us what the written summary includes.' },
+    ],
+  },
+  {
+    area: 'mauldin', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Mauldin, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Mauldin, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
+    h1: 'Emergency Tree Removal in Mauldin, SC',
+    lead: 'A tree down or leaning on a Mauldin home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
+    sections: [{ heading: 'After a storm in Mauldin', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Mauldin?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Mauldin?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'mauldin', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Mauldin, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Mauldin, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Mauldin, SC',
+    lead: 'What a tree removal costs in Mauldin depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Mauldin removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Mauldin estimate free?', a: 'Yes.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'mauldin', service: 'land-clearing',
+    title: 'Land Clearing Mauldin, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Mauldin, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
+    h1: 'Land Clearing in Mauldin, SC',
+    lead: 'Clearing a Mauldin lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Mauldin lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Mauldin?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+
+  // ---------- Fountain Inn ----------
+  {
+    area: 'fountain-inn', service: 'tree-removal',
+    title: 'Tree Removal Fountain Inn, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Fountain Inn, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Removal in Fountain Inn, SC',
+    lead: 'Removing a tree near a Fountain Inn house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    sections: [{ heading: 'Removal near Fountain Inn homes', paragraphs: [
+      'Many Fountain Inn yards have a tree close to the house, a shed, or a shared fence line. Those spots need a plan that accounts for the space around the tree.',
+      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roof or shed', 'A dead tree with little new growth', 'A storm-split trunk or cracked main limb'] }],
+    faqs: [
+      { q: 'Can you remove a tree close to a house in Fountain Inn?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the visit.' },
+      { q: 'How do I get a removal quote in Fountain Inn?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+    ],
+  },
+  {
+    area: 'fountain-inn', service: 'tree-trimming',
+    title: 'Tree Trimming Fountain Inn, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Fountain Inn, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
+    h1: 'Tree Trimming in Fountain Inn, SC',
+    lead: 'Branches over a roof, scraping a gutter, or crossing a driveway are common trimming calls in Fountain Inn. We trim to keep the tree healthy and the branches clear.',
+    sections: [{ heading: 'Trimming for Fountain Inn yards', paragraphs: [
+      'Older Fountain Inn yards often have large shade trees that need regular cuts. Newer lots have young trees that will need shaping as they grow.',
+      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+    ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or shed', 'Crowded canopies that block light to the yard'] }],
+    faqs: [
+      { q: 'How often should a Fountain Inn tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
+      { q: 'Do you clean up the brush in Fountain Inn?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+    ],
+  },
+  {
+    area: 'fountain-inn', service: 'stump-grinding',
+    title: 'Stump Grinding Fountain Inn, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Fountain Inn, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
+    h1: 'Stump Grinding in Fountain Inn, SC',
+    lead: 'A stump left behind in Fountain Inn can block a garden bed or a mowing line for years. We grind it down so the space is usable again.',
+    sections: [{ heading: 'Grinding stumps in Fountain Inn', paragraphs: [
+      'Stumps can attract pests and rot in place. Grinding clears the spot for a planting bed, a patio, or new grass.',
+      'Roots and nearby structures change the method, so we check the stump and the ground on the visit. Ask for grinding with the removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway or fence', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump near a Fountain Inn fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'fountain-inn', service: 'arborist',
+    title: 'Arborist Assessments Fountain Inn, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Fountain Inn, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
+    h1: 'Arborist Assessments in Fountain Inn, SC',
+    lead: 'Not sure whether a Fountain Inn tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
+    sections: [{ heading: 'Assessing a Fountain Inn tree', paragraphs: [
+      'An assessment looks at the trunk, the roots near the base, the branch attachments, and the crown. It also looks at what the tree could hit if it fails.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We will say which.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof, shed, or play area'] }],
+    faqs: [
+      { q: 'Do you assess trees in Fountain Inn before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting. Ask when you call.' },
+      { q: 'Will I get written findings for a Fountain Inn tree?', a: 'You get written findings and options after the visit. Ask us what the summary includes.' },
+    ],
+  },
+  {
+    area: 'fountain-inn', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Fountain Inn, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Fountain Inn, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
+    h1: 'Emergency Tree Removal in Fountain Inn, SC',
+    lead: 'A tree down or leaning on a Fountain Inn home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
+    sections: [{ heading: 'After a storm in Fountain Inn', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or shed', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Fountain Inn?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Fountain Inn?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'fountain-inn', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Fountain Inn, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Fountain Inn, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Fountain Inn, SC',
+    lead: 'What a tree removal costs in Fountain Inn depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Fountain Inn removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Fountain Inn estimate free?', a: 'Yes.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'fountain-inn', service: 'land-clearing',
+    title: 'Land Clearing Fountain Inn, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Fountain Inn, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
+    h1: 'Land Clearing in Fountain Inn, SC',
+    lead: 'Clearing a Fountain Inn lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Fountain Inn lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Fountain Inn?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+  // ---------- Travelers Rest ----------
+  {
+    area: 'travelers-rest', service: 'tree-removal',
+    title: 'Tree Removal Travelers Rest, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Travelers Rest, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Removal in Travelers Rest, SC',
+    lead: 'Removing a tree near a Travelers Rest house takes planning. On wooded or sloped lots we check the drop zone and access, then explain the method before any cutting starts.',
+    sections: [{ heading: 'Removal on Travelers Rest lots', paragraphs: [
+      'Many Travelers Rest lots are wooded, and a tree near the house may have a slope, a fence, or a driveway between it and a safe drop zone. The plan changes with each of those.',
+      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or outbuilding', 'A dead tree with little new leaf growth', 'A storm-split trunk on a sloped lot'] }],
+    faqs: [
+      { q: 'Can you remove a tree on a sloped Travelers Rest lot?', a: 'Often, yes. The slope and access shape the method, so we check both on the visit and say what the job needs.' },
+      { q: 'How do I get a removal quote in Travelers Rest?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+    ],
+  },
+  {
+    area: 'travelers-rest', service: 'tree-trimming',
+    title: 'Tree Trimming Travelers Rest, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Travelers Rest, SC to clear limbs from roofs, driveways, and power lines. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Trimming in Travelers Rest, SC',
+    lead: 'Limbs over a roof, a driveway, or a line are common trimming calls in Travelers Rest. We trim to keep the tree healthy and the branches clear.',
+    sections: [{ heading: 'Trimming for Travelers Rest trees', paragraphs: [
+      'Tall hardwoods and pines in Travelers Rest can drop limbs after heavy weather. Regular trimming keeps them balanced and away from the structures below.',
+      'We cut each limb back to a proper point and leave the tree in good shape. Ask about a seasonal plan if you want one crew to check the trees each year.',
+    ], bullets: ['Limbs over the roof, gutters, or driveway', 'Branches near a power line', 'Dead wood cleared from the crown'] }],
+    faqs: [
+      { q: 'Do you trim pines in Travelers Rest?', a: 'Yes. We look at the species and the growth on the visit and tell you what the tree needs.' },
+      { q: 'Do you clean up the brush in Travelers Rest?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+    ],
+  },
+  {
+    area: 'travelers-rest', service: 'stump-grinding',
+    title: 'Stump Grinding Travelers Rest, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Travelers Rest, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
+    h1: 'Stump Grinding in Travelers Rest, SC',
+    lead: 'A stump left after a removal in Travelers Rest can sit in the yard for years. We grind it down so the spot is usable again.',
+    sections: [{ heading: 'Grinding stumps in Travelers Rest', paragraphs: [
+      'Stumps in wooded or sloped yards can hold roots that spread well past the trunk. Grinding clears the space for a garden bed, a patio, or new grass.',
+      'We check the stump and the ground on the visit. Ask for stump grinding with the removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps on a slope that are hard to mow', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump on a sloped Travelers Rest yard?', a: 'Often, yes. We check the access on the visit and tell you what the grinding involves.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'travelers-rest', service: 'arborist',
+    title: 'Arborist Assessments Travelers Rest, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Travelers Rest, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
+    h1: 'Arborist Assessments in Travelers Rest, SC',
+    lead: 'Not sure whether a Travelers Rest tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
+    sections: [{ heading: 'Assessing a Travelers Rest tree', paragraphs: [
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. On a slope it also looks at how the soil is holding the root plate.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof, shed, or driveway'] }],
+    faqs: [
+      { q: 'Do you assess trees in Travelers Rest before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting.' },
+      { q: 'Will I get written findings for a Travelers Rest tree?', a: 'Yes. You get findings and options in writing after the visit.' },
+    ],
+  },
+  {
+    area: 'travelers-rest', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Travelers Rest, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Travelers Rest, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
+    h1: 'Emergency Tree Removal in Travelers Rest, SC',
+    lead: 'A tree down or leaning on a Travelers Rest home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
+    sections: [{ heading: 'After a storm in Travelers Rest', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. Wooded lots can hide a second tree that is also damaged, so look before you walk in.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Travelers Rest?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Travelers Rest?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'travelers-rest', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Travelers Rest, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Travelers Rest, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Travelers Rest, SC',
+    lead: 'What a tree removal costs in Travelers Rest depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Travelers Rest removal quote', paragraphs: [
+      'On wooded or sloped lots, access often matters more than the size of the tree. Ask the quote to show how the crew will reach the tree.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Access and drop zone', 'Cleanup and stump work if needed'] }],
+    faqs: [
+      { q: 'Is the Travelers Rest estimate free?', a: 'Yes.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'travelers-rest', service: 'land-clearing',
+    title: 'Land Clearing Travelers Rest, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Travelers Rest, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
+    h1: 'Land Clearing in Travelers Rest, SC',
+    lead: 'Clearing a wooded Travelers Rest lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Travelers Rest lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. On a slope we plan the clearing so the soil stays put.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you clear sloped lots in Travelers Rest?', a: 'Yes. We look at the slope on the visit and explain how the clearing will be done.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+
+  // ---------- Five Forks ----------
+  {
+    area: 'five-forks', service: 'tree-removal',
+    title: 'Tree Removal Five Forks, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Five Forks, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Removal in Five Forks, SC',
+    lead: 'Removing a tree near a Five Forks house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    sections: [{ heading: 'Removal near Five Forks homes', paragraphs: [
+      'Five Forks has older wooded lots and newer homes where trees sit close to the house. Each spot needs a method that fits the space around the tree.',
+      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
+    faqs: [
+      { q: 'Can you remove a tree close to a house in Five Forks?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the visit.' },
+      { q: 'How do I get a removal quote in Five Forks?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+    ],
+  },
+  {
+    area: 'five-forks', service: 'tree-trimming',
+    title: 'Tree Trimming Five Forks, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Five Forks, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
+    h1: 'Tree Trimming in Five Forks, SC',
+    lead: 'Branches over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Five Forks. We trim to keep the tree healthy and the branches clear.',
+    sections: [{ heading: 'Trimming for Five Forks yards', paragraphs: [
+      'Five Forks has a mix of older shade trees and younger trees in newer yards. Each needs trimming at a different point in its growth.',
+      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+    ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or garage', 'Crowded canopies that block light to the yard'] }],
+    faqs: [
+      { q: 'How often should a Five Forks tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
+      { q: 'Do you clean up the brush in Five Forks?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+    ],
+  },
+  {
+    area: 'five-forks', service: 'stump-grinding',
+    title: 'Stump Grinding Five Forks, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Five Forks, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
+    h1: 'Stump Grinding in Five Forks, SC',
+    lead: 'A stump left after a removal in Five Forks can sit in the yard for years. We grind it down so the space can be planted, paved, or mowed.',
+    sections: [{ heading: 'Grinding stumps in Five Forks', paragraphs: [
+      'Stumps can become a trip hazard and a home for pests and rot. Grinding clears the spot for a garden bed, patio, or new lawn.',
+      'Roots and nearby structures change the method, so we check the stump and the ground around it on the visit. Ask for stump grinding with the removal if you want one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway, fence, or patio', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump near a Five Forks fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'five-forks', service: 'arborist',
+    title: 'Arborist Assessments Five Forks, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Five Forks, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
+    h1: 'Arborist Assessments in Five Forks, SC',
+    lead: 'Not sure whether a Five Forks tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
+    sections: [{ heading: 'Assessing a Five Forks tree', paragraphs: [
+      'An assessment looks at the trunk, the root flare, the branch unions, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
+      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
+    faqs: [
+      { q: 'Do you assess trees in Five Forks before removal?', a: 'Yes. An assessment helps you decide between removal, trimming, or waiting. Ask about it when you call.' },
+      { q: 'Will I get a written report for a Five Forks tree?', a: 'You get written findings and options after the visit. Ask us what the summary includes.' },
+    ],
+  },
+  {
+    area: 'five-forks', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Five Forks, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Five Forks, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
+    h1: 'Emergency Tree Removal in Five Forks, SC',
+    lead: 'A tree down or leaning on a Five Forks home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
+    sections: [{ heading: 'After a storm in Five Forks', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Five Forks?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Five Forks?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'five-forks', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Five Forks, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Five Forks, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Five Forks, SC',
+    lead: 'What a tree removal costs in Five Forks depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Five Forks removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Five Forks estimate free?', a: 'Yes.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'five-forks', service: 'land-clearing',
+    title: 'Land Clearing Five Forks, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Five Forks, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
+    h1: 'Land Clearing in Five Forks, SC',
+    lead: 'Clearing a Five Forks lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Five Forks lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Five Forks?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+  // ---------- Powdersville ----------
+  {
+    area: 'powdersville', service: 'tree-removal',
+    title: 'Tree Removal Powdersville, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Powdersville, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Removal in Powdersville, SC',
+    lead: 'Removing a tree near a Powdersville house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    sections: [{ heading: 'Removal near Powdersville homes', paragraphs: [
+      'The space around a tree decides the method. A tree with room to fall is a different job from one beside a garage or a fence.',
+      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
+    faqs: [
+      { q: 'Do you remove trees in Powdersville, which is in Anderson County?', a: 'Call us with your address. We confirm coverage for the visit before you book.' },
+      { q: 'How do I get a removal quote in Powdersville?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+    ],
+  },
+  {
+    area: 'powdersville', service: 'tree-trimming',
+    title: 'Tree Trimming Powdersville, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Powdersville, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
+    h1: 'Tree Trimming in Powdersville, SC',
+    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Powdersville. We trim to keep the tree healthy and the branches clear.',
+    sections: [{ heading: 'Trimming for Powdersville yards', paragraphs: [
+      'Trees near Powdersville homes often grow toward the roof and lines as they get taller. Trimming on a regular schedule keeps the growth in check.',
+      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+    ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or garage', 'Crowded canopies that block light to the yard'] }],
+    faqs: [
+      { q: 'How often should a Powdersville tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
+      { q: 'Do you clean up the brush in Powdersville?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+    ],
+  },
+  {
+    area: 'powdersville', service: 'stump-grinding',
+    title: 'Stump Grinding Powdersville, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Powdersville, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
+    h1: 'Stump Grinding in Powdersville, SC',
+    lead: 'A stump left after a removal in Powdersville can sit in the yard for years. We grind it down so the space is usable again.',
+    sections: [{ heading: 'Grinding stumps in Powdersville', paragraphs: [
+      'Stumps can attract pests and rot in place. Grinding clears the spot for a planting bed, a patio, or new grass.',
+      'Roots and nearby structures change the method, so we check the stump and the ground on the visit. Ask for grinding with the removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway or fence', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump near a Powdersville fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'powdersville', service: 'arborist',
+    title: 'Arborist Assessments Powdersville, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Powdersville, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
+    h1: 'Arborist Assessments in Powdersville, SC',
+    lead: 'Not sure whether a Powdersville tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
+    sections: [{ heading: 'Assessing a Powdersville tree', paragraphs: [
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof, shed, or driveway'] }],
+    faqs: [
+      { q: 'Do you assess trees in Powdersville before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting.' },
+      { q: 'Will I get written findings for a Powdersville tree?', a: 'Yes. You get findings and options in writing after the visit.' },
+    ],
+  },
+  {
+    area: 'powdersville', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Powdersville, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Powdersville, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
+    h1: 'Emergency Tree Removal in Powdersville, SC',
+    lead: 'A tree down or leaning on a Powdersville home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
+    sections: [{ heading: 'After a storm in Powdersville', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Powdersville?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Powdersville?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'powdersville', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Powdersville, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Powdersville, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Powdersville, SC',
+    lead: 'What a tree removal costs in Powdersville depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Powdersville removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Powdersville estimate free?', a: 'Yes.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'powdersville', service: 'land-clearing',
+    title: 'Land Clearing Powdersville, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Powdersville, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
+    h1: 'Land Clearing in Powdersville, SC',
+    lead: 'Clearing a Powdersville lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Powdersville lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Powdersville?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+
+  // ---------- Berea ----------
+  {
+    area: 'berea', service: 'tree-removal',
+    title: 'Tree Removal Berea, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Berea, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Removal in Berea, SC',
+    lead: 'Removing a tree near a Berea house takes planning. On wooded lots we check the drop zone and access, then explain the method before any cutting starts.',
+    sections: [{ heading: 'Removal on Berea lots', paragraphs: [
+      'Berea has wooded parcels and established yards with trees that have grown close to the house over many years. The method depends on the space between the tree and the structure.',
+      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or outbuilding', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
+    faqs: [
+      { q: 'Can you remove a large tree on a Berea lot?', a: 'Often, yes. Tell us the size, the access, and what the tree is near. We explain the method on the visit.' },
+      { q: 'How do I get a removal quote in Berea?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+    ],
+  },
+  {
+    area: 'berea', service: 'tree-trimming',
+    title: 'Tree Trimming Berea, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Berea, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
+    h1: 'Tree Trimming in Berea, SC',
+    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Berea. We trim to keep the tree healthy and the branches clear.',
+    sections: [{ heading: 'Trimming for Berea trees', paragraphs: [
+      'Mature hardwoods and pines in Berea can drop limbs after heavy weather. Regular trimming keeps them balanced and away from the roofline.',
+      'We cut each limb back to a proper point. Ask about a seasonal plan if you want one crew to check the trees each year.',
+    ], bullets: ['Limbs over the roof, gutters, or driveway', 'Branches near a power line', 'Dead wood cleared from the crown'] }],
+    faqs: [
+      { q: 'Do you trim pines in Berea?', a: 'Yes. We look at the species and the growth on the visit and tell you what the tree needs.' },
+      { q: 'Do you clean up the brush in Berea?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+    ],
+  },
+  {
+    area: 'berea', service: 'stump-grinding',
+    title: 'Stump Grinding Berea, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Berea, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
+    h1: 'Stump Grinding in Berea, SC',
+    lead: 'A stump left after a removal in Berea can sit in the yard for years. We grind it down so the spot is usable again.',
+    sections: [{ heading: 'Grinding stumps in Berea', paragraphs: [
+      'Stumps in wooded yards can hold roots that spread well past the trunk. Grinding clears the space for a garden bed, a patio, or new grass.',
+      'We check the stump and the ground on the visit. Ask for stump grinding with the removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps in a planned planting area', 'Old stumps near a walkway or fence'] }],
+    faqs: [
+      { q: 'Can you grind a stump on a wooded Berea lot?', a: 'Often, yes. We check the access on the visit and tell you what the grinding involves.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'berea', service: 'arborist',
+    title: 'Arborist Assessments Berea, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Berea, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
+    h1: 'Arborist Assessments in Berea, SC',
+    lead: 'Not sure whether a Berea tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
+    sections: [{ heading: 'Assessing a Berea tree', paragraphs: [
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
+    faqs: [
+      { q: 'Do you assess trees in Berea before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting.' },
+      { q: 'Will I get written findings for a Berea tree?', a: 'Yes. You get findings and options in writing after the visit.' },
+    ],
+  },
+  {
+    area: 'berea', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Berea, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Berea, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
+    h1: 'Emergency Tree Removal in Berea, SC',
+    lead: 'A tree down or leaning on a Berea home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
+    sections: [{ heading: 'After a storm in Berea', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. Wooded lots can hide a second damaged tree, so look before you walk in.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Berea?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Berea?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'berea', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Berea, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Berea, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Berea, SC',
+    lead: 'What a tree removal costs in Berea depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Berea removal quote', paragraphs: [
+      'On wooded lots, access often matters more than the size of the tree. Ask the quote to show how the crew will reach the tree.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Access and drop zone', 'Cleanup and stump work if needed'] }],
+    faqs: [
+      { q: 'Is the Berea estimate free?', a: 'Yes.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'berea', service: 'land-clearing',
+    title: 'Land Clearing Berea, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Berea, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
+    h1: 'Land Clearing in Berea, SC',
+    lead: 'Clearing a wooded Berea lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Berea lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Berea?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+  // ---------- Wade Hampton ----------
+  {
+    area: 'wade-hampton', service: 'tree-removal',
+    title: 'Tree Removal Wade Hampton, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Wade Hampton, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
+    h1: 'Tree Removal in Wade Hampton, SC',
+    lead: 'Removing a tree near a Wade Hampton house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    sections: [{ heading: 'Removal near Wade Hampton homes', paragraphs: [
+      'Many Wade Hampton yards have large trees close to the house, a garage, or a shared fence. The method that works in an open yard may not work there.',
+      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
+    faqs: [
+      { q: 'Can you remove a tree close to a house in Wade Hampton?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the visit.' },
+      { q: 'How do I get a removal quote in Wade Hampton?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+    ],
+  },
+  {
+    area: 'wade-hampton', service: 'tree-trimming',
+    title: 'Tree Trimming Wade Hampton, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Wade Hampton, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
+    h1: 'Tree Trimming in Wade Hampton, SC',
+    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Wade Hampton. We trim to keep the tree healthy and the branches clear.',
+    sections: [{ heading: 'Trimming for Wade Hampton yards', paragraphs: [
+      'Older Wade Hampton yards often have large shade trees that need regular cuts. Younger trees need shaping while they are still small.',
+      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+    ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or garage', 'Crowded canopies that block light to the yard'] }],
+    faqs: [
+      { q: 'How often should a Wade Hampton tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
+      { q: 'Do you clean up the brush in Wade Hampton?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+    ],
+  },
+  {
+    area: 'wade-hampton', service: 'stump-grinding',
+    title: 'Stump Grinding Wade Hampton, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Wade Hampton, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
+    h1: 'Stump Grinding in Wade Hampton, SC',
+    lead: 'A stump left after a removal in Wade Hampton can sit in the yard for years. We grind it down so the space can be planted, paved, or mowed.',
+    sections: [{ heading: 'Grinding stumps in Wade Hampton', paragraphs: [
+      'Stumps can become a trip hazard and a home for pests and rot. Grinding clears the spot for a garden bed, patio, or new lawn.',
+      'Roots and nearby structures change the method, so we check the stump and the ground around it on the visit. Ask for stump grinding with the removal if you want one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway, fence, or patio', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump near a Wade Hampton fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'wade-hampton', service: 'arborist',
+    title: 'Arborist Assessments Wade Hampton, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Wade Hampton, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
+    h1: 'Arborist Assessments in Wade Hampton, SC',
+    lead: 'Not sure whether a Wade Hampton tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
+    sections: [{ heading: 'Assessing a Wade Hampton tree', paragraphs: [
+      'An assessment looks at the trunk, the root flare, the branch unions, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
+      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
+    faqs: [
+      { q: 'Do you assess trees in Wade Hampton before removal?', a: 'Yes. An assessment helps you decide between removal, trimming, or waiting. Ask about it when you call.' },
+      { q: 'Will I get a written report for a Wade Hampton tree?', a: 'You get written findings and options after the visit. Ask us what the summary includes.' },
+    ],
+  },
+  {
+    area: 'wade-hampton', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Wade Hampton, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Wade Hampton, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
+    h1: 'Emergency Tree Removal in Wade Hampton, SC',
+    lead: 'A tree down or leaning on a Wade Hampton home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
+    sections: [{ heading: 'After a storm in Wade Hampton', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Wade Hampton?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Wade Hampton?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'wade-hampton', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Wade Hampton, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Wade Hampton, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Wade Hampton, SC',
+    lead: 'What a tree removal costs in Wade Hampton depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Wade Hampton removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Wade Hampton estimate free?', a: 'Yes.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'wade-hampton', service: 'land-clearing',
+    title: 'Land Clearing Wade Hampton, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Wade Hampton, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
+    h1: 'Land Clearing in Wade Hampton, SC',
+    lead: 'Clearing a Wade Hampton lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Wade Hampton lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Wade Hampton?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+
+  // ---------- Piedmont ----------
+  {
+    area: 'piedmont', service: 'tree-removal',
+    title: 'Tree Removal Piedmont, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Piedmont, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
+    h1: 'Tree Removal in Piedmont, SC',
+    lead: 'Removing a tree near a Piedmont house takes planning. Because Piedmont is at the edge of our service area, call first so we can confirm the visit.',
+    sections: [{ heading: 'Removal near Piedmont homes', paragraphs: [
+      'A tree close to a house, garage, or fence needs a method that fits the space around it. We plan the cuts on the site visit.',
+      'You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new growth', 'A storm-split trunk or large cracked limb'] }],
+    faqs: [
+      { q: 'Do you remove trees in Piedmont, SC?', a: 'Call us with your address. We confirm coverage and the earliest visit before you book.' },
+      { q: 'Is the removal quote written?', a: 'Yes. We send a written quote after the free visit.' },
+    ],
+  },
+  {
+    area: 'piedmont', service: 'tree-trimming',
+    title: 'Tree Trimming Piedmont, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Piedmont, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
+    h1: 'Tree Trimming in Piedmont, SC',
+    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Piedmont. Call us first to confirm we can reach your address.',
+    sections: [{ heading: 'Trimming for Piedmont trees', paragraphs: [
+      'Trees near Piedmont homes often grow toward roofs and lines over time. Regular trimming keeps the growth balanced.',
+      'We cut each limb back to a proper point and leave the tree healthy. Ask about a seasonal plan if you want the same crew each year.',
+    ], bullets: ['Branches over roofs or gutters', 'Limbs rubbing a fence or line', 'Dead wood cleared from the crown'] }],
+    faqs: [
+      { q: 'Do you trim trees in Piedmont?', a: 'Call us first so we can confirm coverage. We then set up a free visit and send a written quote.' },
+      { q: 'Do you clean up the brush in Piedmont?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+    ],
+  },
+  {
+    area: 'piedmont', service: 'stump-grinding',
+    title: 'Stump Grinding Piedmont, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Piedmont, SC for stumps left after removal. Call first to confirm coverage. Free written estimate and cleanup.',
+    h1: 'Stump Grinding in Piedmont, SC',
+    lead: 'A stump left after a removal in Piedmont can sit in the yard for years. Call us first to confirm the visit, and we grind it down so the spot is usable.',
+    sections: [{ heading: 'Grinding stumps in Piedmont', paragraphs: [
+      'Stumps can attract pests and rot in place. Grinding clears the spot for a planting bed, a patio, or new grass.',
+      'We check the stump and the ground on the visit. Ask for grinding with the removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway or fence', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump in Piedmont?', a: 'Call us with your address. We confirm the visit and then check the stump on site.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'piedmont', service: 'arborist',
+    title: 'Arborist Assessments Piedmont, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Piedmont, SC for health, structure, and risk. Written findings and options from a free visit. Call first to confirm.',
+    h1: 'Arborist Assessments in Piedmont, SC',
+    lead: 'Not sure whether a Piedmont tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
+    sections: [{ heading: 'Assessing a Piedmont tree', paragraphs: [
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or driveway'] }],
+    faqs: [
+      { q: 'Do you assess trees in Piedmont before removal?', a: 'Yes, once we confirm coverage for your address. An assessment helps you choose between removal, trimming, or waiting.' },
+      { q: 'Will I get written findings for a Piedmont tree?', a: 'Yes. You get findings and options in writing after the visit.' },
+    ],
+  },
+  {
+    area: 'piedmont', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Piedmont, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Piedmont, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
+    h1: 'Emergency Tree Removal in Piedmont, SC',
+    lead: 'A tree down or leaning on a Piedmont home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
+    sections: [{ heading: 'After a storm in Piedmont', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We confirm coverage and tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Piedmont?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Piedmont?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'piedmont', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Piedmont, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Piedmont, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Piedmont, SC',
+    lead: 'What a tree removal costs in Piedmont depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Piedmont removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Piedmont estimate free?', a: 'Yes, once we confirm coverage and set up the visit.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'piedmont', service: 'land-clearing',
+    title: 'Land Clearing Piedmont, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Piedmont, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
+    h1: 'Land Clearing in Piedmont, SC',
+    lead: 'Clearing a Piedmont lot for a new home, a garden, or a yard is a plan you can see before it starts. Call us to confirm coverage, then we walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Piedmont lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Piedmont?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+  // ---------- Pickens ----------
+  {
+    area: 'pickens', service: 'tree-removal',
+    title: 'Tree Removal Pickens, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Pickens, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
+    h1: 'Tree Removal in Pickens, SC',
+    lead: 'Removing a tree near a Pickens house takes planning. Pickens is outside the core of our service area, so call first and we will confirm the visit.',
+    sections: [{ heading: 'Removal near Pickens homes', paragraphs: [
+      'A tree close to a house, garage, or fence needs a method that fits the space around it. We plan the cuts on the site visit.',
+      'You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new growth', 'A storm-split trunk or large cracked limb'] }],
+    faqs: [
+      { q: 'Do you remove trees in Pickens, SC?', a: 'Call us with your address. We confirm coverage and the earliest visit before you book.' },
+      { q: 'Is the removal quote written?', a: 'Yes. We send a written quote after the free visit.' },
+    ],
+  },
+  {
+    area: 'pickens', service: 'tree-trimming',
+    title: 'Tree Trimming Pickens, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Pickens, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
+    h1: 'Tree Trimming in Pickens, SC',
+    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Pickens. Call us first to confirm we can reach your address.',
+    sections: [{ heading: 'Trimming for Pickens trees', paragraphs: [
+      'Trees near Pickens homes often grow toward roofs and lines over time. Regular trimming keeps the growth balanced.',
+      'We cut each limb back to a proper point and leave the tree healthy. Ask about a seasonal plan if you want the same crew each year.',
+    ], bullets: ['Branches over roofs or gutters', 'Limbs rubbing a fence or line', 'Dead wood cleared from the crown'] }],
+    faqs: [
+      { q: 'Do you trim trees in Pickens?', a: 'Call us first so we can confirm coverage. We then set up a free visit and send a written quote.' },
+      { q: 'Do you clean up the brush in Pickens?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+    ],
+  },
+  {
+    area: 'pickens', service: 'stump-grinding',
+    title: 'Stump Grinding Pickens, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Pickens, SC for stumps left after removal. Call first to confirm coverage. Free written estimate and cleanup.',
+    h1: 'Stump Grinding in Pickens, SC',
+    lead: 'A stump left after a removal in Pickens can sit in the yard for years. Call us first to confirm the visit, and we grind it down so the spot is usable.',
+    sections: [{ heading: 'Grinding stumps in Pickens', paragraphs: [
+      'Stumps can attract pests and rot in place. Grinding clears the spot for a planting bed, a patio, or new grass.',
+      'We check the stump and the ground on the visit. Ask for grinding with the removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway or fence', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump in Pickens?', a: 'Call us with your address. We confirm the visit and then check the stump on site.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'pickens', service: 'arborist',
+    title: 'Arborist Assessments Pickens, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Pickens, SC for health, structure, and risk. Written findings and options from a free visit. Call first to confirm.',
+    h1: 'Arborist Assessments in Pickens, SC',
+    lead: 'Not sure whether a Pickens tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
+    sections: [{ heading: 'Assessing a Pickens tree', paragraphs: [
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or driveway'] }],
+    faqs: [
+      { q: 'Do you assess trees in Pickens before removal?', a: 'Yes, once we confirm coverage for your address. An assessment helps you choose between removal, trimming, or waiting.' },
+      { q: 'Will I get written findings for a Pickens tree?', a: 'Yes. You get findings and options in writing after the visit.' },
+    ],
+  },
+  {
+    area: 'pickens', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Pickens, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Pickens, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
+    h1: 'Emergency Tree Removal in Pickens, SC',
+    lead: 'A tree down or leaning on a Pickens home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
+    sections: [{ heading: 'After a storm in Pickens', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We confirm coverage and tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Pickens?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Pickens?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'pickens', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Pickens, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Pickens, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Pickens, SC',
+    lead: 'What a tree removal costs in Pickens depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Pickens removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Pickens estimate free?', a: 'Yes, once we confirm coverage and set up the visit.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'pickens', service: 'land-clearing',
+    title: 'Land Clearing Pickens, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Pickens, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
+    h1: 'Land Clearing in Pickens, SC',
+    lead: 'Clearing a Pickens lot for a new home, a garden, or a yard is a plan you can see before it starts. Call us to confirm coverage, then we walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Pickens lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Pickens?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
+    ],
+  },
+
+  // ---------- Woodruff ----------
+  {
+    area: 'woodruff', service: 'tree-removal',
+    title: 'Tree Removal Woodruff, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree removal in Woodruff, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
+    h1: 'Tree Removal in Woodruff, SC',
+    lead: 'Removing a tree near a Woodruff house takes planning. Woodruff is at the edge of our service area, so call first and we will confirm we can reach you.',
+    sections: [{ heading: 'Removal near Woodruff homes', paragraphs: [
+      'A tree close to a house, garage, or fence needs a method that fits the space around it. We plan the cuts on the site visit.',
+      'You get the method and scope in writing, with the cleanup included or priced separately.',
+    ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new growth', 'A storm-split trunk or large cracked limb'] }],
+    faqs: [
+      { q: 'Do you remove trees in Woodruff, SC?', a: 'Call us with your address. We confirm coverage and the earliest visit before you book.' },
+      { q: 'Is the removal quote written?', a: 'Yes. We send a written quote after the free visit.' },
+    ],
+  },
+  {
+    area: 'woodruff', service: 'tree-trimming',
+    title: 'Tree Trimming Woodruff, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree trimming in Woodruff, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
+    h1: 'Tree Trimming in Woodruff, SC',
+    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Woodruff. Call us first to confirm we can reach your address.',
+    sections: [{ heading: 'Trimming for Woodruff trees', paragraphs: [
+      'Woodruff homes often sit on larger lots with mature trees. Regular trimming keeps the growth balanced and away from the roof.',
+      'We cut each limb back to a proper point and leave the tree healthy. Ask about a seasonal plan if you want the same crew each year.',
+    ], bullets: ['Branches over roofs or driveways', 'Limbs rubbing a fence or line', 'Dead wood cleared from the crown'] }],
+    faqs: [
+      { q: 'Do you trim trees in Woodruff?', a: 'Call us first so we can confirm coverage. We then set up a free visit and send a written quote.' },
+      { q: 'Do you clean up the brush in Woodruff?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+    ],
+  },
+  {
+    area: 'woodruff', service: 'stump-grinding',
+    title: 'Stump Grinding Woodruff, SC | Greenville Tree & Stump',
+    metaDescription: 'Stump grinding in Woodruff, SC for stumps left after removal. Call first to confirm coverage. Free written estimate and cleanup.',
+    h1: 'Stump Grinding in Woodruff, SC',
+    lead: 'A stump left after a removal in Woodruff can sit in the yard for years. Call us first to confirm the visit, and we grind it down so the spot is usable.',
+    sections: [{ heading: 'Grinding stumps in Woodruff', paragraphs: [
+      'Stumps can attract pests and rot in place. Grinding clears the spot for a planting bed, a patio, or new grass.',
+      'We check the stump and the ground on the visit. Ask for grinding with the removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway or fence', 'Old stumps in a planned planting area'] }],
+    faqs: [
+      { q: 'Can you grind a stump in Woodruff?', a: 'Call us with your address. We confirm the visit and then check the stump on site.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+    ],
+  },
+  {
+    area: 'woodruff', service: 'arborist',
+    title: 'Arborist Assessments Woodruff, SC | Greenville Tree & Stump',
+    metaDescription: 'Tree assessments in Woodruff, SC for health, structure, and risk. Written findings and options from a free visit. Call first to confirm.',
+    h1: 'Arborist Assessments in Woodruff, SC',
+    lead: 'Not sure whether a Woodruff tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
+    sections: [{ heading: 'Assessing a Woodruff tree', paragraphs: [
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+    ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or driveway'] }],
+    faqs: [
+      { q: 'Do you assess trees in Woodruff before removal?', a: 'Yes, once we confirm coverage for your address. An assessment helps you choose between removal, trimming, or waiting.' },
+      { q: 'Will I get written findings for a Woodruff tree?', a: 'Yes. You get findings and options in writing after the visit.' },
+    ],
+  },
+  {
+    area: 'woodruff', service: 'emergency-tree-removal',
+    title: 'Emergency Tree Removal Woodruff, SC | Greenville Tree & Stump',
+    metaDescription: 'Emergency tree removal in Woodruff, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
+    h1: 'Emergency Tree Removal in Woodruff, SC',
+    lead: 'A tree down or leaning on a Woodruff home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
+    sections: [{ heading: 'After a storm in Woodruff', paragraphs: [
+      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. We confirm coverage and tell you the earliest visit we can offer.',
+    ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
+    faqs: [
+      { q: 'What should I do before you arrive in Woodruff?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Woodruff?', a: 'Yes, before the main work begins.' },
+    ],
+  },
+  {
+    area: 'woodruff', service: 'tree-removal-cost',
+    title: 'Tree Removal Cost Woodruff, SC | Greenville Tree & Stump',
+    metaDescription: 'What tree removal costs in Woodruff, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
+    h1: 'Tree Removal Cost in Woodruff, SC',
+    lead: 'What a tree removal costs in Woodruff depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    sections: [{ heading: 'Reading a Woodruff removal quote', paragraphs: [
+      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
+      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    faqs: [
+      { q: 'Is the Woodruff estimate free?', a: 'Yes, once we confirm coverage and set up the visit.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+    ],
+  },
+  {
+    area: 'woodruff', service: 'land-clearing',
+    title: 'Land Clearing Woodruff, SC | Greenville Tree & Stump',
+    metaDescription: 'Land and lot clearing in Woodruff, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
+    h1: 'Land Clearing in Woodruff, SC',
+    lead: 'Clearing a Woodruff lot for a new home, a garden, or a yard is a plan you can see before it starts. Call us to confirm coverage, then we walk the land and quote in writing.',
+    sections: [{ heading: 'Clearing a Woodruff lot', paragraphs: [
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    faqs: [
+      { q: 'Do you work with builders in Woodruff?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
       { q: 'Is the clearing quote written?', a: 'Yes.' },
     ],
   },
