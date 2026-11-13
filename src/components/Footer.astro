@@ -25,7 +25,7 @@ const year = new Date().getFullYear();
       <nav aria-label="Footer service areas">
         <h2>Service Areas</h2>
         <ul>
-          {nav.areas.map((a) => <li><a href={a.href}>{a.label}</a></li>)}
+          {nav.footerAreas.map((a) => <li><a href={a.href}>{a.label}</a></li>)}
           <li><a href={nav.areasAll.href}>{nav.areasAll.label}</a></li>
         </ul>
       </nav>

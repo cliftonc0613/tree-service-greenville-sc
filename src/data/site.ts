@@ -75,6 +75,15 @@ export const nav = {
     { label: 'Woodruff', href: '/service-areas/woodruff' },
   ],
   areasAll: { label: 'All service areas', href: '/service-areas' },
+  // Footer shows only the five most populated towns (2025 Census estimates or 2020 counts,
+  // from knowledge/research/playbook.md). Alphabetical. The full list is on /service-areas.
+  footerAreas: [
+    { label: 'Easley', href: '/service-areas/easley' },
+    { label: 'Greer', href: '/service-areas/greer' },
+    { label: 'Mauldin', href: '/service-areas/mauldin' },
+    { label: 'Simpsonville', href: '/service-areas/simpsonville' },
+    { label: 'Taylors', href: '/service-areas/taylors' },
+  ],
   about: { label: 'About', href: '/about' },
   contact: { label: 'Contact', href: '/contact' },
   estimate: { label: 'Get a Free Estimate', href: '/contact#estimate' },
