@@ -20,9 +20,8 @@ interface Props {
 const { area } = Astro.props;
 const path = `/service-areas/${area.slug}`;
 
-const coreServices = ['tree-removal', 'tree-trimming', 'stump-grinding'].map(
-  (slug) => services.find((s) => s.slug === slug)!,
-);
+// Every service gets a card, so each city page links to all seven of its combo pages.
+const coreServices = services;
 
 const schema = [
   {
@@ -57,11 +56,6 @@ const schema = [
             <span class="card__more">Learn more</span>
           </a>
         ))}
-        <a class="card" href={`/services/${area.slug}/emergency-tree-removal`}>
-          <h3>Emergency and storm removal</h3>
-          <p>Trees down or leaning dangerously after a storm.</p>
-          <span class="card__more">Learn more</span>
-        </a>
       </div>
     </div>
   </section>

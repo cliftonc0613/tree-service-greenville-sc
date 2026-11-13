@@ -73,7 +73,7 @@ const schema = [
           <h3>{service.name}</h3>
           <span class="card__more">Our full {service.name.toLowerCase()} page</span>
         </a>
-        {siblings.slice(0, 4).map((s) => (
+        {siblings.map((s) => (
           <a class="card" href={`/services/${area.slug}/${s.slug}`}>
             <h3>{s.name} in {area.name}</h3>
             <span class="card__more">Learn more</span>
