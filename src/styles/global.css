@@ -1050,6 +1050,20 @@ body.has-callbar {
   color: var(--color-white);
 }
 
+/* ---------- Picture beside the first section (town pages) ---------- */
+/* The .split grid supplies the two columns; the picture drops below the text on narrow screens. */
+
+.section-media { margin: 0; }
+
+.section-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid var(--color-charcoal);
+}
+
 /* ---------- Service-area map (contact page) ---------- */
 
 .service-map {

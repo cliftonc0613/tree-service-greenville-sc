@@ -5,6 +5,7 @@ import Sections from '@/components/Sections.astro';
 import Faq from '@/components/Faq.astro';
 import CtaBand from '@/components/CtaBand.astro';
 import { areas } from '@/data/areas';
+import { areaImages } from '@/data/areaImages';
 import { services } from '@/data/services';
 import { absoluteUrl } from '@/data/site';
 import type { Area } from '@/data/types';
@@ -43,7 +44,7 @@ const schema = [
     image={area.image}
   />
 
-  <Sections sections={area.sections} />
+  <Sections sections={area.sections} firstImage={areaImages[area.slug]} />
 
   <section class="section section--soft">
     <div class="container">

@@ -1,20 +1,24 @@
 ---
-import type { Section } from '@/data/types';
+import type { PageImage, Section } from '@/data/types';
 import Heading from '@/components/Heading.astro';
 
 interface Props {
   sections: Section[];
   /** Start heading level for the first section. Default h2. */
   tone?: 'white' | 'soft';
+  /** Optional picture. When set, the first section becomes two columns with the picture on the right. */
+  firstImage?: PageImage;
 }
 
-const { sections, tone = 'white' } = Astro.props;
+const { sections, tone = 'white', firstImage } = Astro.props;
 ---
 
-{sections.map((s, i) => (
+{sections.map((s, i) => {
+  const withImage = i === 0 && Boolean(firstImage);
+  return (
   <section class:list={['section', tone === 'white' ? 'section--white' : undefined]} aria-labelledby={`sec-${i}`}>
-    <div class="container">
-      <div class="prose" style="max-width: 48rem;">
+    <div class:list={['container', withImage ? 'split section-split' : undefined]}>
+      <div class="prose" style={withImage ? undefined : 'max-width: 48rem;'}>
         <Heading id={`sec-${i}`} text={s.heading} />
         {s.paragraphs.map((p) => <p>{p}</p>)}
         {s.bullets && (
@@ -34,6 +38,12 @@ const { sections, tone = 'white' } = Astro.props;
           </div>
         ))}
       </div>
+      {withImage && firstImage && (
+        <figure class="section-media">
+          <img src={firstImage.src} alt={firstImage.alt} width="1440" height="803" loading="lazy" />
+        </figure>
+      )}
     </div>
   </section>
-))}
+  );
+})}
