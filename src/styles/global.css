@@ -511,9 +511,6 @@ h2 + .callout {
   padding: 0.5rem;
   display: grid;
   gap: 0.1rem;
-  /* The area list has 14 towns. Keep it on screen and scroll inside it. */
-  max-height: min(70vh, 32rem);
-  overflow-y: auto;
 }
 
 .dropdown a {

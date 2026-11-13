@@ -28,17 +28,7 @@ import Icon from '@/components/Icon.astro';
           <a href={nav.servicesAll.href}>{nav.servicesAll.label}</a>
         </div>
       </details>
-      <details>
-        <summary aria-haspopup="true">
-          Service Areas
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-        </summary>
-        <div class="dropdown">
-          {nav.areas.map((a) => <a href={a.href}>{a.label}</a>)}
-          <hr />
-          <a href={nav.areasAll.href}>{nav.areasAll.label}</a>
-        </div>
-      </details>
+      <a href="/service-areas">Service Areas</a>
       <a href={nav.about.href}>{nav.about.label}</a>
       <a href={nav.contact.href}>{nav.contact.label}</a>
     </nav>
@@ -68,13 +58,7 @@ import Icon from '@/components/Icon.astro';
               <a class="mobile-sub mobile-sub--all" href={nav.servicesAll.href}>{nav.servicesAll.label}</a>
             </div>
           </details>
-          <details class="mobile-group">
-            <summary>Service Areas</summary>
-            <div class="mobile-group__body">
-              {nav.areas.map((a) => <a class="mobile-sub" href={a.href}>{a.label}</a>)}
-              <a class="mobile-sub mobile-sub--all" href={nav.areasAll.href}>{nav.areasAll.label}</a>
-            </div>
-          </details>
+          <a href="/service-areas">Service Areas</a>
           <a href={nav.about.href}>{nav.about.label}</a>
           <a href={nav.contact.href}>{nav.contact.label}</a>
           <a href={nav.estimate.href}>{nav.estimate.label}</a>
