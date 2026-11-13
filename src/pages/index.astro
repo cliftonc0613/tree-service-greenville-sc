@@ -2,7 +2,6 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Icon from '@/components/Icon.astro';
 import Faq from '@/components/Faq.astro';
-import LeadForm from '@/components/LeadForm.astro';
 import Heading from '@/components/Heading.astro';
 import CtaBand from '@/components/CtaBand.astro';
 import { business, absoluteUrl } from '@/data/site';
@@ -63,7 +62,7 @@ const schema = [
         A tree is never worth the risk of a fall. We handle removal, trimming, and stump grinding for homes and properties around Greenville. Free estimate, no pressure, and we leave the yard cleaner than we found it.
       </p>
       <div class="btn-row">
-        <a class="btn btn--cta" href="#home-estimate">Get a Free Estimate</a>
+        <a class="btn btn--cta" href="/contact#estimate">Get a Free Estimate</a>
         <a class="btn btn--outline" href={business.phoneHref}>Call {business.phoneDisplay}</a>
       </div>
       <ul class="hero__badges">
@@ -176,20 +175,6 @@ const schema = [
         ))}
       </div>
       <p style="margin-top:1.5rem"><a href="/service-areas">See all service areas</a></p>
-    </div>
-  </section>
-
-  <section class="section section--soft" id="home-estimate-section" aria-labelledby="home-estimate-heading">
-    <div class="container split split--top">
-      <div>
-        <span class="eyebrow">Free estimate</span>
-        <Heading id="home-estimate-heading" text="Tell us about *your tree*" />
-        <p>A short message is enough. We will call you back. You will not be pushed to decide on the spot.</p>
-        <p><a href={business.phoneHref} class="phone-link">Or call {business.phoneDisplay}</a></p>
-      </div>
-      <div class="card" id="home-estimate">
-        <LeadForm id="home-estimate-form-id" heading="Request a free estimate" />
-      </div>
     </div>
   </section>
 
