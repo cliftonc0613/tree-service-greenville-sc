@@ -64,16 +64,13 @@ const schema = [
     <div class="container prose" style="max-width:48rem">
       <h2>About the area</h2>
       <p>{area.geography}</p>
-      <p>
-        Nearby towns we serve:
-        {area.nearby.map((n, i) => (
-          <>
-            {i > 0 && ', '}
-            <a href={`/service-areas/${n.slug}`}>{n.name}</a>
-          </>
+      <h3>Nearby towns we serve</h3>
+      <ul class="town-tiles">
+        {area.nearby.map((n) => (
+          <li><a href={`/service-areas/${n.slug}`}>{n.name}</a></li>
         ))}
-        . <a href="/service-areas">See all service areas</a>.
-      </p>
+      </ul>
+      <p><a href="/service-areas">See all service areas</a>.</p>
     </div>
   </section>
 
