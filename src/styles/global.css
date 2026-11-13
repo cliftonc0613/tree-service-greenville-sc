@@ -1050,6 +1050,68 @@ body.has-callbar {
   color: var(--color-white);
 }
 
+/* ---------- About page ---------- */
+/* Intro split (text + framed picture), centered coverage block with town tiles,
+   and a short row of cards. Colors and fonts come from the existing tokens. */
+
+.about-split {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.about-split__text h2 { margin-top: 0; }
+
+.about-split__text p {
+  max-width: 60ch;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.about-split__media { margin: 0; }
+
+.about-split__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid var(--color-charcoal);
+}
+
+@media (min-width: 64rem) {
+  .about-split {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+    gap: 4.5rem;
+  }
+}
+
+.about-towns__intro {
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-towns__intro h2 { margin-top: 0; }
+
+.about-towns__intro p {
+  margin: 0 0 1.1rem;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.town-tiles--center {
+  justify-content: center;
+  margin: 2.5rem 0 0;
+}
+
+.about-background {
+  max-width: 48rem;
+  margin-top: 4rem;
+}
+
+.about-background h2 { margin-top: 0; }
+
 /* ---------- Cards ---------- */
 
 .card {

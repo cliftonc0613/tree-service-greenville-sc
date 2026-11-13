@@ -1,7 +1,9 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHero from '@/components/PageHero.astro';
+import Heading from '@/components/Heading.astro';
 import CtaBand from '@/components/CtaBand.astro';
+import { areas } from '@/data/areas';
 
 const title = 'About Greenville Tree & Stump | Greenville, SC';
 const description =
@@ -17,28 +19,67 @@ const description =
     image={{ src: '/images/pages/about.jpg', alt: 'Illustration of an unmarked green pickup truck with tree care equipment parked on a quiet residential street' }}
   />
 
-  <section class="section section--white">
-    <div class="container prose" style="max-width:48rem">
-      <h2>How we work</h2>
-      <p>Every job starts the same way. We come out for a free site visit, look at the tree and the space around it, and explain what it needs. Then we give you a written quote with the scope, the method, and the cleanup spelled out.</p>
-      <p>We put safety before speed or price. A tree is never worth the risk of a fall, so when a tree is a hazard, we say so plainly. When a tree can be saved, we say that too.</p>
-      <p>We do not call a job finished until the yard is clean.</p>
+  <!-- Intro: text on the left, framed picture on the right. -->
+  <section class="section section--white" aria-labelledby="about-work-heading">
+    <div class="container about-split">
+      <div class="about-split__text">
+        <Heading id="about-work-heading" text="How we *work*" />
+        <p>Every job starts the same way. We come out for a free site visit, look at the tree and the space around it, and explain what it needs. Then we give you a written quote with the scope, the method, and the cleanup spelled out.</p>
+        <p>We put safety before speed or price. A tree is never worth the risk of a fall, so when a tree is a hazard, we say so plainly. When a tree can be saved, we say that too.</p>
+        <p>We do not call a job finished until the yard is clean.</p>
+      </div>
+      <figure class="about-split__media">
+        <img
+          src="/images/pages/about-truck.jpg"
+          width="1280"
+          height="714"
+          loading="lazy"
+          alt="Illustration of a white Greenville Tree & Stump pickup with a ladder rack and coiled ropes, parked next to a yellow backhoe on a gravel lot in front of woods"
+        />
+      </figure>
+    </div>
+  </section>
 
-      <h2>What you can expect from us</h2>
-      <ul class="checklist">
-        <li>Free estimates with no pressure to decide on the spot</li>
-        <li>Honesty about price and scope, in writing</li>
-        <li>Plain language, not tree-trade jargon</li>
-        <li>Respect for your property, including cleanup before we leave</li>
-        <li>A call back when we say we will call back</li>
+  <!-- Coverage: centered intro and a row of town tiles. -->
+  <section class="section section--soft about-towns" aria-labelledby="about-towns-heading">
+    <div class="container">
+      <div class="about-towns__intro">
+        <Heading id="about-towns-heading" text="Greenville and the *Upstate towns* we serve" />
+        <p>Homeowners in Greenville, SC and nearby Upstate towns, including people with a leaning oak over the house, a stump in the yard, or a tree down after a storm. We also quote commercial and HOA tree work, one property at a time.</p>
+        <p>Pick your town for local details, or call us with your address. We will tell you honestly whether we can get a crew there and the earliest visit we can offer.</p>
+      </div>
+      <ul class="town-tiles town-tiles--center">
+        {areas.map((a) => (
+          <li><a href={`/service-areas/${a.slug}`}>{a.name}</a></li>
+        ))}
       </ul>
+    </div>
+  </section>
 
-      <h2>Who we serve</h2>
-      <p>Homeowners in Greenville, SC and nearby Upstate towns, including people with a leaning oak over the house, a stump in the yard, or a tree down after a storm. We also quote commercial and HOA tree work, one property at a time.</p>
+  <!-- What to expect: three short cards, then the credentials placeholder. -->
+  <section class="section section--white" aria-labelledby="about-expect-heading">
+    <div class="container">
+      <Heading id="about-expect-heading" text="What you can *expect* from us" />
+      <div class="grid grid--3">
+        <div class="card">
+          <h3>No-pressure estimates</h3>
+          <p>Free estimates, with no pressure to decide on the spot.</p>
+        </div>
+        <div class="card">
+          <h3>Honest, written pricing</h3>
+          <p>Honesty about price and scope, in writing. Plain language, not tree-trade jargon.</p>
+        </div>
+        <div class="card">
+          <h3>A clean yard</h3>
+          <p>Respect for your property, including cleanup before we leave. And a call back when we say we will call back.</p>
+        </div>
+      </div>
 
-      <h2>Our background</h2>
-      <div class="callout callout--placeholder">
-        <strong>Placeholders:</strong> Owner name, founding year, licensing, insurance, and certifications are not yet confirmed. Add each one here only after the operator provides proof. Do not publish unconfirmed credentials.
+      <div class="about-background">
+        <h2>Our background</h2>
+        <div class="callout callout--placeholder">
+          <strong>Placeholders:</strong> Owner name, founding year, licensing, insurance, and certifications are not yet confirmed. Add each one here only after the operator provides proof. Do not publish unconfirmed credentials.
+        </div>
       </div>
     </div>
   </section>
