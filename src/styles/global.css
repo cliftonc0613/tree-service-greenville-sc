@@ -1520,6 +1520,7 @@ a.card:hover {
 
 .site-footer {
   background: var(--color-forest-green);
+  border-top: 10px solid var(--color-burnt-orange);
   color: var(--color-mist-soft);
   padding-top: 3.5rem;
   padding-bottom: 2rem;
