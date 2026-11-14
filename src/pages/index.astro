@@ -18,7 +18,6 @@ const cards = ['tree-removal', 'tree-trimming', 'stump-grinding', 'arborist'].ma
 
 // Pictures below the hero reuse the service-page illustrations so the alt text lives in one place.
 const imageFor = (slug: string) => services.find((s) => s.slug === slug)!.image;
-const problemImage = imageFor('emergency-tree-removal');
 const whyImage = imageFor('arborist');
 const truckImage = {
   src: '/images/pages/about-truck.jpg',
@@ -99,9 +98,6 @@ const schema = [
         <p>Most homeowners in Greenville do not want to climb a ladder or pick up a saw. They want the tree handled, the house undamaged, and no surprises on the bill.</p>
       </div>
       <div>
-        <figure class="section-media section-media--stacked">
-          <img src={problemImage.src} alt={problemImage.alt} width="1440" height="803" loading="lazy" decoding="async" />
-        </figure>
         <div class="card" style="background:var(--color-soft-white)">
           <h3>What worries homeowners most</h3>
           <ul class="checklist">
