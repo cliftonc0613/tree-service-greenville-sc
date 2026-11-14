@@ -164,7 +164,8 @@ const schema = [
     </div>
   </section>
 
-  <section class="section section--forest" aria-labelledby="why-heading">
+  <section class="section section--forest section--photo-bg" aria-labelledby="why-heading">
+    <img class="section-bg" src={whyImage.src} alt="" width="1440" height="803" loading="lazy" decoding="async" />
     <div class="container split">
       <div>
         <span class="eyebrow">Why homeowners call us</span>
@@ -172,9 +173,6 @@ const schema = [
         <p class="lead">We would rather tell you a tree can be saved than sell you a removal it does not need. And we would rather tell you the price up front than let it surprise you.</p>
       </div>
       <div>
-        <figure class="section-media section-media--stacked">
-          <img src={whyImage.src} alt={whyImage.alt} width="1440" height="803" loading="lazy" decoding="async" />
-        </figure>
         <ul class="checklist" style="font-size:1.08rem">
           <li>Free site visit and written quote</li>
           <li>We explain the method and the risks before we start</li>
