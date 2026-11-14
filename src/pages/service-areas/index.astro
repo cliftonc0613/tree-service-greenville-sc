@@ -22,7 +22,12 @@ const description =
     <div class="container">
       <div class="grid grid--2">
         {areas.map((a) => (
-          <a class="card" href={`/service-areas/${a.slug}`}>
+          <a class="card card--area" href={`/service-areas/${a.slug}`}>
+            {a.image && (
+              <span class="card__media" aria-hidden="true">
+                <img data-src={a.image.src} alt="" width="1440" height="803" decoding="async" />
+              </span>
+            )}
             <span class="eyebrow" style="margin-bottom:0.3rem">{a.county}</span>
             <h2 style="font-size:1.5rem;text-transform:none;letter-spacing:0.02em">{a.name}, SC</h2>
             <p>{a.summary}</p>
@@ -42,3 +47,16 @@ const description =
 
   <CtaBand heading="Check your address" text="Call or send a request. We will confirm coverage and set up a free site visit." />
 </BaseLayout>
+
+<script>
+  // Each town photo loads the first time its card is hovered or focused, so the page does not fetch all of them up front.
+  document.querySelectorAll<HTMLElement>('.card--area').forEach((card) => {
+    const img = card.querySelector<HTMLImageElement>('.card__media img');
+    if (!img) return;
+    const load = () => {
+      if (!img.getAttribute('src') && img.dataset.src) img.src = img.dataset.src;
+    };
+    card.addEventListener('pointerenter', load, { once: true });
+    card.addEventListener('focus', load, { once: true });
+  });
+</script>

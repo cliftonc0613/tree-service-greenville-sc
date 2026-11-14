@@ -1255,6 +1255,106 @@ a.card:hover {
   text-decoration-color: var(--color-leaf-green);
 }
 
+/* Town cards on the service areas page: white until hover or keyboard focus, then the town's
+   page-hero photo fades in behind the text, with the same forest-green tint and slow scale-down
+   as the page hero. Touch screens keep the plain white card. */
+.card--area {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.card__media {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: var(--color-forest-green);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.38;
+  transform: scale(1.05);
+}
+
+.card--area::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--hero-overlay);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card--area:focus-visible .card__media,
+.card--area:focus-visible::after {
+  opacity: 1;
+}
+
+.card--area:focus-visible .card__media img {
+  transform: scale(1);
+}
+
+.card--area:focus-visible .eyebrow { color: var(--color-leaf-tint); }
+.card--area:focus-visible h2 { color: var(--color-white); }
+.card--area:focus-visible p { color: var(--color-mist); }
+.card--area:focus-visible .card__more {
+  color: var(--color-white);
+  text-decoration-color: var(--color-leaf-tint);
+}
+
+@media (hover: hover) {
+  .card--area .eyebrow,
+  .card--area h2,
+  .card--area p,
+  .card--area .card__more {
+    transition: color 500ms ease, text-decoration-color 500ms ease;
+  }
+
+  .card--area .card__media,
+  .card--area::after {
+    transition: opacity 900ms ease;
+  }
+
+  .card--area .card__media img {
+    transition: transform 1600ms ease;
+  }
+
+  .card--area:hover .card__media,
+  .card--area:hover::after {
+    opacity: 1;
+  }
+
+  .card--area:hover .card__media img {
+    transform: scale(1);
+  }
+
+  .card--area:hover .eyebrow { color: var(--color-leaf-tint); }
+  .card--area:hover h2 { color: var(--color-white); }
+  .card--area:hover p { color: var(--color-mist); }
+  .card--area:hover .card__more {
+    color: var(--color-white);
+    text-decoration-color: var(--color-leaf-tint);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card--area .card__media,
+  .card--area::after,
+  .card--area .card__media img,
+  .card--area .eyebrow,
+  .card--area h2,
+  .card--area p,
+  .card--area .card__more {
+    transition: none;
+  }
+}
+
 .icon-badge {
   display: inline-flex;
   align-items: center;
