@@ -18,6 +18,18 @@ interface Props {
 
 const { service } = Astro.props;
 const path = `/services/${service.slug}`;
+
+// Picture beside the first section. Each one is another service's illustration, so it never repeats the page header image.
+const firstImageFrom: Record<string, string> = {
+  'tree-removal': 'tree-trimming',
+  'tree-trimming': 'tree-removal',
+  'stump-grinding': 'land-clearing',
+  'land-clearing': 'stump-grinding',
+  arborist: 'tree-removal',
+  'emergency-tree-removal': 'tree-removal',
+  'tree-removal-cost': 'arborist',
+};
+const firstImage = services.find((s) => s.slug === firstImageFrom[service.slug])?.image;
 const related = service.related.map((r) => ({
   href: `/services/${r.slug}`,
   name: services.find((s) => s.slug === r.slug)?.name ?? r.anchor,
@@ -46,7 +58,7 @@ const schema = [
     image={service.image}
   />
 
-  <Sections sections={service.sections} />
+  <Sections sections={service.sections} firstImage={firstImage} />
 
   {service.steps && (
     <section class="section section--soft">
