@@ -8,6 +8,7 @@
   --color-soft-white: #f7f8f4; /* page backgrounds */
   --color-charcoal: #1f2933; /* body text */
   --color-white: #ffffff;
+  --color-white-glass: rgb(255 255 255 / 0.85); /* hero contact panel, slightly see-through */
   --color-line: #d9ded5; /* hairlines, derived from soft-white and forest-green */
   --color-forest-deep: #0f3224; /* hover state for forest green */
   --color-burnt-deep: #a63c0d; /* hover state for burnt orange (4.9:1 with white) */
@@ -851,8 +852,12 @@ body.has-callbar {
   .hero__grid { grid-template-columns: 1.2fr 0.8fr; gap: 4rem; }
 }
 
+@media (min-width: 64rem) {
+  .hero__panel { align-self: start; margin-top: 2rem; }
+}
+
 .hero__panel {
-  background: var(--color-white);
+  background: var(--color-white-glass);
   color: var(--color-charcoal);
   border-radius: 1rem;
   padding: 1.75rem;
