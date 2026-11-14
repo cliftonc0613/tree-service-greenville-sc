@@ -68,7 +68,7 @@ export const areas: Area[] = [
 
   {
     slug: 'taylors',
-    image: { src: '/images/pages/taylors.jpg', alt: 'Illustration of a calm river with pine and hardwood banks' },
+    image: { src: '/images/pages/arborist-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with a large mature oak beside the sidewalk and brick homes' },
     name: 'Taylors',
     county: 'Greenville County',
     tier: 1,
@@ -131,7 +131,7 @@ export const areas: Area[] = [
 
   {
     slug: 'easley',
-    image: { src: '/images/pages/easley.jpg', alt: 'Illustration of pine-covered hills beyond a fence line in the South Carolina Upstate' },
+    image: { src: '/images/pages/tree-removal-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and mature trees' },
     name: 'Easley',
     county: 'Pickens County',
     tier: 1,
@@ -187,7 +187,7 @@ export const areas: Area[] = [
 
   {
     slug: 'greer',
-    image: { src: '/images/pages/greer.jpg', alt: 'Illustration of a very large, tall mature oak behind a brick house at the edge of the woods, with a small tree worker at its base for scale' },
+    image: { src: '/images/pages/removal-cost-street.jpg', alt: 'Illustration of a tall mature oak towering over brick homes on a quiet tree-lined street' },
     name: 'Greer',
     county: 'Greenville and Spartanburg counties',
     tier: 1,
@@ -300,6 +300,7 @@ export const areas: Area[] = [
 
   {
     slug: 'fountain-inn',
+    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and a stump in a neat front lawn' },
     name: 'Fountain Inn',
     county: 'Greenville and Laurens counties',
     tier: 2,
@@ -350,6 +351,7 @@ export const areas: Area[] = [
 
   {
     slug: 'travelers-rest',
+    image: { src: '/images/pages/service-areas-hub.jpg', alt: 'Illustration of a quiet residential street lined with mature trees in autumn' },
     name: 'Travelers Rest',
     county: 'Greenville County',
     tier: 2,
@@ -400,6 +402,7 @@ export const areas: Area[] = [
 
   {
     slug: 'five-forks',
+    image: { src: '/images/pages/tree-removal-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and mature trees' },
     name: 'Five Forks',
     county: 'Greenville County',
     tier: 2,
@@ -450,6 +453,7 @@ export const areas: Area[] = [
 
   {
     slug: 'powdersville',
+    image: { src: '/images/pages/arborist-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with a large mature oak beside the sidewalk and brick homes' },
     name: 'Powdersville',
     county: 'Anderson County',
     tier: 2,
@@ -494,6 +498,7 @@ export const areas: Area[] = [
 
   {
     slug: 'berea',
+    image: { src: '/images/pages/removal-cost-street.jpg', alt: 'Illustration of a tall mature oak towering over brick homes on a quiet tree-lined street' },
     name: 'Berea',
     county: 'Greenville County',
     tier: 2,
@@ -540,6 +545,7 @@ export const areas: Area[] = [
 
   {
     slug: 'wade-hampton',
+    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and a stump in a neat front lawn' },
     name: 'Wade Hampton',
     county: 'Greenville County',
     tier: 2,
@@ -585,6 +591,7 @@ export const areas: Area[] = [
 
   {
     slug: 'piedmont',
+    image: { src: '/images/pages/tree-removal-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and mature trees' },
     name: 'Piedmont',
     county: 'Anderson County',
     tier: 3,
@@ -629,6 +636,7 @@ export const areas: Area[] = [
 
   {
     slug: 'pickens',
+    image: { src: '/images/pages/service-areas-hub.jpg', alt: 'Illustration of a quiet residential street lined with mature trees in autumn' },
     name: 'Pickens',
     county: 'Pickens County',
     tier: 3,
@@ -673,6 +681,7 @@ export const areas: Area[] = [
 
   {
     slug: 'woodruff',
+    image: { src: '/images/pages/removal-cost-street.jpg', alt: 'Illustration of a tall mature oak towering over brick homes on a quiet tree-lined street' },
     name: 'Woodruff',
     county: 'Spartanburg County',
     tier: 3,
