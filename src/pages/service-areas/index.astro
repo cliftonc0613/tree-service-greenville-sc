@@ -24,7 +24,7 @@ const description =
         {areas.map((a) => (
           <a class="card card--area" href={`/service-areas/${a.slug}`}>
             {a.image && (
-              <span class="card__media" aria-hidden="true">
+              <span class="card__reveal" aria-hidden="true">
                 <img data-src={a.image.src} alt="" width="1440" height="803" decoding="async" />
               </span>
             )}
@@ -51,7 +51,7 @@ const description =
 <script>
   // Each town photo loads the first time its card is hovered or focused, so the page does not fetch all of them up front.
   document.querySelectorAll<HTMLElement>('.card--area').forEach((card) => {
-    const img = card.querySelector<HTMLImageElement>('.card__media img');
+    const img = card.querySelector<HTMLImageElement>('.card__reveal img');
     if (!img) return;
     const load = () => {
       if (!img.getAttribute('src') && img.dataset.src) img.src = img.dataset.src;

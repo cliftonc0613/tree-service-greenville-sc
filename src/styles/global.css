@@ -1264,7 +1264,7 @@ a.card:hover {
   isolation: isolate;
 }
 
-.card__media {
+.card__reveal {
   position: absolute;
   inset: 0;
   z-index: -2;
@@ -1273,7 +1273,7 @@ a.card:hover {
   pointer-events: none;
 }
 
-.card__media img {
+.card__reveal img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1291,12 +1291,12 @@ a.card:hover {
   pointer-events: none;
 }
 
-.card--area:focus-visible .card__media,
+.card--area:focus-visible .card__reveal,
 .card--area:focus-visible::after {
   opacity: 1;
 }
 
-.card--area:focus-visible .card__media img {
+.card--area:focus-visible .card__reveal img {
   transform: scale(1);
 }
 
@@ -1316,21 +1316,21 @@ a.card:hover {
     transition: color 500ms ease, text-decoration-color 500ms ease;
   }
 
-  .card--area .card__media,
+  .card--area .card__reveal,
   .card--area::after {
     transition: opacity 900ms ease;
   }
 
-  .card--area .card__media img {
+  .card--area .card__reveal img {
     transition: transform 1600ms ease;
   }
 
-  .card--area:hover .card__media,
+  .card--area:hover .card__reveal,
   .card--area:hover::after {
     opacity: 1;
   }
 
-  .card--area:hover .card__media img {
+  .card--area:hover .card__reveal img {
     transform: scale(1);
   }
 
@@ -1344,9 +1344,9 @@ a.card:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .card--area .card__media,
+  .card--area .card__reveal,
   .card--area::after,
-  .card--area .card__media img,
+  .card--area .card__reveal img,
   .card--area .eyebrow,
   .card--area h2,
   .card--area p,
