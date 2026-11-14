@@ -47,7 +47,6 @@ export const areaImages: Record<string, PageImage> = {
   taylors: roots,
   easley: clearing,
   greer: yardTree,
-  mauldin: brickStreet,
   'fountain-inn': stump,
   'travelers-rest': hills,
   'five-forks': street,

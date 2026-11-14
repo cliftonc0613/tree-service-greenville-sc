@@ -243,6 +243,7 @@ export const areas: Area[] = [
 
   {
     slug: 'mauldin',
+    image: { src: '/images/pages/simpsonville.jpg', alt: 'Illustration of a tree-lined residential street with mature trees and brick homes' },
     name: 'Mauldin',
     county: 'Greenville County',
     tier: 2,
