@@ -6,7 +6,7 @@ import type { Service } from '@/data/types';
 export const services: Service[] = [
   {
     slug: 'tree-removal',
-    image: { src: '/images/pages/tree-removal.jpg', alt: 'Illustration of two tree crew members using ropes to lower a cut section of a large oak beside a suburban house' },
+    image: { src: '/images/pages/tree-removal-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and a freshly cut stump on the lawn after a large oak was removed' },
     name: 'Tree Removal',
     icon: 'tree',
     title: 'Tree Removal in Greenville, SC | Greenville Tree & Stump',
@@ -157,7 +157,7 @@ export const services: Service[] = [
 
   {
     slug: 'stump-grinding',
-    image: { src: '/images/pages/stump-grinding.jpg', alt: 'Illustration of a stump grinder working on a stump in a neat front yard, wood chips flying' },
+    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'Illustration of a tree-lined residential street with a ground-down stump and a small pile of wood chips in a brick home front lawn' },
     name: 'Stump Grinding',
     icon: 'stump',
     title: 'Stump Grinding in Greenville, SC | Greenville Tree & Stump',
@@ -217,7 +217,7 @@ export const services: Service[] = [
 
   {
     slug: 'arborist',
-    image: { src: '/images/pages/arborist.jpg', alt: 'Illustration of a large tree trunk and root flare with textured bark at its base' },
+    image: { src: '/images/pages/arborist-street.jpg', alt: 'Illustration of a large mature oak with a wide root flare beside the sidewalk on a quiet street of brick homes' },
     name: 'Arborist Services',
     icon: 'clipboard',
     title: 'Arborist in Greenville, SC | Greenville Tree & Stump',
@@ -278,7 +278,7 @@ export const services: Service[] = [
 
   {
     slug: 'emergency-tree-removal',
-    image: { src: '/images/pages/emergency-tree-removal.jpg', alt: 'Illustration of a fallen oak limb across a suburban driveway after a storm' },
+    image: { src: '/images/pages/emergency-tree-removal-street.jpg', alt: 'Illustration of a large broken limb lying across a wet residential street after a storm, with brick homes on both sides' },
     name: 'Emergency Tree Removal',
     icon: 'storm',
     title: 'Emergency Tree Removal | Greenville Tree & Stump',
@@ -345,7 +345,7 @@ export const services: Service[] = [
 
   {
     slug: 'tree-removal-cost',
-    image: { src: '/images/pages/removal-cost.jpg', alt: 'Illustration of a homeowner and an estimator looking up at a large oak in a backyard' },
+    image: { src: '/images/pages/removal-cost-street.jpg', alt: 'Illustration of a very tall mature oak towering over a brick home at the end of a quiet tree-lined street' },
     name: 'Tree Removal Cost',
     icon: 'dollar',
     title: 'Tree Removal Cost, Greenville SC | Greenville Tree & Stump',
@@ -428,7 +428,7 @@ export const services: Service[] = [
 
   {
     slug: 'land-clearing',
-    image: { src: '/images/pages/land-clearing.jpg', alt: 'Illustration of a cleared wooded lot with brush piles and standing pines in the Upstate hills' },
+    image: { src: '/images/pages/land-clearing-street.jpg', alt: 'Illustration of a cleared lot beside a residential street with tall pines and wooded hills behind and brick homes nearby' },
     name: 'Land Clearing',
     icon: 'land',
     title: 'Land Clearing in Greenville, SC | Greenville Tree & Stump',

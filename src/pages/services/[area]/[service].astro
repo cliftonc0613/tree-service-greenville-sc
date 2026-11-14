@@ -54,7 +54,7 @@ const schema = [
       { label: service.name },
     ]}
     eyebrow={`${area.name}, SC`}
-    image={area.image}
+    image={service.image}
   />
 
   <Sections sections={combo.sections.map((sec) => ({ ...sec, heading: sec.heading.replace(area.name, `*${area.name}*`) }))} />
