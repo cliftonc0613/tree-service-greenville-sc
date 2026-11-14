@@ -40,3 +40,22 @@ const { h1, lead, crumbs, eyebrow, showCta = true, image } = Astro.props;
     )}
   </div>
 </section>
+
+<script>
+  // Same intro as the homepage hero, for pages with a background image header.
+  // Reduced-motion users get no animation at all.
+  import { gsap } from 'gsap';
+
+  const hero = document.querySelector<HTMLElement>('.page-hero--image');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (hero && !reduceMotion) {
+    const intro = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    intro
+      .from('.page-hero--image .page-hero__media img', { scale: 1.05, opacity: 0, duration: 1.6, ease: 'power2.out' }, 0)
+      .from('.page-hero--image .eyebrow', { y: 12, opacity: 0, duration: 0.6 }, 0.1)
+      .from('.page-hero--image h1', { y: 28, opacity: 0, duration: 0.9 }, 0.2)
+      .from('.page-hero--image .lead', { y: 16, opacity: 0, duration: 0.7 }, 0.45)
+      .from('.page-hero--image .btn-row .btn', { y: 12, opacity: 0, duration: 0.5, stagger: 0.08 }, 0.6);
+  }
+</script>
