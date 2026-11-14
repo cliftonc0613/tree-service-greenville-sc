@@ -1585,3 +1585,6 @@ a.card:hover {
     scroll-behavior: auto !important;
   }
 }
+
+/* Centered section heading (about page). */
+.heading--center { text-align: center; }

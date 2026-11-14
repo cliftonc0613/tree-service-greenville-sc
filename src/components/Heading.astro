@@ -4,9 +4,10 @@ import { highlight } from '@/lib/highlight';
 interface Props {
   text: string;
   id?: string;
+  class?: string;
 }
 
-const { text, id } = Astro.props;
+const { text, id, class: className } = Astro.props;
 ---
 
-<h2 id={id} set:html={highlight(text)} />
+<h2 id={id} class={className} set:html={highlight(text)} />
