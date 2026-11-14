@@ -18,7 +18,7 @@ const { sections, tone = 'white', firstImage } = Astro.props;
   return (
   <section class:list={['section', tone === 'white' ? 'section--white' : undefined]} aria-labelledby={`sec-${i}`}>
     <div class:list={['container', withImage ? 'split section-split' : undefined]}>
-      <div class="prose" style={withImage ? undefined : 'max-width: 48rem;'}>
+      <div class="prose">
         <Heading id={`sec-${i}`} text={s.heading} />
         {s.paragraphs.map((p) => <p>{p}</p>)}
         {s.bullets && (
