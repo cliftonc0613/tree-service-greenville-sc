@@ -9,7 +9,7 @@
   --color-charcoal: #1f2933; /* body text */
   --color-white: #ffffff;
   --color-forest-glass: rgb(15 50 36 / 0.72); /* hero contact panel: see-through forest green */
-  --color-orange-veil: rgb(166 60 13 / 0.88); /* burnt orange tint over the why section photo, keeps white text readable */
+  --color-forest-veil: rgb(22 74 52 / 0.84); /* tint over background photos in forest sections */
   --color-line: #d9ded5; /* hairlines, derived from soft-white and forest-green */
   --color-forest-deep: #0f3224; /* hover state for forest green */
   --color-burnt-deep: #a63c0d; /* hover state for burnt orange (4.9:1 with white) */
@@ -172,7 +172,7 @@ a:hover {
 .section--forest h2,
 .section--forest h3 { color: var(--color-white); }
 
-/* Section with a photo behind it: the photo fills the section, a burnt orange tint keeps text readable. */
+/* Forest section with a photo behind it: the photo fills the section, a forest tint keeps text readable. */
 .section--photo-bg {
   position: relative;
   isolation: isolate;
@@ -191,7 +191,7 @@ a:hover {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: var(--color-orange-veil);
+  background: var(--color-forest-veil);
 }
 
 .eyebrow {
