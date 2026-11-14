@@ -1072,6 +1072,38 @@ body.has-callbar {
   border: 1px solid var(--color-charcoal);
 }
 
+/* Homepage variants: picture stacked above a card or checklist, a wide strip under the steps, and a photo on top of a card. */
+.section-media--stacked { margin-bottom: 1.5rem; }
+
+.section--forest .section-media img {
+  border-color: color-mix(in srgb, var(--color-leaf-tint) 40%, transparent);
+}
+
+.section-media--strip { margin-top: 2.5rem; }
+
+.section-media--strip img {
+  aspect-ratio: 16 / 10;
+  object-position: 50% 70%;
+}
+
+@media (min-width: 40rem) {
+  .section-media--strip img { aspect-ratio: 21 / 9; }
+}
+
+.card__media {
+  display: block;
+  margin: -1.5rem -1.5rem 1.25rem;
+}
+
+.card__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius-card) var(--radius-card) 0 0;
+}
+
 /* ---------- Service-area map (contact page) ---------- */
 
 .service-map {

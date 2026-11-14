@@ -16,6 +16,15 @@ const cards = ['tree-removal', 'tree-trimming', 'stump-grinding', 'arborist'].ma
   (slug) => services.find((s) => s.slug === slug)!,
 );
 
+// Pictures below the hero reuse the service-page illustrations so the alt text lives in one place.
+const imageFor = (slug: string) => services.find((s) => s.slug === slug)!.image;
+const problemImage = imageFor('emergency-tree-removal');
+const whyImage = imageFor('arborist');
+const truckImage = {
+  src: '/images/pages/about-truck.jpg',
+  alt: 'Illustration of a white Greenville Tree & Stump pickup with a ladder rack, parked on a gravel lot beside a backhoe',
+};
+
 const homeFaqs = [
   {
     q: 'Do you charge for the estimate?',
@@ -89,15 +98,20 @@ const schema = [
         <p>It is a safety problem. The same goes for a dead limb over the driveway, a stump in the middle of the lawn, or a tree that came down in the last storm.</p>
         <p>Most homeowners in Greenville do not want to climb a ladder or pick up a saw. They want the tree handled, the house undamaged, and no surprises on the bill.</p>
       </div>
-      <div class="card" style="background:var(--color-soft-white)">
-        <h3>What worries homeowners most</h3>
-        <ul class="checklist">
-          <li>A tree falling on the house in a storm</li>
-          <li>Being overcharged or surprised by the price</li>
-          <li>Hiring someone uninsured or unsafe</li>
-          <li>A crew that leaves a mess in the yard</li>
-        </ul>
-        <p style="margin:0">We answer each of these in writing before any work starts.</p>
+      <div>
+        <figure class="section-media section-media--stacked">
+          <img src={problemImage.src} alt={problemImage.alt} width="1440" height="803" loading="lazy" decoding="async" />
+        </figure>
+        <div class="card" style="background:var(--color-soft-white)">
+          <h3>What worries homeowners most</h3>
+          <ul class="checklist">
+            <li>A tree falling on the house in a storm</li>
+            <li>Being overcharged or surprised by the price</li>
+            <li>Hiring someone uninsured or unsafe</li>
+            <li>A crew that leaves a mess in the yard</li>
+          </ul>
+          <p style="margin:0">We answer each of these in writing before any work starts.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -120,6 +134,9 @@ const schema = [
           <p>We take care of the tree, clear the work area, and leave the yard clean before we go.</p>
         </li>
       </ol>
+      <figure class="section-media section-media--strip">
+        <img src={truckImage.src} alt={truckImage.alt} width="1280" height="714" loading="lazy" decoding="async" />
+      </figure>
     </div>
   </section>
 
@@ -130,7 +147,9 @@ const schema = [
       <div class="grid grid--2">
         {cards.map((s) => (
           <a class="card" href={`/services/${s.slug}`}>
-            <span class="icon-badge"><Icon name={s.icon} /></span>
+            <span class="card__media">
+              <img src={s.image.src} alt={s.image.alt} width="1440" height="803" loading="lazy" decoding="async" />
+            </span>
             <h3>{s.name}</h3>
             <p>{s.summary}</p>
             <span class="card__more">Read more</span>
@@ -152,13 +171,18 @@ const schema = [
         <Heading id="why-heading" text="Safety first, honest price, *clean yard*" />
         <p class="lead">We would rather tell you a tree can be saved than sell you a removal it does not need. And we would rather tell you the price up front than let it surprise you.</p>
       </div>
-      <ul class="checklist" style="font-size:1.08rem">
-        <li>Free site visit and written quote</li>
-        <li>We explain the method and the risks before we start</li>
-        <li>No pressure to decide on the spot</li>
-        <li>Clear cleanup before we leave</li>
-        <li>Plain answers about scope and price</li>
-      </ul>
+      <div>
+        <figure class="section-media section-media--stacked">
+          <img src={whyImage.src} alt={whyImage.alt} width="1440" height="803" loading="lazy" decoding="async" />
+        </figure>
+        <ul class="checklist" style="font-size:1.08rem">
+          <li>Free site visit and written quote</li>
+          <li>We explain the method and the risks before we start</li>
+          <li>No pressure to decide on the spot</li>
+          <li>Clear cleanup before we leave</li>
+          <li>Plain answers about scope and price</li>
+        </ul>
+      </div>
     </div>
   </section>
 
