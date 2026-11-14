@@ -9,6 +9,7 @@
   --color-charcoal: #1f2933; /* body text */
   --color-white: #ffffff;
   --color-forest-glass: rgb(15 50 36 / 0.72); /* hero contact panel: see-through forest green */
+  --hero-overlay: linear-gradient(100deg, rgb(15 50 36 / 0.96) 0%, rgb(15 50 36 / 0.85) 25%, rgb(15 50 36 / 0.6) 50%, rgb(15 50 36 / 0.05) 62%, rgb(15 50 36 / 0.03) 100%); /* green overlay shared by the homepage hero and every page header */
   --color-forest-veil: rgb(22 74 52 / 0.84); /* tint over background photos in forest sections */
   --color-line: #d9ded5; /* hairlines, derived from soft-white and forest-green */
   --color-forest-deep: #0f3224; /* hover state for forest green */
@@ -816,7 +817,7 @@ body.has-callbar {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(100deg, rgb(15 50 36 / 0.96) 0%, rgb(15 50 36 / 0.85) 25%, rgb(15 50 36 / 0.6) 50%, rgb(15 50 36 / 0.05) 62%, rgb(15 50 36 / 0.03) 100%);
+  background: var(--hero-overlay);
   z-index: -1;
 }
 
@@ -952,16 +953,16 @@ body.has-callbar {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.4;
+  opacity: 0.38;
 }
 
-/* Dark gradient keeps text readable over any part of the image (worst case about 9:1 with white text). */
+/* Same green overlay as the homepage hero: dark behind the text on the left, clear on the right. */
 .page-hero--image::after {
   content: '';
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(100deg, rgb(15 50 36 / 0.96) 0%, rgb(15 50 36 / 0.78) 60%, rgb(15 50 36 / 0.45) 100%);
+  background: var(--hero-overlay);
 }
 
 .page-hero h1 { color: var(--color-white); }
