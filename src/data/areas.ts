@@ -484,7 +484,7 @@ export const areas: Area[] = [
       },
     ],
     geography:
-      'Fountain Inn is split between Greenville and Laurens counties, southeast of Simpsonville. Interstate 385 serves the town at Exit 23, and SC 14 runs through it on the old US 276 route toward Laurens. Work here ranges from yard trees beside the house to wooded lots at the edge of town, so the site visit matters.',
+      'Fountain Inn is split between Greenville and Laurens counties, southeast of Simpsonville. The Ellison Flour Mill, built in 1940 and 1941 by F.G. Ellison, was the town’s only flour mill and is on the National Register of Historic Places. It stopped milling in the 1970s and has since been restored as a brewery and food hall that anchors the downtown district. Work here ranges from yard trees beside the house to wooded lots at the edge of town, so the site visit matters.',
     faqs: [
       {
         q: 'Is Fountain Inn in Greenville County?',
