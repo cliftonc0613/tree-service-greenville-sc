@@ -719,6 +719,7 @@ export const areas: Area[] = [
     landmarks: ['Five Forks Library, Greenville County Library System', 'Five Forks Place shopping center on Woodruff Road'],
     mainRoads: ['Woodruff Road', 'SC 14'],
     responseArea: 'Five Forks and nearby Simpsonville and Mauldin.',
+    landmarkImage: { src: '/images/pages/landmarks/five-forks-library.jpg', alt: 'The Five Forks Library, a modern white and glass building with a yellow-trimmed entrance canopy, with young trees and round concrete planters out front', credit: { text: 'Five Forks Library, Google Maps', url: 'https://maps.app.goo.gl/ohQQkLtsthy5ri7CA' } },
   },
 
   {
