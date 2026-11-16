@@ -615,12 +615,13 @@ export const combos: Combo[] = [
     h1: 'Stump Grinding in Fountain Inn, SC',
     lead: 'A stump left behind in Fountain Inn can block a garden bed or a mowing line for years. We grind it down so the space is usable again.',
     sections: [{ heading: 'Grinding stumps in Fountain Inn', paragraphs: [
-      'Stumps can attract pests and rot in place. Grinding clears the spot for a planting bed, a patio, or new grass.',
-      'Roots and nearby structures change the method, so we check the stump and the ground on the visit. Ask for grinding with the removal to keep it to one visit and one bill.',
-    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway or fence', 'Old stumps in a planned planting area'] }],
+      'A stump can draw pests and rot where it stands. Grinding it below grade clears the spot for a planting bed, a patio, or fresh grass.',
+      'Whether your yard is off SC 14 or SC 418, tell us what sits near the stump, such as a fence, a sidewalk, or a utility line, so we can plan the right method. Pair it with a removal to keep it to one visit and one bill.',
+    ], bullets: ['Stumps blocking a mowing line', 'Stumps near a fence or sidewalk', 'Stumps where a planting bed is planned'] }],
     faqs: [
-      { q: 'Can you grind a stump near a Fountain Inn fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
-      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+      { q: 'Can you grind a stump near a Fountain Inn fence?', a: 'Often, yes. We measure the clearance on the visit and tell you how close the grinder can get.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. You get the stump count, the method, and the cleanup on paper before we start.' },
+      { q: 'Does it matter if my lot is on the Laurens County side?', a: 'Tell us the address when you call. We confirm coverage first, then plan the visit.' },
     ],
   },
   {
@@ -658,14 +659,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Cost Fountain Inn, SC | Greenville Tree & Stump',
     metaDescription: 'What tree removal costs in Fountain Inn, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Fountain Inn, SC',
-    lead: 'What a tree removal costs in Fountain Inn depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
-    sections: [{ heading: 'Reading a Fountain Inn removal quote', paragraphs: [
-      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
-      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
-    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    lead: 'A Fountain Inn tree removal is priced on the tree, the yard, and how the crew gets in. Use these points to read and compare written quotes.',
+    sections: [{ heading: 'Pricing a Fountain Inn removal', paragraphs: [
+      'Find the line that says what the price covers. The method, the cleanup, the wood, and any stump grinding should each be named, so two quotes can be lined up side by side.',
+      'A tree that leans over a roof or stands near a line takes more rigging than one in an open yard. Typical ranges are on our Tree Removal Cost page, but the written quote after a free visit is what your tree will cost.',
+    ], bullets: ['What the quote covers, line by line', 'Rigging over a roof or near a line', 'Wood, brush, and stump work'] }],
     faqs: [
-      { q: 'Is the Fountain Inn estimate free?', a: 'Yes.' },
-      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+      { q: 'Is the Fountain Inn estimate free?', a: 'Yes. The visit and the written quote are free.' },
+      { q: 'Can the price change after the quote?', a: 'The scope in the written quote sets the price. If something needs to change, we tell you before the work does.' },
+      { q: 'Do removals near I-385 or SC 14 cost more?', a: 'A tree by a busy road can need extra care for traffic and lines, which adds time. The written quote names any of that.' },
     ],
   },
   {
@@ -673,14 +675,15 @@ export const combos: Combo[] = [
     title: 'Land Clearing Fountain Inn, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Fountain Inn, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Fountain Inn, SC',
-    lead: 'Clearing a Fountain Inn lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    lead: 'Before a Fountain Inn lot is cleared for a home, a garden, or a yard, we walk it with you. You see the plan and the written quote before any tree comes down.',
     sections: [{ heading: 'Clearing a Fountain Inn lot', paragraphs: [
-      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
-      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+      'Flag the trees you want to keep and the edges of the area to clear. We quote the work around those marks.',
+      'Fountain Inn sits in both Greenville and Laurens counties, so the county that handles permits depends on where your lot is. Check with that county before clearing for construction, and tell us any builder timing when you call.',
+    ], bullets: ['Lots cleared ahead of a new home', 'Brush and young trees cleared for a yard', 'Flagged trees kept in place'] }],
     faqs: [
-      { q: 'Do you work with builders in Fountain Inn?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
-      { q: 'Is the clearing quote written?', a: 'Yes.' },
+      { q: 'Do you work with builders in Fountain Inn?', a: 'Yes. We quote for builders and owners alike. Send the timing and any county rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes. It shows the area to clear, what stays, and how the brush is handled.' },
+      { q: 'Which county do I check with in Fountain Inn?', a: 'The one your lot sits in. Fountain Inn spans Greenville and Laurens counties, so check the address first.' },
     ],
   },
   // ---------- Travelers Rest ----------
@@ -719,14 +722,15 @@ export const combos: Combo[] = [
     title: 'Stump Grinding Travelers Rest, SC | Greenville Tree & Stump',
     metaDescription: 'Stump grinding in Travelers Rest, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Travelers Rest, SC',
-    lead: 'A stump left after a removal in Travelers Rest can sit in the yard for years. We grind it down so the spot is usable again.',
+    lead: 'A stump in a Travelers Rest yard, wooded or open, can sit for years after a removal. We grind it down so the spot is usable again.',
     sections: [{ heading: 'Grinding stumps in Travelers Rest', paragraphs: [
-      'Stumps in wooded or sloped yards can hold roots that spread well past the trunk. Grinding clears the space for a garden bed, a patio, or new grass.',
-      'We check the stump and the ground on the visit. Ask for stump grinding with the removal to keep it to one visit and one bill.',
-    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps on a slope that are hard to mow', 'Old stumps in a planned planting area'] }],
+      'In a wooded or sloped yard, roots can spread well past the trunk. Grinding clears the space for a garden bed, a patio, or new grass.',
+      'If your yard is off US 25 or near Main Street (US 276), tell us how a grinder would get to the stump and whether it sits on a slope. We look at the footing and the roots on the visit. Pair it with a removal for one visit and one bill.',
+    ], bullets: ['Stumps on sloped ground', 'Stumps among roots in wooded yards', 'Stumps where you want grass or a bed'] }],
     faqs: [
-      { q: 'Can you grind a stump on a sloped Travelers Rest yard?', a: 'Often, yes. We check the access on the visit and tell you what the grinding involves.' },
-      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+      { q: 'Can you grind a stump on a sloped Travelers Rest yard?', a: 'Often, yes. We check the footing on the visit and tell you what the grinding involves.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. It spells out the stump, the method, and the cleanup.' },
+      { q: 'Can you grind a stump near the Swamp Rabbit Trail?', a: 'If the stump is on your property, tell us how close it is to the trail. We check access and any rules for work near it on the visit.' },
     ],
   },
   {
@@ -764,14 +768,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Cost Travelers Rest | Greenville Tree & Stump',
     metaDescription: 'What tree removal costs in Travelers Rest, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Travelers Rest, SC',
-    lead: 'What a tree removal costs in Travelers Rest depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
-    sections: [{ heading: 'Reading a Travelers Rest removal quote', paragraphs: [
-      'On wooded or sloped lots, access often matters more than the size of the tree. Ask the quote to show how the crew will reach the tree.',
-      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
-    ], bullets: ['Method and rigging', 'Access and drop zone', 'Cleanup and stump work if needed'] }],
+    lead: 'Removal cost in Travelers Rest turns on the tree, the lot, and how the crew can reach it. Here is what to look for in a written quote.',
+    sections: [{ heading: 'Pricing a Travelers Rest removal', paragraphs: [
+      'On wooded or sloped lots, access often matters more than the size of the tree. Ask the quote to show how the crew will reach the tree and where the wood will go.',
+      'Travelers Rest is the northernmost city in Greenville County. Whether the tree is in town or on a lot farther out along US 25, the written quote after a free visit is the price for your tree. Typical ranges are on our Tree Removal Cost page.',
+    ], bullets: ['Access on wooded or sloped lots', 'Where the wood and brush go', 'Stump work, if you want it'] }],
     faqs: [
-      { q: 'Is the Travelers Rest estimate free?', a: 'Yes.' },
-      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+      { q: 'Is the Travelers Rest estimate free?', a: 'Yes. We do the visit and the written quote at no cost.' },
+      { q: 'Can the price change after the quote?', a: 'Not unless the work changes. We put any change in writing first.' },
+      { q: 'Why does a sloped lot cost more?', a: 'Slopes slow the crew and can limit where equipment sets up. The quote says how we plan to reach the tree.' },
     ],
   },
   {
@@ -779,14 +784,15 @@ export const combos: Combo[] = [
     title: 'Land Clearing Travelers Rest, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Travelers Rest, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Travelers Rest, SC',
-    lead: 'Clearing a wooded Travelers Rest lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    lead: 'A wooded Travelers Rest lot can be cleared for a home, a garden, or a yard once there is a plan. We walk the land with you and put the work in writing.',
     sections: [{ heading: 'Clearing a Travelers Rest lot', paragraphs: [
       'Mark the boundary and the trees you want to keep before the visit. On a slope we plan the clearing so the soil stays put.',
-      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+      'Travelers Rest is in Greenville County, so check with the county about permits before clearing for construction. If the lot is near Trailblazer Park or the Swamp Rabbit Trail, mention it, since work next to public land can need extra care.',
+    ], bullets: ['Wooded lots cleared for a home', 'Sloped ground cleared with the soil in mind', 'Trees you mark left standing'] }],
     faqs: [
       { q: 'Do you clear sloped lots in Travelers Rest?', a: 'Yes. We look at the slope on the visit and explain how the clearing will be done.' },
-      { q: 'Is the clearing quote written?', a: 'Yes.' },
+      { q: 'Is the clearing quote written?', a: 'Yes. It names the area, the trees that stay, and the brush cleanup.' },
+      { q: 'Can you clear a lot off US 25?', a: 'Send the address. We look at how equipment gets in from the road on the visit.' },
     ],
   },
 
@@ -826,14 +832,15 @@ export const combos: Combo[] = [
     title: 'Stump Grinding Five Forks, SC | Greenville Tree & Stump',
     metaDescription: 'Stump grinding in Five Forks, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Five Forks, SC',
-    lead: 'A stump left after a removal in Five Forks can sit in the yard for years. We grind it down so the space can be planted, paved, or mowed.',
+    lead: 'A leftover stump in a Five Forks yard is easy to trip over and hard to mow around. We grind it down so the spot can be planted, paved, or mowed.',
     sections: [{ heading: 'Grinding stumps in Five Forks', paragraphs: [
-      'Stumps can become a trip hazard and a home for pests and rot. Grinding clears the spot for a garden bed, patio, or new lawn.',
-      'Roots and nearby structures change the method, so we check the stump and the ground around it on the visit. Ask for stump grinding with the removal if you want one visit and one bill.',
-    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway, fence, or patio', 'Old stumps in a planned planting area'] }],
+      'Grinding takes the stump below the surface, so pests and rot have less to live in and the spot can go back to lawn, a bed, or a patio.',
+      'If your yard is in a neighborhood off Woodruff Road or SC 14, tell us whether the stump sits near a fence, irrigation, or a driveway. We check the roots and clearance on the visit and can pair the grinding with a removal.',
+    ], bullets: ['Stumps near fences or irrigation', 'Leftover stumps from an earlier removal', 'Stumps in the way of a lawn or patio'] }],
     faqs: [
-      { q: 'Can you grind a stump near a Five Forks fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
-      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+      { q: 'Can you grind a stump near a Five Forks fence?', a: 'Often, yes. We look at the clearance on the visit and tell you how close we can work.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. The quote covers the stump, the method, and the cleanup, so you can compare it with others.' },
+      { q: 'Will grinding hit my irrigation lines?', a: 'Tell us where the lines run before the visit, and we plan the grinding around them.' },
     ],
   },
   {
@@ -871,14 +878,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Cost Five Forks, SC | Greenville Tree & Stump',
     metaDescription: 'What tree removal costs in Five Forks, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Five Forks, SC',
-    lead: 'What a tree removal costs in Five Forks depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
+    lead: 'Tree removal cost in Five Forks comes down to the tree, the yard, and the access. Here is how to read a written quote before you choose.',
     sections: [{ heading: 'Reading a Five Forks removal quote', paragraphs: [
-      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
-      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
-    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+      'Check that each quote names the same work: the method, the cleanup, the wood, and the stump. Two prices only compare fairly when the scope matches.',
+      'If the tree is in a fenced back yard with a narrow gate, the crew may need to carry pieces out by hand, which adds time. Typical ranges are on our Tree Removal Cost page, and the written quote after a free visit is the price for your tree.',
+    ], bullets: ['Matching scope between quotes', 'Narrow gates and fenced yards', 'Wood, brush, and stump work'] }],
     faqs: [
-      { q: 'Is the Five Forks estimate free?', a: 'Yes.' },
-      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+      { q: 'Is the Five Forks estimate free?', a: 'Yes. There is no cost for the visit or the quote.' },
+      { q: 'Can the price change after the quote?', a: 'Only if the scope changes, and we tell you in writing before it does.' },
+      { q: 'Does a tree near Woodruff Road cost more?', a: 'It can, if traffic or lines near the road slow the work. The quote shows what the job involves.' },
     ],
   },
   {
@@ -886,14 +894,15 @@ export const combos: Combo[] = [
     title: 'Land Clearing Five Forks, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Five Forks, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Five Forks, SC',
-    lead: 'Clearing a Five Forks lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    lead: 'Clearing land in Five Forks for a new home, a yard, or a garden starts with a walk of the lot. You see the plan and the written quote before work begins.',
     sections: [{ heading: 'Clearing a Five Forks lot', paragraphs: [
-      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
-      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+      'Mark the trees that stay and the edge of the area to clear. We plan and price the work from those marks.',
+      'Five Forks is in Greenville County, so check with the county about permits before clearing for construction. If a builder is on the job, tell us the schedule, and tell us how equipment would reach the lot from Woodruff Road or SC 14.',
+    ], bullets: ['Lots cleared for a new home', 'Underbrush and small trees removed', 'Marked trees protected'] }],
     faqs: [
-      { q: 'Do you work with builders in Five Forks?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
-      { q: 'Is the clearing quote written?', a: 'Yes.' },
+      { q: 'Do you work with builders in Five Forks?', a: 'Yes. We can quote for a builder or an owner. Share the schedule and any county rules.' },
+      { q: 'Is the clearing quote written?', a: 'Yes. It shows what is cleared, what stays, and how brush and logs are handled.' },
+      { q: 'How long does clearing take?', a: 'It depends on the size of the lot and how much comes out. The written quote includes a time estimate.' },
     ],
   },
   // ---------- Powdersville ----------
@@ -1039,14 +1048,15 @@ export const combos: Combo[] = [
     title: 'Stump Grinding Berea, SC | Greenville Tree & Stump',
     metaDescription: 'Stump grinding in Berea, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Berea, SC',
-    lead: 'A stump left after a removal in Berea can sit in the yard for years. We grind it down so the spot is usable again.',
+    lead: 'A Berea stump left from an old removal can take over a corner of the yard. We grind it down so the spot can be used again.',
     sections: [{ heading: 'Grinding stumps in Berea', paragraphs: [
       'Stumps in wooded yards can hold roots that spread well past the trunk. Grinding clears the space for a garden bed, a patio, or new grass.',
-      'We check the stump and the ground on the visit. Ask for stump grinding with the removal to keep it to one visit and one bill.',
-    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps in a planned planting area', 'Old stumps near a walkway or fence'] }],
+      'For a yard off White Horse Road or the US 25 Bypass, tell us where the stump sits and whether a machine can reach it through a gate or a side yard. We check the ground on the visit, and you can add the grinding to a removal.',
+    ], bullets: ['Stumps in wooded yards', 'Stumps reached through a gate or side yard', 'Stumps where you want a bed or grass'] }],
     faqs: [
       { q: 'Can you grind a stump on a wooded Berea lot?', a: 'Often, yes. We check the access on the visit and tell you what the grinding involves.' },
-      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. You see the stump, the method, and the cleanup in writing first.' },
+      { q: 'How soon can the spot be replanted?', a: 'Once the grindings are raked out and soil is added, the spot can usually be seeded or planted. We talk through it on the visit.' },
     ],
   },
   {
@@ -1084,14 +1094,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Cost Berea, SC | Greenville Tree & Stump',
     metaDescription: 'What tree removal costs in Berea, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Berea, SC',
-    lead: 'What a tree removal costs in Berea depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
-    sections: [{ heading: 'Reading a Berea removal quote', paragraphs: [
-      'On wooded lots, access often matters more than the size of the tree. Ask the quote to show how the crew will reach the tree.',
-      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
-    ], bullets: ['Method and rigging', 'Access and drop zone', 'Cleanup and stump work if needed'] }],
+    lead: 'A Berea tree removal is priced by the tree, the lot, and how the crew can reach it. Here is what a fair written quote shows.',
+    sections: [{ heading: 'Pricing a Berea removal', paragraphs: [
+      'On wooded lots, access often matters more than the size of the tree. A fair quote says how the crew will reach the tree and how the wood comes out.',
+      'Berea is in Greenville County, along White Horse Road and the US 25 Bypass. A tree near a busy road or a power line takes more care than one at the back of a lot. You can see typical ranges on our Tree Removal Cost page, but the written quote after a free visit is the number for your tree.',
+    ], bullets: ['How the crew reaches the tree', 'Work near a road or power line', 'Cleanup and stump work'] }],
     faqs: [
-      { q: 'Is the Berea estimate free?', a: 'Yes.' },
-      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+      { q: 'Is the Berea estimate free?', a: 'Yes. We come out and write the quote for free.' },
+      { q: 'Can the price change after the quote?', a: 'The written quote fixes the scope. If the job changes, we explain the new price before doing the work.' },
+      { q: 'Does a wooded lot cost more?', a: 'It can, if trees around it limit where equipment sets up. The quote explains how we plan to reach it.' },
     ],
   },
   {
@@ -1099,14 +1110,15 @@ export const combos: Combo[] = [
     title: 'Land Clearing in Berea, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Berea, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Berea, SC',
-    lead: 'Clearing a wooded Berea lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
-    sections: [{ heading: 'Clearing a Berea lot', paragraphs: [
-      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
-      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+    lead: 'Wooded Berea lots can be cleared for a home, a garden, or a yard. We walk the land with you first, then quote the clearing in writing.',
+    sections: [{ heading: 'Clearing a wooded Berea lot', paragraphs: [
+      'Flag the boundary and any trees worth keeping before the visit, and we price the clearing around them.',
+      'Berea is in Greenville County, so check with the county about permits before clearing for construction. If the lot fronts White Horse Road or sits near the Swamp Rabbit Trail, let us know, since the road or the trail can shape how and where we work.',
+    ], bullets: ['Wooded lots cleared for a home or yard', 'Underbrush and saplings removed', 'Flagged trees left standing'] }],
     faqs: [
-      { q: 'Do you work with builders in Berea?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
-      { q: 'Is the clearing quote written?', a: 'Yes.' },
+      { q: 'Do you work with builders in Berea?', a: 'Yes. We quote for builders and owners. Send the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes. You get the clearing area, the keepers, and the cleanup in writing.' },
+      { q: 'What happens to the logs and brush?', a: 'The quote says whether they are chipped, hauled, or left on site, so you can choose before work starts.' },
     ],
   },
   // ---------- Wade Hampton ----------
