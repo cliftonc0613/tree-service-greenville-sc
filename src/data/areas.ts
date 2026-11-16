@@ -513,9 +513,23 @@ export const areas: Area[] = [
           'Clearing wooded lots for a new yard or project',
         ],
       },
+      {
+        heading: 'Sloped and *wooded lots*',
+        paragraphs: [
+          'A tree on a slope does not always fall the way it leans, and a crew needs safe footing to work. On the site visit we check the grade, the ground, and the route in for equipment before we settle on a method.',
+        ],
+        subsections: [
+          {
+            heading: 'When a tree sits above the house',
+            paragraphs: [
+              'Trees on the uphill side of a home get a closer look, because a limb or trunk that drops can roll or slide toward the house. We plan those cuts in smaller pieces and explain the method on the written quote.',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Travelers Rest sits at the north end of the Swamp Rabbit Trail, on US 25 heading toward the Blue Ridge. Many lots here are wooded or sloped, and that often shapes the plan for each tree.',
+      'Travelers Rest is the northernmost city in Greenville County, about 10 miles north of Greenville. US 25 passes along the east side of town on its way toward the Blue Ridge, US 276 becomes Main Street, and the Swamp Rabbit Trail runs north from Greenville into town. Many lots here are wooded or sloped, and that often shapes the plan for each tree.',
     faqs: [
       {
         q: 'Do you serve Travelers Rest, SC?',
@@ -561,6 +575,14 @@ export const areas: Area[] = [
           'Removing dead, leaning, or storm-damaged trees',
           'Grinding stumps left after a removal',
         ],
+        subsections: [
+          {
+            heading: 'Older trees on wooded lots',
+            paragraphs: [
+              'Older lots in Five Forks often have tall trees that were there long before the house. We check for dead limbs, decay at the base, and lean toward the roof, then tell you whether a trim will do or the tree needs to come down.',
+            ],
+          },
+        ],
       },
       {
         heading: 'Quotes you can *compare*',
@@ -570,7 +592,7 @@ export const areas: Area[] = [
       },
     ],
     geography:
-      'Five Forks is an unincorporated part of Greenville County on the north side of Simpsonville. Homes here sit on a mix of older wooded lots and newer subdivisions.',
+      'Five Forks is an unincorporated community in eastern Greenville County, north of Simpsonville and northeast of Mauldin. The name comes from five roads that meet there, and Woodruff Road is its main shopping corridor. Homes here sit on a mix of older wooded lots and newer subdivisions.',
     faqs: [
       {
         q: 'Is Five Forks inside the city of Greenville?',
@@ -579,6 +601,10 @@ export const areas: Area[] = [
       {
         q: 'Do you remove trees on wooded lots in Five Forks?',
         a: 'Yes. Wooded lots can change the method and access, so we look at the site before we quote.',
+      },
+      {
+        q: 'Can you grind a stump in Five Forks after a removal?',
+        a: 'Yes. We can grind the stump in the same visit as the removal or come back for it on its own. The written quote lists the stump work so you can see it separately.',
       },
     ],
     nearby: [
@@ -613,9 +639,27 @@ export const areas: Area[] = [
           'Grinding stumps left behind',
         ],
       },
+      {
+        heading: 'How a *Powdersville* visit works',
+        paragraphs: [
+          'Call or send a request with your address first, so we can confirm we cover it. Then we set up a free site visit, look at each tree and what is near it, and send a written quote.',
+        ],
+        subsections: [
+          {
+            heading: 'What we look at on the visit',
+            paragraphs: ['On the visit we check:'],
+            bullets: [
+              'How close the tree sits to the house, a fence, or lines',
+              'Signs of decay, cracks, or dead wood',
+              'Access for the crew and equipment',
+              'Whether you want the stump ground',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Powdersville is in Anderson County near Interstate 85, across the Saluda River from Greenville County. Because the town sits outside Greenville County, call us with your address so we can confirm the visit before you book.',
+      'Powdersville is an unincorporated community in the northern corner of Anderson County. The Saluda River runs along its northeast edge and forms the Greenville County line, and the Pickens County line borders it to the northwest. Because it sits outside Greenville County, call us with your address so we can confirm the visit before you book.',
     faqs: [
       {
         q: 'Do you serve Powdersville, SC?',
@@ -624,6 +668,10 @@ export const areas: Area[] = [
       {
         q: 'Is Powdersville in Greenville County?',
         a: 'No. Powdersville is in Anderson County. Call us to confirm the visit for your address.',
+      },
+      {
+        q: 'Can you grind a stump in Powdersville?',
+        a: 'Yes. Once we confirm your address is in our coverage, we can quote stump grinding with a removal or as its own job.',
       },
     ],
     nearby: [
@@ -660,9 +708,23 @@ export const areas: Area[] = [
           'Clearing a wooded lot for a new yard or project',
         ],
       },
+      {
+        heading: 'Trees that have grown *close to the house*',
+        paragraphs: [
+          'A tree planted decades ago can end up with limbs over the roof and roots near the foundation. We look at how close it sits and what it could hit, then explain whether trimming buys time or removal is the safer call.',
+        ],
+        subsections: [
+          {
+            heading: 'Clearing part of a wooded parcel',
+            paragraphs: [
+              'If you want part of a wooded lot opened up for a yard or a project, walk it with us and point out the trees you want to keep. We quote around them and list how the brush and wood will be handled.',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Berea is an unincorporated community in Greenville County, northwest of the city. Its wooded parcels and established yards mean the right plan for each tree often depends on the lot.',
+      'Berea is an unincorporated community in Greenville County, northwest of downtown Greenville. It takes in neighborhoods such as Westcliffe and White Horse Heights. Its wooded parcels and established yards mean the right plan for each tree often depends on the lot, the access, and how close the tree has grown to the house.',
     faqs: [
       {
         q: 'Is Berea inside Greenville city limits?',
@@ -671,6 +733,10 @@ export const areas: Area[] = [
       {
         q: 'Can you remove a large tree on a Berea lot?',
         a: 'Often, yes. Tell us the tree size, the access, and what it is near. We will explain the method on the visit.',
+      },
+      {
+        q: 'How do I request an estimate in Berea?',
+        a: 'Call us or use the contact page and tell us where the tree is and what it is near. We set up a free site visit and send the quote in writing.',
       },
     ],
     nearby: [
@@ -706,9 +772,27 @@ export const areas: Area[] = [
           'Stump grinding after a removal',
         ],
       },
+      {
+        heading: 'When trimming is *enough*',
+        paragraphs: [
+          'Not every big tree needs to come down. Thinning the canopy, lifting low limbs, and cutting out dead wood can make a healthy tree safer to live with. We tell you plainly when that is the better choice.',
+        ],
+        subsections: [
+          {
+            heading: 'Signs a tree may need more than a trim',
+            paragraphs: ['These are worth a closer look on the site visit:'],
+            bullets: [
+              'Large dead limbs or bare sections of canopy',
+              'Cracks in the trunk or a split at the main fork',
+              'Mushrooms or soft wood at the base',
+              'A new lean after a storm',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Wade Hampton is an unincorporated community in Greenville County next to the city. We serve it from the same crews that work across Greenville.',
+      'Wade Hampton is an unincorporated community in central Greenville County, named for the Civil War general and South Carolina governor. The city of Greenville borders it to the southwest and Taylors lies to the northeast, with Wade Hampton Boulevard (US 29) running through both. Older streets near the boulevard often have mature shade trees close to the house.',
     faqs: [
       {
         q: 'Is Wade Hampton part of the city of Greenville?',
@@ -717,6 +801,10 @@ export const areas: Area[] = [
       {
         q: 'How do I get an estimate in Wade Hampton?',
         a: 'Call us or send a request on our contact page. The visit is free and the quote is in writing.',
+      },
+      {
+        q: 'Do you grind stumps in Wade Hampton?',
+        a: 'Yes. We can grind a stump in the same visit as a removal or as a separate job. Ask for it on your request and it will show as its own line on the written quote.',
       },
     ],
     nearby: [
