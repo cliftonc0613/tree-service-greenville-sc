@@ -72,6 +72,12 @@ const schema = [
           <figure class="area-facts__photo">
             <img src={area.landmarkImage.src} alt={area.landmarkImage.alt} width="1440" height="620" loading="lazy" decoding="async" />
             <figcaption>{area.landmarkImage.caption}</figcaption>
+            {area.landmarkImage.credit && (
+              <p class="area-facts__credit">
+                Photo credit: {area.landmarkImage.credit.name},{' '}
+                <a href={area.landmarkImage.credit.url} target="_blank" rel="noopener noreferrer">{area.landmarkImage.credit.source}</a>
+              </p>
+            )}
           </figure>
         )}
       </div>
