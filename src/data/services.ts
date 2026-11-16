@@ -406,8 +406,9 @@ export const services: Service[] = [
       {
         heading: 'How tree risk is *rated*',
         paragraphs: [
-          'Arborists often follow a three-level framework from the International Society of Arboriculture. The levels run from a quick look to a detailed study.',
+          'Arborists often follow a three-level framework from the International Society of Arboriculture. The levels run from a quick look to a detailed study. If a tree needs more than a basic look, we will say so instead of guessing.',
         ],
+        subsectionLayout: 'columns',
         subsections: [
           {
             heading: 'Level 1: a quick look',
@@ -425,7 +426,6 @@ export const services: Service[] = [
             heading: 'Level 3: advanced tests',
             paragraphs: [
               'A more detailed study of one problem, sometimes with special equipment. It is used when the basic look finds something that needs more checking, and it needs your approval first.',
-              'If a tree needs more than a basic look, we will say so instead of guessing.',
             ],
           },
         ],
