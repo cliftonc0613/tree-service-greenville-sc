@@ -155,6 +155,7 @@ export const services: Service[] = [
       {
         heading: 'Common *trimming* jobs',
         paragraphs: ['Homeowners call us for trimming in a few common situations:'],
+        imageSide: 'left',
         image: { src: '/images/pages/tree-trimming-ladder.jpg', alt: 'AI-generated image of an arborist in a helmet and harness on a ladder, trimming limbs away from a brick house roofline with a pole saw' },
         bullets: [
           'Limbs hanging over the roof, gutters, or a driveway',

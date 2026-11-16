@@ -24,6 +24,8 @@ export interface Section {
   sidebar?: { title: string; text: string }[];
   /** Optional picture beside this section on wide screens, like the first-section image. Stacks below on phones. */
   image?: PageImage;
+  /** Which side the section image sits on at desktop width. Default 'right'. Use 'left' to alternate with the first-section image. */
+  imageSide?: 'left' | 'right';
 }
 
 export type IconName =

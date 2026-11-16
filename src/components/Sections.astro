@@ -19,7 +19,7 @@ const { sections, tone = 'white', firstImage } = Astro.props;
   const withSidebar = Boolean(s.sidebar?.length);
   return (
   <section class:list={['section', tone === 'white' ? 'section--white' : undefined]} aria-labelledby={`sec-${i}`}>
-    <div class:list={['container', withImage ? 'split section-split' : undefined, withSidebar ? 'container--sidebar' : undefined]}>
+    <div class:list={['container', withImage ? 'split section-split' : undefined, withImage && s.imageSide === 'left' ? 'split--reverse' : undefined, withSidebar ? 'container--sidebar' : undefined]}>
       <div class="prose">
         <Heading id={`sec-${i}`} text={s.heading} />
         {s.paragraphs.map((p) => <p>{p}</p>)}

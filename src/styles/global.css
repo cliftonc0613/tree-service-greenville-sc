@@ -276,6 +276,9 @@ h2 + .callout {
   .split--top > .split__center { align-self: center; }
 
   .split--reverse { grid-template-columns: 0.9fr 1.1fr; }
+
+  /* In a reversed section the picture comes first on desktop. In the HTML it stays after the text so phones show the text first. */
+  .section-split.split--reverse > .section-media { order: -1; }
 }
 
 .hl {
