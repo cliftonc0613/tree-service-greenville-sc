@@ -10,7 +10,8 @@ export default defineConfig({
   output: 'static',
   // No trailing slash, per knowledge/research/site-architecture.md decision 8.
   trailingSlash: 'never',
-  build: { format: 'file' },
+  // Folder output (page/index.html). Public URLs stay slash-free because of trailingSlash above.
+  build: { format: 'directory' },
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/thank-you'),
