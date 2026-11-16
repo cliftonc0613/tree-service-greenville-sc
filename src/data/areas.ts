@@ -983,7 +983,7 @@ export const areas: Area[] = [
     mainRoads: ['US 29 (Wade Hampton Blvd)'],
     landmarks: ['Wade Hampton High School, 100 Pine Knoll Drive, opened 1960', 'McBride’s Office Supply, 832 Wade Hampton Blvd, a 1962 Modernist building on the National Register (2024), now office space'],
     responseArea: 'Wade Hampton and nearby Taylors and Berea.',
-    landmarkImage: { src: '/images/pages/landmarks/neighborhood-tree-line-ai.jpg', alt: 'AI-generated image of a shaded residential street with a mature oak tree line and brick ranch homes. It is not a photo of Wade Hampton.', credit: { text: 'AI-generated image, not a photo of this place' } },
+    landmarkImage: { src: '/images/pages/landmarks/neighborhood-tree-line-ai.jpg', alt: 'AI-generated image of a shaded residential street with a mature oak tree line and brick ranch homes. It is not a photo of Wade Hampton.' },
   },
 
   {
