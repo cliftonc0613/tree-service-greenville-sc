@@ -648,7 +648,7 @@ export const areas: Area[] = [
       { slug: 'greer', name: 'Greer' },
       { slug: 'taylors', name: 'Taylors' },
     ],
-    landmarks: ['History Museum of Travelers Rest, 3 Edwards Street, in a building from 1926 that began as a grocery store', 'Swamp Rabbit Trail, running north from Greenville to the northern end of town', 'Northernmost city in Greenville County, about 10 miles north of Greenville'],
+    landmarks: ['History Museum of Travelers Rest, 3 Edwards Street, in a building from 1926 that began as a grocery store', 'Swamp Rabbit Trail, running north from Greenville to the northern end of town', 'Northernmost city in Greenville County, about 10 miles north of Greenville', 'Trailblazer Park'],
     mainRoads: ['US 25', 'US 276 (Main Street)'],
     responseArea: 'Travelers Rest and nearby Greer and Taylors.',
     landmarkImage: { src: '/images/pages/landmarks/travelers-rest-history-museum.jpg', alt: 'The History Museum of Travelers Rest, a small brick building with a lettered brick front and a wooden side, behind a metal railing and ramp, surrounded by tall trees', credit: { text: 'History Museum of Travelers Rest, Google Maps', url: 'https://maps.app.goo.gl/8qNHCHmYNn2i8KhH6' } },
