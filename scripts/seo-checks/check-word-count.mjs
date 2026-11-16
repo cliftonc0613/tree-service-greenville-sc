@@ -26,24 +26,33 @@ if (!existsSync(dir)) {
   process.exit(1);
 }
 
-const entries = readdirSync(dir, { withFileTypes: true }).filter((e) => e.isDirectory());
+// Project change: find <folder>/index.html at any depth under distDir, so nested
+// routes like services/<area>/<service>/ are counted, not only the first level.
+// distDir's own index.html (the hub page) is not counted.
+function pageFolders(base, rel = '') {
+  return readdirSync(path.join(base, rel), { withFileTypes: true })
+    .filter((e) => e.isDirectory())
+    .flatMap((e) => {
+      const next = path.join(rel, e.name);
+      const here = existsSync(path.join(base, next, 'index.html')) ? [next] : [];
+      return [...here, ...pageFolders(base, next)];
+    });
+}
 
 let failures = [];
 let checked = 0;
 
-for (const entry of entries) {
-  const indexPath = path.join(dir, entry.name, 'index.html');
-  if (!existsSync(indexPath)) continue;
-  const html = readFileSync(indexPath, 'utf8');
+for (const slug of pageFolders(dir)) {
+  const html = readFileSync(path.join(dir, slug, 'index.html'), 'utf8');
   const text = extractMainText(html);
   checked++;
   if (text === null) {
-    failures.push({ slug: entry.name, note: 'no <main> element found' });
+    failures.push({ slug, note: 'no <main> element found' });
     continue;
   }
   const wordCount = text.split(/\s+/).filter(Boolean).length;
   if (wordCount < minWords) {
-    failures.push({ slug: entry.name, wordCount });
+    failures.push({ slug, wordCount });
   }
 }
 

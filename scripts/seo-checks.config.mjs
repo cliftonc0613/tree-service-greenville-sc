@@ -35,10 +35,16 @@ function htmlFiles(dir, base = dir) {
   });
 }
 
+// The build writes folders (build.format 'directory'), so every page is <route>/index.html.
+function routeOf(rel) {
+  return rel.replace(/(^|\/)index\.html$/, '').replace(/\.html$/, '');
+}
+
 function pageType(rel) {
-  if (rel.startsWith('service-areas/')) return 'city';
-  if (rel.startsWith('services/') && rel.split('/').length === 3) return 'combo';
-  if (rel.startsWith('services/')) return 'service';
+  const seg = routeOf(rel).split('/').filter(Boolean);
+  if (seg[0] === 'service-areas' && seg.length === 2) return 'city';
+  if (seg[0] === 'services' && seg.length === 3) return 'combo';
+  if (seg[0] === 'services' && seg.length === 2) return 'service';
   return 'page';
 }
 
@@ -55,23 +61,25 @@ function renderedMeta(file) {
 const rendered = htmlFiles(DIST).sort();
 const { areas } = await loadTs(ROOT, 'src/data/areas.ts');
 const { combos: comboList } = await loadTs(ROOT, 'src/data/combos.ts');
+const { services } = await loadTs(ROOT, 'src/data/services.ts');
 
 export default {
   // Titles and descriptions, read from the built pages.
   async pageGroups() {
     return rendered.map((rel) => {
       const { title, description } = renderedMeta(path.join(DIST, rel));
-      const label = rel.replace(/\.html$/, '');
+      const label = routeOf(rel) || 'index';
       return { pageType: pageType(rel), label, title, description };
     });
   },
 
-  // Word count: the site's flat-file pages are not directory/index.html, so the
-  // word check can't find them. Left at the directory the scanner expects so the
-  // result is an honest failure, not a silent pass.
+  // Word count: every page under dist/services at any depth, which is the service
+  // pages plus the service x city combo pages. The /services hub is not counted.
   distDir: 'dist/services',
   minWords: 700,
-  expectedCount: areas.filter((a) => !a.hubOnly).length * 7,
+  expectedCount: services.length + comboList.length,
+  // The intro check counts combo pages only.
+  introExpectedCount: comboList.length,
 
   // Combo intros: the lead paragraph on each service x city page.
   combos: () =>

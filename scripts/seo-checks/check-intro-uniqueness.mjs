@@ -23,7 +23,10 @@ import { stripTags, loadConfig } from './core.mjs';
 
 const cwd = process.cwd();
 const config = await loadConfig(cwd);
-const { distDir, expectedCount, introPattern, linkPattern, validLink } = config;
+// Project change: introExpectedCount lets this check count only combo pages while
+// expectedCount (used by check-word-count) also covers the service pages.
+const { distDir, introPattern, linkPattern, validLink } = config;
+const expectedCount = config.introExpectedCount ?? config.expectedCount;
 const dir = path.resolve(cwd, distDir);
 
 if (!existsSync(dir)) {
