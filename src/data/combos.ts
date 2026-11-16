@@ -22,16 +22,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Simpsonville, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Simpsonville, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Simpsonville, SC',
-    lead: 'Removing a tree near a house in Simpsonville takes planning. We look at how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    lead: 'A tree close to a Simpsonville house takes planning. We check how near it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal near Simpsonville homes', paragraphs: [
-      'Many Simpsonville lots have a large tree close to the house, a garage, or a shared fence. The method that works in an open yard can be wrong for those spots, so we plan the cuts around what is nearby.',
-      'We look at the tree, the target area, and the access on the site visit. You get the method and the scope in writing, with the cleanup included or priced separately.',
+      'Many Simpsonville lots have a large tree close to the house, a garage, or a shared fence. A method that works in an open yard can be wrong for those spots, so we plan the cuts around what is nearby.',
+      'If the tree stands on a lot off Fairview Road or near I-385, tell us where the traffic, the walks, and the lines are. We look at the tree, the target area, and the access on the site visit, then put the method and scope in writing.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
     faqs: [
       { q: 'Can you remove a tree close to a house in Simpsonville?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the site visit and say honestly what it will take.' },
-      { q: 'How do I get a removal quote in Simpsonville?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
-      { q: 'Do you cut a tree down in sections near a house?', a: 'Sometimes. On tight lots we may take a tree down in pieces so it does not hit the roof, fence, or driveway. The site visit tells us which method fits.' },
-      { q: 'Who handles the wood and brush after a removal?', a: 'The written quote says whether the wood, brush, and stump are included. Ask us to go through that line before you agree to the work.' },
+      { q: 'Do you cut a tree down in sections near a house in Simpsonville?', a: 'Sometimes. On tight lots we may take a tree down in pieces so it does not hit the roof, fence, or driveway. The site visit tells us which method fits.' },
+      { q: 'What is included in a Simpsonville removal quote?', a: 'The written quote says whether the wood, brush, and stump are included. Ask us to go through that line before you agree to the work.' },
     ],
   },
   {
@@ -39,16 +38,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Simpsonville, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Simpsonville, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and we clean up before we leave.',
     h1: 'Tree Trimming in Simpsonville, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Simpsonville. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Limbs over a Simpsonville roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Simpsonville yards', paragraphs: [
-      'Simpsonville has a lot of mature shade trees in older neighborhoods and younger trees in newer subdivisions. Both need trimming at different points, and the cuts should match the tree.',
-      'We cut to the right point on each limb rather than topping the tree. Ask us about a seasonal plan if you want the same crew to look at the tree each year.',
+      'Simpsonville has mature shade trees in older neighborhoods and younger trees in newer subdivisions. Both need trimming at different points, and the cuts should match the tree.',
+      'Trees along SC 14 can grow toward traffic, and trees near Heritage Park can spread over walks. Tell us which side needs the most clearance. We cut to the right point on each limb rather than topping the tree.',
     ], bullets: ['Branches over the roof, gutters, or siding', 'Limbs rubbing a fence, power line, or garage', 'Crowded canopies that block light to the yard'] }],
     faqs: [
-      { q: 'How often should a Simpsonville tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We will tell you what your tree needs at the site visit.' },
-      { q: 'Do you clean up the brush after trimming?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+      { q: 'How often should a Simpsonville tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the site visit.' },
       { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming removes branches back to a proper branch collar or a healthy side branch. Topping cuts off the top of the tree and weakens the regrowth. We do not top trees.' },
-      { q: 'What time of year is best to trim a Simpsonville tree?', a: 'It depends on the species and the work. We will tell you at the site visit whether now is a good time to cut.' },
+      { q: 'What time of year is best to trim a Simpsonville tree?', a: 'It depends on the species and the work. We tell you at the site visit whether now is a good time to cut.' },
     ],
   },
   {
@@ -73,16 +71,14 @@ export const combos: Combo[] = [
     title: 'Arborist in Simpsonville, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Simpsonville, SC for health and hazards, with a plain recommendation on whether to keep, trim, or remove the tree.',
     h1: 'Arborist Assessments in Simpsonville, SC',
-    lead: 'Before you decide to remove or trim a Simpsonville tree, get a plain assessment of its health and any hazards it poses to your home, driveway, or yard.',
+    lead: 'Before you decide to remove or trim a Simpsonville tree, get a plain assessment of its health and of any hazard it poses to your home, driveway, or yard.',
     sections: [{ heading: 'Assessing a Simpsonville tree', paragraphs: [
       'We check the trunk, root flare, main limbs, and canopy, and we look at what the tree could hit if it fails. That includes the house, the driveway, and anywhere people walk or park.',
-      'You get a written summary of what we found and what we recommend, in order of priority. We will say if a tree can be saved and if it cannot.',
+      'You get a written summary of what we found and what we recommend, in order of priority. If a tree near a public space such as Heritage Park has a problem, we say so and explain what it means for visitors.',
     ], bullets: ['Signs of decay, cracks, or weak branch unions', 'Hazards to the house, driveway, or yard', 'A recommended order of work'] }],
     faqs: [
       { q: 'What do I get after a Simpsonville assessment?', a: 'A written summary of the findings, the risks, and the recommended work. You can keep it for your records.' },
-      { q: 'Is the assessment free?', a: 'Our site visit and written quote are free. Ask during the call what the assessment includes.' },
-      { q: 'When should I ask for a tree assessment?', a: 'Ask for one after storm damage, when a tree is leaning, or when you see dead limbs, cracks, or fungus at the base. A plain check helps you decide before any work is booked.' },
-      { q: 'Will an assessment always tell me to remove a tree?', a: 'No. Often the answer is pruning or monitoring. We will say which one fits and why, and we will say so plainly if a tree cannot be made safe.' },
+      { q: 'Will an assessment always tell me to remove a tree?', a: 'No. Often the answer is pruning or monitoring. We say which one fits and why, and we say so plainly if a tree cannot be made safe.' },
     ],
   },
   {
@@ -93,11 +89,10 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Simpsonville home or driveway needs a call now. If a line is involved, call the power company or 911 first and stay clear.',
     sections: [{ heading: 'After a storm in Simpsonville', paragraphs: [
       'Storm calls in Simpsonville often involve a tree on a roof, a fence, or a parked car. Keep people and pets away from the tree and any loose limbs, and do not climb onto a roof to look.',
-      'When you call, tell us where the tree is, what it touches, and whether anyone is hurt. We will tell you the earliest visit we can offer and what to do until we arrive.',
+      'When you call, tell us where the tree is, what it touches, and whether anyone is hurt. If the tree is near I-385 or SC 14, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof, garage, or fence', 'A tree leaning over a driveway or walkway', 'Photos for your insurance claim, taken from a safe spot'] }],
     faqs: [
-      { q: 'How fast can you respond in Simpsonville after a storm?', a: 'Call and we will tell you the earliest visit we can offer. We do not promise a time we cannot keep.' },
-      { q: 'Do you give a written quote for storm work?', a: 'Yes. You get a written quote before the main work begins.' },
+      { q: 'How fast can you respond in Simpsonville after a storm?', a: 'Call and we tell you the earliest visit we can offer. We do not promise a time we cannot keep.' },
       { q: 'Should I cut a fallen tree off my car or roof myself?', a: 'No. Stay clear of the tree and any lines. If a power line is touched, call the power company or 911 first. Call us once the area is safe to approach.' },
       { q: 'Will homeowners insurance cover emergency removal?', a: 'That depends on your policy. Take photos from a safe spot, keep your receipts, and check with your insurer. We can give you a written quote for your records.' },
     ],
@@ -148,11 +143,12 @@ export const combos: Combo[] = [
     lead: 'Taylors yards often have large hardwoods and pines near the house. When one is dead, leaning, or storm-damaged, we explain the removal plan before any work starts.',
     sections: [{ heading: 'Removal in Taylors yards', paragraphs: [
       'Older Taylors lots near Wade Hampton Boulevard often have tall trees that were planted before the houses. Removal near those homes needs careful rigging and a clear plan for what falls where.',
-      'We look at the tree, the access, and the target area, then write out the method, the scope, and the cleanup.',
+      'On a lot near the Enoree River or on the slopes around Taylors Mill, the ground can be soft or steep. We look at the footing and the access on the site visit, then write out the method, the scope, and the cleanup.',
     ], bullets: ['A dead pine or hardwood near a home', 'A leaning tree over a driveway or fence', 'A storm-damaged tree with a split trunk'] }],
     faqs: [
-      { q: 'Can you remove a large pine in Taylors?', a: 'Yes. Tell us about the height and what is nearby, and we will say what the removal involves.' },
-      { q: 'How soon can you come out in Taylors?', a: 'Call us and we will tell you the earliest visit we can offer.' },
+      { q: 'Can you remove a large pine in Taylors?', a: 'Yes. Tell us the height and what is nearby, and we say what the removal involves.' },
+      { q: 'How soon can you come out in Taylors?', a: 'Call us and we tell you the earliest visit we can offer.' },
+      { q: 'Does a tree by the Enoree River cost more to remove?', a: 'It can, if soft or steep ground limits where equipment sets up. The written quote explains how access affects the scope.' },
     ],
   },
   {
@@ -162,11 +158,11 @@ export const combos: Combo[] = [
     h1: 'Tree Trimming in Taylors, SC',
     lead: 'Pines and hardwoods in Taylors drop limbs after heavy weather. Routine trimming keeps branches off the roof and away from the lines.',
     sections: [{ heading: 'Trimming Taylors trees', paragraphs: [
-      'Pines and hardwoods grow differently, so each needs its own kind of cut. Pines are often trimmed for clearance and hazard limbs, while hardwoods need the cuts that keep their shape.',
-      'Ask us about a seasonal plan if you want one company to look at the trees each year, with a written quote for each visit.',
+      'Pines and hardwoods grow differently, so each needs its own kind of cut. Pines are often trimmed for clearance and hazard limbs, while hardwoods need cuts that keep their shape.',
+      'Trees along Wade Hampton Blvd can grow toward traffic and power lines, so we plan the clearance before we cut. Ask us about a seasonal plan if you want one company to look at the trees each year.',
     ], bullets: ['Limbs over a roof or gutter', 'Branches near a power line or service drop', 'Dead limbs that could fall in a storm'] }],
     faqs: [
-      { q: 'Do you trim pines in Taylors?', a: 'Yes. We trim pines and hardwoods, and we will tell you what cuts the tree needs.' },
+      { q: 'Do you trim pines in Taylors?', a: 'Yes. We trim pines and hardwoods, and we tell you what cuts the tree needs.' },
       { q: 'Is the trimming quote written?', a: 'Yes. Every quote is in writing, with the scope and the cleanup.' },
     ],
   },
@@ -194,8 +190,8 @@ export const combos: Combo[] = [
     lead: 'Before you decide what to do about a Taylors tree, get a plain look at its health and the hazards it poses.',
     sections: [{ heading: 'Assessing a Taylors tree', paragraphs: [
       'We check the trunk, the root flare, the main limbs, and the canopy. We also look at the targets: the house, the driveway, and the spots people use in the yard.',
-      'You receive a written summary of the findings and the recommended order of work. We will say if the tree can be saved.',
-    ], bullets: ['Decay, cracks, or weak limb attachments', 'Lean and root stability', 'Hazards to people and property'] }],
+      'Trees on wet ground near the Enoree River can have less stable roots, so we check the soil as well. You receive a written summary of the findings and the recommended order of work, and we say if the tree can be saved.',
+    ], bullets: ['Decay, cracks, or weak limb attachments', 'Lean and root stability, including wet soil', 'Hazards to people and property'] }],
     faqs: [
       { q: 'What does an assessment in Taylors cost?', a: 'Our site visit and written quote are free. Ask during the call what the assessment includes.' },
       { q: 'Will you tell me if a tree can be saved?', a: 'Yes. We say so plainly, whether the answer is to keep, trim, or remove.' },
@@ -209,11 +205,11 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Taylors home or driveway needs a call. If a power line is involved, call the power company or 911 first and stay clear.',
     sections: [{ heading: 'After a storm in Taylors', paragraphs: [
       'Keep people and pets clear of the tree and the area under any loose limbs. If the tree is on the house and the house is unsafe, leave it.',
-      'Call us with the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer and what to do until then.',
+      'Call us with the location, what the tree touches, and whether anyone is hurt. If the tree sits near the Enoree River or down a slope, tell us, because the footing changes how we set up.',
     ], bullets: ['A tree on a home or garage', 'A tree across a driveway', 'Photos from a safe spot for your claim'] }],
     faqs: [
-      { q: 'What if a tree fell on a car in Taylors?', a: 'Keep clear of the car and the tree. Call your insurance company and us. We will work with the scope and photos.' },
-      { q: 'How quickly can you come out in Taylors?', a: 'Call and we will tell you the earliest visit we can offer. We do not promise a time we cannot keep.' },
+      { q: 'What if a tree fell on a car in Taylors?', a: 'Keep clear of the car and the tree. Call your insurance company and us. We work with the scope and the photos you took from a safe spot.' },
+      { q: 'How quickly can you come out in Taylors?', a: 'Call and we tell you the earliest visit we can offer. We do not promise a time we cannot keep.' },
     ],
   },
   {
@@ -255,14 +251,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal in Easley, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Easley, SC for dead, leaning, or storm-damaged trees on wooded lots and near homes. Free written estimate.',
     h1: 'Tree Removal in Easley, SC',
-    lead: 'Easley lots often border woods, so removal can involve both the yard tree and the trees at the edge of the lot. We plan the work around both.',
+    lead: 'Easley lots often border woods, so a removal can involve both the yard tree and trees at the edge of the lot. We plan the work around both.',
     sections: [{ heading: 'Removal on Easley lots', paragraphs: [
-      'On a wooded lot, the tree you want removed may lean toward other trees or a slope. We check how the tree falls and what is around it before any cutting starts.',
-      'You receive the method, the scope, and the cleanup in writing. We will tell you if a tree on the edge of the lot needs its own plan.',
+      'On a wooded lot, the tree you want removed may lean toward other trees or a slope. We check how the tree will fall and what is around it before any cutting starts.',
+      'Lots near US 123 or SC 153 may have a long drive or a steep bank that limits equipment, and lots near the Saluda River can be wet. Tell us which applies when you call. You receive the method, scope, and cleanup in writing.',
     ], bullets: ['A dead tree on the edge of a wooded lot', 'A leaning tree near the house', 'A storm-damaged tree with a split trunk'] }],
     faqs: [
-      { q: 'Can you remove a tree on a sloped lot in Easley?', a: 'Often, yes. Slope changes the method, and we will explain it on the visit.' },
+      { q: 'Can you remove a tree on a sloped lot in Easley?', a: 'Often, yes. Slope changes the method, and we explain it on the visit.' },
       { q: 'Do you serve Easley?', a: 'Yes. Call to confirm the visit for your address.' },
+      { q: 'Do you remove trees that lean into the woods behind a lot?', a: 'We check how the tree will fall before we cut. Tell us what lies behind the tree, and we plan the drop around it.' },
     ],
   },
   {
@@ -273,11 +270,11 @@ export const combos: Combo[] = [
     lead: 'Overgrown branches in Easley can reach the roof, the driveway, or the lines. We trim to keep the tree healthy and the space clear.',
     sections: [{ heading: 'Trimming Easley trees', paragraphs: [
       'Wooded properties grow trees close together, which means some limbs compete for light and drop weight in storms. The right cuts reduce that risk without harming the tree.',
-      'We cut to the right point on each limb. Tell us which areas matter most, such as the roof or a play area.',
+      'Along Old Easley Highway (SC 124) or near Nalley Brown Nature Park, tell us which areas matter most, such as the roof, a driveway, or a trail. We cut to the right point on each limb.',
     ], bullets: ['Limbs over the roof or driveway', 'Crowded limbs competing for light', 'Dead limbs that could fall'] }],
     faqs: [
-      { q: 'How often should Easley trees be trimmed?', a: 'It depends on the species and the spacing. We will tell you at the site visit.' },
-      { q: 'Do you clean up after trimming?', a: 'Yes. We clear the work area before we leave.' },
+      { q: 'How often should Easley trees be trimmed?', a: 'It depends on the species and the spacing. We tell you at the site visit.' },
+      { q: 'Do you clean up after trimming in Easley?', a: 'Yes. We clear the work area before we leave.' },
     ],
   },
   {
@@ -302,11 +299,11 @@ export const combos: Combo[] = [
     h1: 'Arborist Assessments in Easley, SC',
     lead: 'On a wooded Easley lot, the question is often which trees are healthy and which are a hazard. We give you a plain answer in writing.',
     sections: [{ heading: 'Assessing trees on Easley lots', paragraphs: [
-      'We check the trees that are near the house or the targets you care about. In woods, we also note trees that lean or have dead tops, since they can fail in a storm.',
-      'You get a written summary of the findings and the recommended work, in order of priority.',
-    ], bullets: ['Dead tops and hanging limbs', 'Lean and root stability', 'Trees near the house or driveway'] }],
+      'We check the trees near the house or the targets you care about. In the woods, we also note trees that lean or have dead tops, since they can fail in a storm.',
+      'If the lot runs down to the Saluda River or a creek, we also look at the slope and soil around each tree. You get a written summary of the findings and the recommended work, in order of priority.',
+    ], bullets: ['Dead tops and hanging limbs', 'Lean and root stability on slopes', 'Trees near the house or driveway'] }],
     faqs: [
-      { q: 'Do you assess a whole wooded lot?', a: 'We can assess the trees you name and the ones near targets. Tell us the scope on the call.' },
+      { q: 'Do you assess a whole wooded lot?', a: 'We assess the trees you name and the ones near targets. Tell us the scope on the call.' },
       { q: 'Is the assessment free?', a: 'Our site visit and written quote are free.' },
     ],
   },
@@ -318,11 +315,11 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on an Easley home, driveway, or fence needs a call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Easley', paragraphs: [
       'Wooded lots can have several trees down after a storm, and some may be hung up in others. Do not walk under hung trees or try to cut them yourself.',
-      'Call us with the location, what the trees touch, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Call us with the location, what the trees touch, and whether anyone is hurt. If the damage is on a slope or near the Saluda River, mention it, since the footing changes the setup.',
     ], bullets: ['A tree on a home, shed, or fence', 'Trees hung up in other trees', 'Photos from a safe spot for your claim'] }],
     faqs: [
-      { q: 'What if a tree is hung up in another tree?', a: 'Stay clear. Do not cut it loose yourself. Call us and we will look at it safely.' },
-      { q: 'Do you give a written quote for storm work?', a: 'Yes, before the main work begins.' },
+      { q: 'What if a tree is hung up in another tree?', a: 'Stay clear. Do not cut it loose yourself. Call us and we look at it safely.' },
+      { q: 'Do you give a written quote for storm work in Easley?', a: 'Yes, before the main work begins.' },
     ],
   },
   {
@@ -367,11 +364,12 @@ export const combos: Combo[] = [
     lead: 'Greer has established neighborhoods with mature trees and newer lots where trees sit close to new homes. We plan each removal around what is nearby.',
     sections: [{ heading: 'Removal near Greer homes', paragraphs: [
       'Greer spans Greenville and Spartanburg counties, and its neighborhoods range from older streets to recent builds. Near new homes, the trees may be young but still hazardous if they lean or split.',
-      'We look at the tree and the target before quoting. You get the method, scope, and cleanup in writing.',
+      'If the tree stands near Highway 101 South or the Greer Depot on Trade Street, tell us about the traffic and the walks. We look at the target and the access before we quote.',
     ], bullets: ['A leaning tree near a new home', 'A dead tree on a neighboring lot line', 'A storm-split trunk'] }],
     faqs: [
-      { q: 'Do you remove trees for new construction in Greer?', a: 'We remove trees for homeowners and property owners. Tell us about the project and we will say what we can do.' },
+      { q: 'Do you remove trees for new construction in Greer?', a: 'We remove trees for homeowners and property owners. Tell us about the project and we say what we can do.' },
       { q: 'Can you remove a tree on a shared lot line?', a: 'Often, yes. Tell us about the lot line on the call so we can plan for it.' },
+      { q: 'Does a tree near the Greer Depot cost more to remove?', a: 'It can, if traffic or walks limit where equipment sets up. The written quote lists any extra steps.' },
     ],
   },
   {
@@ -382,10 +380,10 @@ export const combos: Combo[] = [
     lead: 'Trees in established Greer neighborhoods can grow into roofs, driveways, and lines. Routine trimming keeps the branches where they belong.',
     sections: [{ heading: 'Trimming Greer trees', paragraphs: [
       'Greer yards often have a mix of older shade trees and newer plantings. Each needs cuts that match its age and species.',
-      'Ask about a seasonal plan if you want one company to handle trimming each year, with a written quote for each visit.',
+      'Trees near Greer Depot or along US 29 may grow toward traffic and signs, so tell us which side needs clearance. Ask about a seasonal plan if you want one company to handle trimming each year, with a written quote for each visit.',
     ], bullets: ['Limbs over a roof or gutter', 'Branches near a service line', 'Young trees shaped before they grow large'] }],
     faqs: [
-      { q: 'Do you trim trees near power lines in Greer?', a: 'We can trim branches near lines in safe clearance. Call the utility first if a line is involved, and we will plan around it.' },
+      { q: 'Do you trim trees near power lines in Greer?', a: 'We trim branches near lines to a safe clearance. Call the utility first if a line is involved, and we plan around it.' },
       { q: 'Is the trimming quote written?', a: 'Yes.' },
     ],
   },
@@ -412,11 +410,11 @@ export const combos: Combo[] = [
     h1: 'Arborist Assessments in Greer, SC',
     lead: 'Before you decide what to do about a Greer tree, get a plain look at its health and any hazards it poses.',
     sections: [{ heading: 'Assessing a Greer tree', paragraphs: [
-      'We check the trunk, root flare, main limbs, and canopy. We also look at what the tree could hit, such as a home, driveway, or neighbor’s property line.',
-      'You receive a written summary and a recommended order of work. We will say if the tree can be saved.',
+      'We check the trunk, root flare, main limbs, and canopy. We also look at what the tree could hit, such as a home, a driveway, or a neighbor’s property line.',
+      'Trees in open yards can be more exposed to wind than trees in the woods, so we factor that exposure into the summary. You receive a written summary and a recommended order of work, and we say if the tree can be saved.',
     ], bullets: ['Decay, cracks, or weak attachments', 'Lean and root stability', 'Hazards to property and people'] }],
     faqs: [
-      { q: 'Can you assess a tree on a neighbor’s property?', a: 'We can look at the tree from your side. Any work on a neighbor’s tree needs the neighbor’s permission.' },
+      { q: 'Can you assess a tree on a neighbor’s property?', a: 'We look at the tree from your side. Any work on a neighbor’s tree needs the neighbor’s permission.' },
       { q: 'Is the assessment free?', a: 'Our site visit and written quote are free.' },
     ],
   },
@@ -428,11 +426,11 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Greer home, car, or driveway needs a call now. If a line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Greer', paragraphs: [
       'Keep people and pets clear of the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near a main road such as US 29 or SC 101, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos from a safe spot for your claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Greer?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
-      { q: 'Do you give a written quote for storm work?', a: 'Yes, before the main work begins.' },
+      { q: 'What should I do before you arrive in Greer?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We tell you what else to do when we speak.' },
+      { q: 'Do you give a written quote for storm work in Greer?', a: 'Yes, before the main work begins.' },
     ],
   },
   {
@@ -473,14 +471,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Mauldin, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Mauldin, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Mauldin, SC',
-    lead: 'Removing a tree near a Mauldin house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    lead: 'Removing a tree near a Mauldin house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal near Mauldin homes', paragraphs: [
       'Many Mauldin lots have a tree close to the house, a garage, or a shared fence. The method that works in an open yard may not work there, so we plan the cuts around what is nearby.',
-      'We look at the tree, the drop zone, and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the tree is near Butler Road or US 276 Main Street, tell us about the traffic, the walks, and any lines. We look at the tree, the drop zone, and the access on the site visit, then put the method and scope in writing.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
     faqs: [
       { q: 'Can you remove a tree close to a house in Mauldin?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the site visit and say what it will take.' },
-      { q: 'How do I get a removal quote in Mauldin?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Does a tree on a busy road like Butler Road cost more?', a: 'It can, if traffic or lines limit the work area. The written quote lists any extra steps.' },
+      { q: 'What is included in a Mauldin removal quote?', a: 'The written quote says whether the wood, brush, and stump are included. Ask us to go through that line before you agree to the work.' },
     ],
   },
   {
@@ -488,10 +487,10 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Mauldin, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Mauldin, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Mauldin, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Mauldin. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Limbs over a Mauldin roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Mauldin yards', paragraphs: [
-      'Newer Mauldin subdivisions have young trees that are growing into fences and roof lines. Older lots have larger shade trees that need regular cuts to stay balanced.',
-      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want the same crew to check the tree each year.',
+      'Newer Mauldin subdivisions have young trees that grow into fences and roof lines. Older lots have larger shade trees that need regular cuts to stay balanced.',
+      'Trees along Butler Road, near the W. Jack Greer Branch library, can grow toward traffic, so we plan the clearance first. We cut each limb back to a proper point rather than topping the tree.',
     ], bullets: ['Branches over the roof, gutters, or siding', 'Limbs rubbing a fence, power line, or garage', 'Crowded canopies that block light to the yard'] }],
     faqs: [
       { q: 'How often should a Mauldin tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the site visit.' },
@@ -522,10 +521,10 @@ export const combos: Combo[] = [
     lead: 'Not sure whether a Mauldin tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
     sections: [{ heading: 'Assessing a Mauldin tree', paragraphs: [
       'An assessment looks at the trunk, the root flare, the branch unions, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
-      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching. We will say which.',
+      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
     faqs: [
-      { q: 'Do you assess trees in Mauldin before removal?', a: 'Yes. An assessment helps you decide between removal, trimming, or waiting. Ask about it when you call.' },
+      { q: 'Do you assess trees in Mauldin before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting. Ask about it when you call.' },
       { q: 'Will I get a written report for a Mauldin tree?', a: 'You get written findings and options after the visit. Ask us what the written summary includes.' },
     ],
   },
@@ -537,10 +536,10 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Mauldin home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Mauldin', paragraphs: [
       'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near Butler Road or US 276, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Mauldin?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Mauldin?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We tell you what else to do when we speak.' },
       { q: 'Do you give a written quote for storm work in Mauldin?', a: 'Yes, before the main work begins.' },
     ],
   },
