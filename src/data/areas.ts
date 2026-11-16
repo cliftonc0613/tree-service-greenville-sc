@@ -202,6 +202,7 @@ export const areas: Area[] = [
     landmarks: ['Taylors Mill, the former Southern Bleachery (National Register)', 'Enoree River'],
     mainRoads: ['US 29 (Wade Hampton Blvd)'],
     responseArea: 'Taylors and nearby Simpsonville and Greer.',
+    landmarkImage: { src: '/images/pages/landmarks/taylors-enoree-river.jpg', alt: 'A slow brown river running under an old iron truss bridge, with green trees on both banks', caption: 'The Enoree River near Taylors' },
   },
 
   {
