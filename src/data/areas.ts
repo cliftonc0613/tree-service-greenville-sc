@@ -36,11 +36,58 @@ export const areas: Area[] = [
         paragraphs: [
           'Many Simpsonville homeowners want a tree removed and the stump ground in one visit. We can quote both together. If the tree only needs pruning, we will tell you that too.',
         ],
+        subsections: [
+          {
+            heading: 'Tree trimming for roofs, gutters, and driveways',
+            paragraphs: [
+              'Trimming keeps branches off the house and walkways and helps the tree hold its shape. We cut back to the branch collar where it makes sense, and we do not take more of the crown than the tree can handle at one time.',
+            ],
+            bullets: [
+              'Limbs hanging over the roof, gutters, or a driveway',
+              'Branches rubbing on the house or a fence',
+              'Dead wood that could fall on people or property',
+              'Crowded canopies that block light and air',
+            ],
+          },
+          {
+            heading: 'Stump grinding after a removal',
+            paragraphs: [
+              'A stump left in the yard is a tripping hazard and takes up space you could use for a garden, patio, or lawn. Grinding it down clears the spot. This works the same whether we took the tree down or another crew did.',
+              'On the site visit we look at the size of the stump, how close it sits to the house or a fence, and what is buried around it. Roots and nearby structures change the method, so we check them before we put a scope in writing.',
+            ],
+          },
+          {
+            heading: 'One visit for the whole job',
+            paragraphs: [
+              'If you need more than one thing done, ask for it on the same request. Removal, trimming, and stump grinding can be quoted together, so you get one visit and one written quote.',
+            ],
+          },
+        ],
       },
       {
         heading: 'Clean *yards* before we leave',
         paragraphs: [
           'We leave the yard cleaner than we found it. The written quote explains what is included in the cleanup so there are no surprises.',
+        ],
+        subsections: [
+          {
+            heading: 'What the cleanup covers',
+            paragraphs: [
+              'Tree work leaves a lot behind. The written quote says what happens to each of these, so you know what is included before you agree to the work:',
+            ],
+            bullets: [
+              'Branches and brush from the cutting',
+              'Logs and wood from a removal',
+              'Stump grindings, if we grind a stump',
+              'Raking and clearing the work area',
+            ],
+          },
+          {
+            heading: 'Know the scope before we start',
+            paragraphs: [
+              'You get the method and the scope in writing before any cutting begins. If something about the cleanup is not clear, ask on the call or at the site visit. We would rather answer it up front than surprise you on the bill.',
+            ],
+          },
         ],
       },
     ],
