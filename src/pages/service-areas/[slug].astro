@@ -20,6 +20,8 @@ interface Props {
 
 const { area } = Astro.props;
 const path = `/service-areas/${area.slug}`;
+const hasLandmarks = (area.landmarks?.length ?? 0) > 0;
+const hasRoads = (area.mainRoads?.length ?? 0) > 0;
 
 // Every service gets a card, so each city page links to all seven of its combo pages.
 const coreServices = services;
@@ -95,30 +97,33 @@ const schema = [
     </div>
   </section>
 
-  {((area.landmarks?.length ?? 0) > 0 || (area.mainRoads?.length ?? 0) > 0 || Boolean(area.responseArea)) && (
+  {(hasLandmarks || hasRoads) && (
     <section class="section section--white" aria-labelledby="area-facts-heading">
       <div class="container container--wide">
-        <div class="area-facts">
-          {(area.landmarks?.length ?? 0) > 0 && (
-            <div class="area-facts__card">
+        <div class:list={['area-facts', hasLandmarks && hasRoads && 'area-facts--split']}>
+          {hasLandmarks && (
+            <div class="area-facts__col">
               <h2 id="area-facts-heading">{area.name} landmarks we know</h2>
               <ul class="area-facts__list">
                 {area.landmarks!.map((l) => <li>{l}</li>)}
               </ul>
+              {!hasRoads && area.responseArea && (
+                <p class="area-facts__response"><strong>Response area:</strong> {area.responseArea}</p>
+              )}
             </div>
           )}
-          {(area.mainRoads?.length ?? 0) > 0 && (
-            <div class="area-facts__card">
-              <h2>Main roads around {area.name}</h2>
+          {hasRoads && (
+            <div class="area-facts__col">
+              <h2 id={hasLandmarks ? undefined : 'area-facts-heading'}>Main roads around {area.name}</h2>
               <ul class="area-facts__roads">
                 {area.mainRoads!.map((r) => <li>{r}</li>)}
               </ul>
+              {area.responseArea && (
+                <p class="area-facts__response"><strong>Response area:</strong> {area.responseArea}</p>
+              )}
             </div>
           )}
         </div>
-        {area.responseArea && (
-          <p class="area-facts__response"><strong>Response area:</strong> {area.responseArea}</p>
-        )}
       </div>
     </section>
   )}
