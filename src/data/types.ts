@@ -18,6 +18,8 @@ export interface Section {
   bullets?: string[];
   /** Optional H3 sub-blocks. */
   subsections?: { heading: string; paragraphs: string[]; bullets?: string[] }[];
+  /** Set to 'columns' to lay out short subsections side by side from tablet width up. Use for 2 or 3 short subsections only. */
+  subsectionLayout?: 'columns';
 }
 
 export type IconName =

@@ -26,17 +26,21 @@ const { sections, tone = 'white', firstImage } = Astro.props;
             {s.bullets.map((b) => <li>{b}</li>)}
           </ul>
         )}
-        {s.subsections?.map((sub) => (
-          <div>
-            <h3>{sub.heading}</h3>
-            {sub.paragraphs.map((p) => <p>{p}</p>)}
-            {sub.bullets && (
-              <ul class="checklist">
-                {sub.bullets.map((b) => <li>{b}</li>)}
-              </ul>
-            )}
+        {s.subsections && (
+          <div class:list={[s.subsectionLayout === 'columns' && 'subsection-columns']}>
+            {s.subsections.map((sub) => (
+              <div>
+                <h3>{sub.heading}</h3>
+                {sub.paragraphs.map((p) => <p>{p}</p>)}
+                {sub.bullets && (
+                  <ul class="checklist">
+                    {sub.bullets.map((b) => <li>{b}</li>)}
+                  </ul>
+                )}
+              </div>
+            ))}
           </div>
-        ))}
+        )}
       </div>
       {withImage && firstImage && (
         <figure class="section-media">

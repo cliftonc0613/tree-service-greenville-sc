@@ -1560,6 +1560,18 @@ a.card:hover {
 
 /* ---------- Checklists and bullets ---------- */
 
+/* Short subsections side by side. Stacks on phones; three columns from tablet width up. */
+.subsection-columns {
+  display: grid;
+  gap: 2rem;
+}
+
+.subsection-columns > div > h3 { margin-top: 0; }
+
+@media (min-width: 48rem) {
+  .subsection-columns { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
 .checklist {
   list-style: none;
   padding: 0;

@@ -576,6 +576,7 @@ export const areas: Area[] = [
             ],
           },
         ],
+        subsectionLayout: 'columns',
       },
       {
         heading: 'After heavy *rain and wind*',
