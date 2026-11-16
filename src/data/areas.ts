@@ -146,16 +146,38 @@ export const areas: Area[] = [
         paragraphs: [
           'If you want one company to call for trims every season, we can set up a plan. You get a written quote for each visit and the same crew who knows your yard.',
         ],
+        subsections: [
+          {
+            heading: 'What a seasonal visit looks for',
+            paragraphs: [
+              'A regular look catches small problems before they turn into a removal. On each visit we walk the tree and note anything that has changed since the last time.',
+            ],
+            bullets: [
+              'Dead wood high in the canopy',
+              'Limbs growing toward the roof or a power line',
+              'Damage after heavy wind or ice',
+              'Pines dropping limbs onto the yard or driveway',
+            ],
+          },
+        ],
       },
       {
         heading: 'Clean up before *we leave*',
         paragraphs: [
           'We clean the work area before we leave. Ask about the brush and wood during the estimate, so the written quote is clear.',
         ],
+        subsections: [
+          {
+            heading: 'Brush, wood, and the work area',
+            paragraphs: [
+              'Ask us during the estimate what you want done with the wood. Some homeowners keep logs for firewood, and others want everything hauled away. The written quote spells out which one you are getting.',
+            ],
+          },
+        ],
       },
     ],
     geography:
-      'Taylors runs along Wade Hampton Boulevard (US 29), with the Enoree River and the old Taylors Mill area nearby. Lots near the river and along the older roads often have large hardwoods and pines that need a regular look.',
+      'Taylors sits along Wade Hampton Boulevard (US 29) northeast of Greenville, with the Enoree River nearby. Taylors Mill, the former Southern Bleachery that opened in the 1920s, still stands near the center of town. Lots near the river and along the older roads often have large hardwoods and pines that need a regular look.',
     faqs: [
       {
         q: 'Do you trim trees in Taylors, SC?',
@@ -202,16 +224,39 @@ export const areas: Area[] = [
           'Grinding stumps and clearing the space',
           'Lot clearing for a new yard, garden, or building site',
         ],
+        subsections: [
+          {
+            heading: 'Working on wooded lots',
+            paragraphs: [
+              'A tree at the edge of the woods can lean toward the yard as it reaches for light. Those trees are often harder to reach than a yard tree, with brush, slopes, or other trunks in the way. We walk the access on the site visit and plan the cuts around what the crew can safely get to.',
+            ],
+          },
+        ],
       },
       {
         heading: 'Quotes that are *easy to compare*',
         paragraphs: [
           'Every quote is written. It names the scope, the method, the cleanup, and any stump or crane work, so you can compare it with other companies on the same terms.',
         ],
+        subsections: [
+          {
+            heading: 'What to check on any tree quote',
+            paragraphs: [
+              'When you line up two quotes side by side, look for these items. If one quote leaves something out, ask before you choose.',
+            ],
+            bullets: [
+              'Which trees are included and what is done to each',
+              'How the tree comes down',
+              'Whether brush, wood, and cleanup are included',
+              'Stump grinding, if you want it',
+              'Any crane work',
+            ],
+          },
+        ],
       },
     ],
     geography:
-      'Easley sits in Pickens County, across the Saluda River from Greenville County, along US 123. Many properties here have a wooded backdrop, so tree work often involves both yard trees and trees near the edge of the lot.',
+      'Easley sits in Pickens County, west of the Saluda River, which marks the Greenville County line along US 123. Many properties here have a wooded backdrop, so tree work often involves both yard trees and trees near the edge of the lot. On those lots, the way a crew reaches the tree can shape the whole plan.',
     faqs: [
       {
         q: 'Is Easley in Greenville County?',
@@ -264,10 +309,18 @@ export const areas: Area[] = [
         paragraphs: [
           'Many Greer homeowners want one company to call for trims, removals, and stumps. We quote each job in writing so you can plan the year and the budget.',
         ],
+        subsections: [
+          {
+            heading: 'Crane removal when there is no room to work',
+            paragraphs: [
+              'Some large trees stand where there is no safe place to drop even small pieces, such as between a house and a garage. A crane lets the crew lift sections up and over instead. Crane work is listed as its own line on the written quote so you can see what it adds.',
+            ],
+          },
+        ],
       },
     ],
     geography:
-      'Greer is split between Greenville and Spartanburg counties, next to GSP Airport and the BMW plant. Some of the newer neighborhoods here are on former farmland, where a lot of the work is clearing and removing trees near new homes.',
+      'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Greenville-Spartanburg International Airport sits next to the city, and the BMW plant is on Highway 101 South. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',
     faqs: [
       {
         q: 'Is Greer in Greenville or Spartanburg County?',
@@ -315,16 +368,32 @@ export const areas: Area[] = [
           'Grinding stumps left after a removal',
           'Clearing a lot for a new yard or project',
         ],
+        subsections: [
+          {
+            heading: 'Shaping young trees in newer neighborhoods',
+            paragraphs: [
+              'Young trees planted close to a house grow toward the roof and gutters. A light trim while the tree is small sets its shape and takes less off than heavy cuts would later on.',
+            ],
+          },
+        ],
       },
       {
         heading: 'One written quote for *the whole job*',
         paragraphs: [
           'If a removal leaves a stump, we can quote the grinding in the same visit. Ask about the cleanup during the estimate so the written quote lists it.',
         ],
+        subsections: [
+          {
+            heading: 'Removal and stump grinding together',
+            paragraphs: [
+              'When a tree comes down, the stump is usually the next question. Grinding it in the same visit means one crew and one trip, and both jobs sit on one written quote.',
+            ],
+          },
+        ],
       },
     ],
     geography:
-      'Mauldin lies between Greenville and Simpsonville along Interstate 385 and Butler Road. Lots range from newer subdivisions to larger wooded parcels on the edges of town, and the plan for each tree usually depends on how close it sits to the house.',
+      'Mauldin lies between Greenville and Simpsonville along Interstate 385. Butler Road runs from the city center on Main Street (US 276) out to the Exit 34 interchange. Lots range from newer subdivisions to larger wooded parcels on the edges of town, and the plan for each tree usually depends on how close it sits to the house.',
     faqs: [
       {
         q: 'Do you serve Mauldin, SC?',
@@ -373,9 +442,29 @@ export const areas: Area[] = [
           'Assessing a tree before you decide',
         ],
       },
+      {
+        heading: 'A written quote *before any cutting*',
+        paragraphs: [
+          'Every job starts with a free site visit. We look at the tree, what sits near it, and how a crew can reach it. Then we put the method, the cleanup, and the price in writing so you can decide without pressure.',
+        ],
+        subsections: [
+          {
+            heading: 'What the quote lists',
+            paragraphs: [
+              'A Fountain Inn quote covers the whole job, not only the cutting:',
+            ],
+            bullets: [
+              'Each tree and the work planned for it',
+              'How the tree will be trimmed or taken down',
+              'What happens to the brush, wood, and any grindings',
+              'Stump grinding, if you ask for it',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Fountain Inn is split between Greenville and Laurens counties, along US 276 and Interstate 385. Work here ranges from yard trees beside the house to wooded lots at the edge of town, so the site visit matters.',
+      'Fountain Inn is split between Greenville and Laurens counties, southeast of Simpsonville. Interstate 385 serves the town at Exit 23, and SC 14 runs through it on the old US 276 route toward Laurens. Work here ranges from yard trees beside the house to wooded lots at the edge of town, so the site visit matters.',
     faqs: [
       {
         q: 'Is Fountain Inn in Greenville County?',
