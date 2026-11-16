@@ -45,7 +45,7 @@ export const areas: Area[] = [
       },
     ],
     geography:
-      'Simpsonville sits along Interstate 385 and Fairview Road (SC 14), with Heritage Park and the Five Forks area on its north side. Many of the older lots near the center of town have mature trees that need a closer look before work starts.',
+      'Simpsonville sits in southeastern Greenville County, with Mauldin to the northwest and Fountain Inn to the southeast. Interstate 385 links the town north to Greenville and has an interchange with Fairview Road, which runs south from SC 14. Heritage Park, a roughly 90-acre park in southern Simpsonville, has athletic fields, playgrounds, and an amphitheater. Many older lots near the center of town have mature trees that need a closer look before work starts.',
     faqs: [
       {
         q: 'Do you serve Simpsonville, SC?',
