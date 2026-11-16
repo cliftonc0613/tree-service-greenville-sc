@@ -17,7 +17,7 @@ export interface Section {
   /** Optional short bullet list rendered after the paragraphs. */
   bullets?: string[];
   /** Optional H3 sub-blocks. */
-  subsections?: { heading: string; paragraphs: string[]; bullets?: string[] }[];
+  subsections?: { heading: string; paragraphs: string[]; bullets?: string[]; /** Set to 'cards' to show the bullets as a 2-column card grid from tablet width up. Use for 4 short bullets. */ bulletLayout?: 'cards' }[];
   /** Set to 'columns' to lay out short subsections side by side from tablet width up. Use for 2 or 3 short subsections only. */
   subsectionLayout?: 'columns';
 }

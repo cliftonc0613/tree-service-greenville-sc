@@ -920,6 +920,7 @@ export const areas: Area[] = [
           {
             heading: 'Signs a tree may need more than a trim',
             paragraphs: ['These are worth a closer look on the site visit:'],
+            bulletLayout: 'cards',
             bullets: [
               'Large dead limbs or bare sections of canopy',
               'Cracks in the trunk or a split at the main fork',

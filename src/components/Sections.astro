@@ -33,7 +33,7 @@ const { sections, tone = 'white', firstImage } = Astro.props;
                 <h3>{sub.heading}</h3>
                 {sub.paragraphs.map((p) => <p>{p}</p>)}
                 {sub.bullets && (
-                  <ul class="checklist">
+                  <ul class:list={['checklist', sub.bulletLayout === 'cards' && 'checklist--cards']}>
                     {sub.bullets.map((b) => <li>{b}</li>)}
                   </ul>
                 )}
