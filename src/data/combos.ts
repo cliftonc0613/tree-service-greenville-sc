@@ -582,14 +582,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Fountain Inn, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Fountain Inn, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Fountain Inn, SC',
-    lead: 'Removing a tree near a Fountain Inn house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    lead: 'Removing a tree near a Fountain Inn house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal near Fountain Inn homes', paragraphs: [
       'Many Fountain Inn yards have a tree close to the house, a shed, or a shared fence line. Those spots need a plan that accounts for the space around the tree.',
-      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the tree stands on a lot off SC 14 or SC 418, or near I-385, tell us where the traffic and walks are. We look at the tree and the access on the site visit, then put the method and scope in writing.',
     ], bullets: ['A leaning tree over a roof or shed', 'A dead tree with little new growth', 'A storm-split trunk or cracked main limb'] }],
     faqs: [
       { q: 'Can you remove a tree close to a house in Fountain Inn?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the visit.' },
       { q: 'How do I get a removal quote in Fountain Inn?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Does a tree near the Ellison Flour Mill or the Fountain Inn Museum cost more?', a: 'The location alone does not set the price. Access, the tree, and the work area do. The written quote lists any extra steps for traffic or walks.' },
     ],
   },
   {
@@ -597,14 +598,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Fountain Inn, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Fountain Inn, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Fountain Inn, SC',
-    lead: 'Branches over a roof, scraping a gutter, or crossing a driveway are common trimming calls in Fountain Inn. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Branches over a Fountain Inn roof, scraping a gutter, or crossing a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Fountain Inn yards', paragraphs: [
-      'Older Fountain Inn yards often have large shade trees that need regular cuts. Newer lots have young trees that will need shaping as they grow.',
-      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+      'Older Fountain Inn yards often have large shade trees that need regular cuts. Newer lots have young trees that need shaping as they grow.',
+      'Trees near Cedar Falls Park or the Commerce Park edge can grow toward paths and lots, so tell us which side needs clearance. We cut each limb back to a proper point rather than topping the tree.',
     ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or shed', 'Crowded canopies that block light to the yard'] }],
     faqs: [
       { q: 'How often should a Fountain Inn tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
       { q: 'Do you clean up the brush in Fountain Inn?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+      { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming cuts back to a proper branch collar or healthy side branch. Topping removes the top of the tree and weakens the regrowth. We do not top trees.' },
     ],
   },
   {
@@ -630,8 +632,8 @@ export const combos: Combo[] = [
     h1: 'Arborist Assessments in Fountain Inn, SC',
     lead: 'Not sure whether a Fountain Inn tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
     sections: [{ heading: 'Assessing a Fountain Inn tree', paragraphs: [
-      'An assessment looks at the trunk, the roots near the base, the branch attachments, and the crown. It also looks at what the tree could hit if it fails.',
-      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We will say which.',
+      'An assessment looks at the trunk, the roots near the base, the branch attachments, and the crown. It also looks at what the tree could hit if it fails, such as a house, a shed, or a sidewalk.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof, shed, or play area'] }],
     faqs: [
       { q: 'Do you assess trees in Fountain Inn before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting. Ask when you call.' },
@@ -646,10 +648,10 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Fountain Inn home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Fountain Inn', paragraphs: [
       'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near SC 14, SC 418, or I-385, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or shed', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Fountain Inn?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Fountain Inn?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We tell you what else to do when we speak.' },
       { q: 'Do you give a written quote for storm work in Fountain Inn?', a: 'Yes, before the main work begins.' },
     ],
   },
@@ -694,11 +696,12 @@ export const combos: Combo[] = [
     lead: 'Removing a tree near a Travelers Rest house takes planning. On wooded or sloped lots we check the drop zone and access, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal on Travelers Rest lots', paragraphs: [
       'Many Travelers Rest lots are wooded, and a tree near the house may have a slope, a fence, or a driveway between it and a safe drop zone. The plan changes with each of those.',
-      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the lot is near US 25 or Main Street (US 276), or close to the Swamp Rabbit Trail, tell us about the traffic and the trail users. We look at the tree and the access on the site visit and put the method and scope in writing.',
     ], bullets: ['A leaning tree over a roofline or outbuilding', 'A dead tree with little new leaf growth', 'A storm-split trunk on a sloped lot'] }],
     faqs: [
       { q: 'Can you remove a tree on a sloped Travelers Rest lot?', a: 'Often, yes. The slope and access shape the method, so we check both on the visit and say what the job needs.' },
       { q: 'How do I get a removal quote in Travelers Rest?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Does a tree near the Swamp Rabbit Trail cost more to remove?', a: 'It can, if trail users or lines limit the work area. The written quote lists any extra steps.' },
     ],
   },
   {
@@ -706,14 +709,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Travelers Rest, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Travelers Rest, SC to clear limbs from roofs, driveways, and power lines. Free written estimate and cleanup before we leave.',
     h1: 'Tree Trimming in Travelers Rest, SC',
-    lead: 'Limbs over a roof, a driveway, or a line are common trimming calls in Travelers Rest. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Limbs over a Travelers Rest roof, a driveway, or a line are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Travelers Rest trees', paragraphs: [
       'Tall hardwoods and pines in Travelers Rest can drop limbs after heavy weather. Regular trimming keeps them balanced and away from the structures below.',
-      'We cut each limb back to a proper point and leave the tree in good shape. Ask about a seasonal plan if you want one crew to check the trees each year.',
+      'Because Travelers Rest is the northernmost city in Greenville County, many lots are wooded and mixed with open yards. We cut each limb back to a proper point and leave the tree in good shape.',
     ], bullets: ['Limbs over the roof, gutters, or driveway', 'Branches near a power line', 'Dead wood cleared from the crown'] }],
     faqs: [
       { q: 'Do you trim pines in Travelers Rest?', a: 'Yes. We look at the species and the growth on the visit and tell you what the tree needs.' },
       { q: 'Do you clean up the brush in Travelers Rest?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+      { q: 'Can you trim a tree near the History Museum of Travelers Rest?', a: 'If the tree is on your property, we can look at it. Tell us where it sits and what is around it.' },
     ],
   },
   {
@@ -740,7 +744,7 @@ export const combos: Combo[] = [
     lead: 'Not sure whether a Travelers Rest tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
     sections: [{ heading: 'Assessing a Travelers Rest tree', paragraphs: [
       'An assessment looks at the trunk, the root area, the branch attachments, and the crown. On a slope it also looks at how the soil is holding the root plate.',
-      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof, shed, or driveway'] }],
     faqs: [
       { q: 'Do you assess trees in Travelers Rest before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting.' },
@@ -755,10 +759,10 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Travelers Rest home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Travelers Rest', paragraphs: [
       'Keep people and pets away from the tree and any loose limbs. Wooded lots can hide a second tree that is also damaged, so look before you walk in.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near US 25 or Main Street, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Travelers Rest?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Travelers Rest?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We tell you what else to do when we speak.' },
       { q: 'Do you give a written quote for storm work in Travelers Rest?', a: 'Yes, before the main work begins.' },
     ],
   },
@@ -801,14 +805,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Five Forks, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Five Forks, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Five Forks, SC',
-    lead: 'Removing a tree near a Five Forks house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    lead: 'Removing a tree near a Five Forks house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal near Five Forks homes', paragraphs: [
       'Five Forks has older wooded lots and newer homes where trees sit close to the house. Each spot needs a method that fits the space around the tree.',
-      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the tree stands on a lot off Woodruff Road or SC 14, tell us where the traffic and the lines are. We look at the tree and the access on the site visit, then put the method and scope in writing.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
     faqs: [
       { q: 'Can you remove a tree close to a house in Five Forks?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the visit.' },
       { q: 'How do I get a removal quote in Five Forks?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Does a tree near Five Forks Place on Woodruff Road cost more?', a: 'It can, if traffic or lot access limits the work area. The written quote lists any extra steps.' },
     ],
   },
   {
@@ -816,10 +821,10 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Five Forks, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Five Forks, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Five Forks, SC',
-    lead: 'Branches over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Five Forks. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Branches over a Five Forks roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Five Forks yards', paragraphs: [
       'Five Forks has a mix of older shade trees and younger trees in newer yards. Each needs trimming at a different point in its growth.',
-      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+      'Trees near the Five Forks Library or along Woodruff Road can grow toward walks and lines, so tell us which side needs clearance. We cut each limb back to a proper point rather than topping the tree.',
     ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or garage', 'Crowded canopies that block light to the yard'] }],
     faqs: [
       { q: 'How often should a Five Forks tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
@@ -850,7 +855,7 @@ export const combos: Combo[] = [
     lead: 'Not sure whether a Five Forks tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
     sections: [{ heading: 'Assessing a Five Forks tree', paragraphs: [
       'An assessment looks at the trunk, the root flare, the branch unions, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
-      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching.',
+      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
     faqs: [
       { q: 'Do you assess trees in Five Forks before removal?', a: 'Yes. An assessment helps you decide between removal, trimming, or waiting. Ask about it when you call.' },
@@ -865,10 +870,10 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Five Forks home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Five Forks', paragraphs: [
       'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near Woodruff Road or SC 14, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Five Forks?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Five Forks?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We tell you what else to do when we speak.' },
       { q: 'Do you give a written quote for storm work in Five Forks?', a: 'Yes, before the main work begins.' },
     ],
   },
@@ -1023,11 +1028,12 @@ export const combos: Combo[] = [
     lead: 'Removing a tree near a Berea house takes planning. On wooded lots we check the drop zone and access, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal on Berea lots', paragraphs: [
       'Berea has wooded parcels and established yards with trees that have grown close to the house over many years. The method depends on the space between the tree and the structure.',
-      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the lot fronts White Horse Road or the US 25 Bypass, tell us about the traffic and the entrance. Near the Swamp Rabbit Trail, tell us about trail users too. We look at the tree and the access on the site visit.',
     ], bullets: ['A leaning tree over a roofline or outbuilding', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
     faqs: [
       { q: 'Can you remove a large tree on a Berea lot?', a: 'Often, yes. Tell us the size, the access, and what the tree is near. We explain the method on the visit.' },
       { q: 'How do I get a removal quote in Berea?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Does a removal near the Old Berea School site cost more?', a: 'The site alone does not set the price. Access, the tree, and the work area do. The written quote lists any extra steps.' },
     ],
   },
   {
@@ -1035,10 +1041,10 @@ export const combos: Combo[] = [
     title: 'Tree Trimming in Berea, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Berea, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Berea, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Berea. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Limbs over a Berea roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Berea trees', paragraphs: [
       'Mature hardwoods and pines in Berea can drop limbs after heavy weather. Regular trimming keeps them balanced and away from the roofline.',
-      'We cut each limb back to a proper point. Ask about a seasonal plan if you want one crew to check the trees each year.',
+      'Trees along the US 25 Bypass or White Horse Road can grow toward traffic and lines, so we plan the clearance first. We cut each limb back to a proper point.',
     ], bullets: ['Limbs over the roof, gutters, or driveway', 'Branches near a power line', 'Dead wood cleared from the crown'] }],
     faqs: [
       { q: 'Do you trim pines in Berea?', a: 'Yes. We look at the species and the growth on the visit and tell you what the tree needs.' },
@@ -1069,7 +1075,7 @@ export const combos: Combo[] = [
     lead: 'Not sure whether a Berea tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
     sections: [{ heading: 'Assessing a Berea tree', paragraphs: [
       'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
-      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
     faqs: [
       { q: 'Do you assess trees in Berea before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting.' },
@@ -1084,10 +1090,10 @@ export const combos: Combo[] = [
     lead: 'A tree down or leaning on a Berea home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Berea', paragraphs: [
       'Keep people and pets away from the tree and any loose limbs. Wooded lots can hide a second damaged tree, so look before you walk in.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near White Horse Road or the US 25 Bypass, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Berea?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Berea?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We tell you what else to do when we speak.' },
       { q: 'Do you give a written quote for storm work in Berea?', a: 'Yes, before the main work begins.' },
     ],
   },
