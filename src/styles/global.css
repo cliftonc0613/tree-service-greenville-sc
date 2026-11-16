@@ -4,6 +4,8 @@
 :root {
   --color-forest-green: #164a34; /* header, nav, footer, headings */
   --color-leaf-green: #597c43; /* service icons, secondary accents */
+  --color-emergency-red: #a8101e; /* emergency service band */
+  --color-emergency-deep: #7f0b17; /* hover state for emergency red */
   --color-burnt-orange: #c44a12; /* CTA buttons only */
   --color-soft-white: #f7f8f4; /* page backgrounds */
   --color-charcoal: #1f2933; /* body text */
@@ -1842,10 +1844,10 @@ a.card:hover {
   color: var(--color-warm-ink);
 }
 
-/* Full-width service band flush above the footer: icon, copy, and two buttons in one row on desktop.
-   Leaf green so it reads as its own band next to the forest-green storm CTA above it. */
+/* Full-width emergency band flush above the footer: icon, copy, and two buttons in one row on desktop.
+   Solid red, with white buttons so they stay readable on the red. */
 .service-band {
-  background: var(--color-leaf-green);
+  background: var(--color-emergency-red);
   color: var(--color-white);
   padding: 2.5rem 0;
 }
@@ -1876,6 +1878,17 @@ a.card:hover {
 .service-band__actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 
 .service-band :focus-visible { outline-color: var(--color-white); }
+
+.service-band .btn--cta {
+  background: var(--color-white);
+  color: var(--color-emergency-red);
+}
+
+.service-band .btn--cta:hover {
+  background: var(--color-mist);
+  color: var(--color-emergency-deep);
+  box-shadow: 0 6px 16px rgb(0 0 0 / 0.25);
+}
 
 @media (min-width: 56rem) {
   .service-band__inner {
