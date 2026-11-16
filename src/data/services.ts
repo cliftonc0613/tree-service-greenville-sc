@@ -46,6 +46,42 @@ export const services: Service[] = [
           'We clean up the work area before we leave. Ask during your estimate what is included with the wood and brush, so the written quote is clear about it.',
         ],
       },
+      {
+        heading: 'Warning signs worth a *closer look*',
+        paragraphs: [
+          'Not every sign means the tree has to come down. Many problems can be fixed by pruning out the damaged part, and a lean that has been there for years is different from a sudden one. Tree-care groups tell homeowners to take these signs seriously:',
+        ],
+        bullets: [
+          'A sudden lean, or soil cracking or lifting at the base of a leaning tree',
+          'A crack that splits the main trunk',
+          'Mushrooms or other fungus at the base, which can point to rotten roots',
+          'Large hollows or decayed, peeling areas on the trunk',
+          'Dead or rotten branches over the house, driveway, or yard',
+          'A trunk that forks into two stems of similar size, which can split',
+        ],
+      },
+      {
+        heading: 'How a tree *comes down*',
+        paragraphs: [
+          'The method depends on the space around the tree. With open ground, a tree may be cut and dropped in sections, or felled whole if there is room. Where a house, fence, or wires are close, the crew cuts it in pieces and lowers each piece on ropes. For the largest trees, a crane lifts the pieces out.',
+          'If branches or the trunk are within 10 feet of a power line, call your utility first. Duke Energy says only line-clearance-qualified crews should work that close.',
+        ],
+      },
+      {
+        heading: 'Rules that *may apply*',
+        paragraphs: [
+          'Tree rules differ by city and county, and they change. In unincorporated Greenville County, the tree preservation rules as drafted are aimed at new development that needs a grading permit. Trees in the road right-of-way are handled by the county Public Works Division, so do not cut one yourself.',
+          'Check with your city or county before work starts, and check your HOA rules if you have an HOA. Tell us what you find and we will plan around it.',
+        ],
+        subsections: [
+          {
+            heading: 'Replacing a Bradford pear',
+            paragraphs: [
+              'Clemson has run a Bradford Pear Bounty that swaps up to five Bradford pears for free native trees. The property owner registers in person with a photo of the cut-down tree. Check Clemson Extension for current event dates.',
+            ],
+          },
+        ],
+      },
     ],
     steps: [
       { title: 'Free site visit', text: 'We look at the tree, the target area, and the access. We explain what we see in plain language.' },
@@ -73,6 +109,18 @@ export const services: Service[] = [
         q: 'Can you come out quickly if a tree is already down?',
         a: 'If a tree is down or leaning dangerously, call us right away. We will tell you the earliest visit we can offer. We do not promise dates we cannot keep. If the tree is touching a power line, stay clear and call your power company or 911.',
       },
+      {
+        q: 'How do I know if a tree needs to come down or just needs trimming?',
+        a: 'Look for a crack in the main trunk, fungus at the base, large hollows, or a sudden lean. Dead or damaged limbs can often be pruned out without removing the tree. A site visit lets us tell you plainly which one your tree needs.',
+      },
+      {
+        q: 'Can you remove a tree near a power line?',
+        a: 'Call your utility first. Duke Energy says only line-clearance-qualified crews should work within 10 feet of overhead lines. Once the line is handled, we can plan the removal and put the method in writing.',
+      },
+      {
+        q: 'Who removes a tree in the road right-of-way?',
+        a: 'In unincorporated Greenville County, the county Public Works Division handles trees within its right-of-way, so do not cut one yourself. If you are not sure whether a tree is on your lot or the right-of-way, ask the county before you call us.',
+      },
     ],
     related: [
       { slug: 'emergency-tree-removal', anchor: 'emergency tree removal' },
@@ -95,7 +143,7 @@ export const services: Service[] = [
     h1: 'Tree Trimming and Pruning in Greenville, SC',
     lead:
       'Tree trimming and pruning service in Greenville, South Carolina, to clear overgrown branches, lift limbs off the roof, and keep healthy trees safe. We give you a free written estimate before any cutting starts.',
-    summary: 'Clear overgrown branches and keep healthy trees safe. Free written estimate.',
+    summary: 'Clear overgrown branches and keep healthy trees safe, with a free written estimate.',
     sections: [
       {
         heading: 'Why *pruning* matters',
@@ -128,6 +176,48 @@ export const services: Service[] = [
           'Not every trim is urgent. If you want to plan one season ahead, we can look at the tree, note what it needs, and give you a written quote you can schedule when it suits you. One company to call for later trims is one of the simplest ways to keep a yard in order.',
         ],
       },
+      {
+        heading: 'Pruning *done right*',
+        paragraphs: [
+          'Good pruning follows a few simple rules from tree-care standards. Cuts go just outside the branch collar, the swollen ring where a branch meets the trunk, and the collar stays intact. Flush cuts leave dead spots in the trunk. To reduce a tree’s height or spread, a limb is cut back to a side branch that can take over as the new tip.',
+          'A common guideline is to remove no more than about a quarter of a tree’s crown at one time, and less for mature trees. It is a ceiling, not a target.',
+        ],
+        subsections: [
+          {
+            heading: 'Why we do not top trees',
+            paragraphs: [
+              'Topping cuts main limbs back to stubs. The International Society of Arboriculture calls it one of the most harmful pruning practices. It can strip half or more of the leafy crown, expose the rest of the tree to sun, and leave a tree that needs pruning again within a few years. We cut back to a side branch instead.',
+            ],
+          },
+        ],
+      },
+      {
+        heading: 'Crape myrtles and *Bradford pears*',
+        paragraphs: [
+          'Two trees show up in a lot of Upstate yards, and both are often pruned the wrong way.',
+        ],
+        subsections: [
+          {
+            heading: 'Crape myrtles',
+            paragraphs: [
+              'Crape myrtles are often cut back hard every year. Clemson’s Home and Garden Information Center calls topping crape myrtles unnecessary and says it leads to unattractive, unhealthy plants. The only pruning Clemson says they need is structural pruning, and only when necessary. If a crape myrtle needs work, late winter or early spring is the time.',
+            ],
+          },
+          {
+            heading: 'Bradford pears',
+            paragraphs: [
+              'South Carolina approved ending new nursery sales of Bradford pears starting October 1, 2024. Owning one is still legal. Bradford pears can split as they age, so an older one is worth a look. We can tell you whether yours needs trimming or removal.',
+            ],
+          },
+        ],
+      },
+      {
+        heading: 'Trimming *near power lines*',
+        paragraphs: [
+          'Branches near power lines are a different job. Duke Energy says trees should not be trimmed or removed within 10 feet of overhead lines unless the crew is line-clearance qualified, and it asks people to call before pruning near lines.',
+          'The line from the pole to your house is your responsibility to keep clear, but Duke asks you to call it first so the line can be handled safely. If branches touch or crowd a line, call your utility before you call us.',
+        ],
+      },
     ],
     faqs: [
       {
@@ -145,6 +235,18 @@ export const services: Service[] = [
       {
         q: 'Do you clean up after trimming?',
         a: 'We clean up the work area before we leave. Ask during the estimate what is included with the brush, so the written quote is clear.',
+      },
+      {
+        q: 'What is the best time of year to trim a tree?',
+        a: 'It depends on the tree and why you are cutting. Dead wood and hazards can come out any time. For crape myrtles that need structural pruning, Clemson says late winter or early spring. We will tell you what fits your tree.',
+      },
+      {
+        q: 'Do you top trees?',
+        a: 'No. Topping cuts main limbs back to stubs, and the International Society of Arboriculture calls it one of the most harmful pruning practices. We cut back to a side branch instead, so the tree keeps its shape and needs less rework.',
+      },
+      {
+        q: 'Can I trim branches near a power line myself?',
+        a: 'No. Duke Energy says only line-clearance-qualified crews should work within 10 feet of overhead lines, and it asks you to call before pruning near them. Call your utility first. Once the line is handled, call us.',
       },
     ],
     related: [
