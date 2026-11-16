@@ -936,9 +936,6 @@ export const areas: Area[] = [
       },
       {
         heading: 'Mature trees on *older streets*',
-        sidebar: [
-          { title: 'Mid-century neighborhoods', text: 'Wade Hampton Terrace and Wade Hampton Gardens are listed as mid-century brick ranches on lots from about a third of an acre to more than an acre, with mature trees.' },
-        ],
         paragraphs: [
           'Real-estate listings describe the mid-century brick-ranch neighborhoods near Wade Hampton Boulevard, such as Wade Hampton Terrace and Wade Hampton Gardens, as having lots of a third of an acre or more with mature shade trees. Trees that were planted when those houses were built are now large, and many stand close to the roof.',
           'A tree like that is worth a look every few years, not only after a storm.',
@@ -954,10 +951,6 @@ export const areas: Area[] = [
       },
       {
         heading: 'City or county: *which rules apply*',
-        sidebar: [
-          { title: 'Greenville County rules', text: 'The county’s tree preservation rules, as drafted, target new development that needs a grading permit.' },
-          { title: 'City of Greenville', text: 'Rules for existing single-family lots were not confirmed. Ask the city before you remove a large tree.' },
-        ],
         paragraphs: [
           'Wade Hampton borders the city of Greenville, so some addresses along the boulevard sit inside city limits and others are in unincorporated Greenville County. Which one you are in decides which tree rules apply.',
           'Greenville County’s tree preservation rules, as drafted, target new development that needs a grading permit. Check with the city or the county before removing a large tree, and check your HOA rules if you have one.',
