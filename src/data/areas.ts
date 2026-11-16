@@ -351,7 +351,7 @@ export const areas: Area[] = [
       { slug: 'taylors', name: 'Taylors' },
       { slug: 'easley', name: 'Easley' },
     ],
-    landmarks: ['Greenville-Spartanburg International Airport (GSP)', 'BMW plant on Highway 101 South', 'Greer Depot, 311 Trade Street', 'Greer Heritage Museum'],
+    landmarks: ['Greenville-Spartanburg International Airport (GSP)', 'BMW plant on Highway 101 South', 'Greer Depot, 311 Trade Street', 'Greer Heritage Museum', 'Hampton Monument, a 1933 marker on East Wade Hampton Blvd honoring three Hamptons'],
     mainRoads: ['US 29', 'SC 101'],
     responseArea: 'Greer and nearby Taylors and Easley.',
     landmarkImage: { src: '/images/pages/landmarks/greer-depot.jpg', alt: 'The Greer Depot, a two-story brick railroad station with an orange tile roof and a GREER sign, beside a freight train with a CSX locomotive on the tracks', credit: { text: 'Greer Depot, Google Maps', url: 'https://maps.app.goo.gl/JCpM4CLsw76nhHXc7' } },

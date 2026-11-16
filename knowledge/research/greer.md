@@ -21,3 +21,7 @@ Retrieved 2026-11-16 with WebSearch (Firecrawl out of credits). WebSearch return
 - Greer Heritage Museum: in the former Greer Post Office, built 1935 by the WPA. Source: [Greer Heritage Museum listing](https://greerheritage.com/omeka-s/s/museum/media/303) (via WebSearch). Address conflicts between sources (106 Main vs 106 S Main), so the copy gives no street number.
 - Trade Street: converted to a flexible shared street that can close to traffic for events. Source: [Wikipedia, Greer Downtown Historic District](https://en.wikipedia.org/wiki/Greer_Downtown_Historic_District) (via WebSearch).
 - Not used: the depot's dating conflicts with the Greer Station name's origin (1873 railroad stop); no date given for that.
+
+### Hampton Monument (added 2026-11-16, at the owner's request)
+- A 1933 marker on East Wade Hampton Boulevard (US 29) in Greer, near 13355 E Wade Hampton Blvd, about 0.1 miles south of J. Verne Smith Parkway. The inscription lists three Hamptons: a Major General (1752 to 1835), a Colonel (1791 to 1858), and a Lieutenant General (1818 to 1902). Sources: [HMDB](https://www.hmdb.org/m.asp?m=10400); [Historical Marker Project](https://historicalmarkerproject.com/markers/HM6P6_hampton_Greer-SC.html) (via WebSearch).
+- Not used: the "1776 Hampton Massacre" detail from the owner's pasted list. No source confirmed a link to that event.
