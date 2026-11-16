@@ -30,6 +30,8 @@ export const combos: Combo[] = [
     faqs: [
       { q: 'Can you remove a tree close to a house in Simpsonville?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the site visit and say honestly what it will take.' },
       { q: 'How do I get a removal quote in Simpsonville?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Do you cut a tree down in sections near a house?', a: 'Sometimes. On tight lots we may take a tree down in pieces so it does not hit the roof, fence, or driveway. The site visit tells us which method fits.' },
+      { q: 'Who handles the wood and brush after a removal?', a: 'The written quote says whether the wood, brush, and stump are included. Ask us to go through that line before you agree to the work.' },
     ],
   },
   {
@@ -45,6 +47,8 @@ export const combos: Combo[] = [
     faqs: [
       { q: 'How often should a Simpsonville tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We will tell you what your tree needs at the site visit.' },
       { q: 'Do you clean up the brush after trimming?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+      { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming removes branches back to a proper branch collar or a healthy side branch. Topping cuts off the top of the tree and weakens the regrowth. We do not top trees.' },
+      { q: 'What time of year is best to trim a Simpsonville tree?', a: 'It depends on the species and the work. We will tell you at the site visit whether now is a good time to cut.' },
     ],
   },
   {
@@ -60,6 +64,8 @@ export const combos: Combo[] = [
     faqs: [
       { q: 'Can you grind a stump near a fence or patio in Simpsonville?', a: 'Often, yes. We check the space and what is underground before we promise a method.' },
       { q: 'What happens to the grindings?', a: 'The written quote says what is included with the grindings and the cleanup.' },
+      { q: 'How deep does the stump get ground?', a: 'We grind below the surface so the spot can be planted or built on. The depth depends on the stump and your plans for the ground, so we confirm it on the visit.' },
+      { q: 'Can you grind a stump that another company left behind?', a: 'Yes. Tell us what was left and where it sits. We check the stump and the ground before we quote.' },
     ],
   },
   {
@@ -75,6 +81,8 @@ export const combos: Combo[] = [
     faqs: [
       { q: 'What do I get after a Simpsonville assessment?', a: 'A written summary of the findings, the risks, and the recommended work. You can keep it for your records.' },
       { q: 'Is the assessment free?', a: 'Our site visit and written quote are free. Ask during the call what the assessment includes.' },
+      { q: 'When should I ask for a tree assessment?', a: 'Ask for one after storm damage, when a tree is leaning, or when you see dead limbs, cracks, or fungus at the base. A plain check helps you decide before any work is booked.' },
+      { q: 'Will an assessment always tell me to remove a tree?', a: 'No. Often the answer is pruning or monitoring. We will say which one fits and why, and we will say so plainly if a tree cannot be made safe.' },
     ],
   },
   {
@@ -90,6 +98,8 @@ export const combos: Combo[] = [
     faqs: [
       { q: 'How fast can you respond in Simpsonville after a storm?', a: 'Call and we will tell you the earliest visit we can offer. We do not promise a time we cannot keep.' },
       { q: 'Do you give a written quote for storm work?', a: 'Yes. You get a written quote before the main work begins.' },
+      { q: 'Should I cut a fallen tree off my car or roof myself?', a: 'No. Stay clear of the tree and any lines. If a power line is touched, call the power company or 911 first. Call us once the area is safe to approach.' },
+      { q: 'Will homeowners insurance cover emergency removal?', a: 'That depends on your policy. Take photos from a safe spot, keep your receipts, and check with your insurer. We can give you a written quote for your records.' },
     ],
   },
   {
@@ -105,6 +115,8 @@ export const combos: Combo[] = [
     faqs: [
       { q: 'Why do Simpsonville removal quotes differ?', a: 'Scope, access, method, and cleanup all change the price. Compare the written scope line by line.' },
       { q: 'Is the estimate free?', a: 'Yes. The site visit and written quote cost nothing.' },
+      { q: 'Why does a removal cost more when the tree is close to the house?', a: 'Close trees need more careful cuts, rigging, and crew time, so the job takes longer. The written quote explains how that affects the scope.' },
+      { q: 'What happens if the work changes after the quote?', a: 'We explain the change in writing before it happens, along with how it affects the price.' },
     ],
   },
   {
@@ -120,6 +132,8 @@ export const combos: Combo[] = [
     faqs: [
       { q: 'Do I need a permit to clear a Simpsonville lot?', a: 'It depends on the county and the plan. Check with the county before clearing. We can tell you what we have seen on similar jobs.' },
       { q: 'Can you keep certain trees?', a: 'Yes. Mark them on the walk-through and we will quote around them.' },
+      { q: 'How long does clearing a Simpsonville lot take?', a: 'It depends on the size of the lot, how many trees come out, and the access. We give a time estimate with the written quote.' },
+      { q: 'What happens to the cleared brush and logs?', a: 'The written quote says what is included, such as hauling, chipping, or leaving wood on site. Ask us to list it before you agree to the work.' },
     ],
   },
 
