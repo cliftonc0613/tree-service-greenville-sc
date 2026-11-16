@@ -1,6 +1,7 @@
 ---
 import type { PageImage, Section } from '@/data/types';
 import Heading from '@/components/Heading.astro';
+import { areas } from '@/data/areas';
 
 interface Props {
   sections: Section[];
@@ -8,9 +9,23 @@ interface Props {
   tone?: 'white' | 'soft';
   /** Optional picture. When set, the first section becomes two columns with the picture on the right. */
   firstImage?: PageImage;
+  /** When true, every city name in the paragraphs links to that city's page. Used on service pages. */
+  linkCities?: boolean;
 }
 
-const { sections, tone = 'white', firstImage } = Astro.props;
+const { sections, tone = 'white', firstImage, linkCities = false } = Astro.props;
+
+// City names, longest first so "Fountain Inn" wins over any shorter overlap.
+const cityNames = areas
+  .map((a) => ({ name: a.name, href: `/service-areas/${a.slug}` }))
+  .sort((a, b) => b.name.length - a.name.length);
+const cityPattern = new RegExp(
+  `\\b(${cityNames.map((c) => c.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`,
+  'g'
+);
+const escapeHtml = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const withCityLinks = (t: string) =>
+  escapeHtml(t).replace(cityPattern, (m) => `<a href="${cityNames.find((c) => c.name === m)!.href}">${m}</a>`);
 ---
 
 {sections.map((s, i) => {
@@ -22,7 +37,7 @@ const { sections, tone = 'white', firstImage } = Astro.props;
     <div class:list={['container', withImage ? 'split section-split' : undefined, withImage && s.imageSide === 'left' ? 'split--reverse' : undefined, withSidebar ? 'container--sidebar' : undefined]}>
       <div class="prose">
         <Heading id={`sec-${i}`} text={s.heading} />
-        {s.paragraphs.map((p) => <p>{p}</p>)}
+        {s.paragraphs.map((p) => (linkCities ? <p set:html={withCityLinks(p)} /> : <p>{p}</p>))}
         {s.bullets && (
           <ul class="checklist">
             {s.bullets.map((b) => <li>{b}</li>)}
@@ -33,7 +48,7 @@ const { sections, tone = 'white', firstImage } = Astro.props;
             {s.subsections.map((sub) => (
               <div>
                 <h3>{sub.heading}</h3>
-                {sub.paragraphs.map((p) => <p>{p}</p>)}
+                {sub.paragraphs.map((p) => (linkCities ? <p set:html={withCityLinks(p)} /> : <p>{p}</p>))}
                 {sub.bullets && (
                   <ul class:list={['checklist', sub.bulletLayout === 'cards' && 'checklist--cards']}>
                     {sub.bullets.map((b) => <li>{b}</li>)}
