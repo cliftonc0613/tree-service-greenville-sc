@@ -1609,7 +1609,7 @@ a.card:hover {
 .facts-sidebar {
   display: grid;
   gap: 2.5rem;
-  align-content: start;
+  align-content: center;
   counter-reset: note;
   padding-left: 2.5rem;
   border-left: 1px solid var(--color-line);
@@ -1622,12 +1622,12 @@ a.card:hover {
 
 .facts-box h3 {
   margin: 0 0 0.6rem;
-  font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-leaf-green);
+  color: var(--color-forest-green);
 }
 
 .facts-box h3::before {
@@ -1655,7 +1655,7 @@ a.card:hover {
 @media (min-width: 64rem) {
   .container--sidebar {
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-    align-items: start;
+    align-items: stretch;
   }
 }
 
