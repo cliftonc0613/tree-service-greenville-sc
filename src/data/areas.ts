@@ -811,7 +811,7 @@ export const areas: Area[] = [
       {
         heading: 'Tree service for *Berea* homes',
         paragraphs: [
-          'Berea is a large unincorporated area of Greenville County, with a mix of wooded parcels and established yards. Many homes here have trees that have grown close to the house over many years.',
+          'Berea is a large area of Greenville County, with a mix of wooded parcels and established yards. Many homes here have trees that have grown close to the house over many years.',
           'We look at each tree on the visit and tell you whether it needs trimming, removal, or nothing yet.',
         ],
         bullets: [
@@ -845,7 +845,7 @@ export const areas: Area[] = [
       {
         heading: 'Working with *Greenville County*',
         paragraphs: [
-          'Berea is unincorporated, so Greenville County’s rules apply directly. The county’s tree preservation rules, as drafted, target new development that needs a grading permit. Check with the county Land Development Division before you remove a large tree, and check your HOA rules if you have one.',
+          'Greenville County’s rules apply here, not a city’s. The county’s tree preservation rules, as drafted, target new development that needs a grading permit. Check with the county Land Development Division before you remove a large tree, and check your HOA rules if you have one.',
           'Tell us what you find and we will plan the work around it, and put the scope in writing.',
         ],
       },
@@ -867,7 +867,7 @@ export const areas: Area[] = [
       },
       {
         q: 'Does Berea have its own tree rules?',
-        a: 'Berea is unincorporated, so Greenville County’s rules apply directly. The county’s tree preservation rules, as drafted, aim at new development that needs a grading permit. Check with the county before removing a large tree, and check your HOA rules if you have one.',
+        a: 'Greenville County’s rules apply here, not a city’s. The county’s tree preservation rules, as drafted, aim at new development that needs a grading permit. Check with the county before removing a large tree, and check your HOA rules if you have one.',
       },
       {
         q: 'Do I need to keep trees on my Berea lot?',

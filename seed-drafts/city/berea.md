@@ -21,7 +21,7 @@
   {
     "heading": "Working with *Greenville County*",
     "paragraphs": [
-      "Berea is unincorporated, so Greenville County’s rules apply directly. The county’s tree preservation rules, as drafted, target new development that needs a grading permit. Check with the county Land Development Division before you remove a large tree, and check your HOA rules if you have one.",
+      "Greenville County’s rules apply here, not a city’s. The county’s tree preservation rules, as drafted, target new development that needs a grading permit. Check with the county Land Development Division before you remove a large tree, and check your HOA rules if you have one.",
       "Tell us what you find and we will plan the work around it, and put the scope in writing."
     ]
   }
@@ -31,7 +31,7 @@
 `faqs` (append two):
 ```json
 [
-  { "q": "Does Berea have its own tree rules?", "a": "Berea is unincorporated, so Greenville County’s rules apply directly. The county’s tree preservation rules, as drafted, aim at new development that needs a grading permit. Check with the county before removing a large tree, and check your HOA rules if you have one." },
+  { "q": "Does Berea have its own tree rules?", "a": "Greenville County’s rules apply here, not a city’s. The county’s tree preservation rules, as drafted, aim at new development that needs a grading permit. Check with the county before removing a large tree, and check your HOA rules if you have one." },
   { "q": "Do I need to keep trees on my Berea lot?", "a": "Not always, but a healthy tree that provides shade and screening is worth a look before it comes down. We will tell you plainly whether a tree is worth keeping, trimming, or removing." }
 ]
 ```
