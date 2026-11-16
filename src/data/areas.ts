@@ -286,6 +286,7 @@ export const areas: Area[] = [
     landmarks: ['Nalley Brown Nature Park, 38 acres on Adger Road', 'Saluda River'],
     mainRoads: ['US 123', 'SC 153', 'SC 124 (Old Easley Hwy)'],
     responseArea: 'Easley and nearby Greer and Simpsonville.',
+    landmarkImage: { src: '/images/pages/landmarks/easley-saluda-river-dam.jpg', alt: 'Aerial view of the Saluda River with a low concrete dam and falling water, surrounded by trees in autumn color', credit: { text: 'Saluda River, Google Maps', url: 'https://www.google.com/maps/place/Saluda+River/@34.239519,-81.9862628,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDG-NCRgAE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SfHc7vLM-w99JYKlalkOeuh1gVQ8bCJsQB0kyAAg6cdZMx_XGYgXueBxaVX2l_SN4s4T23iwkHdsvXC1aBTJtqetdc3gPc065VF-2AtCl-UqGIQXyzEQqStYEysPiotD1AsvC4%3Dw203-h114-k-no!7i4000!8i2250!4m7!3m6!1s0x88f8a34ee890f4fb:0x33e6228fcb4df707!8m2!3d34.239519!4d-81.9862628!10e5!16zL20vMGIzNXNq?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D' } },
   },
 
   {
