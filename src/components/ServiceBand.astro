@@ -1,0 +1,27 @@
+---
+import { business } from '@/data/site';
+import Icon from '@/components/Icon.astro';
+
+interface Props {
+  heading: string;
+  text: string;
+}
+
+const { heading, text } = Astro.props;
+---
+
+<section class="section section--soft service-band-section">
+  <div class="container">
+    <div class="service-band">
+      <span class="service-band__icon" aria-hidden="true"><Icon name="saw" /></span>
+      <div class="service-band__copy">
+        <h2>{heading}</h2>
+        <p>{text}</p>
+      </div>
+      <div class="service-band__actions">
+        <a class="btn btn--cta" href="/services">View Tree Services</a>
+        <a class="btn btn--outline" href={business.phoneHref}>Call {business.phoneDisplay}</a>
+      </div>
+    </div>
+  </div>
+</section>

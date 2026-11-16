@@ -4,6 +4,7 @@ import Icon from '@/components/Icon.astro';
 import Faq from '@/components/Faq.astro';
 import Heading from '@/components/Heading.astro';
 import CtaBand from '@/components/CtaBand.astro';
+import ServiceBand from '@/components/ServiceBand.astro';
 import { business, absoluteUrl } from '@/data/site';
 import { services } from '@/data/services';
 import { areas } from '@/data/areas';
@@ -199,6 +200,8 @@ const schema = [
   <Faq heading="Questions *homeowners* ask us" faqs={homeFaqs} id="faq" />
 
   <CtaBand heading="Storm damage or a tree that cannot wait?" text="Call us now. If a tree is touching a power line, call the power company or 911 first and stay clear." />
+
+  <ServiceBand heading="Tree trimming and tree service" text="Trimming, removal, and stump grinding across the Upstate. Call us to set up a site visit and a free written estimate." />
 </BaseLayout>
 
 <script>
