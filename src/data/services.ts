@@ -188,6 +188,37 @@ export const services: Service[] = [
           'Many homeowners want the tree removed and the stump ground in one visit. That saves a second trip and makes the whole job one bill. Ask for the two together on your estimate request.',
         ],
       },
+      {
+        heading: 'How *deep* a stump gets ground',
+        paragraphs: [
+          'The right depth depends on what goes there next. Many sources suggest about four to six inches below the surface for new grass, and eight to twelve inches or more to replant a tree. A patio or building site may need deeper work. Tell us your plan during the quote so the depth is written down.',
+        ],
+        subsections: [
+          {
+            heading: 'What happens to the roots',
+            paragraphs: [
+              'Grinding takes the stump and nearby surface roots, not the whole root system. The remaining roots break down over years, so the ground can settle a little where they ran.',
+            ],
+          },
+          {
+            heading: 'What happens to the chips',
+            paragraphs: [
+              'Chips usually fill the hole. You can keep them as mulch, mix them into the soil, or have them hauled away. Fresh chips can pull nitrogen from the soil as they break down, so they are not ideal as planting soil. The spot may settle over the first weeks and need topping up.',
+            ],
+          },
+        ],
+      },
+      {
+        heading: 'Buried lines and *before the grinder starts*',
+        paragraphs: [
+          'A stump grinder cuts below the surface, and it cannot see what is buried. South Carolina law requires anyone digging, even on a small home project, to notify SC811 first so buried utilities can be marked. SC811 can tell you whether stump grinding counts and how long the notice takes. Standard notice is three full business days.',
+        ],
+        bullets: [
+          'Any buried lines or cables you know of near the stump',
+          'Irrigation lines or invisible fence wire',
+          'What you plan for the spot afterward',
+        ],
+      },
     ],
     faqs: [
       {
@@ -205,6 +236,14 @@ export const services: Service[] = [
       {
         q: 'Can you remove the tree and grind the stump together?',
         a: 'Yes. Ask for both on one request. One visit and one written quote usually works best.',
+      },
+      {
+        q: 'How deep do you grind a stump?',
+        a: 'It depends on what you plan for the spot. Grass usually needs a few inches below the surface, and replanting a tree needs more. Tell us your plan and the depth goes on the written quote.',
+      },
+      {
+        q: 'Will the roots be gone after grinding?',
+        a: 'No. Grinding removes the stump and the roots near the surface. The rest decay over years, and the ground can settle a bit where they ran.',
       },
     ],
     related: [
@@ -253,6 +292,40 @@ export const services: Service[] = [
           'We also assess trees on commercial and HOA properties, where liability and tenant safety matter. The assessment is written up so you can share it with an owner, board, or insurer. Each property is quoted separately.',
         ],
       },
+      {
+        heading: 'What *credentials* mean',
+        paragraphs: [
+          'Anyone can call themselves an arborist. One common credential to ask about is ISA Certified Arborist, given by the International Society of Arboriculture. A person earns it by passing a written exam and showing documented field experience, and keeps it current with continuing education.',
+          'Ask any company which credentials the person doing your assessment holds, and ask to see proof.',
+        ],
+      },
+      {
+        heading: 'How tree risk is *rated*',
+        paragraphs: [
+          'Arborists often follow a three-level framework from the International Society of Arboriculture. The levels run from a quick look to a detailed study.',
+        ],
+        subsections: [
+          {
+            heading: 'Level 1: a quick look',
+            paragraphs: [
+              'A rapid check from one spot for obvious problems. It is often used to decide which trees need a closer inspection.',
+            ],
+          },
+          {
+            heading: 'Level 2: a ground-based look',
+            paragraphs: [
+              'A walk around the whole tree and its site, checking the trunk, roots, limbs, and what sits under the tree. Most arborists use this level for homeowners.',
+            ],
+          },
+          {
+            heading: 'Level 3: advanced tests',
+            paragraphs: [
+              'A more detailed study of one problem, sometimes with special equipment. It is used when the basic look finds something that needs more checking, and it needs your approval first.',
+              'If a tree needs more than a basic look, we will say so instead of guessing.',
+            ],
+          },
+        ],
+      },
     ],
     faqs: [
       {
@@ -266,6 +339,14 @@ export const services: Service[] = [
       {
         q: 'Is an assessment free?',
         a: 'Our site visit and written quote are free. Ask during the call what is included in the assessment you need.',
+      },
+      {
+        q: 'What are the levels of a tree risk assessment?',
+        a: 'The International Society of Arboriculture describes three: a quick limited look, a basic ground-based inspection, and an advanced study with special tools. Most homeowner assessments use the basic level. We will tell you if your tree needs more.',
+      },
+      {
+        q: 'What does ISA Certified Arborist mean?',
+        a: 'It is a credential from the International Society of Arboriculture. A person earns it by passing a written exam and showing field experience, then keeps it current with continuing education. Ask any company which credentials the person doing your work holds.',
       },
     ],
     related: [
@@ -315,6 +396,37 @@ export const services: Service[] = [
           'Your insurance company may need photos, dates, and a written quote before work starts. Tell us if the claim is open. We will put the scope and the price in writing so you have what you need.',
         ],
       },
+      {
+        heading: 'Staying *clear* of power lines',
+        paragraphs: [
+          'Treat every downed line as live, even if it is not sparking or humming. Duke Energy tells people to stay at least 30 feet back and to report the line to the utility or emergency services. If a line is on your car, stay inside and call 911 unless there is immediate danger such as fire.',
+          'Your electric utility is the one on your bill. Report the hazard to them, then call us once the utility says the area is safe.',
+        ],
+      },
+      {
+        heading: 'What *insurance* usually covers',
+        paragraphs: [
+          'Coverage depends on your policy. A tree that falls on a covered structure, such as your house, garage, or fence, is the usual case where coverage applies. Insurers often cap what they pay for hauling away the tree, so ask about your limits. A tree that does not hit a covered structure may not be covered, and vehicles are usually handled by auto insurance.',
+        ],
+        subsections: [
+          {
+            heading: 'Notes for your claim',
+            paragraphs: ['Keep these together for your insurer:'],
+            bullets: [
+              'Photos of the tree and the damage, taken from a safe spot',
+              'The date and time the tree fell',
+              'Your written quote from us',
+              'Receipts for any temporary repairs',
+            ],
+          },
+        ],
+      },
+      {
+        heading: 'After the tree is *cleared*',
+        paragraphs: [
+          'Storm work often leaves a stump, a damaged fence, or other trees that look weak. We will say which of those need attention now and which can wait for a regular visit, so you are not rushed into more work than you need.',
+        ],
+      },
     ],
     faqs: [
       {
@@ -332,6 +444,14 @@ export const services: Service[] = [
       {
         q: 'Is emergency removal more expensive?',
         a: 'Emergency work can cost more because of timing, access, and the amount of cleanup. The written quote shows the price before any main work begins.',
+      },
+      {
+        q: 'Who do I call if a power line is down?',
+        a: 'Call 911 and your electric utility first. Duke Energy says to stay at least 30 feet back and treat every downed line as live. Call us once the utility confirms the area is safe.',
+      },
+      {
+        q: 'Should I try to move a fallen tree myself?',
+        a: 'No. Keep people and pets away from the tree, stay off the roof, and never touch a tree near a power line. Call us once the area is safe, and we will look at it first.',
       },
     ],
     related: [
@@ -401,6 +521,24 @@ export const services: Service[] = [
           'Ask every company whether they carry proof of insurance and whether the quote covers the crew on site. We will show you ours on request.',
         ],
       },
+      {
+        heading: 'What a *written quote* should list',
+        paragraphs: ['A fair quote names what you are paying for. Look for these items, and ask about any that are missing:'],
+        bullets: [
+          'Each tree and the work planned for it',
+          'How the tree comes down: climbing, rigging, or a crane',
+          'Cleanup: wood, brush, and raking',
+          'Stump grinding, if you want it',
+          'Payment terms',
+        ],
+      },
+      {
+        heading: 'Does *insurance* pay for removal?',
+        paragraphs: [
+          'Sometimes. A homeowners policy usually covers removal when a covered event, such as wind, brings a tree down onto a covered structure like your house, garage, or fence. Even then, debris removal is often capped, with limits per tree and per incident that vary by policy.',
+          'Removing a healthy tree because you are worried about it is generally not covered, and a car damaged by a tree is usually a matter for your auto policy. Read your policy or ask your agent before work starts. We put the scope and price in writing so you have what an insurer asks for.',
+        ],
+      },
     ],
     faqs: [
       {
@@ -414,6 +552,14 @@ export const services: Service[] = [
       {
         q: 'Do you require payment before the work?',
         a: 'Ask us about payment terms during the estimate. We will put them in writing with the quote so there are no surprises.',
+      },
+      {
+        q: 'Does homeowners insurance pay for tree removal?',
+        a: 'It can, when a covered event such as wind drops a tree on a covered structure. Debris removal is often capped per tree and per incident. Removing a healthy tree is generally not covered. Check your policy or ask your agent before the work starts.',
+      },
+      {
+        q: 'What happens if the work changes after the quote?',
+        a: 'If the work changes, for example a second tree is added or the access turns out harder, we explain the change in writing before it happens and say how it affects the price.',
       },
     ],
     related: [
@@ -458,6 +604,52 @@ export const services: Service[] = [
           'Clearing for commercial, HOA, or development work is quoted per property. Tell us about the timeline, the access, and any county or HOA rules that apply.',
         ],
       },
+      {
+        heading: 'Permits and *rules* to check first',
+        paragraphs: [
+          'Clearing land can come with permit and stormwater rules. They depend on how much ground is disturbed, where the lot is, and what you plan to build. We cannot tell you what applies to your lot, so check with the county or town before work starts.',
+        ],
+        subsections: [
+          {
+            heading: 'Greenville County stormwater rules',
+            paragraphs: [
+              'In unincorporated Greenville County, stormwater and erosion rules depend on how much ground is disturbed. Disturbing one acre or more on a house lot generally calls for a Land Disturbance (Grading) Permit, and smaller sites may need a simplified erosion and sediment plan. Simpsonville, Mauldin, Travelers Rest, and Fountain Inn take part in the county program. Confirm the current limits with the county Land Development Division.',
+            ],
+          },
+          {
+            heading: 'Outside Greenville County',
+            paragraphs: [
+              'Easley, Pickens, Powdersville, Woodruff, and part of Greer sit in other counties with their own rules. Tell us your address and we will share what we know, but your county or town makes the final call.',
+            ],
+          },
+          {
+            heading: 'Burning brush',
+            paragraphs: [
+              'South Carolina requires notice to the Forestry Commission before many land-clearing burns, and cities and counties can set stricter limits. Ask us early how the brush will be handled, so the written quote says what is planned.',
+            ],
+          },
+        ],
+      },
+      {
+        heading: 'Mulching or *traditional clearing*',
+        paragraphs: [
+          'Two methods are common. Forestry mulching uses one machine to grind brush and small trees into mulch that stays on the ground. Traditional clearing uses heavy equipment to push, pile, and haul trees, brush, and stumps.',
+        ],
+        subsections: [
+          {
+            heading: 'When mulching fits',
+            paragraphs: [
+              'Mulching disturbs the soil less and leaves a layer of mulch behind, with no hauling. It suits brush and small trees on land you want to replant or leave open.',
+            ],
+          },
+          {
+            heading: 'When traditional clearing fits',
+            paragraphs: [
+              'Mulching generally leaves stumps and roots in the ground. If a house, slab, or driveway will go on the spot, stumps can rot and settle later, so removing them first matters. We will tell you on the visit which method fits your plans.',
+            ],
+          },
+        ],
+      },
     ],
     faqs: [
       {
@@ -471,6 +663,14 @@ export const services: Service[] = [
       {
         q: 'Do I need a permit to clear land?',
         a: 'It depends on the county, the size of the lot, and what is planned. Check with the county before clearing. We can tell you what we have seen work on similar jobs.',
+      },
+      {
+        q: 'Does forestry mulching remove the stumps?',
+        a: 'Generally no. Mulching grinds brush and small trees above ground, and the stumps and roots usually stay. If you plan to build on the spot, we will talk through removing them first.',
+      },
+      {
+        q: 'Can you burn the brush after clearing?',
+        a: 'It depends on your lot and the rules where you live. South Carolina requires notice to the Forestry Commission before many land-clearing burns, and local rules can be stricter. Ask us before the work starts, and the written quote will say how the brush is handled.',
       },
     ],
     related: [
