@@ -99,7 +99,7 @@ export interface Area {
    * Put the file in public/images/pages/landmarks/ and use a real photo you own or have a license for.
    * The caption names the landmark. Towns without a photo show no band.
    */
-  landmarkImage?: PageImage & { caption: string; credit?: { name: string; source: string; url: string } };
+  landmarkImage?: PageImage & { caption: string; credit?: { text: string; url: string } };
   /** Which service to lead the page with (informational only; copy is written to match). */
   leadService: 'tree-removal' | 'tree-service' | 'balanced';
 }

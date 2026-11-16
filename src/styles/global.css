@@ -1104,16 +1104,19 @@ body.has-callbar {
 }
 
 .area-facts__credit {
-  margin: 0.25rem 0 0;
-  text-align: center;
-  font-size: 0.8125rem;
+  margin: 0.5rem 0 0;
+  text-align: left;
+  font-size: 0.875rem;
   color: var(--color-muted);
 }
 
 .area-facts__credit a {
-  color: var(--color-forest-green);
+  color: var(--color-muted);
+  text-decoration: underline;
   text-underline-offset: 0.2em;
 }
+
+.area-facts__credit a:hover { color: var(--color-forest-green); }
 
 @media (min-width: 48rem) {
   .area-facts__photo { width: 80%; }

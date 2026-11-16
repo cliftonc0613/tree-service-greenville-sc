@@ -74,8 +74,7 @@ const schema = [
             <figcaption>{area.landmarkImage.caption}</figcaption>
             {area.landmarkImage.credit && (
               <p class="area-facts__credit">
-                Photo credit: {area.landmarkImage.credit.name},{' '}
-                <a href={area.landmarkImage.credit.url} target="_blank" rel="noopener noreferrer">{area.landmarkImage.credit.source}</a>
+                <a href={area.landmarkImage.credit.url} target="_blank" rel="noopener noreferrer">{area.landmarkImage.credit.text}</a>
               </p>
             )}
           </figure>
