@@ -1906,6 +1906,9 @@ a.card:hover {
   text-align: center;
 }
 
+/* The band sits flush against whatever follows it, so the section keeps only its top space. */
+.cta-band-section { padding-bottom: 0; }
+
 .cta-band__inner {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
