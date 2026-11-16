@@ -1,0 +1,73 @@
+{
+  "state": "45",
+  "counties": ["Pickens", "Anderson", "Greenville", "Spartanburg", "Oconee"],
+  "order": ["Oconee", "Pickens", "Anderson", "Greenville", "Spartanburg"],
+  "fills": {
+    "Oconee": "#BBD2A2",
+    "Pickens": "#9ABC74",
+    "Anderson": "#7AA540",
+    "Greenville": "#9ABC74",
+    "Spartanburg": "#BBD2A2"
+  },
+  "stroke": "#445C24",
+  "labelColor": "#1A234F",
+  "viewboxWidth": 600,
+  "viewboxHeight": 500,
+  "padding": 32,
+  "labelOverrides": {
+    "Greenville": { "x": 370.0, "y": 200.0 }
+  },
+  "ariaLabel": "Interactive service area map — Upstate South Carolina",
+  "title": "Service Area: Upstate South Carolina",
+  "cities": {
+    "oconee": [
+      { "name": "Seneca", "lat": 34.6854, "lng": -82.9535 },
+      { "name": "Walhalla", "lat": 34.7676, "lng": -83.0599 },
+      { "name": "West Union", "lat": 34.7626, "lng": -82.9993 },
+      { "name": "Westminster", "lat": 34.6668, "lng": -83.0971 },
+      { "name": "Salem", "lat": 34.8968, "lng": -82.9918 }
+    ],
+    "pickens": [
+      { "name": "Clemson", "lat": 34.6834, "lng": -82.8374 },
+      { "name": "Easley", "lat": 34.8298, "lng": -82.6015 },
+      { "name": "Pickens", "lat": 34.8840, "lng": -82.7079 },
+      { "name": "Central", "lat": 34.7251, "lng": -82.7804 },
+      { "name": "Liberty", "lat": 34.7843, "lng": -82.6932 },
+      { "name": "Six Mile", "lat": 34.8093, "lng": -82.8243 }
+    ],
+    "anderson": [
+      { "name": "Anderson", "lat": 34.5034, "lng": -82.6501 },
+      { "name": "Belton", "lat": 34.5218, "lng": -82.4957 },
+      { "name": "Williamston", "lat": 34.6184, "lng": -82.4793 },
+      { "name": "Pendleton", "lat": 34.6487, "lng": -82.7829 },
+      { "name": "Honea Path", "lat": 34.4454, "lng": -82.3918 },
+      { "name": "Iva", "lat": 34.3065, "lng": -82.6601 },
+      { "name": "Pelzer", "lat": 34.6443, "lng": -82.4637 },
+      { "name": "Powdersville", "lat": 34.7426, "lng": -82.4957 },
+      { "name": "Starr", "lat": 34.3743, "lng": -82.7068 }
+    ],
+    "greenville": [
+      { "name": "Greenville", "lat": 34.8526, "lng": -82.3940 },
+      { "name": "Greer", "lat": 34.9387, "lng": -82.2271 },
+      { "name": "Mauldin", "lat": 34.7793, "lng": -82.3043 },
+      { "name": "Simpsonville", "lat": 34.7373, "lng": -82.2543 },
+      { "name": "Travelers Rest", "lat": 34.9679, "lng": -82.4404 },
+      { "name": "Fountain Inn", "lat": 34.6887, "lng": -82.1979 },
+      { "name": "Taylors", "lat": 34.9193, "lng": -82.2946 },
+      { "name": "Piedmont", "lat": 34.6996, "lng": -82.4638 }
+    ],
+    "spartanburg": [
+      { "name": "Spartanburg", "lat": 34.9496, "lng": -81.9321 },
+      { "name": "Boiling Springs", "lat": 35.0382, "lng": -81.9771 },
+      { "name": "Inman", "lat": 35.0468, "lng": -82.0888 },
+      { "name": "Duncan", "lat": 34.9307, "lng": -82.1413 },
+      { "name": "Lyman", "lat": 34.9729, "lng": -82.1257 },
+      { "name": "Moore", "lat": 34.9979, "lng": -81.9918 },
+      { "name": "Cowpens", "lat": 35.0143, "lng": -81.8032 },
+      { "name": "Woodruff", "lat": 34.7382, "lng": -81.9932 },
+      { "name": "Landrum", "lat": 35.1754, "lng": -82.1871 }
+    ]
+  },
+  "outSvg": "site/public/images/service-area-map.svg",
+  "outTs": "site/src/data/countyPaths.ts"
+}
