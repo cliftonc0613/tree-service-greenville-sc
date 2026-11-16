@@ -859,6 +859,7 @@ export const areas: Area[] = [
     landmarks: ['Sarah Dobey Jones Berea Branch library, N Highway 25 Bypass', 'Old Berea School site on White Horse Road'],
     mainRoads: ['US 25 Bypass', 'White Horse Road'],
     responseArea: 'Berea and nearby Greer and Taylors.',
+    landmarkImage: { src: '/images/pages/landmarks/berea-swamp-rabbit-trail.jpg', alt: 'A paved trail with a yellow center line running through an arch of crape myrtle trees with white blooms, with a cyclist in the distance', credit: { text: 'Swamp Rabbit Trail, Google Maps', url: 'https://maps.app.goo.gl/b7fSJPyHSrP2dn4Z7' } },
   },
 
   {
