@@ -185,7 +185,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'taylors', service: 'arborist',
-    title: 'Arborist in Taylors, SC | Greenville Tree & Stump',
+    title: 'Arborist Services in Taylors, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Taylors, SC for health and hazards, with a plain recommendation on keeping, trimming, or removing the tree.',
     h1: 'Arborist Assessments in Taylors, SC',
     lead: 'Before you decide what to do about a Taylors tree, get a plain look at its health and the hazards it poses.',
@@ -247,7 +247,7 @@ export const combos: Combo[] = [
   // ---------- Easley ----------
   {
     area: 'easley', service: 'tree-removal',
-    title: 'Tree Removal Easley, SC | Greenville Tree & Stump',
+    title: 'Tree Removal in Easley, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Easley, SC for dead, leaning, or storm-damaged trees on wooded lots and near homes. Free written estimate.',
     h1: 'Tree Removal in Easley, SC',
     lead: 'Easley lots often border woods, so removal can involve both the yard tree and the trees at the edge of the lot. We plan the work around both.',
@@ -292,7 +292,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'arborist',
-    title: 'Arborist in Easley, SC | Greenville Tree & Stump',
+    title: 'Arborist Services in Easley, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Easley, SC for health and hazards on wooded lots, with a plain recommendation. Free written estimate.',
     h1: 'Arborist Assessments in Easley, SC',
     lead: 'On a wooded Easley lot, the question is often which trees are healthy and which are a hazard. We give you a plain answer in writing.',
@@ -354,7 +354,7 @@ export const combos: Combo[] = [
   // ---------- Greer ----------
   {
     area: 'greer', service: 'tree-removal',
-    title: 'Tree Removal Greer, SC | Greenville Tree & Stump',
+    title: 'Tree Removal in Greer, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Greer, SC for dead, leaning, or storm-damaged trees near homes and new construction. Free written estimate.',
     h1: 'Tree Removal in Greer, SC',
     lead: 'Greer has established neighborhoods with mature trees and newer lots where trees sit close to new homes. We plan each removal around what is nearby.',
@@ -369,7 +369,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'tree-trimming',
-    title: 'Tree Trimming Greer, SC | Greenville Tree & Stump',
+    title: 'Tree Trimming in Greer, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Greer, SC to clear branches from roofs, driveways, and power lines in established neighborhoods. Free written estimate.',
     h1: 'Tree Trimming in Greer, SC',
     lead: 'Trees in established Greer neighborhoods can grow into roofs, driveways, and lines. Routine trimming keeps the branches where they belong.',
@@ -399,7 +399,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'arborist',
-    title: 'Arborist in Greer, SC | Greenville Tree & Stump',
+    title: 'Arborist Services in Greer, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Greer, SC for health and hazards, with a plain written recommendation on keeping, trimming, or removing the tree.',
     h1: 'Arborist Assessments in Greer, SC',
     lead: 'Before you decide what to do about a Greer tree, get a plain look at its health and any hazards it poses.',
@@ -444,7 +444,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'land-clearing',
-    title: 'Land Clearing Greer, SC | Greenville Tree & Stump',
+    title: 'Land Clearing in Greer, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Greer, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call today.',
     h1: 'Land Clearing in Greer, SC',
     lead: 'Clearing a Greer lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
@@ -612,7 +612,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'arborist',
-    title: 'Arborist Assessments Fountain Inn, SC | Greenville Tree & Stump',
+    title: 'Tree Assessment Fountain Inn, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Fountain Inn, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Fountain Inn, SC',
     lead: 'Not sure whether a Fountain Inn tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -627,7 +627,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Fountain Inn, SC | Greenville Tree & Stump',
+    title: 'Emergency Removal Fountain Inn, SC | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Fountain Inn, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Fountain Inn, SC',
     lead: 'A tree down or leaning on a Fountain Inn home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -718,7 +718,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'arborist',
-    title: 'Arborist Assessments Travelers Rest, SC | Greenville Tree & Stump',
+    title: 'Tree Assessment Travelers Rest, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Travelers Rest, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Travelers Rest, SC',
     lead: 'Not sure whether a Travelers Rest tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -733,7 +733,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Travelers Rest, SC | Greenville Tree & Stump',
+    title: 'Emergency Removal Travelers Rest | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Travelers Rest, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Travelers Rest, SC',
     lead: 'A tree down or leaning on a Travelers Rest home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -748,7 +748,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Travelers Rest, SC | Greenville Tree & Stump',
+    title: 'Tree Removal Cost Travelers Rest | Greenville Tree & Stump',
     metaDescription: 'What tree removal costs in Travelers Rest, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Travelers Rest, SC',
     lead: 'What a tree removal costs in Travelers Rest depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
@@ -825,7 +825,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'arborist',
-    title: 'Arborist Assessments Five Forks, SC | Greenville Tree & Stump',
+    title: 'Tree Assessment in Five Forks, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Five Forks, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Five Forks, SC',
     lead: 'Not sure whether a Five Forks tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -840,7 +840,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Five Forks, SC | Greenville Tree & Stump',
+    title: 'Emergency Removal Five Forks, SC | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Five Forks, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
     h1: 'Emergency Tree Removal in Five Forks, SC',
     lead: 'A tree down or leaning on a Five Forks home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -931,7 +931,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'arborist',
-    title: 'Arborist Assessments Powdersville, SC | Greenville Tree & Stump',
+    title: 'Tree Assessment Powdersville, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Powdersville, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Powdersville, SC',
     lead: 'Not sure whether a Powdersville tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -946,7 +946,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Powdersville, SC | Greenville Tree & Stump',
+    title: 'Emergency Removal Powdersville, SC | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Powdersville, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Powdersville, SC',
     lead: 'A tree down or leaning on a Powdersville home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -993,7 +993,7 @@ export const combos: Combo[] = [
   // ---------- Berea ----------
   {
     area: 'berea', service: 'tree-removal',
-    title: 'Tree Removal Berea, SC | Greenville Tree & Stump',
+    title: 'Tree Removal in Berea, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Berea, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Berea, SC',
     lead: 'Removing a tree near a Berea house takes planning. On wooded lots we check the drop zone and access, then explain the method before any cutting starts.',
@@ -1008,7 +1008,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'tree-trimming',
-    title: 'Tree Trimming Berea, SC | Greenville Tree & Stump',
+    title: 'Tree Trimming in Berea, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Berea, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Berea, SC',
     lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Berea. We trim to keep the tree healthy and the branches clear.',
@@ -1083,7 +1083,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'land-clearing',
-    title: 'Land Clearing Berea, SC | Greenville Tree & Stump',
+    title: 'Land Clearing in Berea, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Berea, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Berea, SC',
     lead: 'Clearing a wooded Berea lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
@@ -1144,7 +1144,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'arborist',
-    title: 'Arborist Assessments Wade Hampton, SC | Greenville Tree & Stump',
+    title: 'Tree Assessment Wade Hampton, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Wade Hampton, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Wade Hampton, SC',
     lead: 'Not sure whether a Wade Hampton tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -1159,7 +1159,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Wade Hampton, SC | Greenville Tree & Stump',
+    title: 'Emergency Removal Wade Hampton, SC | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Wade Hampton, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
     h1: 'Emergency Tree Removal in Wade Hampton, SC',
     lead: 'A tree down or leaning on a Wade Hampton home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -1266,7 +1266,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'piedmont', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Piedmont, SC | Greenville Tree & Stump',
+    title: 'Emergency Removal Piedmont, SC | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Piedmont, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
     h1: 'Emergency Tree Removal in Piedmont, SC',
     lead: 'A tree down or leaning on a Piedmont home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
@@ -1479,7 +1479,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'woodruff', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Woodruff, SC | Greenville Tree & Stump',
+    title: 'Emergency Removal Woodruff, SC | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Woodruff, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
     h1: 'Emergency Tree Removal in Woodruff, SC',
     lead: 'A tree down or leaning on a Woodruff home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',

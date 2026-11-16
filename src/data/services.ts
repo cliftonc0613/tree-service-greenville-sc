@@ -281,7 +281,7 @@ export const services: Service[] = [
     image: { src: '/images/pages/emergency-tree-removal-street.jpg', alt: 'Illustration of a large broken limb lying across a wet residential street after a storm, with brick homes on both sides' },
     name: 'Emergency Tree Removal',
     icon: 'storm',
-    title: 'Emergency Tree Removal | Greenville Tree & Stump',
+    title: 'Emergency Tree Removal Greenville | Greenville Tree & Stump',
     metaDescription:
       'Emergency tree removal in Greenville, SC after storm damage. A tree on the house, in the yard, or leaning dangerously. Call us, then we confirm the plan.',
     h1: 'Emergency and Storm Tree Removal in Greenville, SC',
