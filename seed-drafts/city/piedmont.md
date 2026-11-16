@@ -2,43 +2,42 @@
 
 ## Brief
 - Target keyword: tree service piedmont sc (10/mo, playbook.md)
-- Gaps fixed: sections 1 (want 2+), geography 25 words (want 40+), faqs 2 (want 3+), no research profile
-- Corrects: Piedmont is split between Anderson and Greenville counties, not Anderson only. This touches the existing `county` field and the existing county FAQ answer (outside the scan's gap list, but factually wrong).
-- We add: verified geography (Saluda River, two counties, 1873 mill), a section on older trees beside older homes, a third FAQ
+- Gaps: none required. Thin on tree content (566 words in main).
+- We add: Saluda River trees (Piedmont Riverfront Park, wet ground), which county's rules apply, two FAQs
+- Not used: Anderson County residential tree rules (not found), Helene debris (ended), any canopy figure
 
 ## Fields
 
-`county` (correct):
+`sections` (append two):
 ```json
-"Anderson and Greenville counties"
+[
+  {
+    "heading": "Trees along the *Saluda River*",
+    "paragraphs": [
+      "Piedmont sits on the Saluda River. Anderson County’s Piedmont Riverfront Park, a 21-acre park off River Road, has a kayak launch, a half-mile nature trail, and a picnic shelter. The county describes the site as river bluffs and protected wetlands where the Saluda meets Big Brushy Creek.",
+      "Land near water means wet ground, and wet ground is hard on trees. When soil is saturated, water acts like a lubricant, so roots can slip when wind pushes on a heavy tree."
+    ],
+    "subsections": [
+      { "heading": "What we check near the water", "paragraphs": ["On a lot near the river or a creek, we look at the slope, how wet the ground is, and how heavy the crown is. A big tree on soft ground gets a closer look than the same tree on dry, level ground."] }
+    ]
+  },
+  {
+    "heading": "Which *county’s rules* apply",
+    "paragraphs": [
+      "Piedmont is split between Anderson and Greenville counties, so the rules depend on which side of the line your lot is on. Greenville County’s tree preservation rules, as drafted, are aimed at new development that needs a grading permit.",
+      "Check with the Anderson County or Greenville County planning office before removing a tree, and check your HOA rules if you have an HOA. Tell us what you find and we will plan around it."
+    ]
+  }
+]
 ```
 
-`geography` (replace):
+`faqs` (append two):
 ```json
-"Piedmont is an unincorporated community on the Saluda River, split between Anderson and Greenville counties, about 11 miles from downtown Greenville. It grew up around the Piedmont Manufacturing Company, which built its first textile mill at the river shoals in 1873. Call us with your address so we can confirm the visit before you book."
-```
-
-`faqs[1].a` (correct "Is Piedmont in Greenville County?"):
-```json
-"Partly. Piedmont sits on the Saluda River, and the community is split between Anderson and Greenville counties. Call us with your address and we will confirm the visit."
-```
-
-`sections` (append):
-```json
-{
-  "heading": "Older trees beside *older homes*",
-  "paragraphs": ["Trees around older Piedmont houses have had decades to grow. Roots can reach under walkways, and limbs can spread over the roof. We look at both on the site visit and tell you what each tree needs."],
-  "subsections": [{
-    "heading": "Trimming that keeps the roof clear",
-    "paragraphs": ["Limbs that rest on shingles or fill gutters wear a roof down over time. We cut them back to a healthy point on the tree so they stay clear longer."]
-  }]
-}
-```
-
-`faqs` (append):
-```json
-{ "q": "What should I tell you when I call about a Piedmont tree?", "a": "Give us your address first so we can confirm coverage. Then tell us where the tree is, what it is near, and whether it is leaning, cracked, or dropping limbs. That helps us plan the site visit." }
+[
+  { "q": "Which county's rules apply to a tree on my Piedmont lot?", "a": "Piedmont is split between Anderson and Greenville counties, so it depends on which side of the line your lot is on. Greenville County's tree preservation rules, as drafted, are aimed at new development that needs a grading permit. Check with your county planning office before work starts." },
+  { "q": "Do trees near the Saluda River need special care?", "a": "Wet ground and sloped banks make roots less secure. In saturated soil, water acts like a lubricant, so a heavy tree can slip when wind pushes on it. We look at the slope, the soil, and the crown before we plan the work." }
+]
 ```
 
 ## Sources
-See knowledge/research/piedmont.md (Wikipedia, NPS, playbook.md; via WebSearch, retrieved 2026-11-16).
+See knowledge/research/piedmont.md, "Trees, rules, and the river" (Anderson County park announcement via WebFetch; Greenville County draft via WebSearch; Clemson and SC Public Radio for the soil fact). The FAQ answers use ASCII apostrophes in the draft and curly ones in the data file.
