@@ -330,30 +330,9 @@ export const areas: Area[] = [
           },
         ],
       },
-      {
-        heading: 'Downtown *Greer*',
-        paragraphs: [
-          'Downtown Greer grew up around the railroad. The Greer Depot at 311 Trade Street was built in 1913 by the Piedmont & Northern Railroad as a passenger station and freight warehouse, and it is on the National Register of Historic Places.',
-          'Much of the historic core is a National Register district along Trade Street, East Poinsett Street, and North Main Street. Trees close to older downtown buildings need the same careful look as any tree near a house.',
-        ],
-        subsections: [
-          {
-            heading: 'Greer Heritage Museum',
-            paragraphs: [
-              'The Greer Heritage Museum is housed in the former Greer Post Office, a 1935 building from the New Deal era.',
-            ],
-          },
-          {
-            heading: 'Trade Street and the depot',
-            paragraphs: [
-              'Trade Street has been set up as a shared street that can close to traffic for events, and the depot grounds are used as an event venue.',
-            ],
-          },
-        ],
-      },
     ],
     geography:
-      'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Greenville-Spartanburg International Airport sits next to the city, and the BMW plant is on Highway 101 South. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',
+      'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Downtown Greer grew up around the railroad. The Greer Depot on Trade Street was built in 1913 by the Piedmont & Northern Railroad, and the Greer Heritage Museum sits in the former 1935 post office. Greenville-Spartanburg International Airport is next to the city, and the BMW plant is on Highway 101 South. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',
     faqs: [
       {
         q: 'Is Greer in Greenville or Spartanburg County?',
