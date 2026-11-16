@@ -1039,7 +1039,7 @@ export const areas: Area[] = [
       {
         heading: 'Tree service for *Piedmont* homes',
         paragraphs: [
-          'Piedmont homes often have large trees that have grown up beside older houses. Trimming keeps limbs clear of the roof. Removal is the right call when a tree is dead or leaning.',
+          'Piedmont homes often have large trees growing beside them. Removal is the right call when a tree is dead or leaning.',
         ],
         bullets: [
           'Trimming branches off roofs and gutters',
@@ -1050,7 +1050,7 @@ export const areas: Area[] = [
       {
         heading: 'Older trees beside *older homes*',
         paragraphs: [
-          'Trees around older Piedmont houses have had decades to grow. Roots can reach under walkways, and limbs can spread over the roof. We look at both on the site visit and tell you what each tree needs.',
+          'Trees around older Piedmont houses have had decades to grow, and roots can reach under walkways. We look at each tree on the site visit and tell you what it needs.',
         ],
         subsections: [
           {
@@ -1064,7 +1064,7 @@ export const areas: Area[] = [
       {
         heading: 'Trees along the *Saluda River*',
         paragraphs: [
-          'Piedmont sits on the Saluda River. Anderson County’s Piedmont Riverfront Park, a 21-acre park off River Road, has a kayak launch, a half-mile nature trail, and a picnic shelter. The county describes the site as river bluffs and protected wetlands where the Saluda meets Big Brushy Creek.',
+          'The county describes Piedmont Riverfront Park as river bluffs and protected wetlands where the Saluda meets Big Brushy Creek.',
           'Land near water means wet ground, and wet ground is hard on trees. When soil is saturated, water acts like a lubricant, so roots can slip when wind pushes on a heavy tree.',
         ],
         subsections: [
@@ -1079,13 +1079,13 @@ export const areas: Area[] = [
       {
         heading: 'Which *county’s rules* apply',
         paragraphs: [
-          'Piedmont is split between Anderson and Greenville counties, so the rules depend on which side of the line your lot is on. Greenville County’s tree preservation rules, as drafted, are aimed at new development that needs a grading permit.',
+          'Because the county line runs through town, the rules depend on which side your lot is on. Greenville County’s tree preservation rules, as drafted, are aimed at new development that needs a grading permit.',
           'Check with the Anderson County or Greenville County planning office before removing a tree, and check your HOA rules if you have an HOA. Tell us what you find and we will plan around it.',
         ],
       },
     ],
     geography:
-      'Piedmont is an unincorporated community on the Saluda River, split between Anderson and Greenville counties, about 11 miles from downtown Greenville. It grew up around the Piedmont Manufacturing Company, which built its first textile mill at the river shoals in 1873. Call us with your address so we can confirm the visit before you book.',
+      'Piedmont is an unincorporated community about 11 miles from downtown Greenville. It grew up around the Piedmont Manufacturing Company, which built its first textile mill at the river shoals in 1873.',
     faqs: [
       {
         q: 'Do you serve Piedmont, SC?',
@@ -1093,7 +1093,7 @@ export const areas: Area[] = [
       },
       {
         q: 'Is Piedmont in Greenville County?',
-        a: 'Partly. Piedmont sits on the Saluda River, and the community is split between Anderson and Greenville counties. Call us with your address and we will confirm the visit.',
+        a: 'Partly. The community sits on the Anderson and Greenville county line.',
       },
       {
         q: 'What should I tell you when I call about a Piedmont tree?',
@@ -1101,11 +1101,11 @@ export const areas: Area[] = [
       },
       {
         q: 'Which county’s rules apply to a tree on my Piedmont lot?',
-        a: 'Piedmont is split between Anderson and Greenville counties, so it depends on which side of the line your lot is on. Greenville County’s tree preservation rules, as drafted, are aimed at new development that needs a grading permit. Check with your county planning office before work starts.',
+        a: 'Check which side of the line your lot is on, and confirm the county before you remove a tree.',
       },
       {
         q: 'Do trees near the Saluda River need special care?',
-        a: 'Wet ground and sloped banks make roots less secure. In saturated soil, water acts like a lubricant, so a heavy tree can slip when wind pushes on it. We look at the slope, the soil, and the crown before we plan the work.',
+        a: 'Yes. Tell us the address and we will schedule a site visit before any work is planned.',
       },
     ],
     nearby: [
@@ -1113,7 +1113,7 @@ export const areas: Area[] = [
       { slug: 'berea', name: 'Berea' },
     ],
     mainRoads: ['I-85 (Exit 35, SC 86)', 'SC 86', 'SC 20 (Piedmont Highway)'],
-    landmarks: ['Piedmont Riverfront Park, a 21-acre Anderson County park off River Road on the Saluda River', 'Piedmont Number One mill site (National Historic Landmark, 1978)', 'Saluda River dam through the center of town'],
+    landmarks: ['Piedmont Riverfront Park, a 21-acre Anderson County park off River Road with a kayak launch, a half-mile nature trail, and a picnic shelter', 'Piedmont Number One mill site (National Historic Landmark, 1978)', 'Saluda River dam through the center of town'],
     responseArea: 'Piedmont and nearby Powdersville and Berea. Call us with your address first.',
     landmarkImage: { src: '/images/pages/landmarks/piedmont-riverfront-park.jpg', alt: 'The green Piedmont Riverfront Park sign, with a painted circle showing an old brick mill tower, the river, a blue mountain, and a turtle, standing on metal posts in front of tall trees', credit: { text: 'Piedmont Riverfront Park, Google Maps', url: 'https://maps.app.goo.gl/rRjWoaiKLGiLGAyd7' } },
   },
