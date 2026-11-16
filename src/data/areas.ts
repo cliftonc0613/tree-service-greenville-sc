@@ -484,7 +484,7 @@ export const areas: Area[] = [
       },
     ],
     geography:
-      'Fountain Inn is split between Greenville and Laurens counties, southeast of Simpsonville. The Ellison Flour Mill, built in 1940 and 1941 by F.G. Ellison, was the town’s only flour mill and is on the National Register of Historic Places. It stopped milling in the 1970s and has since been restored as a brewery and food hall that anchors the downtown district. Work here ranges from yard trees beside the house to wooded lots at the edge of town, so the site visit matters.',
+      'Fountain Inn is split between Greenville and Laurens counties, southeast of Simpsonville. Its downtown centers on the restored Ellison Flour Mill, and the Fountain Inn Museum sits on Depot Street. Work here ranges from yard trees beside the house to wooded lots at the edge of town.',
     faqs: [
       {
         q: 'Is Fountain Inn in Greenville County?',
@@ -503,9 +503,10 @@ export const areas: Area[] = [
       { slug: 'simpsonville', name: 'Simpsonville' },
       { slug: 'mauldin', name: 'Mauldin' },
     ],
-    landmarks: ['Commerce Park and farmers market', 'Ellison Flour Mill', 'Cedar Falls Park'],
+    landmarks: ['Ellison Flour Mill, built 1940 to 1941, on the National Register, restored as a brewery and food hall', 'Fountain Inn Museum, 102 Depot Street, with rotating exhibits on the town’s history', 'Commerce Park and farmers market', 'Cedar Falls Park'],
     mainRoads: ['I-385', 'SC 14', 'SC 418'],
     responseArea: 'Fountain Inn and nearby Simpsonville and Mauldin.',
+    landmarkImage: { src: '/images/pages/landmarks/fountain-inn-museum.jpg', alt: 'The Fountain Inn Museum visitor center, a brick tower with a red roof and glass doors, beside a brick plaza and an antique steam engine', credit: { text: 'Fountain Inn Museum, Google Maps', url: 'https://maps.app.goo.gl/pNJdM6o3QwYvTMPm6' } },
   },
 
   {

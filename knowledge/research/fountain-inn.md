@@ -20,3 +20,8 @@ Retrieved 2026-11-16 with WebSearch (Firecrawl out of credits). WebSearch return
 - Built 1940 to 1941 by F.G. Ellison; the town's only flour mill, later the Fountain Inn Milling Company. Stopped milling in the 1970s. National Register listed. Sources: [SC Dept. of Archives and History, Ellison Flour Mill](https://schpr.sc.gov/index.php/Detail/objects/S10817723094); [Preserve SC, 2025 honor](https://www.preservesc.org/2025-sc-historic-preservation-aw/ellison-flour-mill) (via WebSearch).
 - Restored as a brewery and food hall; Main Street SC describes it as an anchor to the downtown district. Source: [Main Street SC](https://www.masc.sc/node/6561) (via WebSearch).
 - Not used: the largest outdoor screen claim (single source); the NRHP build date range (1940 to 1972) conflicts with the 1940 to 1941 construction date, so the copy uses 1940 and 1941.
+
+### Fountain Inn Museum (added 2026-11-16)
+- Fountain Inn Museum at 102 Depot Street, Fountain Inn; exhibits on the town's history, plus a visitor center sponsored by the Chamber of Commerce. Sources: [Fountain Inn Heritage Museum & Farmers Market (DP3 Architects)](https://dp3architects.com/?p=87); [Fountain Inn Museum listing](https://fountain-inn-sc.yiftee.com/business/fountain-inn-museum-534716) (via WebSearch).
+- Rotating exhibits, including a summer exhibit in 2026. Source: [Who's On the Move](https://whosonthemove.com/?p=492931) (via WebSearch).
+- Not used: the 2010 opening date (single source, conflicting) and hours (may have changed; confirm with the museum).
