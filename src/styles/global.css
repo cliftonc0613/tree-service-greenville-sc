@@ -30,6 +30,7 @@
   --radius-card: 0.75rem;
   --shadow-card: 0 1px 2px rgb(31 41 51 / 0.06), 0 8px 24px rgb(31 41 51 / 0.06);
   --container: 80rem;
+  --container-wide: 90rem;
   --header-h: 4.75rem;
 }
 
@@ -141,6 +142,9 @@ a:hover {
   margin-inline: auto;
   padding-inline: 1rem;
 }
+
+/* A little wider than the standard container, for the About the area row on town pages. */
+.container--wide { max-width: var(--container-wide); }
 
 @media (min-width: 40rem) {
   .container { padding-inline: 1.5rem; }

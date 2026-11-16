@@ -62,7 +62,7 @@ const schema = [
   </section>
 
   <section class="section section--white" aria-labelledby="about-area-heading">
-    <div class="container area-about">
+    <div class="container container--wide area-about">
       <div class="area-about__main">
         <div class="area-about__text">
           <h2 id="about-area-heading">About the area</h2>
@@ -89,7 +89,7 @@ const schema = [
 
   {((area.landmarks?.length ?? 0) > 0 || (area.mainRoads?.length ?? 0) > 0 || Boolean(area.responseArea)) && (
     <section class="section section--white" aria-labelledby="area-facts-heading">
-      <div class="container">
+      <div class="container container--wide">
         <div class="area-facts">
           {(area.landmarks?.length ?? 0) > 0 && (
             <div class="area-facts__card">
