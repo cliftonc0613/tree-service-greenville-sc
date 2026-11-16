@@ -354,7 +354,7 @@ export const areas: Area[] = [
     landmarks: ['Greenville-Spartanburg International Airport (GSP)', 'BMW plant on Highway 101 South', 'Greer Depot, 311 Trade Street', 'Greer Heritage Museum'],
     mainRoads: ['US 29', 'SC 101'],
     responseArea: 'Greer and nearby Taylors and Easley.',
-    landmarkImage: { src: '/images/pages/landmarks/greer-depot.jpg', alt: 'The Greer Depot, a two-story brick railroad station with an orange tile roof and a GREER sign on its front, beside a brick walkway and a black iron fence' },
+    landmarkImage: { src: '/images/pages/landmarks/greer-depot.jpg', alt: 'The Greer Depot, a two-story brick railroad station with an orange tile roof and a GREER sign, beside a freight train with a CSX locomotive on the tracks' },
   },
 
   {
