@@ -1112,7 +1112,7 @@ export const areas: Area[] = [
       { slug: 'powdersville', name: 'Powdersville' },
       { slug: 'berea', name: 'Berea' },
     ],
-    mainRoads: ['I-85 (Exit 35, SC 86)', 'SC 86', 'SC 20 (Piedmont Highway)'],
+    mainRoads: ['I-85 (Exit 35, SC 86)', 'SC 20 (Piedmont Highway)'],
     landmarks: ['Piedmont Riverfront Park, a 21-acre Anderson County park off River Road with a kayak launch, a half-mile nature trail, and a picnic shelter', 'Piedmont Number One mill site (National Historic Landmark, 1978)', 'Saluda River dam through the center of town'],
     responseArea: 'Piedmont and nearby Powdersville and Berea. Call us with your address first.',
     landmarkImage: { src: '/images/pages/landmarks/piedmont-riverfront-park.jpg', alt: 'The green Piedmont Riverfront Park sign, with a painted circle showing an old brick mill tower, the river, a blue mountain, and a turtle, standing on metal posts in front of tall trees', credit: { text: 'Piedmont Riverfront Park, Google Maps', url: 'https://maps.app.goo.gl/rRjWoaiKLGiLGAyd7' } },
