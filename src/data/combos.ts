@@ -73,7 +73,7 @@ export const combos: Combo[] = [
     title: 'Arborist in Simpsonville, SC | Greenville Tree & Stump',
     metaDescription: 'Tree assessments in Simpsonville, SC for health and hazards, with a plain recommendation on whether to keep, trim, or remove the tree.',
     h1: 'Arborist Assessments in Simpsonville, SC',
-    lead: 'Before you decide to remove or trim a Simpsonville tree, get a plain assessment of its health and any hazards it poses.',
+    lead: 'Before you decide to remove or trim a Simpsonville tree, get a plain assessment of its health and any hazards it poses to your home, driveway, or yard.',
     sections: [{ heading: 'Assessing a Simpsonville tree', paragraphs: [
       'We check the trunk, root flare, main limbs, and canopy, and we look at what the tree could hit if it fails. That includes the house, the driveway, and anywhere people walk or park.',
       'You get a written summary of what we found and what we recommend, in order of priority. We will say if a tree can be saved and if it cannot.',
