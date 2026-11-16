@@ -1114,6 +1114,7 @@ export const areas: Area[] = [
     ],
     landmarks: ['Piedmont Number One mill site (National Historic Landmark, 1978)', 'Saluda River dam through the center of town'],
     responseArea: 'Piedmont and nearby Powdersville and Berea. Call us with your address first.',
+    landmarkImage: { src: '/images/pages/landmarks/piedmont-riverfront-park.jpg', alt: 'The green Piedmont Riverfront Park sign, with a painted circle showing an old brick mill tower, the river, a blue mountain, and a turtle, standing on metal posts in front of tall trees', credit: { text: 'Piedmont Riverfront Park, Google Maps', url: 'https://maps.app.goo.gl/rRjWoaiKLGiLGAyd7' } },
   },
 
   {
