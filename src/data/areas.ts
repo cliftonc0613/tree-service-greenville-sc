@@ -431,6 +431,7 @@ export const areas: Area[] = [
     landmarks: ['Mauldin Cultural Center (built by WPA crews, 1935 to 1937)', 'W. Jack Greer Branch library, 800 W Butler Road', 'Gosnell Cabin historical marker'],
     mainRoads: ['I-385', 'US 276 (Main Street)', 'Butler Road'],
     responseArea: 'Mauldin and nearby Simpsonville and Fountain Inn.',
+    landmarkImage: { src: '/images/pages/landmarks/mauldin-cultural-center.jpg', alt: 'The Mauldin Cultural Center brick entrance sign with a stone base, in front of a brick building under a blue sky, with a flagpole beside it', credit: { text: 'Mauldin Cultural Center, Google Maps', url: 'https://maps.app.goo.gl/X7hke1QM5FFYLG328' } },
   },
 
   {
