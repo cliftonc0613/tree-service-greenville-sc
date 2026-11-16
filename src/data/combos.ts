@@ -56,14 +56,14 @@ export const combos: Combo[] = [
     title: 'Stump Grinding Simpsonville, SC | Greenville Tree & Stump',
     metaDescription: 'Stump grinding in Simpsonville, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Simpsonville, SC',
-    lead: 'A stump left after a removal in Simpsonville can sit in the yard for years. We grind it down so the space can be used again.',
+    lead: 'A stump in a Simpsonville yard can stay in the way for years after a removal. We grind it below the surface so the spot can be planted, paved, or mowed.',
     sections: [{ heading: 'Grinding stumps in Simpsonville', paragraphs: [
-      'Stumps are a trip hazard and a place for pests and fungus. Grinding clears the spot for a garden, patio, or new lawn.',
-      'Roots and nearby structures change the method, so we check the stump and the ground around it on the site visit. Ask for stump grinding with the removal if you want one visit and one bill.',
-    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway, fence, or patio', 'Old stumps that block a new planting area'] }],
+      'A stump near a driveway, walkway, or fence is a trip hazard and a place for pests and fungus. Grinding clears the spot for a garden, patio, or new lawn.',
+      'If the stump sits on a lot off Fairview Road or near Heritage Park, tell us how close it is to the road, the walks, and any buried lines, since those change the method. We check the stump and the ground on the site visit. You can add the grinding to a removal for one visit and one bill.',
+    ], bullets: ['Stumps near a driveway, walkway, or fence', 'Stumps left after a removal in a Simpsonville yard', 'Old stumps in the way of a garden or new lawn'] }],
     faqs: [
       { q: 'Can you grind a stump near a fence or patio in Simpsonville?', a: 'Often, yes. We check the space and what is underground before we promise a method.' },
-      { q: 'What happens to the grindings?', a: 'The written quote says what is included with the grindings and the cleanup.' },
+      { q: 'Can you grind a stump on a lot off Fairview Road?', a: 'Yes. Tell us the address and where the stump sits. We check access and the ground on the visit before we quote.' },
       { q: 'How deep does the stump get ground?', a: 'We grind below the surface so the spot can be planted or built on. The depth depends on the stump and your plans for the ground, so we confirm it on the visit.' },
       { q: 'Can you grind a stump that another company left behind?', a: 'Yes. Tell us what was left and where it sits. We check the stump and the ground before we quote.' },
     ],
@@ -107,15 +107,16 @@ export const combos: Combo[] = [
     title: 'Tree Removal Cost Simpsonville, SC | Greenville Tree & Stump',
     metaDescription: 'What tree removal costs in Simpsonville, SC, and what changes the price. Compare written quotes with the same scope. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Simpsonville, SC',
-    lead: 'The price of a Simpsonville tree removal depends on the tree, its location, and the access. Here is what moves the number and how to compare quotes fairly.',
+    lead: 'A tree removal in Simpsonville is priced by the tree, where it stands on the lot, and how the crew can get to it. Here is what moves the number and how to compare written quotes.',
     sections: [{ heading: 'What moves the price in Simpsonville', paragraphs: [
-      'Height, trunk width, and how close the tree sits to a structure matter most. Tight lots, slopes, and crane work all add time and care.',
-      'Compare written quotes with the same scope. Check the method, the cleanup, the wood and brush, and any stump work. Our full ranges are on the Tree Removal Cost page, and your written quote is the number that counts.',
-    ], bullets: ['Height and trunk width', 'Distance to a house, fence, or power line', 'Access, crane work, and cleanup'] }],
+      'Height, trunk width, and how close the tree sits to a house, fence, or power line matter most. Crane work, slopes, and tight side yards add time and care.',
+      'Compare written quotes line by line. Check the method, the cleanup, what happens to the wood and brush, and whether stump work is included. Our general ranges are on the Tree Removal Cost page. For your tree, the written quote is the number that counts.',
+    ], bullets: ['Height and trunk width', 'Distance to a house, fence, or power line', 'Access through a side yard or a tight lot'] }],
     faqs: [
       { q: 'Why do Simpsonville removal quotes differ?', a: 'Scope, access, method, and cleanup all change the price. Compare the written scope line by line.' },
       { q: 'Is the estimate free?', a: 'Yes. The site visit and written quote cost nothing.' },
       { q: 'Why does a removal cost more when the tree is close to the house?', a: 'Close trees need more careful cuts, rigging, and crew time, so the job takes longer. The written quote explains how that affects the scope.' },
+      { q: 'Does work near Heritage Park or a public trail cost more?', a: 'Work near public land can need extra planning, such as a closer look at the method or a permit check. The written quote lists any extra steps.' },
       { q: 'What happens if the work changes after the quote?', a: 'We explain the change in writing before it happens, along with how it affects the price.' },
     ],
   },
@@ -126,14 +127,15 @@ export const combos: Combo[] = [
     h1: 'Land Clearing in Simpsonville, SC',
     lead: 'Clearing a lot in Simpsonville before a build, a garden, or a new yard. We walk the land with you, mark what stays, and quote the work in writing.',
     sections: [{ heading: 'Clearing a Simpsonville lot', paragraphs: [
-      'Walk the property with us before you call if you can, and mark the trees you want to keep. That makes the quote and the work more accurate.',
-      'Clearing for a new house or a development often has county or HOA rules attached. Tell us about them, and check with the county before work starts.',
-    ], bullets: ['Trees and brush cleared before a new build', 'A lot prepared for a garden or pasture', 'Clearing that keeps the trees you choose'] }],
+      'Walk the property with us before you call if you can, and mark the trees you want to keep. Tell us where the entrance is and how equipment would get in, since a lot off SC 14 or Fairview Road can have a different access route than a lot in a subdivision.',
+      'Clearing for a new house or a development often has county or HOA rules attached. Tell us about them, and check with the county before work starts. Lots near public land such as Heritage Park may have added steps, so ask us about them early.',
+    ], bullets: ['Trees and brush cleared before a new build', 'A lot prepared for a garden or pasture', 'Clearing around trees you choose to keep'] }],
     faqs: [
       { q: 'Do I need a permit to clear a Simpsonville lot?', a: 'It depends on the county and the plan. Check with the county before clearing. We can tell you what we have seen on similar jobs.' },
       { q: 'Can you keep certain trees?', a: 'Yes. Mark them on the walk-through and we will quote around them.' },
       { q: 'How long does clearing a Simpsonville lot take?', a: 'It depends on the size of the lot, how many trees come out, and the access. We give a time estimate with the written quote.' },
       { q: 'What happens to the cleared brush and logs?', a: 'The written quote says what is included, such as hauling, chipping, or leaving wood on site. Ask us to list it before you agree to the work.' },
+      { q: 'Can equipment reach a lot off Fairview Road?', a: 'It depends on the entrance and the slope. Send us the address and we will check access on the visit.' },
     ],
   },
 
@@ -174,13 +176,14 @@ export const combos: Combo[] = [
     metaDescription: 'Stump grinding in Taylors, SC for stumps left after a removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Taylors, SC',
     lead: 'A stump in a Taylors yard can take up space you want for a garden or lawn. We grind it down and clean up the grindings.',
-    sections: [{ heading: 'Stumps in Taylors yards', paragraphs: [
+    sections: [{ heading: 'Grinding stumps in Taylors', paragraphs: [
       'Taylors yards often have old stumps from trees removed decades ago, as well as newer ones. Old roots can run further than the stump shows, so we check the ground on the site visit.',
-      'Tell us the location of the stump and whether it sits near a walkway, fence, or the house. That helps us plan the method.',
-    ], bullets: ['Old stumps from earlier removals', 'Stumps close to a walkway or patio', 'Stumps in the way of a planned garden'] }],
+      'On a lot along Wade Hampton Blvd or near the Enoree River, tell us whether the stump sits by a walkway, a fence, a slope, or the house. That tells us how close the grinder can work and how the grindings come out.',
+    ], bullets: ['Old stumps from earlier removals', 'Stumps near a walkway, fence, or the house', 'Stumps on sloped ground'] }],
     faqs: [
       { q: 'How deep does the stump grinding go?', a: 'The depth and method are in the written quote after the site visit.' },
       { q: 'Can you grind a stump with the tree removal?', a: 'Yes. One visit and one written quote usually works best.' },
+      { q: 'Can you grind an old stump near the Enoree River?', a: 'If the equipment can reach it safely, usually yes. Slopes and wet ground change the method, so we look at it on the visit.' },
     ],
   },
   {
@@ -221,11 +224,12 @@ export const combos: Combo[] = [
     lead: 'Tree removal in Taylors costs more or less depending on the tree, the lot, and the access. Here is how to read a quote.',
     sections: [{ heading: 'Reading a Taylors removal quote', paragraphs: [
       'Ask what each line covers. A low number with no scope is harder to trust than a fair number with the method and cleanup written out.',
-      'Our ranges are on the Tree Removal Cost page. Your written quote, after a free visit, is the price for your tree.',
-    ], bullets: ['Method and rigging', 'Cleanup and brush removal', 'Stump work and any crane time'] }],
+      'If the tree stands close to an older home, such as on a lot near Wade Hampton Blvd, it may need more rigging, and the scope will show that. The general ranges are on the Tree Removal Cost page, and your written quote is the price for your tree.',
+    ], bullets: ['Tree height and trunk width', 'How close the tree is to the house or a line', 'Rigging, cleanup, and stump work in the scope'] }],
     faqs: [
       { q: 'Do you charge for the Taylors estimate?', a: 'No. The site visit and written quote are free.' },
       { q: 'Are quotes firm?', a: 'The written quote states the scope and price for the work described. Ask about any change before it happens.' },
+      { q: 'Why would a removal near the Enoree River cost more?', a: 'Slopes and soft ground near water can limit where equipment sets up, which can add time. The written quote says what the access involves.' },
     ],
   },
   {
@@ -235,12 +239,13 @@ export const combos: Combo[] = [
     h1: 'Land Clearing in Taylors, SC',
     lead: 'Lots in Taylors often need clearing before a build or a garden. We walk the land with you and quote the work in writing.',
     sections: [{ heading: 'Clearing a Taylors lot', paragraphs: [
-      'Mark the trees and areas you want to keep before the site visit. We quote around them and tell you what the clearing involves.',
-      'Clearing near the river or on slopes changes the access and the method. We will say what it takes on the visit.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a house or garden', 'Clearing around trees you keep'] }],
+      'Mark the trees and areas you want to keep before the site visit, and we plan the clearing around them.',
+      'Clearing near the Enoree River or on slopes changes the access and the method, and we will say what it takes on the visit. Taylors is in Greenville County, so check with the county about any rules before work starts.',
+    ], bullets: ['Brush and small trees cleared from a lot', 'Sloped ground cleared with a plan for access', 'Trees you mark left standing'] }],
     faqs: [
       { q: 'Can you clear a sloped Taylors lot?', a: 'Often, yes. Slope changes the method and the price. We will look at it on the visit.' },
       { q: 'Do you haul the brush away?', a: 'Ask during the estimate. The written quote says what the cleanup includes.' },
+      { q: 'Can you clear a lot off Wade Hampton Blvd?', a: 'Tell us where the entrance is and how equipment would get in. A main road frontage can change the plan, so we check it on the visit.' },
     ],
   },
 
@@ -281,13 +286,13 @@ export const combos: Combo[] = [
     metaDescription: 'Stump grinding in Easley, SC for stumps left after a removal on wooded or open lots. Free written estimate, cleanup before we leave.',
     h1: 'Stump Grinding in Easley, SC',
     lead: 'Stumps on Easley lots can sit in the way of a new garden, a driveway, or a clearing. We grind them down and clean up.',
-    sections: [{ heading: 'Stumps on Easley properties', paragraphs: [
+    sections: [{ heading: 'Grinding stumps in Easley', paragraphs: [
       'Stumps left after clearing or a removal often sit among brush and roots. We look at the stump, the roots, and the access before we give you a method.',
-      'Ask for the grinding with the removal if both are needed. One visit and one written quote is usually simplest.',
-    ], bullets: ['Stumps left after clearing', 'Stumps near a driveway or garden', 'Stumps among roots and brush'] }],
+      'On a wooded lot off US 123 or SC 153, or on ground that slopes toward the Saluda River, tell us how a machine would reach the stump. Ask for the grinding with a removal if both are needed, so it is one visit and one written quote.',
+    ], bullets: ['Stumps left after a clearing', 'Stumps among brush and roots on wooded lots', 'Stumps in the way of a garden or driveway'] }],
     faqs: [
       { q: 'Can you reach a stump in the woods in Easley?', a: 'Often, if we can get the equipment in safely. We check the access on the visit.' },
-      { q: 'What happens to the grindings?', a: 'The written quote states what the cleanup includes.' },
+      { q: 'What happens to the grindings?', a: 'We list it in the written quote, so you know before the work whether the grindings stay on site or are cleaned up.' },
     ],
   },
   {
@@ -328,11 +333,12 @@ export const combos: Combo[] = [
     lead: 'Wooded Easley lots change the cost of a removal. Here is what moves the price and how to compare written quotes.',
     sections: [{ heading: 'What moves the price in Easley', paragraphs: [
       'Access through woods, slopes, and the distance to the house all add time and care. A removal near other trees can need more rigging.',
-      'Our ranges are on the Tree Removal Cost page. Your written quote after a free visit is the price for your tree.',
-    ], bullets: ['Access through woods or over a slope', 'Rigging around other trees', 'Cleanup and stump work'] }],
+      'A tree on a lot off SC 124 or near Nalley Brown Nature Park may be reached differently than one in a neighborhood yard, so tell us how a truck would get to it. The general ranges are on the Tree Removal Cost page. Your written quote after a free visit is the number for your tree.',
+    ], bullets: ['Access through woods or on a slope', 'Distance to the house and other trees', 'Rigging, cleanup, and hauling in the scope'] }],
     faqs: [
       { q: 'Why do Easley quotes vary?', a: 'Access, lot shape, and scope change the price. Compare the written scope.' },
-      { q: 'Is the estimate free?', a: 'Yes.' },
+      { q: 'Is the estimate free?', a: 'Yes. There is no charge for the visit or the written quote.' },
+      { q: 'Do Pickens County rules affect a removal?', a: 'Rules depend on the county and the property. Easley is in Pickens County, so check with the county if you are unsure. We can tell you what we have seen on similar jobs.' },
     ],
   },
   {
@@ -341,13 +347,14 @@ export const combos: Combo[] = [
     metaDescription: 'Land and lot clearing in Easley, SC for a new house, pasture, or garden on wooded property. Free written estimate. Call today.',
     h1: 'Land Clearing in Easley, SC',
     lead: 'Clearing a wooded Easley property for a house, a pasture, or a garden takes a plan. We walk the land with you and quote the work in writing.',
-    sections: [{ heading: 'Clearing wooded Easley property', paragraphs: [
+    sections: [{ heading: 'Clearing wooded Easley land', paragraphs: [
       'Mark the boundary, the trees you want to keep, and any areas to avoid. That helps us quote accurately and keep the clearing where you want it.',
-      'Clearing on wooded property can involve county rules and access limits. Check with the county before work starts, and tell us what applies.',
-    ], bullets: ['Brush and small trees cleared', 'Clearing for a house, pasture, or garden', 'Trees kept along the boundary'] }],
+      'Easley is in Pickens County, so check with the county about rules before clearing starts. Land that slopes toward the Saluda River or a creek can limit access, and we will say what that means for the method on the visit.',
+    ], bullets: ['Wooded lots cleared for a house or pasture', 'Brush and small trees removed', 'Clearing kept inside the boundary you mark'] }],
     faqs: [
       { q: 'Do you clear around trees I want to keep?', a: 'Yes. Mark them on the walk-through.' },
       { q: 'Is the clearing quote written?', a: 'Yes, with the scope and the cleanup.' },
+      { q: 'Can you clear a lot off US 123?', a: 'Tell us where the entrance is. Highway frontage can change how equipment gets in, so we check it on the visit.' },
     ],
   },
 
@@ -388,13 +395,14 @@ export const combos: Combo[] = [
     metaDescription: 'Stump grinding in Greer, SC for stumps left after a removal or clearing. Free written estimate, and we clean up before we leave.',
     h1: 'Stump Grinding in Greer, SC',
     lead: 'Stumps left after a removal or a clearing in Greer can get in the way of a lawn, a patio, or a new planting. We grind them down.',
-    sections: [{ heading: 'Stumps in Greer yards', paragraphs: [
+    sections: [{ heading: 'Grinding stumps in Greer', paragraphs: [
       'Stumps in newer neighborhoods often sit near new sod or new fences. We check the stump and the ground around it before choosing a method.',
-      'Ask for stump grinding with a removal if you want one visit and one bill.',
-    ], bullets: ['Stumps left after clearing', 'Stumps near new sod or fences', 'Stumps in the way of a planned patio'] }],
+      'If your yard is off SC 101 or US 29, tell us whether the stump sits near the street, a driveway, or a buried line, since that changes how close the grinder can work. Add the grinding to a removal if you want one visit and one bill.',
+    ], bullets: ['Stumps near new sod or a new fence', 'Stumps left after a removal or a clearing', 'Stumps in the way of a patio or planting'] }],
     faqs: [
       { q: 'Will grinding damage new sod?', a: 'We plan the method around the surrounding ground and tell you about any risk on the visit.' },
-      { q: 'What about the grindings?', a: 'The written quote states what the cleanup includes.' },
+      { q: 'What about the grindings?', a: 'We write down in the quote whether the grindings stay or are cleaned up, so there is no surprise after the work.' },
+      { q: 'My Greer lot is in Spartanburg County. Does that matter?', a: 'Greer sits in both Greenville and Spartanburg counties. Tell us the address so we can confirm coverage and plan the visit.' },
     ],
   },
   {
@@ -434,12 +442,13 @@ export const combos: Combo[] = [
     h1: 'Tree Removal Cost in Greer, SC',
     lead: 'What a tree removal costs in Greer depends on the tree, the lot, and the access. Here is how to read a written quote.',
     sections: [{ heading: 'Reading a Greer removal quote', paragraphs: [
-      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and the stump work is easier to compare.',
-      'Our ranges are on the Tree Removal Cost page. Your written quote after a free visit is the price for your tree.',
-    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+      'A good quote says where the work starts and stops. Look for the method, the cleanup, and whether the stump is included, then compare quotes on the same terms.',
+      'Access matters as much as size. A tree in a tight back yard takes longer to bring down than one in an open front yard, because the crew has to lower it in pieces. The general ranges are on the Tree Removal Cost page, and your written quote after a free visit is the price for your tree.',
+    ], bullets: ['Tree size and the space around it', 'Rigging in a tight back yard', 'Cleanup and stump work in the scope'] }],
     faqs: [
-      { q: 'Is the Greer estimate free?', a: 'Yes.' },
-      { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+      { q: 'Is the Greer estimate free?', a: 'Yes. We visit and write the quote at no charge.' },
+      { q: 'Can the price change after the quote?', a: 'Only if the work changes. If it does, we explain the change and the new price before we do it.' },
+      { q: 'Do you work on both the Greenville and Spartanburg County sides of Greer?', a: 'Tell us the address and we will confirm coverage before the visit.' },
     ],
   },
   {
@@ -447,14 +456,15 @@ export const combos: Combo[] = [
     title: 'Land Clearing in Greer, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Greer, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call today.',
     h1: 'Land Clearing in Greer, SC',
-    lead: 'Clearing a Greer lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
+    lead: 'A Greer lot cleared for a new home, a garden, or a yard starts with a walk-through. We mark what stays with you and put the work in a written quote.',
     sections: [{ heading: 'Clearing a Greer lot', paragraphs: [
-      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
-      'Clearing for construction often needs county permits or a builder’s schedule. Check with the county and tell us the timing.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the boundary'] }],
+      'Before the visit, mark the boundary and any trees you want to keep, and we plan around them.',
+      'Greer sits in both Greenville and Spartanburg counties, so check with the county your lot is in about permits before clearing for construction. If a builder is involved, tell us the schedule when you call.',
+    ], bullets: ['Lots cleared for a new home', 'Brush and small trees cleared for a yard or garden', 'Marked trees left standing'] }],
     faqs: [
-      { q: 'Do you work with builders in Greer?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
-      { q: 'Is the clearing quote written?', a: 'Yes.' },
+      { q: 'Do you work with builders in Greer?', a: 'Yes, we can quote for a builder or the property owner. Send the site plan or schedule if you have one.' },
+      { q: 'Is the clearing quote written?', a: 'Yes. It lists the area, the trees that stay, and the cleanup.' },
+      { q: 'Which county handles permits for my Greer lot?', a: 'It depends on whether your lot is on the Greenville County or Spartanburg County side. Check with that county before clearing.' },
     ],
   },
   // ---------- Mauldin ----------
@@ -493,14 +503,15 @@ export const combos: Combo[] = [
     title: 'Stump Grinding Mauldin, SC | Greenville Tree & Stump',
     metaDescription: 'Stump grinding in Mauldin, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Mauldin, SC',
-    lead: 'A stump left after a removal in Mauldin can sit in the yard for years. We grind it down so the space can be planted, paved, or mowed.',
+    lead: 'A stump left in a Mauldin yard after a removal takes up space. We grind it down so the spot can be planted, paved, or mowed.',
     sections: [{ heading: 'Grinding stumps in Mauldin', paragraphs: [
-      'Stumps can become a trip hazard and a home for pests and rot. Grinding clears the spot for a garden bed, patio, or new lawn.',
-      'Roots and nearby structures change the method, so we check the stump and the ground around it on the visit. Ask for stump grinding with the removal if you want one visit and one bill.',
-    ], bullets: ['Stumps left after a storm or an earlier removal', 'Stumps near a walkway, fence, or patio', 'Old stumps in a planned planting area'] }],
+      'A stump can become a trip hazard and a home for pests and rot. Once it is ground below the surface, the spot is ready for a garden bed, patio, or new lawn.',
+      'In a yard off Butler Road or near US 276, tell us whether the stump is near a fence, a driveway, or a buried line. We check the roots and the clearance on the visit before we choose the method.',
+    ], bullets: ['Stumps near a fence or driveway', 'Stumps left from an earlier removal', 'Stumps in the way of a new lawn or patio'] }],
     faqs: [
       { q: 'Can you grind a stump next to a Mauldin fence?', a: 'Often, yes. We check the clearance on the visit and tell you how close the grinder can work.' },
-      { q: 'Is the stump grinding quote written?', a: 'Yes. The written quote lists the stump, the method, and the cleanup.' },
+      { q: 'Is the stump grinding quote written?', a: 'Yes. It names each stump, how we grind it, and what happens to the grindings.' },
+      { q: 'Can you grind the stump the same day as the removal?', a: 'Ask for both in one quote and we will plan the visit around them.' },
     ],
   },
   {
@@ -538,14 +549,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Cost Mauldin, SC | Greenville Tree & Stump',
     metaDescription: 'What tree removal costs in Mauldin, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Mauldin, SC',
-    lead: 'What a tree removal costs in Mauldin depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare them.',
-    sections: [{ heading: 'Reading a Mauldin removal quote', paragraphs: [
-      'Ask what each line covers and where the work stops. A quote that names the method, the cleanup, and any stump work is easier to compare.',
-      'Our general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
-    ], bullets: ['Method and rigging', 'Cleanup and brush', 'Stump work and crane time if needed'] }],
+    lead: 'A Mauldin tree removal is priced by the size of the tree, the lot, and the access. These are the questions to ask so two quotes can be compared fairly.',
+    sections: [{ heading: 'Comparing Mauldin removal quotes', paragraphs: [
+      'Ask each company what its price includes. Does it cover the method, the cleanup, the wood, and the stump? A quote that answers all of those is easier to compare than a single number.',
+      'If the tree stands close to a house, fence, or line, it takes more rigging and time, and the quote should say so. The general ranges are on the Tree Removal Cost page. The written quote after a free visit is the price for your tree.',
+    ], bullets: ['What the price includes', 'Rigging near a house, fence, or line', 'Wood, brush, and stump work'] }],
     faqs: [
-      { q: 'Is the Mauldin estimate free?', a: 'Yes.' },
+      { q: 'Is the Mauldin estimate free?', a: 'Yes. The visit and the written quote cost you nothing.' },
       { q: 'Can the price change after the quote?', a: 'The written quote states the scope. Ask us about any change before it happens.' },
+      { q: 'Does a tree along Butler Road or US 276 cost more to remove?', a: 'It can, if the crew has to work around traffic, lines, or a sidewalk. The written quote lists what the job needs.' },
     ],
   },
   {
@@ -555,12 +567,13 @@ export const combos: Combo[] = [
     h1: 'Land Clearing in Mauldin, SC',
     lead: 'Clearing a Mauldin lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
     sections: [{ heading: 'Clearing a Mauldin lot', paragraphs: [
-      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
-      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+      'Mark the boundary and the trees you want to keep, and walk the lot with us on the visit. We quote around what stays.',
+      'Mauldin is in Greenville County. Clearing for construction may need permits or a builder schedule, so check with the city or county and tell us the timing when you call. A lot off Butler Road or US 276 has a road frontage, so tell us where equipment would enter.',
+    ], bullets: ['Lots cleared for a new home', 'Brush and saplings cleared for a yard or garden', 'Trees you mark left standing'] }],
     faqs: [
-      { q: 'Do you work with builders in Mauldin?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
-      { q: 'Is the clearing quote written?', a: 'Yes.' },
+      { q: 'Do you work with builders in Mauldin?', a: 'Yes. We can quote clearing for a builder or the property owner. Share the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes. It lists what is cleared, what stays, and how the brush is handled.' },
+      { q: 'Can you clear a lot off Butler Road?', a: 'Usually the question is where equipment enters and how the lot slopes. We check both on the visit.' },
     ],
   },
 
@@ -1512,17 +1525,14 @@ export const combos: Combo[] = [
     title: 'Land Clearing Woodruff, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Woodruff, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
     h1: 'Land Clearing in Woodruff, SC',
-    lead: 'Clearing a lot in Woodruff before a build, a garden, or a new yard. We walk the land with you, mark what stays, and quote the work in writing.',
+    lead: 'Clearing a Woodruff lot for a new home, a garden, or a yard is a plan you can see before it starts. Call us to confirm coverage, then we walk the land and quote in writing.',
     sections: [{ heading: 'Clearing a Woodruff lot', paragraphs: [
-      'Walk the property with us before you call if you can, and mark the trees you want to keep. Tell us where the entrance is, since a lot off US 221 or SC 101 can have a different access route than a lot on a side street near McKinney Park.',
-      'Clearing for a new house often has county rules attached, and Woodruff is in Spartanburg County, so check with that county before work starts. Tell us about any rules you know of when you call.',
-    ], bullets: ['Trees and brush cleared before a new build', 'A lot prepared for a garden or pasture', 'Clearing around trees you choose to keep'] }],
+      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
+      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
+    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
     faqs: [
-      { q: 'Do I need a permit to clear a Woodruff lot?', a: 'It depends on the county and the plan. Woodruff is in Spartanburg County, so check with that county before clearing. We can tell you what we have seen on similar jobs.' },
-      { q: 'Can you keep certain trees?', a: 'Yes. Mark them on the walk-through and we will quote around them.' },
-      { q: 'How long does clearing a Woodruff lot take?', a: 'It depends on the size of the lot, how many trees come out, and the access. We give a time estimate with the written quote.' },
-      { q: 'What happens to the cleared brush and logs?', a: 'The written quote says what is included, such as hauling, chipping, or leaving wood on site. Ask us to list it before you agree to the work.' },
-      { q: 'Can equipment reach a lot off SC 146?', a: 'It depends on the entrance and the slope. Send us the address and we will check access on the visit.' },
+      { q: 'Do you work with builders in Woodruff?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
+      { q: 'Is the clearing quote written?', a: 'Yes.' },
     ],
   },
 ];
