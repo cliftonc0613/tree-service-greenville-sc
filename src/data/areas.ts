@@ -592,6 +592,21 @@ export const areas: Area[] = [
           },
         ],
       },
+      {
+        heading: 'Tree rules in *Travelers Rest*',
+        paragraphs: [
+          'Travelers Rest has a chapter of its city code on trees, and most of it covers trees on public property, such as street and park trees. It makes topping those public trees unlawful, apart from exceptions the public works director can allow. In 2021 the city announced it had been named a Tree City USA, a national program for towns with a community forestry program.',
+        ],
+        subsections: [
+          {
+            heading: 'When a private tree becomes the city’s concern',
+            paragraphs: [
+              'The code lets the public works director order the removal of a tree on private property that is a public nuisance. That includes a tree that is dead or dying, diseased or infested, blocking street lights, signs, sidewalks, or the road, or a threat to safety. Owners get 15 days after notice, and if the work is not done, the city can do it and place the cost as a lien on the property.',
+              'This chapter does not set a permit requirement for removing a healthy tree on your own lot. Other rules can still apply, so check with the city before work near the street.',
+            ],
+          },
+        ],
+      },
     ],
     geography:
       'Travelers Rest took its name from its days as a stopover for travelers and cattle drovers coming from Kentucky, North Carolina, and Tennessee on the road through the Upstate. The town was spelled Travellers Rest until the mid-1940s, when the postmaster officially changed the spelling.',
@@ -619,6 +634,14 @@ export const areas: Area[] = [
       {
         q: 'Which trees are most likely to fail in a storm?',
         a: 'Clemson lists water oak, pecan, Bradford pear, maple, and pine among the yard trees that often fail in storms, while live oak, southern magnolia, and bald cypress hold up better. Structure and pruning matter as much as the species.',
+      },
+      {
+        q: 'Do I need a permit to remove a tree in Travelers Rest?',
+        a: 'The city’s tree chapter does not list a permit for removing a healthy tree on your own lot. It covers public trees and private trees that become a nuisance. Other rules, such as zoning or HOA covenants, can still apply, so check with the city before work starts.',
+      },
+      {
+        q: 'Can the city make me remove a dead tree?',
+        a: 'In some cases, yes. The city code lets the public works director order removal of a private tree that is dead or dying, diseased, blocking a sidewalk, street light, or the road, or a threat to safety. Owners get 15 days after notice to deal with it.',
       },
     ],
     nearby: [
