@@ -13,3 +13,7 @@ Retrieved 2026-11-16 with WebSearch (Firecrawl out of credits). WebSearch return
 - ZIP codes 29611 and 29617: single source (Statistical Atlas).
 - White Horse Road's role as a boundary: not confirmed.
 - Population: not rendered by the template.
+
+### Swamp Rabbit Trail (added 2026-11-16)
+- The Swamp Rabbit Trail runs between Greenville and Travelers Rest, and a trail itinerary places a station in Berea halfway between the two, with a pocket park that has an information kiosk, seating, and a water refill station. Source: Roadtrippers and Greenville tourism itineraries (via WebSearch); single-type source, so confirm the station details with Greenville County Parks, Recreation and Tourism. The copy says only "a trail station in Berea".
+- The Google Maps link supplied for the photo opens a general Swamp Rabbit Trail listing near downtown Greenville, not a Berea-specific point.
