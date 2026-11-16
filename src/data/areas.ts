@@ -114,7 +114,7 @@ export const areas: Area[] = [
     landmarks: ['Heritage Park', 'CCNB Amphitheatre at Heritage Park', 'Heritage Park\'s replica miniature steam train'],
     mainRoads: ['I-385', 'SC 14', 'Fairview Road', 'SC 417'],
     responseArea: 'Simpsonville and nearby Taylors and Greer.',
-    landmarkImage: { src: '/images/pages/landmarks/simpsonville-heritage-park-train.jpg', alt: 'A black replica steam locomotive named Smokey, with red wheels and window trim, on a rail track in a shaded park, pulling a flatcar with cut logs and the lettering Heritage Park Simpsonville Railway', credit: { text: 'Heritage Park, Google Maps' } },
+    landmarkImage: { src: '/images/pages/landmarks/simpsonville-heritage-park-train.jpg', alt: 'A black replica steam locomotive named Smokey, with red wheels and window trim, on a rail track in a shaded park, pulling a flatcar with cut logs and the lettering Heritage Park Simpsonville Railway', credit: { text: 'Heritage Park, Google Maps', url: 'https://www.google.com/maps/place/Heritage+Park/@34.7147459,-82.2375272,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhDJ5AOY4ns4mAJV049fjK-c!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9S65Z1_yCy8oAM4bCylitT64c9yOlj7M5wmSHGw-Y_0WBXmHmmTRur_Hx9rO55maLPu44y__LkQdwhdzFRZfvKOrO9WsxlbwLmyaPW8pLURes3_eSzhExZ9r-Q72jDcged34p04gzoKFq4%3Dw203-h152-k-no!7i4000!8i3000!4m13!1m2!2m1!1sHeritage+Park!3m9!1s0x885827416c1126d5:0x5a0728d5da9eba5f!8m2!3d34.7147459!4d-82.2375272!10e5!14m1!1BCgIgAQ!15sCg1IZXJpdGFnZSBQYXJrWg8iDWhlcml0YWdlIHBhcmuSAQRwYXJrmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIwMWEyTllTWGxPYkVwdVlWaENibGRFV2toaFJHczFZMnR3VW1GRlJSQULgAQD6AQQIExA_!16s%2Fg%2F12hkggh0p?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D' } },
   },
 
   {
