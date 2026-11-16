@@ -99,7 +99,7 @@ export interface Area {
    * Put the file in public/images/pages/landmarks/ and use a real photo you own or have a license for.
    * The optional credit is a link under the photo, such as "Enoree River, Google Maps". Towns without a photo show nothing.
    */
-  landmarkImage?: PageImage & { credit?: { text: string; url: string } };
+  landmarkImage?: PageImage & { credit?: { text: string; url?: string } };
   /** Which service to lead the page with (informational only; copy is written to match). */
   leadService: 'tree-removal' | 'tree-service' | 'balanced';
 }

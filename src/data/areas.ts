@@ -114,6 +114,7 @@ export const areas: Area[] = [
     landmarks: ['Heritage Park', 'CCNB Amphitheatre at Heritage Park', 'Heritage Park\'s replica miniature steam train'],
     mainRoads: ['I-385', 'SC 14', 'Fairview Road', 'SC 417'],
     responseArea: 'Simpsonville and nearby Taylors and Greer.',
+    landmarkImage: { src: '/images/pages/landmarks/simpsonville-heritage-park-train.jpg', alt: 'A black replica steam locomotive named Smokey, with red wheels and window trim, on a rail track in a shaded park, pulling a flatcar with cut logs and the lettering Heritage Park Simpsonville Railway', credit: { text: 'Heritage Park, Google Maps' } },
   },
 
   {

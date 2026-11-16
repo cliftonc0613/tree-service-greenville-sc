@@ -73,7 +73,11 @@ const schema = [
             <img src={area.landmarkImage.src} alt={area.landmarkImage.alt} width="1440" height="620" loading="lazy" decoding="async" />
             {area.landmarkImage.credit && (
               <p class="area-facts__credit">
-                <a href={area.landmarkImage.credit.url} target="_blank" rel="noopener noreferrer">{area.landmarkImage.credit.text}</a>
+                {area.landmarkImage.credit.url ? (
+                  <a href={area.landmarkImage.credit.url} target="_blank" rel="noopener noreferrer">{area.landmarkImage.credit.text}</a>
+                ) : (
+                  <span>{area.landmarkImage.credit.text}</span>
+                )}
               </p>
             )}
           </figure>
