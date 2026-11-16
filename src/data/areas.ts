@@ -551,9 +551,50 @@ export const areas: Area[] = [
           },
         ],
       },
+      {
+        heading: 'Common *trees* in Travelers Rest yards',
+        paragraphs: [
+          'Yards in this part of the Upstate often have loblolly pines, oaks, tulip poplars, and sweetgums. Each one fails in its own way, so it helps to know what you have.',
+        ],
+        subsections: [
+          {
+            heading: 'Pines',
+            paragraphs: [
+              'Loblolly pine is one of the most common pines in South Carolina. Beetles tend to attack pines that are already stressed by drought, flooding, crowding, or storm damage. Pitch tubes on the trunk, needles turning reddish-brown, and small exit holes are signs to take seriously.',
+            ],
+          },
+          {
+            heading: 'Oaks',
+            paragraphs: [
+              'Oaks are common here, and Clemson lists water oak among the yard trees that often fail in storms. A look at the structure of a big oak is worth the time before storm season.',
+            ],
+          },
+          {
+            heading: 'Tulip poplars',
+            paragraphs: [
+              'Tulip poplar has thin bark that is easily injured and wood that rots quickly. Wounds and dead limbs on one are worth checking.',
+            ],
+          },
+        ],
+      },
+      {
+        heading: 'After heavy *rain and wind*',
+        paragraphs: [
+          'Wet ground is a big part of why trees fall. Water in saturated soil acts like a lubricant, so roots slip more easily when wind pushes on the tree. In much of the Piedmont there is also rock not far below the surface that roots cannot get through, so tall trees often do not have deep roots to hold them.',
+          'Clemson says healthy trees can fail in a storm when the soil is saturated, the crown is heavy, or a limb is already weak. Properly pruned trees hold up better than unpruned or badly pruned ones.',
+        ],
+        subsections: [
+          {
+            heading: 'Thinning a heavy crown',
+            paragraphs: [
+              'A dense crown catches the wind. Thinning it, and removing weak or dead limbs, lowers the load on the tree. We do not top trees, because that leaves weak regrowth.',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Travelers Rest took its name from its days as a stopover for travelers and cattle drovers on the road through the Upstate. The town was spelled Travellers Rest until the mid-1940s, when the postmaster officially changed the spelling.',
+      'Travelers Rest took its name from its days as a stopover for travelers and cattle drovers coming from Kentucky, North Carolina, and Tennessee on the road through the Upstate. The town was spelled Travellers Rest until the mid-1940s, when the postmaster officially changed the spelling.',
     faqs: [
       {
         q: 'Do you serve Travelers Rest, SC?',
@@ -566,6 +607,18 @@ export const areas: Area[] = [
       {
         q: 'How do I get a quote in Travelers Rest?',
         a: 'Call us or send a request on our contact page. We send a free written quote after the visit.',
+      },
+      {
+        q: 'Why do trees fall after heavy rain in Travelers Rest?',
+        a: 'Saturated soil loses its grip on roots, and in much of the Piedmont there is rock not far below the surface that roots cannot get through. Heavy crowns and weak limbs add to the load. Pruning before storm season can lower the risk.',
+      },
+      {
+        q: 'How can I tell if a pine in my yard is in trouble?',
+        a: 'Look for pitch tubes on the trunk, needles turning reddish-brown, and small exit holes. Beetles tend to attack pines already stressed by drought, flooding, crowding, or storm damage. If you see these signs, call us for a look.',
+      },
+      {
+        q: 'Which trees are most likely to fail in a storm?',
+        a: 'Clemson lists water oak, pecan, Bradford pear, maple, and pine among the yard trees that often fail in storms, while live oak, southern magnolia, and bald cypress hold up better. Structure and pruning matter as much as the species.',
       },
     ],
     nearby: [
