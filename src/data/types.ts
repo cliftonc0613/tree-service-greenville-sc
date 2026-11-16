@@ -22,6 +22,8 @@ export interface Section {
   subsectionLayout?: 'columns';
   /** Optional facts boxes in a narrow column beside the section on wide screens. Stacks below on phones. */
   sidebar?: { title: string; text: string }[];
+  /** Optional picture beside this section on wide screens, like the first-section image. Stacks below on phones. */
+  image?: PageImage;
 }
 
 export type IconName =

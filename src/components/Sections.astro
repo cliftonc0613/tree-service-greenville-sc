@@ -14,7 +14,8 @@ const { sections, tone = 'white', firstImage } = Astro.props;
 ---
 
 {sections.map((s, i) => {
-  const withImage = i === 0 && Boolean(firstImage);
+  const media = s.image ?? (i === 0 ? firstImage : undefined);
+  const withImage = Boolean(media);
   const withSidebar = Boolean(s.sidebar?.length);
   return (
   <section class:list={['section', tone === 'white' ? 'section--white' : undefined]} aria-labelledby={`sec-${i}`}>
@@ -53,9 +54,9 @@ const { sections, tone = 'white', firstImage } = Astro.props;
           ))}
         </aside>
       )}
-      {withImage && firstImage && (
+      {withImage && media && (
         <figure class="section-media">
-          <img src={firstImage.src} alt={firstImage.alt} width="1440" height="803" loading="lazy" />
+          <img src={media.src} alt={media.alt} width="1440" height="803" loading="lazy" />
         </figure>
       )}
     </div>
