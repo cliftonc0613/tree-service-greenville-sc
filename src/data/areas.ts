@@ -111,6 +111,9 @@ export const areas: Area[] = [
       { slug: 'taylors', name: 'Taylors' },
       { slug: 'greer', name: 'Greer' },
     ],
+    landmarks: ['Heritage Park', 'CCNB Amphitheatre at Heritage Park', 'Heritage Park\'s replica miniature steam train'],
+    mainRoads: ['I-385', 'SC 14', 'Fairview Road', 'SC 417'],
+    responseArea: 'Simpsonville and nearby Taylors and Greer.',
   },
 
   {
@@ -196,6 +199,9 @@ export const areas: Area[] = [
       { slug: 'simpsonville', name: 'Simpsonville' },
       { slug: 'greer', name: 'Greer' },
     ],
+    landmarks: ['Taylors Mill, the former Southern Bleachery (National Register)', 'Enoree River'],
+    mainRoads: ['US 29 (Wade Hampton Blvd)'],
+    responseArea: 'Taylors and nearby Simpsonville and Greer.',
   },
 
   {
@@ -275,6 +281,9 @@ export const areas: Area[] = [
       { slug: 'greer', name: 'Greer' },
       { slug: 'simpsonville', name: 'Simpsonville' },
     ],
+    landmarks: ['Nalley Brown Nature Park, 38 acres on Adger Road', 'Saluda River'],
+    mainRoads: ['US 123', 'SC 153', 'SC 124 (Old Easley Hwy)'],
+    responseArea: 'Easley and nearby Greer and Simpsonville.',
   },
 
   {
@@ -339,6 +348,9 @@ export const areas: Area[] = [
       { slug: 'taylors', name: 'Taylors' },
       { slug: 'easley', name: 'Easley' },
     ],
+    landmarks: ['Greenville-Spartanburg International Airport (GSP)', 'BMW plant on Highway 101 South'],
+    mainRoads: ['US 29', 'SC 101'],
+    responseArea: 'Greer and nearby Taylors and Easley.',
   },
 
   {
@@ -412,6 +424,9 @@ export const areas: Area[] = [
       { slug: 'simpsonville', name: 'Simpsonville' },
       { slug: 'fountain-inn', name: 'Fountain Inn' },
     ],
+    landmarks: ['Mauldin Cultural Center (built by WPA crews, 1935 to 1937)', 'W. Jack Greer Branch library, 800 W Butler Road', 'Gosnell Cabin historical marker'],
+    mainRoads: ['I-385', 'US 276 (Main Street)', 'Butler Road'],
+    responseArea: 'Mauldin and nearby Simpsonville and Fountain Inn.',
   },
 
   {
@@ -483,6 +498,9 @@ export const areas: Area[] = [
       { slug: 'simpsonville', name: 'Simpsonville' },
       { slug: 'mauldin', name: 'Mauldin' },
     ],
+    landmarks: ['Commerce Park and farmers market', 'Ellison Flour Mill', 'Cedar Falls Park'],
+    mainRoads: ['I-385', 'SC 14', 'SC 418'],
+    responseArea: 'Fountain Inn and nearby Simpsonville and Mauldin.',
   },
 
   {
@@ -548,6 +566,9 @@ export const areas: Area[] = [
       { slug: 'greer', name: 'Greer' },
       { slug: 'taylors', name: 'Taylors' },
     ],
+    landmarks: ['Swamp Rabbit Trail, northern end in town'],
+    mainRoads: ['US 25', 'US 276 (Main Street)'],
+    responseArea: 'Travelers Rest and nearby Greer and Taylors.',
   },
 
   {
@@ -611,6 +632,9 @@ export const areas: Area[] = [
       { slug: 'simpsonville', name: 'Simpsonville' },
       { slug: 'mauldin', name: 'Mauldin' },
     ],
+    landmarks: ['Five Forks Library, Greenville County Library System', 'Five Forks Place shopping center on Woodruff Road'],
+    mainRoads: ['Woodruff Road', 'SC 14'],
+    responseArea: 'Five Forks and nearby Simpsonville and Mauldin.',
   },
 
   {
@@ -678,6 +702,9 @@ export const areas: Area[] = [
       { slug: 'five-forks', name: 'Five Forks' },
       { slug: 'simpsonville', name: 'Simpsonville' },
     ],
+    landmarks: ['Dolly Cooper Park on the Saluda River', 'Bethesda Church, founded 1833'],
+    mainRoads: ['SC 153'],
+    responseArea: 'Powdersville and nearby Five Forks and Simpsonville. Call us with your address first, since Powdersville is in Anderson County.',
   },
 
   {
@@ -743,6 +770,9 @@ export const areas: Area[] = [
       { slug: 'greer', name: 'Greer' },
       { slug: 'taylors', name: 'Taylors' },
     ],
+    landmarks: ['Sarah Dobey Jones Berea Branch library, N Highway 25 Bypass', 'Old Berea School site on White Horse Road'],
+    mainRoads: ['US 25 Bypass', 'White Horse Road'],
+    responseArea: 'Berea and nearby Greer and Taylors.',
   },
 
   {
@@ -811,6 +841,8 @@ export const areas: Area[] = [
       { slug: 'taylors', name: 'Taylors' },
       { slug: 'berea', name: 'Berea' },
     ],
+    mainRoads: ['US 29 (Wade Hampton Blvd)'],
+    responseArea: 'Wade Hampton and nearby Taylors and Berea.',
   },
 
   {
@@ -874,6 +906,8 @@ export const areas: Area[] = [
       { slug: 'powdersville', name: 'Powdersville' },
       { slug: 'berea', name: 'Berea' },
     ],
+    landmarks: ['Piedmont Number One mill site (National Historic Landmark, 1978)', 'Saluda River dam through the center of town'],
+    responseArea: 'Piedmont and nearby Powdersville and Berea. Call us with your address first.',
   },
 
   {
@@ -937,6 +971,9 @@ export const areas: Area[] = [
       { slug: 'easley', name: 'Easley' },
       { slug: 'piedmont', name: 'Piedmont' },
     ],
+    landmarks: ['Hagood Mill on US 178 (National Register, 1972)'],
+    mainRoads: ['US 178'],
+    responseArea: 'Pickens and nearby Easley and Piedmont. Call us with your address first.',
   },
 
   {
@@ -1000,6 +1037,9 @@ export const areas: Area[] = [
       { slug: 'greer', name: 'Greer' },
       { slug: 'fountain-inn', name: 'Fountain Inn' },
     ],
+    landmarks: ['McKinney Park, downtown', 'Woodruff City Hall'],
+    mainRoads: ['US 221', 'SC 101', 'SC 146 (Main Street)'],
+    responseArea: 'Woodruff and nearby Greer and Fountain Inn. Call us with your address first.',
   },
 ];
 

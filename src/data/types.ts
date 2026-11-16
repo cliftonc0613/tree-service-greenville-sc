@@ -88,6 +88,12 @@ export interface Area {
   faqs: Faq[];
   /** Two nearby town slugs that have published pages. */
   nearby: { slug: string; name: string }[];
+  /** Named places people recognize in or near the town. Every entry must be sourced in knowledge/research. */
+  landmarks?: string[];
+  /** Main roads through or beside the town, shown as chips. */
+  mainRoads?: string[];
+  /** Plain-text response area. Owner confirms before publishing. */
+  responseArea?: string;
   /** Which service to lead the page with (informational only; copy is written to match). */
   leadService: 'tree-removal' | 'tree-service' | 'balanced';
 }

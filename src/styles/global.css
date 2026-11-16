@@ -1051,6 +1051,58 @@ body.has-callbar {
   }
 }
 
+/* ---------- Landmarks, roads, and response area (town pages) ---------- */
+/* Two cards side by side on wide screens, stacked on phones. */
+
+.area-facts {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.area-facts__card {
+  padding: 2rem;
+  background: var(--color-soft-white);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+}
+
+.area-facts__card h2 {
+  margin: 0 0 1.25rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.area-facts__list {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.8;
+}
+
+.area-facts__roads {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.area-facts__roads li {
+  padding: 0.35rem 0.75rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-line);
+  border-radius: 0.375rem;
+  font-weight: 600;
+  color: var(--color-forest-green);
+}
+
+.area-facts__response { margin: 0; line-height: 1.7; }
+
+@media (min-width: 48rem) {
+  .area-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
 /* ---------- Nearby town tiles ---------- */
 
 .town-tiles {
