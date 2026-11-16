@@ -733,7 +733,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Travelers Rest | Greenville Tree & Stump',
+    title: 'Emergency Trees Travelers Rest, SC | Greenville Tree & Stump',
     metaDescription: 'Emergency tree removal in Travelers Rest, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Travelers Rest, SC',
     lead: 'A tree down or leaning on a Travelers Rest home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
