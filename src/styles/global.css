@@ -1096,13 +1096,6 @@ body.has-callbar {
   border-radius: var(--radius-card);
 }
 
-.area-facts__photo figcaption {
-  margin-top: 0.75rem;
-  text-align: center;
-  font-size: 0.9375rem;
-  color: var(--color-muted);
-}
-
 .area-facts__credit {
   margin: 0.5rem 0 0;
   text-align: left;
