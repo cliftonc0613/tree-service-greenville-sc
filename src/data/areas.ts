@@ -332,7 +332,7 @@ export const areas: Area[] = [
       },
     ],
     geography:
-      'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Downtown Greer grew up around the railroad. The Greer Depot on Trade Street was built in 1913 by the Piedmont & Northern Railroad, and the Greer Heritage Museum sits in the former 1935 post office. Greenville-Spartanburg International Airport is next to the city, and the BMW plant is on Highway 101 South. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',
+      'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Downtown Greer grew up around the railroad. The Greer Depot on Trade Street was built in 1913 by the Piedmont & Northern Railroad, and the Greer Heritage Museum sits in the former 1935 post office. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',
     faqs: [
       {
         q: 'Is Greer in Greenville or Spartanburg County?',
