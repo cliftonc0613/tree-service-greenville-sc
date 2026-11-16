@@ -28,7 +28,6 @@ const { h1, lead, crumbs, eyebrow, showCta = true, image } = Astro.props;
     </div>
   )}
   <div class="container">
-    <Breadcrumbs items={crumbs} />
     {eyebrow && <span class="eyebrow">{eyebrow}</span>}
     <h1>{h1}</h1>
     <p class="lead">{lead}</p>
@@ -40,6 +39,12 @@ const { h1, lead, crumbs, eyebrow, showCta = true, image } = Astro.props;
     )}
   </div>
 </section>
+
+<div class="crumbs-band">
+  <div class="container">
+    <Breadcrumbs items={crumbs} variant="below" />
+  </div>
+</div>
 
 <script>
   // Same intro as the homepage hero, for pages with a background image header.

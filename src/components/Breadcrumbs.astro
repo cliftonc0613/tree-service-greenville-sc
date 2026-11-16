@@ -8,9 +8,11 @@ interface Crumb {
 
 interface Props {
   items: Crumb[];
+  /** 'hero' = light text on the dark hero. 'below' = dark text on the page background. */
+  variant?: 'hero' | 'below';
 }
 
-const { items } = Astro.props;
+const { items, variant = 'hero' } = Astro.props;
 // Home is always the first crumb. Last item is the current page (no link).
 const all: Crumb[] = [{ label: 'Home', href: '/' }, ...items];
 const ld = {
@@ -24,7 +26,7 @@ const ld = {
 };
 ---
 
-<nav class="crumbs" aria-label="Breadcrumb">
+<nav class:list={['crumbs', variant === 'below' && 'crumbs--below']} aria-label="Breadcrumb">
   <ol>
     {all.map((c, i) => (
       <li>

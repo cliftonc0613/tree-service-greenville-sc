@@ -1003,6 +1003,24 @@ body.has-callbar {
   color: var(--color-white);
 }
 
+/* Breadcrumbs placed under the hero, on the light page background. */
+.crumbs-band {
+  padding: 1rem 0;
+  background: var(--color-soft-white);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.crumbs--below { margin-bottom: 0; }
+
+.crumbs--below a {
+  color: var(--color-forest-green);
+  text-underline-offset: 0.2em;
+}
+
+.crumbs--below li + li::before { opacity: 0.5; color: var(--color-muted); }
+
+.crumbs--below [aria-current='page'] { color: var(--color-charcoal); }
+
 /* ---------- About the area (town pages) ---------- */
 /* Text leads on the left; the nearby towns are a separate group on the right,
    split by a 1px hairline. They stack on narrow screens. */
