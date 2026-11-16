@@ -817,7 +817,7 @@ export const areas: Area[] = [
     slug: 'piedmont',
     image: { src: '/images/pages/tree-removal-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and mature trees' },
     name: 'Piedmont',
-    county: 'Anderson County',
+    county: 'Anderson and Greenville counties',
     tier: 3,
     leadService: 'tree-service',
     title: 'Tree Service in Piedmont, SC | Greenville Tree & Stump',
@@ -839,9 +839,23 @@ export const areas: Area[] = [
           'Grinding stumps left after a removal',
         ],
       },
+      {
+        heading: 'Older trees beside *older homes*',
+        paragraphs: [
+          'Trees around older Piedmont houses have had decades to grow. Roots can reach under walkways, and limbs can spread over the roof. We look at both on the site visit and tell you what each tree needs.',
+        ],
+        subsections: [
+          {
+            heading: 'Trimming that keeps the roof clear',
+            paragraphs: [
+              'Limbs that rest on shingles or fill gutters wear a roof down over time. We cut them back to a healthy point on the tree so they stay clear longer.',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Piedmont is in Anderson County, about 11 miles from downtown Greenville. Call us with your address so we can confirm the visit before you book.',
+      'Piedmont is an unincorporated community on the Saluda River, split between Anderson and Greenville counties, about 11 miles from downtown Greenville. It grew up around the Piedmont Manufacturing Company, which built its first textile mill at the river shoals in 1873. Call us with your address so we can confirm the visit before you book.',
     faqs: [
       {
         q: 'Do you serve Piedmont, SC?',
@@ -849,7 +863,11 @@ export const areas: Area[] = [
       },
       {
         q: 'Is Piedmont in Greenville County?',
-        a: 'No. Piedmont is in Anderson County.',
+        a: 'Partly. Piedmont sits on the Saluda River, and the community is split between Anderson and Greenville counties. Call us with your address and we will confirm the visit.',
+      },
+      {
+        q: 'What should I tell you when I call about a Piedmont tree?',
+        a: 'Give us your address first so we can confirm coverage. Then tell us where the tree is, what it is near, and whether it is leaning, cracked, or dropping limbs. That helps us plan the site visit.',
       },
     ],
     nearby: [
@@ -884,9 +902,23 @@ export const areas: Area[] = [
           'Stump grinding for a cleared yard',
         ],
       },
+      {
+        heading: 'Trees at the *edge of the yard*',
+        paragraphs: [
+          'On a wooded lot, the trees most likely to cause trouble are often the ones at the tree line, leaning toward the open yard or the house. We check those first and tell you which ones need attention now and which can wait.',
+        ],
+        subsections: [
+          {
+            heading: 'Chips and wood on larger lots',
+            paragraphs: [
+              'On a bigger property there may be room to leave chips along the tree line or stack wood for later. Tell us what you want, and the written quote will say what stays and what we haul off.',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Pickens is the county seat of Pickens County, about 18 miles from downtown Greenville. Call us with your address so we can confirm the visit before you book.',
+      'Pickens is the county seat of Pickens County, about 18 miles from downtown Greenville. Hagood Mill, a gristmill built in 1845, stands about 3 miles north of town on US 178. Give us your address when you call, and we will confirm the visit before you book.',
     faqs: [
       {
         q: 'Do you serve Pickens, SC?',
@@ -895,6 +927,10 @@ export const areas: Area[] = [
       {
         q: 'Is Pickens in Greenville County?',
         a: 'No. Pickens is the county seat of Pickens County.',
+      },
+      {
+        q: 'Can you remove a dead tree on a wooded lot in Pickens?',
+        a: 'Often, yes. Dead trees can drop limbs without warning, so we look at what the tree could hit and how a crew can reach it. Call with your address first so we can confirm coverage.',
       },
     ],
     nearby: [
@@ -929,9 +965,23 @@ export const areas: Area[] = [
           'Stump grinding after a removal',
         ],
       },
+      {
+        heading: 'Mature trees on *larger lots*',
+        paragraphs: [
+          'Bigger yards often mean bigger trees, set farther from the house but sometimes close to a shed, fence, or driveway. We look at each one on the visit and explain whether it needs a trim, a removal, or no work at all for now.',
+        ],
+        subsections: [
+          {
+            heading: 'Planning one trip for several trees',
+            paragraphs: [
+              'Because Woodruff is at the edge of our area, it often makes sense to handle several trees in one visit. List everything you want looked at when you call, and we will put it all on one written quote.',
+            ],
+          },
+        ],
+      },
     ],
     geography:
-      'Woodruff is in Spartanburg County, about 22 miles from downtown Greenville, at the edge of our service area. Call before you book so we can confirm the crew can reach your address.',
+      'Woodruff is in the southwestern part of Spartanburg County, about 22 miles from downtown Greenville. US 221, SC 101, and SC 146 come together in town and run through downtown as Main Street. SC 146 is the same road Greenville drivers know as Woodruff Road. Call before you book so we can confirm the crew can reach your address.',
     faqs: [
       {
         q: 'Do you serve Woodruff, SC?',
@@ -940,6 +990,10 @@ export const areas: Area[] = [
       {
         q: 'Is Woodruff in Greenville County?',
         a: 'No. Woodruff is in Spartanburg County.',
+      },
+      {
+        q: 'Do you grind stumps in Woodruff?',
+        a: 'Yes. Stump grinding can go on the same written quote as a removal, or be quoted on its own after we confirm we can reach your address.',
       },
     ],
     nearby: [
