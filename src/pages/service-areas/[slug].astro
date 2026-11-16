@@ -79,9 +79,15 @@ const schema = [
     </div>
   </section>
 
-  {((area.landmarks?.length ?? 0) > 0 || (area.mainRoads?.length ?? 0) > 0 || Boolean(area.responseArea)) && (
+  {((area.landmarks?.length ?? 0) > 0 || (area.mainRoads?.length ?? 0) > 0 || Boolean(area.responseArea) || Boolean(area.landmarkImage)) && (
     <section class="section section--white" aria-labelledby="area-facts-heading">
       <div class="container">
+        {area.landmarkImage && (
+          <figure class="area-facts__photo">
+            <img src={area.landmarkImage.src} alt={area.landmarkImage.alt} width="1440" height="620" loading="lazy" decoding="async" />
+            <figcaption>{area.landmarkImage.caption}</figcaption>
+          </figure>
+        )}
         <div class="area-facts">
           {(area.landmarks?.length ?? 0) > 0 && (
             <div class="area-facts__card">

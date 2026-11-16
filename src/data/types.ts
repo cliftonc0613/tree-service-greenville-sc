@@ -94,6 +94,12 @@ export interface Area {
   mainRoads?: string[];
   /** Plain-text response area. Owner confirms before publishing. */
   responseArea?: string;
+  /**
+   * Optional photo of one landmark, shown as a full-width band above the landmark and road cards.
+   * Put the file in public/images/pages/landmarks/ and use a real photo you own or have a license for.
+   * The caption names the landmark. Towns without a photo show no band.
+   */
+  landmarkImage?: PageImage & { caption: string };
   /** Which service to lead the page with (informational only; copy is written to match). */
   leadService: 'tree-removal' | 'tree-service' | 'balanced';
 }
