@@ -1054,8 +1054,11 @@ body.has-callbar {
 /* ---------- Landmarks, roads, and response area (town pages) ---------- */
 /* Two cards side by side on wide screens, stacked on phones. */
 
+/* Landmark photo, above the About the area text. 80% of the container on
+   wide screens, full width on phones. */
 .area-facts__photo {
-  margin: 0 0 2rem;
+  margin: 0 auto 3rem;
+  width: 100%;
 }
 
 .area-facts__photo img {
@@ -1072,6 +1075,10 @@ body.has-callbar {
   text-align: center;
   font-size: 0.9375rem;
   color: var(--color-muted);
+}
+
+@media (min-width: 48rem) {
+  .area-facts__photo { width: 80%; }
 }
 
 @media (max-width: 47.99rem) {
