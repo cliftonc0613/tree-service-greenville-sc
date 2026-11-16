@@ -790,6 +790,7 @@ export const areas: Area[] = [
     landmarks: ['Dolly Cooper Park on the Saluda River', 'Bethesda Church, founded 1833'],
     mainRoads: ['SC 153'],
     responseArea: 'Powdersville and nearby Five Forks and Simpsonville. Call us with your address first, since Powdersville is in Anderson County.',
+    landmarkImage: { src: '/images/pages/landmarks/powdersville-dolly-cooper-park.jpg', alt: 'The Dolly Cooper Park entrance sign, a curved stone wall with a white panel reading Dolly Cooper Park and 170 Spearman Circle, with evergreen shrubs in front', credit: { text: 'Dolly Cooper Park, Google Maps', url: 'https://maps.app.goo.gl/usH1z47UKgve8njg6' } },
   },
 
   {
