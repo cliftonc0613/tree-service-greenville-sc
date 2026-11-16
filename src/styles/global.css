@@ -1040,15 +1040,37 @@ body.has-callbar {
 
 @media (min-width: 64rem) {
   .area-about {
-    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
     column-gap: 0;
     align-items: stretch; /* the hairline runs the full height of the text column */
   }
-  .area-about__text { padding-right: 4rem; }
   .area-about__nearby {
     padding-left: 4rem;
     border-left: 1px solid var(--color-line);
   }
+}
+
+/* About text and landmark photo sit side by side in the left two-thirds. */
+.area-about__main {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.area-about__main .area-about__text { padding-right: 0; }
+
+.area-about__main .area-facts__photo {
+  width: 100%;
+  margin: 0;
+}
+
+@media (min-width: 64rem) {
+  .area-about__main {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 3rem;
+    padding-right: 4rem;
+  }
+  .area-about__main .area-facts__photo img { aspect-ratio: 4 / 3; }
 }
 
 /* ---------- Landmarks, roads, and response area (town pages) ---------- */
