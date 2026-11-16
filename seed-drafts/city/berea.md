@@ -2,32 +2,39 @@
 
 ## Brief
 - Target keyword: tree service berea sc (volume not in playbook table)
-- Gaps fixed: sections 1 (want 2+), geography 30 words (want 40+), faqs 2 (want 3+), no research profile
-- We add: verified geography (northwest of downtown Greenville, Westcliffe and White Horse Heights), a section on trees grown close to the house, a third FAQ
+- Gaps: no required gaps. Thin on tree content (619 words in main).
+- We add: county rules for an unincorporated area, the canopy finding, mixed woods near Paris Mountain, two FAQs
+- Not used: Helene debris (ended, nothing Berea-specific), any Berea-specific ordinance claim beyond "as drafted"
 
 ## Fields
 
-`geography` (replace):
+`sections` (append two):
 ```json
-"Berea is an unincorporated community in Greenville County, northwest of downtown Greenville. It takes in neighborhoods such as Westcliffe and White Horse Heights. Its wooded parcels and established yards mean the right plan for each tree often depends on the lot, the access, and how close the tree has grown to the house."
+[
+  {
+    "heading": "Trees in Berea’s *woods and yards*",
+    "paragraphs": [
+      "Berea sits in wooded country, and the trees here often mix hardwoods and pines. The woods on nearby Paris Mountain State Park are a similar mix. Each kind of tree grows and breaks differently, so we identify what you have before we plan the work.",
+      "A county tree canopy study names Berea among areas with lower tree cover than others. A tree that is still standing is often worth keeping, so we look at trimming and health before we recommend removal."
+    ]
+  },
+  {
+    "heading": "Working with *Greenville County*",
+    "paragraphs": [
+      "Berea is unincorporated, so Greenville County’s rules apply directly. The county’s tree preservation rules, as drafted, target new development that needs a grading permit. Check with the county Land Development Division before you remove a large tree, and check your HOA rules if you have one.",
+      "Tell us what you find and we will plan the work around it, and put the scope in writing."
+    ]
+  }
+]
 ```
 
-`sections` (append):
+`faqs` (append two):
 ```json
-{
-  "heading": "Trees that have grown *close to the house*",
-  "paragraphs": ["A tree planted decades ago can end up with limbs over the roof and roots near the foundation. We look at how close it sits and what it could hit, then explain whether trimming buys time or removal is the safer call."],
-  "subsections": [{
-    "heading": "Clearing part of a wooded parcel",
-    "paragraphs": ["If you want part of a wooded lot opened up for a yard or a project, walk it with us and point out the trees you want to keep. We quote around them and list how the brush and wood will be handled."]
-  }]
-}
-```
-
-`faqs` (append):
-```json
-{ "q": "How do I request an estimate in Berea?", "a": "Call us or use the contact page and tell us where the tree is and what it is near. We set up a free site visit and send the quote in writing." }
+[
+  { "q": "Does Berea have its own tree rules?", "a": "Berea is unincorporated, so Greenville County’s rules apply directly. The county’s tree preservation rules, as drafted, aim at new development that needs a grading permit. Check with the county before removing a large tree, and check your HOA rules if you have one." },
+  { "q": "Do I need to keep trees on my Berea lot?", "a": "Not always, but a healthy tree that provides shade and screening is worth a look before it comes down. We will tell you plainly whether a tree is worth keeping, trimming, or removing." }
+]
 ```
 
 ## Sources
-See knowledge/research/berea.md (Wikipedia, citypopulation.de, Roadside Thoughts, HometownLocator; via WebSearch, retrieved 2026-11-16).
+See knowledge/research/berea.md, "Trees, county rules, and nearby woods" (Greenville County tree preservation draft, county canopy study via local news, Paris Mountain trail aggregators; all via WebSearch, retrieved 2026-11-16).
