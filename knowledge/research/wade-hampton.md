@@ -13,3 +13,8 @@ Retrieved 2026-11-16 with WebSearch (Firecrawl out of credits). WebSearch return
 
 **Not used in copy**
 - Population: sources vary (20,458 in 2000, 21,482 in 2020, 20,925 estimate) and the template does not render it.
+
+### Landmarks on Wade Hampton Boulevard (added 2026-11-16)
+- Wade Hampton High School, 100 Pine Knoll Drive, one block off Wade Hampton Blvd and Pleasantburg Drive; opened 1960; primarily serves Wade Hampton and Taylors. Sources: [Wikipedia, Wade Hampton High School](https://en.wikipedia.org/wiki/Wade_Hampton_High_School); [Greenville County Schools profile](https://www.greenville.k12.sc.us/Schools/profile/whhs) (via WebSearch).
+- McBride's Office Supply, 832 Wade Hampton Blvd: one-story building by the Greenville firm Townes and Murphy, Modern style; National Register listed September 16, 2024 (NRIS 100010864). Source: [SC Dept. of Archives and History record](https://schpr.sc.gov/index.php/Detail/objects/S10817723097); [NRHP additional documentation](https://historypointer.com/nris/resource/100010864) (via WebSearch).
+- Not used: Camp Sevier (WWI training camp, roughly 2,000 acres from Wade Hampton Blvd to State Park Road) and Piedmont Park Baptist Church, which rest on a single school PDF. No roadside marker found on the boulevard.

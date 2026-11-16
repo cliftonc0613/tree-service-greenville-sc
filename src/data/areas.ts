@@ -951,6 +951,7 @@ export const areas: Area[] = [
       { slug: 'berea', name: 'Berea' },
     ],
     mainRoads: ['US 29 (Wade Hampton Blvd)'],
+    landmarks: ['Wade Hampton High School, 100 Pine Knoll Drive, opened 1960', 'McBride’s Office Supply, 832 Wade Hampton Blvd, on the National Register (2024)'],
     responseArea: 'Wade Hampton and nearby Taylors and Berea.',
   },
 
