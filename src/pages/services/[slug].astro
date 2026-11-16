@@ -29,7 +29,7 @@ const firstImageFrom: Record<string, string> = {
   'emergency-tree-removal': 'tree-removal',
   'tree-removal-cost': 'arborist',
 };
-const firstImage = services.find((s) => s.slug === firstImageFrom[service.slug])?.image;
+const firstImage = service.sectionImage ?? services.find((s) => s.slug === firstImageFrom[service.slug])?.image;
 const related = service.related.map((r) => ({
   href: `/services/${r.slug}`,
   name: services.find((s) => s.slug === r.slug)?.name ?? r.anchor,

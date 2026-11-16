@@ -463,6 +463,7 @@ export const services: Service[] = [
 
   {
     slug: 'emergency-tree-removal',
+    sectionImage: { src: '/images/pages/emergency-removal-street.jpg', alt: 'AI-generated image of a quiet tree-lined residential street after a storm, with a fallen limb across the road, wet pavement, and brick homes on both sides' },
     image: { src: '/images/pages/emergency-tree-removal-street.jpg', alt: 'AI-generated image of a large tree limb fallen across a driveway and lawn beside a brick home, with a car parked in the driveway' },
     name: 'Emergency Tree Removal',
     icon: 'storm',

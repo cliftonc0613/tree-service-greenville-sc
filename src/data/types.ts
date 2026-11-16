@@ -52,6 +52,8 @@ export interface PageImage {
 export interface Service {
   slug: string;
   image?: PageImage;
+  /** Optional picture beside the first section. Overrides the default borrowed image for this page only. */
+  sectionImage?: PageImage;
   /** Short name for nav and cards, e.g. "Tree Removal". */
   name: string;
   icon: IconName;
