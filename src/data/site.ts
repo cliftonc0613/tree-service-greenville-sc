@@ -14,10 +14,8 @@ export const business = {
   stateCode: 'SC',
   region: 'the Upstate',
 
-  // PLACEHOLDER: 555-01xx is a reserved fictional range. Swap in the GoHighLevel
-  // local 864 tracking number (playbook: "live on launch day").
-  phoneDisplay: '(864) 555-0100',
-  phoneHref: 'tel:+18645550100',
+  phoneDisplay: '(864) 432-5331',
+  phoneHref: 'tel:+18644325331',
 
   // PLACEHOLDER: no email in the project files.
   email: 'hello@greenvilletreeandstump.com',

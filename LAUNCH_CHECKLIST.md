@@ -5,7 +5,7 @@ Items that must be resolved by the owner or verified against real sources before
 ## Blocking (do not launch without these)
 
 - [ ] **Domain.** `astro.config.mjs` uses `https://greenvilletreeandstump.com` as a stand-in. The playbook suggests GreenvilleTreeRemoval.com, GreenvilleSCTreeRemoval.com, or GreenvilleTreePros.com. Availability was not checked. Set `SITE_URL` or edit the config once chosen.
-- [ ] **Phone.** `src/data/site.ts` uses `(864) 555-0100`, a reserved placeholder. Replace with the GoHighLevel local 864 tracking number and update `phoneHref`.
+- [x] **Phone.** `src/data/site.ts` now uses `(864) 432-5331`, set in both `phoneDisplay` and `phoneHref`.
 - [ ] **Email.** `hello@greenvilletreeandstump.com` is a placeholder. Replace in `src/data/site.ts`.
 - [ ] **Lead webhook.** Set `PUBLIC_LEAD_WEBHOOK_URL` to the GoHighLevel / LeadConnector inbound webhook. Before wiring it, run the CORS preflight from the user's webhook rule: `curl -sD - -o /dev/null -X OPTIONS <url> -H "Origin: https://YOURSITE" -H "Access-Control-Request-Method: POST"`. The form uses a normal CORS `fetch` and reports success only on a 2xx response. Until the variable is set, the form says online requests are not connected and asks the visitor to call.
 - [ ] **Google Maps key.** The contact page map shows a plain Greenville view until `PUBLIC_GOOGLE_MAPS_KEY` is set. Then it draws the 25-mile service-area circle. No key exists yet. In Google Cloud, create a Maps JavaScript API key on a project with billing enabled, restrict it to the site's domain (HTTP referrers), and set the variable in the build environment. Do not commit the key value.
