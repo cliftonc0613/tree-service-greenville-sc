@@ -1512,14 +1512,17 @@ export const combos: Combo[] = [
     title: 'Land Clearing Woodruff, SC | Greenville Tree & Stump',
     metaDescription: 'Land and lot clearing in Woodruff, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
     h1: 'Land Clearing in Woodruff, SC',
-    lead: 'Clearing a Woodruff lot for a new home, a garden, or a yard is a plan you can see before it starts. Call us to confirm coverage, then we walk the land and quote in writing.',
+    lead: 'Clearing a lot in Woodruff before a build, a garden, or a new yard. We walk the land with you, mark what stays, and quote the work in writing.',
     sections: [{ heading: 'Clearing a Woodruff lot', paragraphs: [
-      'Mark the boundary and the trees you want to keep before the visit. We quote around them and tell you what the clearing involves.',
-      'Clearing for construction may need county permits or a builder schedule. Check with the county and tell us the timing when you call.',
-    ], bullets: ['Brush and small trees cleared', 'Lots prepared for a home or yard', 'Trees kept inside the marked boundary'] }],
+      'Walk the property with us before you call if you can, and mark the trees you want to keep. Tell us where the entrance is, since a lot off US 221 or SC 101 can have a different access route than a lot on a side street near McKinney Park.',
+      'Clearing for a new house often has county rules attached, and Woodruff is in Spartanburg County, so check with that county before work starts. Tell us about any rules you know of when you call.',
+    ], bullets: ['Trees and brush cleared before a new build', 'A lot prepared for a garden or pasture', 'Clearing around trees you choose to keep'] }],
     faqs: [
-      { q: 'Do you work with builders in Woodruff?', a: 'We can quote clearing for a builder or property owner. Tell us the schedule and any rules that apply.' },
-      { q: 'Is the clearing quote written?', a: 'Yes.' },
+      { q: 'Do I need a permit to clear a Woodruff lot?', a: 'It depends on the county and the plan. Woodruff is in Spartanburg County, so check with that county before clearing. We can tell you what we have seen on similar jobs.' },
+      { q: 'Can you keep certain trees?', a: 'Yes. Mark them on the walk-through and we will quote around them.' },
+      { q: 'How long does clearing a Woodruff lot take?', a: 'It depends on the size of the lot, how many trees come out, and the access. We give a time estimate with the written quote.' },
+      { q: 'What happens to the cleared brush and logs?', a: 'The written quote says what is included, such as hauling, chipping, or leaving wood on site. Ask us to list it before you agree to the work.' },
+      { q: 'Can equipment reach a lot off SC 146?', a: 'It depends on the entrance and the slope. Send us the address and we will check access on the visit.' },
     ],
   },
 ];
