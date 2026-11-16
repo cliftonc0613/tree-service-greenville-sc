@@ -1598,6 +1598,47 @@ a.card:hover {
     center / 0.7rem no-repeat;
 }
 
+/* Section with a facts sidebar. Text is the wider left column; the facts stack in a narrow right column from desktop width up. */
+.container--sidebar {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.facts-sidebar {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.facts-box {
+  padding: 1.25rem 1.4rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-line);
+  border-left: 3px solid var(--color-leaf-green);
+  border-radius: var(--radius-card);
+}
+
+.facts-box h3 {
+  margin: 0 0 0.4rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-forest-green);
+}
+
+.facts-box p {
+  margin: 0;
+  font-size: 0.975rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 64rem) {
+  .container--sidebar {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
 /* Bullets as cards: one column on phones, a 2x2 grid from tablet width up. */
 .checklist--cards {
   gap: 1rem;

@@ -913,6 +913,10 @@ export const areas: Area[] = [
       },
       {
         heading: 'When trimming is *enough*',
+        sidebar: [
+          { title: 'ISA warning signs', text: 'Large dead limbs or bare sections of canopy, cracks in the trunk, mushrooms or soft wood at the base, and a new lean after a storm.' },
+          { title: 'Why we do not top trees', text: 'The International Society of Arboriculture calls topping one of the most harmful pruning practices, so we cut back to a side branch instead.' },
+        ],
         paragraphs: [
           'Not every big tree needs to come down. Thinning the canopy, lifting low limbs, and cutting out dead wood can make a healthy tree safer to live with. We tell you plainly when that is the better choice.',
         ],
@@ -932,6 +936,9 @@ export const areas: Area[] = [
       },
       {
         heading: 'Mature trees on *older streets*',
+        sidebar: [
+          { title: 'Mid-century neighborhoods', text: 'Wade Hampton Terrace and Wade Hampton Gardens are listed as mid-century brick ranches on lots from about a third of an acre to more than an acre, with mature trees.' },
+        ],
         paragraphs: [
           'Real-estate listings describe the mid-century brick-ranch neighborhoods near Wade Hampton Boulevard, such as Wade Hampton Terrace and Wade Hampton Gardens, as having lots of a third of an acre or more with mature shade trees. Trees that were planted when those houses were built are now large, and many stand close to the roof.',
           'A tree like that is worth a look every few years, not only after a storm.',
@@ -947,6 +954,10 @@ export const areas: Area[] = [
       },
       {
         heading: 'City or county: *which rules apply*',
+        sidebar: [
+          { title: 'Greenville County rules', text: 'The county’s tree preservation rules, as drafted, target new development that needs a grading permit.' },
+          { title: 'City of Greenville', text: 'Rules for existing single-family lots were not confirmed. Ask the city before you remove a large tree.' },
+        ],
         paragraphs: [
           'Wade Hampton borders the city of Greenville, so some addresses along the boulevard sit inside city limits and others are in unincorporated Greenville County. Which one you are in decides which tree rules apply.',
           'Greenville County’s tree preservation rules, as drafted, target new development that needs a grading permit. Check with the city or the county before removing a large tree, and check your HOA rules if you have one.',

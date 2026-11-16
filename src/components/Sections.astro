@@ -15,9 +15,10 @@ const { sections, tone = 'white', firstImage } = Astro.props;
 
 {sections.map((s, i) => {
   const withImage = i === 0 && Boolean(firstImage);
+  const withSidebar = Boolean(s.sidebar?.length);
   return (
   <section class:list={['section', tone === 'white' ? 'section--white' : undefined]} aria-labelledby={`sec-${i}`}>
-    <div class:list={['container', withImage ? 'split section-split' : undefined]}>
+    <div class:list={['container', withImage ? 'split section-split' : undefined, withSidebar ? 'container--sidebar' : undefined]}>
       <div class="prose">
         <Heading id={`sec-${i}`} text={s.heading} />
         {s.paragraphs.map((p) => <p>{p}</p>)}
@@ -42,6 +43,16 @@ const { sections, tone = 'white', firstImage } = Astro.props;
           </div>
         )}
       </div>
+      {withSidebar && (
+        <aside class="facts-sidebar" aria-label="Key facts">
+          {s.sidebar!.map((f) => (
+            <div class="facts-box">
+              <h3>{f.title}</h3>
+              <p>{f.text}</p>
+            </div>
+          ))}
+        </aside>
+      )}
       {withImage && firstImage && (
         <figure class="section-media">
           <img src={firstImage.src} alt={firstImage.alt} width="1440" height="803" loading="lazy" />
