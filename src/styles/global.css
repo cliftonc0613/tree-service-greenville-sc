@@ -1097,7 +1097,11 @@ body.has-callbar {
   color: var(--color-forest-green);
 }
 
-.area-facts__response { margin: 0; line-height: 1.7; }
+.area-facts__response {
+  margin: 2rem 0 0;
+  line-height: 1.7;
+  text-align: center;
+}
 
 @media (min-width: 48rem) {
   .area-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
