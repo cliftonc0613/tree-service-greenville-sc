@@ -77,6 +77,8 @@ export default {
   // pages plus the service x city combo pages. The /services hub is not counted.
   distDir: 'dist/services',
   minWords: 700,
+  // Combo pages are <area>/<service> under dist/services and use 250. Service pages keep 700.
+  minWordsFor: (slug) => (slug.split('/').length === 2 ? 250 : 700),
   expectedCount: services.length + comboList.length,
   // The intro check counts combo pages only.
   introExpectedCount: comboList.length,

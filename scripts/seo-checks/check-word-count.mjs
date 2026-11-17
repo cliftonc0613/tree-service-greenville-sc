@@ -19,6 +19,9 @@ import { extractMainText, loadConfig } from './core.mjs';
 const cwd = process.cwd();
 const config = await loadConfig(cwd);
 const { distDir, minWords, expectedCount } = config;
+// Project change: optional minWordsFor(slug) lets one run use a different minimum
+// per page group (e.g. combo pages vs service pages). Falls back to minWords.
+const minFor = (slug) => (config.minWordsFor ? config.minWordsFor(slug) : minWords);
 
 const dir = path.resolve(cwd, distDir);
 if (!existsSync(dir)) {
@@ -51,12 +54,13 @@ for (const slug of pageFolders(dir)) {
     continue;
   }
   const wordCount = text.split(/\s+/).filter(Boolean).length;
-  if (wordCount < minWords) {
-    failures.push({ slug, wordCount });
+  const min = minFor(slug);
+  if (wordCount < min) {
+    failures.push({ slug, wordCount, min });
   }
 }
 
-console.log(`Checked ${checked} pages under ${distDir} (minimum: ${minWords} words).`);
+console.log(`Checked ${checked} pages under ${distDir} (per-page word minimums).`);
 
 if (expectedCount !== undefined && checked !== expectedCount) {
   console.error(
@@ -69,7 +73,7 @@ if (expectedCount !== undefined && checked !== expectedCount) {
 if (failures.length > 0) {
   console.error(`\n${failures.length} page(s) below the word-count minimum:`);
   for (const f of failures) {
-    console.error(`  - ${distDir}/${f.slug}/ : ${f.note ?? `${f.wordCount} words`}`);
+    console.error(`  - ${distDir}/${f.slug}/ : ${f.note ?? `${f.wordCount} words (minimum ${f.min})`}`);
   }
   process.exit(1);
 }
