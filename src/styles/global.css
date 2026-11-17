@@ -2410,6 +2410,12 @@ a.card:hover {
   text-wrap: pretty;
 }
 
+/* Long centered paragraphs read as ragged on both edges at phone width, so the body copy goes left-aligned
+   there while the heading and button stay centered. */
+@media (max-width: 39.99rem) {
+  .intro-block p { text-align: left; }
+}
+
 .intro-block .btn-row {
   justify-content: center;
   margin-top: 2rem;
