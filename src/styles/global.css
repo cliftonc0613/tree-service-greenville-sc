@@ -2385,7 +2385,7 @@ a.card:hover {
 /* A centered, single-column "about the business" section: short accent bar, mixed-case heading, plain paragraphs, one button. */
 
 .intro-block {
-  max-width: 48rem;
+  max-width: 56rem;
   text-align: center;
 }
 
