@@ -624,7 +624,7 @@ export const services: Service[] = [
         heading: 'How to *compare quotes* fairly',
         paragraphs: [
           'Compare written quotes with the same scope. Check what is included: the method, the cleanup, the wood and brush, and any stump work. A low number with no scope is harder to trust than a fair number with the details written out.',
-          'Ask every company whether they carry proof of insurance and whether the quote covers the crew on site. We will show you ours on request.',
+          'Ask every company whether they carry proof of insurance and whether the quote covers the crew on site.',
 'Ask how long the crew expects the job to take. A quote that states the expected schedule is easier to plan around, and it gives you a written point to hold the company to.',
         ],
       },
