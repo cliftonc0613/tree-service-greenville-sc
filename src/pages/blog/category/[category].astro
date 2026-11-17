@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import BlogListing from '@/components/BlogListing.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { categoriesOf, categorySlug, getPosts } from '@/lib/blog';
 
 export async function getStaticPaths() {
@@ -31,10 +32,16 @@ const name = label.charAt(0).toUpperCase() + label.slice(1);
 >
   <section class="page-hero blog-hero">
     <div class="container">
-      <h1>{name} Guides</h1>
+      <h1>{name} Posts</h1>
       <p class="lead">Every {label} post from our crew, newest first.</p>
     </div>
   </section>
+
+  <div class="crumbs-band">
+    <div class="container">
+      <Breadcrumbs variant="below" items={[{ label: 'Blog', href: '/blog' }, { label: name }]} />
+    </div>
+  </div>
 
   <BlogListing posts={posts} categories={categories} activeCategory={category} />
 </BaseLayout>
