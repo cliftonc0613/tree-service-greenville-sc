@@ -35,7 +35,7 @@ Stay inside the vehicle and call 911, unless there is immediate danger such as a
 
 ## Who Do I Call?
 
-Call the utility named on your bill. Duke Energy serves most of the Greenville area, but the bill is the quickest way to be sure of who serves your address. We are leaving phone numbers off this page on purpose, because numbers change; your bill and the utility's website have the current one.
+Call the utility named on your bill. Duke Energy serves much of Greenville County, but your bill is the quickest way to be sure of who serves your address. We are leaving phone numbers off this page on purpose, because numbers change; your bill and the utility's website have the current one.
 
 ## Can I Cut a Tree Away From a Power Line Myself?
 
@@ -45,7 +45,7 @@ No. The utility's guidance is to never trim or remove trees within 10 feet of ov
 
 Once the utility has made the area safe, or if the tree is clear of any lines, a tree service can take over the cleanup. Our [emergency tree removal](/services/emergency-tree-removal) page explains how that works. If you are still not sure whether a tree is a hazard, our guide to [warning signs a tree needs a closer look](/blog/warning-signs-tree-needs-a-closer-look) can help you decide, and if your insurance is a worry, read [whether homeowners insurance covers tree removal](/blog/does-homeowners-insurance-cover-tree-removal).
 
-This guidance comes from Duke Energy's safety information: [Safety Around Power Lines](https://www.duke-energy.com/resource-hub/residential/for-your-safety/safety-around-power-lines).
+This guidance comes from Duke Energy: [Safety Around Power Lines](https://www.duke-energy.com/resource-hub/residential/for-your-safety/safety-around-power-lines), its [rights-of-way FAQ](https://www.duke-energy.com/community/rights-of-way/faq), and its contractor safety guide, [Tips of the Trade](https://safety.duke-energy.com/contractors/wp-content/uploads/2022/12/13848_duke_c_email/).
 
 ## Frequently asked questions
 

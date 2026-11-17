@@ -35,7 +35,7 @@ Debris removal is often limited. Many policies cap what they will pay per tree a
 
 ## When Is Tree Removal Not Covered?
 
-Preventive removal is generally not covered. If a healthy tree is simply in the way, or you would like it gone before it causes a problem, that cost usually falls on you. A tree that is already dead or decaying is a gray area, so ask your insurer before you assume either way.
+Preventive removal is generally not covered. If a healthy tree is simply in the way, or you would like it gone before it causes a problem, that cost usually falls on you. Problems that were already there and went unaddressed are generally the homeowner's responsibility too, so ask your insurer before you assume either way.
 
 Vehicles are the other common surprise. A tree that lands on a car is typically an auto insurance claim rather than a homeowners one.
 

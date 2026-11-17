@@ -18,26 +18,26 @@ Most trees on a Greenville lot are fine for decades. A few are not, and the diff
 
 > **Key Takeaways**
 >
-> - A sudden lean, or cracks across the main trunk, are the signs to treat as urgent.
-> - Mushrooms or fungus at the base, and soil lifting near a leaning tree, often point to rotten roots.
+> - A lean that appears quickly, or cracks and splits in the trunk, are signs to act on soon.
+> - Mushrooms or fungus at the base, and cracked or lifted soil near a leaning tree, can point to root problems.
 > - Dead or decayed branches frequently mean the branches need to come out, not the whole tree.
 > - A trained eye can tell the difference, so an on-site look beats guessing from the street.
 
 ## How Do I Know If a Tree Is Leaning Dangerously?
 
-A lean that has been there for years is less worrying than one that appears suddenly. A tree that tilted after a storm, or that has started to move, deserves attention soon. Not every lean is dangerous, which is exactly why it helps to have someone look at the base of the tree and the ground around it.
+A tree that starts to lean quickly needs prompt attention. A lean that develops slowly over time is less urgent, but it should still be looked at by a certified arborist. Not every lean is dangerous, which is exactly why it helps to have someone look at the base of the tree and the ground around it.
 
-Check the soil on the side opposite the lean. If the ground is cracked or lifted there, the roots may be giving way. That combination is one to take seriously.
+Check the soil around the base. Cracks or lifting in the ground can mean the roots are moving, which is a warning sign for failure, especially if the tree is also leaning.
 
 ## What Do Cracks and Splits in the Trunk Mean?
 
-Cracks that run through the main trunk are among the more urgent warning signs. A tree that is separating along its trunk is under stress it cannot carry forever. Stay out from under it, keep people and cars clear, and have it looked at quickly.
+Cracks or splits in the trunk, or where branches attach to it, are a warning sign to take seriously. Stay out from under a tree that is separating, keep people and cars clear, and have it looked at quickly.
 
-Forks are a related problem. When a tree splits into two stems of similar size, the join between them can be weak, and that is where trees often split apart.
+Forks are a related problem. When a tree splits into two stems of similar size, the join between them can be weak, especially when it forms a sharp V.
 
 ## Why Do Mushrooms or Hollows Matter?
 
-Mushrooms or fungus growing at the base are often a sign that the roots are rotting. Large hollows, and patches of decayed or peeling bark, tell you the wood inside may not be sound even if the leaves still look healthy from the street.
+Mushrooms or fungus growing at the base can be a clue that the roots have problems, such as decay. Large hollows, and patches of decayed or peeling bark, tell you the wood inside may not be sound even if the leaves still look healthy from the street.
 
 ## Does a Dead Branch Mean the Whole Tree Has to Go?
 
@@ -58,7 +58,7 @@ For the full picture, the tree-risk guidance from the International Society of A
 
 ### Is every leaning tree about to fall?
 
-No. A slow, long-standing lean is usually less urgent than a sudden one, and many leaning trees are stable. The signs to watch are a lean that changes, cracks in the trunk, and lifted soil at the base.
+Not necessarily. A slow lean is less urgent than a quick one, but both are worth having looked at. The signs to watch are a lean that changes, cracks or splits in the trunk, and cracked or lifted soil at the base.
 
 ### Can I tell if a tree is dying just by looking at the leaves?
 
