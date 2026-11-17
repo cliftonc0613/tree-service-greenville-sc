@@ -9,8 +9,8 @@ tags:
   - backyard access
   - Greenville SC
 image:
-  src: /images/pages/tree-removal-street.jpg
-  alt: "AI-generated illustration of a quiet tree-lined residential street with brick homes and a freshly cut stump on the lawn after a large oak was removed"
+  src: /images/pages/tree-removal-near-house.jpg
+  alt: "AI-generated illustration of a very large oak beside a two-story brick house, its limbs reaching over the roof, with a narrow wooden gate in the fence and a small stone patio nearby"
 draft: false
 featured: true
 ---
