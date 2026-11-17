@@ -1,0 +1,68 @@
+---
+import BlogCard from '@/components/BlogCard.astro';
+import type { BlogCategory, BlogPost } from '@/lib/blog';
+
+interface Props {
+  posts: BlogPost[];
+  categories: BlogCategory[];
+  /** Slug of the category being shown, or undefined on the main blog page. */
+  activeCategory?: string;
+  /** Pull the newest post into a large featured card (main blog page only). */
+  showFeatured?: boolean;
+}
+
+const { posts, categories, activeCategory, showFeatured = false } = Astro.props;
+const featured = showFeatured ? posts[0] : undefined;
+const rest = showFeatured ? posts.slice(1) : posts;
+---
+
+{categories.length > 0 && (
+  <nav class="blog-filter" aria-label="Blog categories">
+    <div class="container">
+      <p class="blog-filter__label">Browse by category</p>
+      <ul class="blog-pills">
+        <li>
+          <a class="blog-pill" href="/blog" aria-current={activeCategory ? undefined : 'page'}>All posts</a>
+        </li>
+        {categories.map((c) => (
+          <li>
+            <a class="blog-pill" href={`/blog/category/${c.slug}`} aria-current={activeCategory === c.slug ? 'page' : undefined}>
+              {c.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+)}
+
+<section class="section section--white">
+  <div class="container">
+    {posts.length === 0 && (
+      <div class="blog-empty">
+        <h2>New guides are on the way</h2>
+        <p>We are writing our first tree care guides for Greenville homeowners. In the meantime, call us or ask for a free estimate and we will answer your question directly.</p>
+        <div class="btn-row">
+          <a class="btn btn--cta" href="/contact#estimate">Get a Free Estimate</a>
+          <a class="btn btn--ghost" href="/services">See our services</a>
+        </div>
+      </div>
+    )}
+
+    {featured && (
+      <div class="blog-block">
+        <h2 class="blog-section-title">Featured article</h2>
+        <BlogCard post={featured} featured eager />
+      </div>
+    )}
+
+    {rest.length > 0 && (
+      <div class="blog-block">
+        <h2 class="blog-section-title">{showFeatured ? 'Recent posts' : 'All posts'}</h2>
+        <div class="blog-grid">
+          {rest.map((p) => <BlogCard post={p} />)}
+        </div>
+      </div>
+    )}
+  </div>
+</section>

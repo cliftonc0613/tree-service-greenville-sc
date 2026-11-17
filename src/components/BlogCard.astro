@@ -1,0 +1,35 @@
+---
+import { formatDate, type BlogPost } from '@/lib/blog';
+import { business } from '@/data/site';
+
+interface Props {
+  post: BlogPost;
+  /** Large two-column card used for the featured article. */
+  featured?: boolean;
+  /** The featured card loads eagerly; grid cards are lazy. */
+  eager?: boolean;
+}
+
+const { post, featured = false, eager = false } = Astro.props;
+const { title, description, date, category, image } = post.data;
+---
+
+<a class:list={['blog-card', featured && 'blog-card--featured']} href={`/blog/${post.id}`}>
+  <div class="blog-card__media">
+    <img
+      src={image.src}
+      alt={image.alt}
+      width={featured ? 900 : 600}
+      height={featured ? 560 : 400}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+  </div>
+  <div class="blog-card__body">
+    <span class="blog-tag">{category}</span>
+    {featured ? <h3 class="blog-card__title blog-card__title--lg">{title}</h3> : <h3 class="blog-card__title">{title}</h3>}
+    <p class="blog-card__text">{description}</p>
+    <p class="blog-card__meta">By {business.name} &middot; <time datetime={date.toISOString()}>{formatDate(date)}</time></p>
+    <span class="blog-card__more">{featured ? 'Read the article' : 'Read full article'}</span>
+  </div>
+</a>

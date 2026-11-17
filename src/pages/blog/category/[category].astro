@@ -1,0 +1,47 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BlogListing from '@/components/BlogListing.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { categoriesOf, categorySlug, getPosts } from '@/lib/blog';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return categoriesOf(posts).map((c) => ({
+    params: { category: c.slug },
+    props: { label: c.label },
+  }));
+}
+
+interface Props {
+  label: string;
+}
+
+const { category } = Astro.params;
+const { label } = Astro.props;
+
+const all = await getPosts();
+const categories = categoriesOf(all);
+const posts = all.filter((p) => categorySlug(p.data.category) === category);
+const name = label.charAt(0).toUpperCase() + label.slice(1);
+---
+
+<BaseLayout
+  title={`${name} Tree Care Posts for Greenville, SC Homeowners`}
+  description={`${name} guides from Greenville Tree & Stump: plain answers on tree care for Greenville, SC and nearby Upstate homeowners.`}
+  path={`/blog/category/${category}`}
+>
+  <section class="page-hero blog-hero">
+    <div class="container">
+      <h1>{name} Posts</h1>
+      <p class="lead">Every {label} post from our crew, newest first.</p>
+    </div>
+  </section>
+
+  <div class="crumbs-band">
+    <div class="container">
+      <Breadcrumbs variant="below" items={[{ label: 'Blog', href: '/blog' }, { label: name }]} />
+    </div>
+  </div>
+
+  <BlogListing posts={posts} categories={categories} activeCategory={category} />
+</BaseLayout>

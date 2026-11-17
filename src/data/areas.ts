@@ -436,7 +436,7 @@ export const areas: Area[] = [
 
   {
     slug: 'fountain-inn',
-    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and a stump in a neat front lawn' },
+    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'AI-generated illustration of a stump grinder working on a stump in a front lawn, with wood chips flying and a brick home behind' },
     name: 'Fountain Inn',
     county: 'Greenville and Laurens counties',
     tier: 2,
@@ -916,7 +916,7 @@ export const areas: Area[] = [
 
   {
     slug: 'wade-hampton',
-    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and a stump in a neat front lawn' },
+    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'AI-generated illustration of a stump grinder working on a stump in a front lawn, with wood chips flying and a brick home behind' },
     name: 'Wade Hampton',
     county: 'Greenville County',
     tier: 2,

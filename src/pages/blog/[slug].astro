@@ -1,0 +1,92 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BlogCard from '@/components/BlogCard.astro';
+import CtaBand from '@/components/CtaBand.astro';
+import { categorySlug, formatDate, getPosts, readingMinutes, relatedPosts } from '@/lib/blog';
+import { absoluteUrl, business } from '@/data/site';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, description, date, updated, category, tags, image, draft } = post.data;
+
+const path = `/blog/${post.id}`;
+const minutes = readingMinutes(post.body);
+const related = relatedPosts(await getPosts(), post);
+
+const schema = [
+  {
+    '@type': 'BlogPosting',
+    '@id': `${absoluteUrl(path)}#post`,
+    headline: title,
+    description,
+    image: absoluteUrl(image.src),
+    datePublished: date.toISOString(),
+    dateModified: (updated ?? date).toISOString(),
+    mainEntityOfPage: absoluteUrl(path),
+    author: { '@id': `${absoluteUrl('/')}#business` },
+    publisher: { '@id': `${absoluteUrl('/')}#business` },
+    keywords: tags.join(', '),
+  },
+];
+---
+
+<BaseLayout title={title} description={description} path={path} schema={schema} noindex={draft}>
+  <section class="page-hero blog-hero blog-hero--post">
+    <div class="container">
+      <h1>{title}</h1>
+      <p class="lead">{description}</p>
+      <p class="blog-hero__category">
+        <a href={`/blog/category/${categorySlug(category)}`}>{category}</a>
+      </p>
+    </div>
+  </section>
+
+  <article class="section section--white post">
+    <div class="container post__inner">
+      <p class="post-meta">
+        <time datetime={date.toISOString()}>{formatDate(date)}</time>
+        <span aria-hidden="true">&middot;</span>
+        <span>{minutes} min read</span>
+        <span aria-hidden="true">&middot;</span>
+        <span>{business.name}</span>
+      </p>
+
+      <img class="post__image" src={image.src} alt={image.alt} width="1200" height="670" decoding="async" />
+
+      <div class="post-body">
+        <Content />
+      </div>
+
+      {tags.length > 0 && (
+        <div class="post-tags">
+          <p class="post-tags__label">Tags</p>
+          <ul>
+            {tags.map((t) => <li>{t}</li>)}
+          </ul>
+        </div>
+      )}
+    </div>
+  </article>
+
+  {related.length > 0 && (
+    <section class="section section--soft">
+      <div class="container">
+        <h2 class="blog-section-title">Related posts</h2>
+        <div class="blog-grid">
+          {related.map((p) => <BlogCard post={p} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <CtaBand
+    heading="Tree trouble in Greenville? We can help."
+    text="Tell us what the tree is doing and we will tell you what it takes. Free estimates across Greenville and nearby Upstate towns."
+  />
+</BaseLayout>
