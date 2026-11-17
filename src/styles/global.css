@@ -564,6 +564,8 @@ h2 + .callout {
   color: var(--color-forest-deep);
 }
 
+.dropdown--narrow { min-width: 11rem; }
+
 .dropdown hr {
   border: 0;
   border-top: 1px solid var(--color-line);
@@ -2130,9 +2132,7 @@ a.card:hover {
   text-decoration: none;
   background: var(--color-white);
   border: 1px solid var(--color-line);
-  /* The reference marks every card with a thick accent bar on the left edge and keeps the corners nearly square. */
-  border-left: 4px solid var(--color-leaf-green);
-  border-radius: 0.25rem;
+  border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   transition: transform 150ms ease, box-shadow 150ms ease;
 }
@@ -2286,14 +2286,14 @@ a.card:hover {
 
 .post-body strong { color: var(--color-forest-green); }
 
-/* Key takeaways box: dark panel, thick left bar, clipped top-right corner, small caps label (as on the reference). */
+/* Key takeaways box: dark panel with a plain 1px outline and a small caps label. */
 .post-body blockquote {
   margin: 2.5rem 0;
   padding: 1.75rem 2rem;
   color: var(--color-mist);
   background: var(--color-forest-green);
-  border-left: 4px solid var(--color-leaf-tint);
-  clip-path: polygon(0 0, calc(100% - 1.75rem) 0, 100% 1.75rem, 100% 100%, 0 100%);
+  border: 1px solid var(--color-forest-deep);
+  border-radius: var(--radius-card);
   font-size: 1.0625rem;
   line-height: 1.65;
 }
