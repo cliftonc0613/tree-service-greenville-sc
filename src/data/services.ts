@@ -375,6 +375,7 @@ export const services: Service[] = [
         heading: 'What an *assessment* covers',
         paragraphs: [
           'We look at the trunk, the root flare, the main limbs, the canopy, and the ground around the tree. We check for signs of decay, cracks, dead wood, root damage, and lean. We also look at the targets: the house, the driveway, and anywhere people walk or park.',
+'Bring photos of the tree and note when you first saw a change, such as a new crack, a lean, or thinning leaves. That history shows how fast the problem is moving. We will walk the tree with you so you see what we see.',
         ],
         bullets: [
           'Overall health and vigor',
@@ -624,6 +625,7 @@ export const services: Service[] = [
         paragraphs: [
           'Compare written quotes with the same scope. Check what is included: the method, the cleanup, the wood and brush, and any stump work. A low number with no scope is harder to trust than a fair number with the details written out.',
           'Ask every company whether they carry proof of insurance and whether the quote covers the crew on site. We will show you ours on request.',
+'Ask how long the crew expects the job to take. A quote that states the expected schedule is easier to plan around, and it gives you a written point to hold the company to.',
         ],
       },
       {
