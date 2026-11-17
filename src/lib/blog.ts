@@ -5,7 +5,10 @@ export type BlogPost = CollectionEntry<'blog'>;
 /** Published posts, newest first. Drafts are visible only in `npm run dev`. */
 export async function getPosts(): Promise<BlogPost[]> {
   const all = await getCollection('blog', ({ data }) => (import.meta.env.PROD ? !data.draft : true));
-  return all.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  // Featured post first, then newest first.
+  return all.sort(
+    (a, b) => Number(b.data.featured) - Number(a.data.featured) || b.data.date.valueOf() - a.data.date.valueOf(),
+  );
 }
 
 export function categorySlug(category: string): string {

@@ -19,6 +19,8 @@ const blog = defineCollection({
     /** Picture under /public, e.g. /images/pages/tree-removal.jpg. Say if it is an AI illustration in the alt text. */
     image: z.object({ src: z.string(), alt: z.string() }),
     draft: z.boolean().default(false),
+    /** At most one post should set this. It leads the blog index and gets the large featured card. */
+    featured: z.boolean().default(false),
   }),
 });
 
