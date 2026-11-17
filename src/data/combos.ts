@@ -915,14 +915,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Powdersville, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Powdersville, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Powdersville, SC',
-    lead: 'Removing a tree near a Powdersville house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    lead: 'Removing a tree near a Powdersville house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal near Powdersville homes', paragraphs: [
       'The space around a tree decides the method. A tree with room to fall is a different job from one beside a garage or a fence.',
-      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the tree stands on a lot off SC 153, tell us where the road, the entrance, and the lines are. We look at the tree and the access on the site visit, then put the method and scope in writing.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
     faqs: [
       { q: 'Do you remove trees in Powdersville, which is in Anderson County?', a: 'Call us with your address. We confirm coverage for the visit before you book.' },
       { q: 'How do I get a removal quote in Powdersville?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Does a tree near a lot line or a garage cost more to remove?', a: 'The space around the tree can add rigging and crew time. The written quote explains how it affects the scope.' },
     ],
   },
   {
@@ -930,14 +931,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Powdersville, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Powdersville, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Powdersville, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Powdersville. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Limbs over a Powdersville roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Powdersville yards', paragraphs: [
       'Trees near Powdersville homes often grow toward the roof and lines as they get taller. Trimming on a regular schedule keeps the growth in check.',
-      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+      'Trees by SC 153 or near Dolly Cooper Park can spread over a road, a walk, or a fence line, so tell us which side needs clearance. We cut each limb back to a proper point rather than topping the tree.',
     ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or garage', 'Crowded canopies that block light to the yard'] }],
     faqs: [
       { q: 'How often should a Powdersville tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
       { q: 'Do you clean up the brush in Powdersville?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+      { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming cuts back to a proper branch collar or healthy side branch. Topping removes the top of the tree and weakens the regrowth. We do not top trees.' },
     ],
   },
   {
@@ -963,8 +965,8 @@ export const combos: Combo[] = [
     h1: 'Arborist Assessments in Powdersville, SC',
     lead: 'Not sure whether a Powdersville tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
     sections: [{ heading: 'Assessing a Powdersville tree', paragraphs: [
-      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
-      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails, such as a house, a driveway, or a fence.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof, shed, or driveway'] }],
     faqs: [
       { q: 'Do you assess trees in Powdersville before removal?', a: 'Yes. An assessment helps you choose between removal, trimming, or waiting.' },
@@ -978,11 +980,11 @@ export const combos: Combo[] = [
     h1: 'Emergency Tree Removal in Powdersville, SC',
     lead: 'A tree down or leaning on a Powdersville home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Powdersville', paragraphs: [
-      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'Storm damage in Powdersville often means a limb through a roof, a fence down, or a tree across the drive. Stay out from under anything hanging, and do not climb up to check the damage.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is on SC 153 or near Dolly Cooper Park, say so, since traffic and the park edge change how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Powdersville?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Powdersville?', a: 'Stay out of the cleared area, photograph the damage from the yard edge, and call your insurer. On the call we walk you through what we need to start.' },
       { q: 'Do you give a written quote for storm work in Powdersville?', a: 'Yes, before the main work begins.' },
     ],
   },
@@ -1135,14 +1137,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Wade Hampton, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Wade Hampton, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Wade Hampton, SC',
-    lead: 'Removing a tree near a Wade Hampton house takes planning. We check how close it sits to the roof, fence, or driveway, then explain the method before any cutting starts.',
+    lead: 'Removing a tree near a Wade Hampton house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
     sections: [{ heading: 'Removal near Wade Hampton homes', paragraphs: [
       'Many Wade Hampton yards have large trees close to the house, a garage, or a shared fence. The method that works in an open yard may not work there.',
-      'We look at the tree and the access on the site visit. You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the lot is near Wade Hampton Blvd or US 29, tell us about the traffic, the walks, and any lines. We look at the tree and the access on the site visit, then put the method and scope in writing.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new leaf growth', 'A storm-split trunk or large crack in the main limbs'] }],
     faqs: [
       { q: 'Can you remove a tree close to a house in Wade Hampton?', a: 'Often, yes, with the right method. We tell you how close the tree sits to the structure at the visit.' },
       { q: 'How do I get a removal quote in Wade Hampton?', a: 'Call us or send a request. We set up a free site visit and send a written quote.' },
+      { q: 'Does a tree near Wade Hampton High School cost more to remove?', a: 'It can, if traffic, walks, or lines limit where equipment sets up. The written quote lists any extra steps.' },
     ],
   },
   {
@@ -1150,14 +1153,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Wade Hampton, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Wade Hampton, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Wade Hampton, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Wade Hampton. We trim to keep the tree healthy and the branches clear.',
+    lead: 'Limbs over a Wade Hampton roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
     sections: [{ heading: 'Trimming for Wade Hampton yards', paragraphs: [
       'Older Wade Hampton yards often have large shade trees that need regular cuts. Younger trees need shaping while they are still small.',
-      'We cut each limb back to a proper point rather than topping the tree. Ask about a seasonal plan if you want one crew to check the trees each year.',
+      'Trees along Wade Hampton Blvd can grow toward traffic and power lines, so we plan the clearance first. We cut each limb back to a proper point rather than topping the tree.',
     ], bullets: ['Branches over roofs, gutters, or siding', 'Limbs rubbing a fence, line, or garage', 'Crowded canopies that block light to the yard'] }],
     faqs: [
       { q: 'How often should a Wade Hampton tree be trimmed?', a: 'It depends on the species and how close it grows to the house. We tell you what your tree needs at the visit.' },
       { q: 'Do you clean up the brush in Wade Hampton?', a: 'We clear the work area before we leave. The written quote says what is included with the brush.' },
+      { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming cuts back to a proper branch collar or healthy side branch. Topping removes the top of the tree and weakens the regrowth. We do not top trees.' },
     ],
   },
   {
@@ -1184,7 +1188,7 @@ export const combos: Combo[] = [
     lead: 'Not sure whether a Wade Hampton tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
     sections: [{ heading: 'Assessing a Wade Hampton tree', paragraphs: [
       'An assessment looks at the trunk, the root flare, the branch unions, and the crown. It also looks at the target area, such as a house, a driveway, or a play area.',
-      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching.',
+      'You get the findings and the options in writing. Some trees need removal, some need trimming, and some just need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or play area'] }],
     faqs: [
       { q: 'Do you assess trees in Wade Hampton before removal?', a: 'Yes. An assessment helps you decide between removal, trimming, or waiting. Ask about it when you call.' },
@@ -1198,11 +1202,11 @@ export const combos: Combo[] = [
     h1: 'Emergency Tree Removal in Wade Hampton, SC',
     lead: 'A tree down or leaning on a Wade Hampton home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
     sections: [{ heading: 'After a storm in Wade Hampton', paragraphs: [
-      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We tell you the earliest visit we can offer.',
+      'After a storm, a tree or limb can shift without warning. Move people and pets well back, and keep out from under any loose wood.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near Wade Hampton Blvd or US 29, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Wade Hampton?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Wade Hampton?', a: 'Photograph the damage from a safe spot, note the time, and call your insurer. We tell you what to do until we arrive.' },
       { q: 'Do you give a written quote for storm work in Wade Hampton?', a: 'Yes, before the main work begins.' },
     ],
   },
@@ -1245,14 +1249,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Piedmont, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Piedmont, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Removal in Piedmont, SC',
-    lead: 'Removing a tree near a Piedmont house takes planning. Because Piedmont is at the edge of our service area, call first so we can confirm the visit.',
+    lead: 'Removing a tree near a Piedmont house takes planning. Piedmont is at the edge of our service area, so call first and we confirm the visit before we plan the cuts.',
     sections: [{ heading: 'Removal near Piedmont homes', paragraphs: [
-      'A tree close to a house, garage, or fence needs a method that fits the space around it. We plan the cuts on the site visit.',
-      'You get the method and scope in writing, with the cleanup included or priced separately.',
+      'A tree close to a house, garage, or fence needs a method that fits the space around it. Piedmont lots vary a lot, so we plan the cuts on the site visit.',
+      'If the tree is near I-85 Exit 35, SC 86, or SC 20, or on a lot close to the river, tell us about the access and any slope. You get the method and scope in writing, with the cleanup included or priced separately.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new growth', 'A storm-split trunk or large cracked limb'] }],
     faqs: [
       { q: 'Do you remove trees in Piedmont, SC?', a: 'Call us with your address. We confirm coverage and the earliest visit before you book.' },
       { q: 'Is the removal quote written?', a: 'Yes. We send a written quote after the free visit.' },
+      { q: 'Does a tree on a steep lot by the river cost more?', a: 'It can, if the slope or soft ground limits where equipment sets up. The written quote explains how access affects the scope.' },
     ],
   },
   {
@@ -1260,14 +1265,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Piedmont, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Piedmont, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Trimming in Piedmont, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Piedmont. Call us first to confirm we can reach your address.',
+    lead: 'Limbs over a Piedmont roof, rubbing a gutter, or hanging across a driveway are common trimming calls. Call us first to confirm we can reach your address.',
     sections: [{ heading: 'Trimming for Piedmont trees', paragraphs: [
-      'Trees near Piedmont homes often grow toward roofs and lines over time. Regular trimming keeps the growth balanced.',
-      'We cut each limb back to a proper point and leave the tree healthy. Ask about a seasonal plan if you want the same crew each year.',
+      'Trees near Piedmont homes often grow toward roofs and lines over time. Regular trimming keeps the growth balanced and away from the structures below.',
+      'Trees near Piedmont Riverfront Park or along SC 20 can grow toward paths and traffic, so tell us which side needs clearance. We cut each limb back to a proper point and leave the tree healthy.',
     ], bullets: ['Branches over roofs or gutters', 'Limbs rubbing a fence or line', 'Dead wood cleared from the crown'] }],
     faqs: [
       { q: 'Do you trim trees in Piedmont?', a: 'Call us first so we can confirm coverage. We then set up a free visit and send a written quote.' },
       { q: 'Do you clean up the brush in Piedmont?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+      { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming cuts back to a proper branch collar or healthy side branch. Topping removes the top of the tree and weakens the regrowth. We do not top trees.' },
     ],
   },
   {
@@ -1293,8 +1299,8 @@ export const combos: Combo[] = [
     h1: 'Arborist Assessments in Piedmont, SC',
     lead: 'Not sure whether a Piedmont tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
     sections: [{ heading: 'Assessing a Piedmont tree', paragraphs: [
-      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
-      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails, such as a house, a driveway, or the riverbank.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or driveway'] }],
     faqs: [
       { q: 'Do you assess trees in Piedmont before removal?', a: 'Yes, once we confirm coverage for your address. An assessment helps you choose between removal, trimming, or waiting.' },
@@ -1308,11 +1314,11 @@ export const combos: Combo[] = [
     h1: 'Emergency Tree Removal in Piedmont, SC',
     lead: 'A tree down or leaning on a Piedmont home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
     sections: [{ heading: 'After a storm in Piedmont', paragraphs: [
-      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We confirm coverage and tell you the earliest visit we can offer.',
+      'Wet ground after a storm can let a leaning tree move. Keep people and pets out of its fall zone, and do not walk under it.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near I-85, SC 86, or SC 20, or on a slope by the Saluda River, say so, since traffic and the footing change how we set up.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Piedmont?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Piedmont?', a: 'Take photos from the road or the yard edge, then call your insurer and us. If the house is unsafe, leave it first.' },
       { q: 'Do you give a written quote for storm work in Piedmont?', a: 'Yes, before the main work begins.' },
     ],
   },
@@ -1354,14 +1360,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Pickens, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Pickens, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Removal in Pickens, SC',
-    lead: 'Removing a tree near a Pickens house takes planning. Pickens is outside the core of our service area, so call first and we will confirm the visit.',
+    lead: 'Removing a tree near a Pickens house takes planning. Pickens is outside the core of our service area, so call first and we confirm the visit.',
     sections: [{ heading: 'Removal near Pickens homes', paragraphs: [
       'A tree close to a house, garage, or fence needs a method that fits the space around it. We plan the cuts on the site visit.',
-      'You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the tree is along US 178, tell us about the traffic, the entrance, and any lines. You get the method and scope in writing, with the cleanup included or priced separately.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new growth', 'A storm-split trunk or large cracked limb'] }],
     faqs: [
       { q: 'Do you remove trees in Pickens, SC?', a: 'Call us with your address. We confirm coverage and the earliest visit before you book.' },
       { q: 'Is the removal quote written?', a: 'Yes. We send a written quote after the free visit.' },
+      { q: 'Does a tree along US 178 cost more to remove?', a: 'It can, if traffic or lines limit where the crew can work. The written quote lists any extra steps.' },
     ],
   },
   {
@@ -1369,14 +1376,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Pickens, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Pickens, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Trimming in Pickens, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Pickens. Call us first to confirm we can reach your address.',
+    lead: 'Limbs over a Pickens roof, rubbing a gutter, or hanging across a driveway are common trimming calls. Call us first to confirm we can reach your address.',
     sections: [{ heading: 'Trimming for Pickens trees', paragraphs: [
       'Trees near Pickens homes often grow toward roofs and lines over time. Regular trimming keeps the growth balanced.',
-      'We cut each limb back to a proper point and leave the tree healthy. Ask about a seasonal plan if you want the same crew each year.',
+      'Trees along US 178 can grow toward traffic and lines, so tell us which side needs clearance. We cut each limb back to a proper point and leave the tree healthy.',
     ], bullets: ['Branches over roofs or gutters', 'Limbs rubbing a fence or line', 'Dead wood cleared from the crown'] }],
     faqs: [
       { q: 'Do you trim trees in Pickens?', a: 'Call us first so we can confirm coverage. We then set up a free visit and send a written quote.' },
       { q: 'Do you clean up the brush in Pickens?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+      { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming cuts back to a proper branch collar or healthy side branch. Topping removes the top of the tree and weakens the regrowth. We do not top trees.' },
     ],
   },
   {
@@ -1402,8 +1410,8 @@ export const combos: Combo[] = [
     h1: 'Arborist Assessments in Pickens, SC',
     lead: 'Not sure whether a Pickens tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
     sections: [{ heading: 'Assessing a Pickens tree', paragraphs: [
-      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
-      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails, such as a house, a driveway, or the road.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or driveway'] }],
     faqs: [
       { q: 'Do you assess trees in Pickens before removal?', a: 'Yes, once we confirm coverage for your address. An assessment helps you choose between removal, trimming, or waiting.' },
@@ -1417,11 +1425,11 @@ export const combos: Combo[] = [
     h1: 'Emergency Tree Removal in Pickens, SC',
     lead: 'A tree down or leaning on a Pickens home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
     sections: [{ heading: 'After a storm in Pickens', paragraphs: [
-      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We confirm coverage and tell you the earliest visit we can offer.',
+      'A storm can leave limbs hanging in the crown long after the wind stops. Keep everyone well clear of the fall zone and stay out from under loose wood.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is along US 178, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Pickens?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Pickens?', a: 'Photograph the damage from a safe distance, and call your insurer. We walk you through the steps to take until our crew arrives.' },
       { q: 'Do you give a written quote for storm work in Pickens?', a: 'Yes, before the main work begins.' },
     ],
   },
@@ -1464,14 +1472,15 @@ export const combos: Combo[] = [
     title: 'Tree Removal Woodruff, SC | Greenville Tree & Stump',
     metaDescription: 'Tree removal in Woodruff, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Removal in Woodruff, SC',
-    lead: 'Removing a tree near a Woodruff house takes planning. Woodruff is at the edge of our service area, so call first and we will confirm we can reach you.',
+    lead: 'Removing a tree near a Woodruff house takes planning. Woodruff is at the edge of our service area, so call first and we confirm we can reach you.',
     sections: [{ heading: 'Removal near Woodruff homes', paragraphs: [
       'A tree close to a house, garage, or fence needs a method that fits the space around it. We plan the cuts on the site visit.',
-      'You get the method and scope in writing, with the cleanup included or priced separately.',
+      'If the tree is near Main Street (SC 146), US 221, or SC 101, tell us about the traffic, the sidewalks, and any lines. You get the method and scope in writing, with the cleanup included or priced separately.',
     ], bullets: ['A leaning tree over a roofline or garage', 'A dead tree with little new growth', 'A storm-split trunk or large cracked limb'] }],
     faqs: [
       { q: 'Do you remove trees in Woodruff, SC?', a: 'Call us with your address. We confirm coverage and the earliest visit before you book.' },
       { q: 'Is the removal quote written?', a: 'Yes. We send a written quote after the free visit.' },
+      { q: 'Does a tree near McKinney Park or downtown cost more?', a: 'It can, if traffic, sidewalks, or lines limit the work area. The written quote lists any extra steps.' },
     ],
   },
   {
@@ -1479,14 +1488,15 @@ export const combos: Combo[] = [
     title: 'Tree Trimming Woodruff, SC | Greenville Tree & Stump',
     metaDescription: 'Tree trimming in Woodruff, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Trimming in Woodruff, SC',
-    lead: 'Limbs over a roof, rubbing a gutter, or hanging across a driveway are common trimming calls in Woodruff. Call us first to confirm we can reach your address.',
+    lead: 'Limbs over a Woodruff roof, rubbing a gutter, or hanging across a driveway are common trimming calls. Call us first to confirm we can reach your address.',
     sections: [{ heading: 'Trimming for Woodruff trees', paragraphs: [
       'Woodruff homes often sit on larger lots with mature trees. Regular trimming keeps the growth balanced and away from the roof.',
-      'We cut each limb back to a proper point and leave the tree healthy. Ask about a seasonal plan if you want the same crew each year.',
+      'Trees along Main Street or near Woodruff City Hall can grow toward sidewalks and lines, so tell us which side needs clearance. We cut each limb back to a proper point and leave the tree healthy.',
     ], bullets: ['Branches over roofs or driveways', 'Limbs rubbing a fence or line', 'Dead wood cleared from the crown'] }],
     faqs: [
       { q: 'Do you trim trees in Woodruff?', a: 'Call us first so we can confirm coverage. We then set up a free visit and send a written quote.' },
       { q: 'Do you clean up the brush in Woodruff?', a: 'We clear the work area before we leave. The written quote says what is included.' },
+      { q: 'Is trimming the same as topping a tree?', a: 'No. Trimming cuts back to a proper branch collar or healthy side branch. Topping removes the top of the tree and weakens the regrowth. We do not top trees.' },
     ],
   },
   {
@@ -1512,8 +1522,8 @@ export const combos: Combo[] = [
     h1: 'Arborist Assessments in Woodruff, SC',
     lead: 'Not sure whether a Woodruff tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
     sections: [{ heading: 'Assessing a Woodruff tree', paragraphs: [
-      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails.',
-      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching.',
+      'An assessment looks at the trunk, the root area, the branch attachments, and the crown. It also looks at what the tree could reach if it fails, such as a house, a driveway, or a sidewalk.',
+      'You get the findings and options in writing. Some trees need removal, some need trimming, and some only need watching. We say which, and why.',
     ], bullets: ['Cracks, cavities, or leaning trunks', 'Dead or thinning crowns', 'Heavy limbs over a roof or driveway'] }],
     faqs: [
       { q: 'Do you assess trees in Woodruff before removal?', a: 'Yes, once we confirm coverage for your address. An assessment helps you choose between removal, trimming, or waiting.' },
@@ -1527,11 +1537,11 @@ export const combos: Combo[] = [
     h1: 'Emergency Tree Removal in Woodruff, SC',
     lead: 'A tree down or leaning on a Woodruff home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
     sections: [{ heading: 'After a storm in Woodruff', paragraphs: [
-      'Keep people and pets away from the tree and any loose limbs. If the house is unsafe, leave it and call us from a safe place.',
-      'Tell us the location, what the tree touches, and whether anyone is hurt. We confirm coverage and tell you the earliest visit we can offer.',
+      'Downed limbs on a sidewalk or drive are a hazard for passersby as well as your household. Block the area off and keep everyone back from the wood.',
+      'Tell us the location, what the tree touches, and whether anyone is hurt. If the tree is near Main Street, US 221, or SC 101, say so, since traffic changes how we set up the work.',
     ], bullets: ['A tree on a roof or garage', 'A tree across a driveway or car', 'Photos taken from a safe spot for your insurance claim'] }],
     faqs: [
-      { q: 'What should I do before you arrive in Woodruff?', a: 'Keep clear, take photos from a safe spot, and call your insurance company. We will tell you what else to do when we speak.' },
+      { q: 'What should I do before you arrive in Woodruff?', a: 'Photograph the damage from the street side, keep a record of the time, and call your insurer. We tell you what to do while you wait.' },
       { q: 'Do you give a written quote for storm work in Woodruff?', a: 'Yes, before the main work begins.' },
     ],
   },
