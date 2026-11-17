@@ -261,7 +261,7 @@ export const services: Service[] = [
 
   {
     slug: 'stump-grinding',
-    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'Illustration of a tree-lined residential street with a ground-down stump and a small pile of wood chips in a brick home front lawn' },
+    image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'AI-generated illustration of a stump grinder working on a stump in a front lawn, with wood chips flying and a brick home behind' },
     name: 'Stump Grinding',
     icon: 'stump',
     title: 'Stump Grinding in Greenville, SC | Greenville Tree & Stump',
