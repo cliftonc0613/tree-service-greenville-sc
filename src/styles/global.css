@@ -2007,6 +2007,10 @@ a.card:hover {
   .blog-hero { padding-block: 5rem; }
 }
 
+/* The reference sets blog headings in mixed case; the rest of this site stays uppercase. */
+.blog-hero h1,
+.blog-section-title { text-transform: none; }
+
 .blog-hero .lead { max-width: 42rem; margin-bottom: 0; }
 
 .blog-hero:not(.blog-hero--post) h1 { font-size: clamp(2.25rem, 5vw, 3.75rem); }

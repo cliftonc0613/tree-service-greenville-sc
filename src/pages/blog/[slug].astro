@@ -2,7 +2,6 @@
 import { render } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import BlogCard from '@/components/BlogCard.astro';
-import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import CtaBand from '@/components/CtaBand.astro';
 import { categorySlug, formatDate, getPosts, readingMinutes, relatedPosts } from '@/lib/blog';
 import { absoluteUrl, business } from '@/data/site';
@@ -47,15 +46,6 @@ const schema = [
       </p>
     </div>
   </section>
-
-  <div class="crumbs-band">
-    <div class="container">
-      <Breadcrumbs
-        variant="below"
-        items={[{ label: 'Blog', href: '/blog' }, { label: title }]}
-      />
-    </div>
-  </div>
 
   <article class="section section--white post">
     <div class="container post__inner">
