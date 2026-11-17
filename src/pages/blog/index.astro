@@ -1,0 +1,43 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BlogListing from '@/components/BlogListing.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { categoriesOf, getPosts } from '@/lib/blog';
+import { absoluteUrl } from '@/data/site';
+
+const posts = await getPosts();
+const categories = categoriesOf(posts);
+
+const schema = [
+  {
+    '@type': 'Blog',
+    '@id': `${absoluteUrl('/blog')}#blog`,
+    name: 'Greenville Tree & Stump blog',
+    url: absoluteUrl('/blog'),
+    publisher: { '@id': `${absoluteUrl('/')}#business` },
+  },
+];
+---
+
+<BaseLayout
+  title="Tree Care Tips and Local Guides, Greenville SC Homeowners"
+  description="Plain-language tree care guides for Greenville, SC homeowners: when to trim, what removal costs, how to handle storm damage, and what to do about stumps."
+  path="/blog"
+  schema={schema}
+  noindex={posts.length === 0}
+>
+  <section class="page-hero blog-hero">
+    <div class="container">
+      <h1>Tree Care Tips and Local Guides</h1>
+      <p class="lead">Straight answers, no fluff. Practical guides for Greenville and Upstate homeowners on trimming, removal, storm damage, and stumps, written by people who work in these yards every day.</p>
+    </div>
+  </section>
+
+  <div class="crumbs-band">
+    <div class="container">
+      <Breadcrumbs variant="below" items={[{ label: 'Blog' }]} />
+    </div>
+  </div>
+
+  <BlogListing posts={posts} categories={categories} showFeatured />
+</BaseLayout>
