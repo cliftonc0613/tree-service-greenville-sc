@@ -1265,6 +1265,13 @@ export const areas: Area[] = [
           'Whether you want the stumps ground',
         ],
       },
+      {
+        heading: 'Households in *Woodruff*',
+        paragraphs: [
+          'Woodruff had 4,212 residents at the 2020 Census, up from 4,090 in 2010. The Census Bureau estimated 6,026 for July 2025. The American Community Survey counted 1,942 households for 2020 to 2024, and 54.3% of homes were owner-occupied.',
+          'Because fewer than six in ten homes are owner-occupied, the person who calls us is not always the person who owns the house. On a rental, we ask the owner to approve the work before the visit, so the quote goes to the person who can say yes.',
+        ],
+      },
     ],
     geography:
       'Woodruff is in the southwestern part of Spartanburg County, about 22 miles from downtown Greenville. US 221, SC 101, and SC 146 come together in town and run through downtown as Main Street. SC 146 is the same road Greenville drivers know as Woodruff Road. Call before you book so we can confirm the crew can reach your address.',
