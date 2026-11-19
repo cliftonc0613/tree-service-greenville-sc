@@ -796,6 +796,13 @@ export const areas: Area[] = [
           },
         ],
       },
+      {
+        heading: 'Across the *county line* from Greenville',
+        paragraphs: [
+          'Powdersville is in Anderson County, with the Saluda River along its northeast edge marking the Greenville County line. We serve it from our Greenville base, so the first call is about your address. Once we confirm coverage, the visit works the same as any other job.',
+          'If you have more than one tree to look at, list them all when you call. One visit lets us compare each tree, say which work is urgent and which can wait, and put everything on a single written quote. Stump grinding can go on that quote too.',
+        ],
+      },
     ],
     geography:
       'Powdersville is an unincorporated community in the northern corner of Anderson County. The Saluda River runs along its northeast edge and forms the Greenville County line, and the Pickens County line borders it to the northwest. Because it sits outside Greenville County, call us with your address so we can confirm the visit before you book.',
@@ -1158,6 +1165,13 @@ export const areas: Area[] = [
           },
         ],
       },
+      {
+        heading: 'When a tree is *hurt or dying*',
+        paragraphs: [
+          'A tree can look fine from the yard and still be a hazard. After a storm, or when a tree has stopped leafing out, we look for cracks, hanging limbs, dead wood, and roots lifting at the base. Then we tell you whether it can stay, needs a trim, or should come down.',
+          'If a limb or tree is touching a power line, keep clear and call the utility first. For anything else, call with your address so we can confirm coverage and set up a visit.',
+        ],
+      },
     ],
     geography:
       'Pickens is the county seat of Pickens County, about 18 miles from downtown Greenville. Hagood Mill, a gristmill built in 1845, stands about 3 miles north of town on US 178. Give us your address when you call, and we will confirm the visit before you book.',
@@ -1223,6 +1237,18 @@ export const areas: Area[] = [
               'Because Woodruff is at the edge of our area, it often makes sense to handle several trees in one visit. List everything you want looked at when you call, and we will put it all on one written quote.',
             ],
           },
+        ],
+      },
+      {
+        heading: 'What to tell us when you *call from Woodruff*',
+        paragraphs: [
+          'Several highways meet in Woodruff, so a street address plus the nearest cross road gets the crew to the right place. A few more details let us quote faster:',
+        ],
+        bullets: [
+          'How many trees, and which ones worry you most',
+          'What stands under or beside each tree, such as a house, shed, fence, or lines',
+          'Whether any trees are dead, split, or already down',
+          'Whether you want the stumps ground',
         ],
       },
     ],

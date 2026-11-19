@@ -83,6 +83,12 @@ export default {
   // The intro check counts combo pages only.
   introExpectedCount: comboList.length,
 
+  // City pages under dist/service-areas: one page per town in src/data/areas.ts.
+  // Minimum is 600 words.
+  wordCountGroups: [
+    { distDir: 'dist/service-areas', minWords: 600, expectedCount: areas.length },
+  ],
+
   // Combo intros: the lead paragraph on each service x city page.
   combos: () =>
     comboList.map((c) => ({
