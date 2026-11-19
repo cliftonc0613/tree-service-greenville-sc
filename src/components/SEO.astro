@@ -27,6 +27,8 @@ const localBusiness = {
   // E.164 form, taken from the tel: link so the two cannot drift apart.
   telephone: business.phoneHref.replace('tel:', ''),
   // email omitted until the placeholder in site.ts is replaced (LAUNCH_CHECKLIST.md).
+  // Downtown Greenville, SC city center. Service-area business, so this marks the service hub, not a street address.
+  geo: { '@type': 'GeoCoordinates', latitude: 34.8526, longitude: -82.394 },
   areaServed: [
     { '@type': 'City', name: 'Greenville', containedInPlace: { '@type': 'State', name: 'South Carolina' } },
     { '@type': 'City', name: 'Simpsonville' },
