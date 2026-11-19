@@ -474,7 +474,7 @@ export const services: Service[] = [
     icon: 'storm',
     title: `Storm Removal Greenville | ${business.name}`,
     metaDescription:
-      'Emergency tree removal in Greenville, SC after storm damage. A tree on the house, in the yard, or leaning dangerously. Call us, then we confirm the plan.',
+      'Emergency tree removal in Greenville, SC after a storm. Call us about a tree on your house or in your yard, and we set up a free visit and a written quote.',
     h1: 'Emergency and Storm Tree Removal in Greenville, SC',
     lead:
       'Storm damage in Greenville, South Carolina? If a tree is down, leaning dangerously, or on your home, call us. We will tell you the earliest visit we can offer and what to do until we arrive.',
