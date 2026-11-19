@@ -8,6 +8,7 @@ Retrieved 2026-11-16 with WebSearch (Firecrawl out of credits). WebSearch return
 - City and county seat of Pickens County (formerly called Pickens Courthouse). Source: [Wikipedia, Pickens, SC](https://www.wikipedia.org/wiki/Pickens,_South_Carolina) (via WebSearch).
 - About 18 miles from downtown Greenville (straight line, plus or minus a mile). Source: playbook.md service-area table (Nov 11, 2026).
 - Hagood Mill: gristmill built by James Hagood in 1845, about 3 miles north of downtown Pickens on US 178 (NRHP record says 3.5 miles northwest). Listed on the National Register of Historic Places in 1972; donated to Pickens County in 1973. Sources: [SC Dept. of Archives and History, Hagood Mill](https://schpr.sc.gov/index.php/Detail/properties/S10817739010); [Wikipedia, Hagood Mill](https://en.wikipedia.com/wiki/Hagood_Mill) (via WebSearch).
+- Table Rock State Park: state park in Pickens County, SC, listed as a landmark on the Pickens page. Source: [Google Maps listing](https://maps.app.goo.gl/ZVWdQ4RqAxk49ehA8) (supplied by owner, 2026-11-19, with the welcome-kiosk photo). Distance from town not verified, so none is stated in copy.
 
 **Not used in copy**
 - SC 8 routing: not confirmed.
