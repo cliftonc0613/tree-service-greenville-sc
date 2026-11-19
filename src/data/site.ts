@@ -16,8 +16,8 @@ export const business = {
   phoneDisplay: '(864) 432-5331',
   phoneHref: 'tel:+18644325331',
 
-  // PLACEHOLDER: no email in the project files.
-  email: 'hello@greenvilletreeandstump.com',
+  // Business email. Confirm the mailbox exists before launch (LAUNCH_CHECKLIST.md).
+  email: 'hello@greenvilletreeandstumpremoval.com',
 
   // Lead form endpoint (GoHighLevel / LeadConnector webhook). Set PUBLIC_LEAD_WEBHOOK_URL.
   // The form refuses to claim success when this is empty.
