@@ -41,6 +41,8 @@ export async function loadTs(projectRoot, relPath) {
       packages: 'external',
       write: false,
       logLevel: 'silent',
+      // Data files read import.meta.env (for example SITE in site.ts). It does not exist under plain Node.
+      define: { 'import.meta.env': '{}' },
     });
     // Written inside the project's node_modules so any bare imports the data
     // file keeps (packages: 'external') still resolve against the project.
