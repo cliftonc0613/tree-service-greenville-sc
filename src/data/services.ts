@@ -53,6 +53,7 @@ export const services: Service[] = [
         paragraphs: [
           'Not every sign means the tree has to come down. Many problems can be fixed by pruning out the damaged part, and a lean that has been there for years is different from a sudden one. Tree-care groups tell homeowners to take these signs seriously:',
         ],
+        bulletLayout: 'cards',
         bullets: [
           'A sudden lean, or soil cracking or lifting at the base of a leaning tree',
           'A crack that splits the main trunk',

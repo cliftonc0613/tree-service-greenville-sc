@@ -39,7 +39,7 @@ const withCityLinks = (t: string) =>
         <Heading id={`sec-${i}`} text={s.heading} />
         {s.paragraphs.map((p) => (linkCities ? <p set:html={withCityLinks(p)} /> : <p>{p}</p>))}
         {s.bullets && (
-          <ul class="checklist">
+          <ul class:list={['checklist', s.bulletLayout === 'cards' && 'checklist--cards']}>
             {s.bullets.map((b) => <li>{b}</li>)}
           </ul>
         )}
