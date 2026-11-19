@@ -85,6 +85,7 @@ export const nav = {
   contact: { label: 'Contact', href: '/contact' },
   estimate: { label: 'Get a Free Estimate', href: '/contact#estimate' },
   privacy: { label: 'Privacy Policy', href: '/privacy-policy' },
+  terms: { label: 'Terms of Service', href: '/terms-of-service' },
   emergency: { label: 'Storm damage? Call now', href: '/services/emergency-tree-removal' },
 } as const;
 
