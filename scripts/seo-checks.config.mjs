@@ -84,9 +84,9 @@ export default {
   introExpectedCount: comboList.length,
 
   // City pages under dist/service-areas: one page per town in src/data/areas.ts.
-  // Lowest current page is Woodruff at 545 words, so 500 is the floor.
+  // Minimum is 600 words.
   wordCountGroups: [
-    { distDir: 'dist/service-areas', minWords: 500, expectedCount: areas.length },
+    { distDir: 'dist/service-areas', minWords: 600, expectedCount: areas.length },
   ],
 
   // Combo intros: the lead paragraph on each service x city page.
