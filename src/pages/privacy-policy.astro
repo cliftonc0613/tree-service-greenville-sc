@@ -3,8 +3,8 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHero from '@/components/PageHero.astro';
 import { business } from '@/data/site';
 
-const title = 'Privacy Policy | Greenville Tree & Stump Removal in Greenville, SC';
-const description = 'How Greenville Tree & Stump Removal handles the contact details you send us through this website.';
+const title = `Privacy Policy | ${business.name} in Greenville, SC`;
+const description = `How ${business.name} handles the contact details you send us through this website.`;
 ---
 
 <BaseLayout title={title} description={description} path="/privacy-policy" noindex={false}>

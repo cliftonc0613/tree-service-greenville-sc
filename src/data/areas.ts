@@ -1,3 +1,4 @@
+import { business } from '@/data/site';
 // Town pages: the four Tier 1 towns (launch) plus Tier 2 and Tier 3 towns from site-architecture.md section 1.
 // Geography paragraphs use starting points from knowledge/research/playbook.md. Every landmark fact must be checked against a real source before launch (see LAUNCH_CHECKLIST.md).
 import type { Area } from '@/data/types';
@@ -10,7 +11,7 @@ export const areas: Area[] = [
     county: 'Greenville County',
     tier: 1,
     leadService: 'tree-removal',
-    title: 'Tree Removal in Simpsonville, SC | Greenville Tree & Stump Removal',
+    title: `Tree Removal in Simpsonville, SC | ${business.name}`,
     metaDescription:
       'Tree removal in Simpsonville, SC for dangerous, dead, or unwanted trees. Free written estimate and cleanup before we leave. Call us to set up a visit.',
     h1: 'Tree Removal in Simpsonville, SC',
@@ -124,7 +125,7 @@ export const areas: Area[] = [
     county: 'Greenville County',
     tier: 1,
     leadService: 'tree-service',
-    title: 'Tree Service in Taylors, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Taylors, SC | ${business.name}`,
     metaDescription:
       'Tree service in Taylors, SC: trimming, removal, and stump grinding with a free written estimate. Clean yards before we leave. Call us today.',
     h1: 'Tree Service in Taylors, SC',
@@ -213,7 +214,7 @@ export const areas: Area[] = [
     county: 'Pickens County',
     tier: 1,
     leadService: 'balanced',
-    title: 'Tree Service in Easley, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Easley, SC | ${business.name}`,
     metaDescription:
       'Tree service and removal in Easley, SC. Trimming, dangerous tree removal, and stump grinding with a free written estimate. Call us to set up a visit.',
     h1: 'Tree Service and Removal in Easley, SC',
@@ -303,7 +304,7 @@ export const areas: Area[] = [
     county: 'Greenville and Spartanburg counties',
     tier: 1,
     leadService: 'tree-service',
-    title: 'Tree Service in Greer, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Greer, SC | ${business.name}`,
     metaDescription:
       'Tree service in Greer, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call us today.',
     h1: 'Tree Service in Greer, SC',
@@ -378,7 +379,7 @@ export const areas: Area[] = [
     county: 'Greenville County',
     tier: 2,
     leadService: 'tree-service',
-    title: 'Tree Service in Mauldin, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Mauldin, SC | ${business.name}`,
     metaDescription:
       'Tree service in Mauldin, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call to set up a visit.',
     h1: 'Tree Service in Mauldin, SC',
@@ -455,7 +456,7 @@ export const areas: Area[] = [
     county: 'Greenville and Laurens counties',
     tier: 2,
     leadService: 'tree-service',
-    title: 'Tree Service in Fountain Inn, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Fountain Inn, SC | ${business.name}`,
     metaDescription:
       'Tree service in Fountain Inn, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call us today.',
     h1: 'Tree Service in Fountain Inn, SC',
@@ -530,7 +531,7 @@ export const areas: Area[] = [
     county: 'Greenville County',
     tier: 2,
     leadService: 'tree-service',
-    title: 'Tree Service in Travelers Rest, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Travelers Rest, SC | ${business.name}`,
     metaDescription:
       'Tree service in Travelers Rest, SC for trimming, removal, and stump grinding. Free written estimate and cleanup before we leave. Call to set up a visit.',
     h1: 'Tree Service in Travelers Rest, SC',
@@ -676,7 +677,7 @@ export const areas: Area[] = [
     county: 'Greenville County',
     tier: 2,
     leadService: 'balanced',
-    title: 'Tree Service in Five Forks, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Five Forks, SC | ${business.name}`,
     metaDescription:
       'Tree service in Five Forks, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call us today.',
     h1: 'Tree Service in Five Forks, SC',
@@ -773,7 +774,7 @@ export const areas: Area[] = [
     county: 'Anderson County',
     tier: 2,
     leadService: 'tree-service',
-    title: 'Tree Service in Powdersville, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Powdersville, SC | ${business.name}`,
     metaDescription:
       'Tree service in Powdersville, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call to set up a visit.',
     h1: 'Tree Service in Powdersville, SC',
@@ -858,7 +859,7 @@ export const areas: Area[] = [
     county: 'Greenville County',
     tier: 2,
     leadService: 'tree-service',
-    title: 'Tree Service in Berea, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Berea, SC | ${business.name}`,
     metaDescription:
       'Tree service in Berea, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call us to set up a visit.',
     h1: 'Tree Service in Berea, SC',
@@ -949,7 +950,7 @@ export const areas: Area[] = [
     county: 'Greenville County',
     tier: 2,
     leadService: 'tree-service',
-    title: 'Tree Service in Wade Hampton, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Wade Hampton, SC | ${business.name}`,
     metaDescription:
       'Tree service in Wade Hampton, SC for trimming, removal, and stump grinding. Free written estimate, and cleanup before we leave. Call us today.',
     h1: 'Tree Service in Wade Hampton, SC',
@@ -1056,7 +1057,7 @@ export const areas: Area[] = [
     county: 'Anderson and Greenville counties',
     tier: 3,
     leadService: 'tree-service',
-    title: 'Tree Service in Piedmont, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Piedmont, SC | ${business.name}`,
     metaDescription:
       'Tree service in Piedmont, SC for trimming, removal, and stump grinding. Free written estimate, and cleanup before we leave. Call to set up a visit.',
     h1: 'Tree Service in Piedmont, SC',
@@ -1153,7 +1154,7 @@ export const areas: Area[] = [
     county: 'Pickens County',
     tier: 3,
     leadService: 'tree-service',
-    title: 'Tree Service in Pickens, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Pickens, SC | ${business.name}`,
     metaDescription:
       'Tree service in Pickens, SC for trimming, removal, and stump grinding. Free written estimate and cleanup before we leave. Call us to confirm coverage.',
     h1: 'Tree Service in Pickens, SC',
@@ -1227,7 +1228,7 @@ export const areas: Area[] = [
     county: 'Spartanburg County',
     tier: 3,
     leadService: 'tree-service',
-    title: 'Tree Service in Woodruff, SC | Greenville Tree & Stump Removal',
+    title: `Tree Service in Woodruff, SC | ${business.name}`,
     metaDescription:
       'Tree service in Woodruff, SC for trimming, removal, and stump grinding. Free written estimate after a visit. Call us to confirm coverage first.',
     h1: 'Tree Service in Woodruff, SC',

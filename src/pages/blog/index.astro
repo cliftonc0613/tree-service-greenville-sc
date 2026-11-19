@@ -1,4 +1,5 @@
 ---
+import { business } from '@/data/site';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import BlogListing from '@/components/BlogListing.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
@@ -12,7 +13,7 @@ const schema = [
   {
     '@type': 'Blog',
     '@id': `${absoluteUrl('/blog')}#blog`,
-    name: 'Greenville Tree & Stump Removal blog',
+    name: `${business.name} blog`,
     url: absoluteUrl('/blog'),
     publisher: { '@id': `${absoluteUrl('/')}#business` },
   },
