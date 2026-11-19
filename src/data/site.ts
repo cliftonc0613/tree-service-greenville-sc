@@ -8,7 +8,6 @@ export const SITE_URL = import.meta.env.SITE ?? 'https://greenvilletreeandstumpr
 
 export const business = {
   name: 'Greenville Tree & Stump Removal',
-  shortName: 'Greenville Tree & Stump',
   city: 'Greenville',
   state: 'South Carolina',
   stateCode: 'SC',
