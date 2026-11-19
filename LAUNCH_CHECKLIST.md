@@ -26,7 +26,7 @@ Items that must be resolved by the owner or verified against real sources before
 - [x] **Service area coverage.** Confirm which towns the crew actually serves. The town pages say the business serves them, based on the playbook's target list.
 - [x] **Cost page sourcing.** `/services/tree-removal-cost` uses market benchmark ranges from the persona file, which says "source not specified." Find and cite a source, or remove the ranges and keep only the factors.
 - [ ] **Owner review of all copy.** Drafted by the build. The playbook says the owner edits before it ships.
-- [ ] **Storm checklist.** The emergency page says a storm checklist is available on request. Create it or remove the sentence.
+- [x] **Storm checklist.** Removed the sentence offering a storm damage checklist from the emergency page (no checklist exists).
 - [ ] **Photos.** The home hero has no photo yet. Add crew, equipment, and Greenville backdrop images with descriptive alt text (playbook image direction). The share image at `public/images/og-default.jpg` is currently the logo, so replace it with a 1200x630 photo.
 - [ ] **Reviews and testimonials.** None are published, and none should be until they are real and verified.
 - [ ] **Commercial and HOA.** Mentioned on the About, Arborist, and Land Clearing pages. Confirm the business wants this promoted (site-architecture.md decision 3).

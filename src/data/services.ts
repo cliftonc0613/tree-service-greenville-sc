@@ -490,7 +490,6 @@ export const services: Service[] = [
         heading: 'What to do *until we arrive*',
         paragraphs: [
           'Keep people and pets away from the tree and the area under any loose limbs. Do not climb onto a roof to look at a tree. If the tree is on the house, leave the house if it is unsafe to be inside. Take photos from a safe spot for your insurance claim.',
-          'A one-page storm damage checklist covers these steps in more detail. Ask for it when you call.',
         ],
       },
       {
