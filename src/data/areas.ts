@@ -262,6 +262,13 @@ export const areas: Area[] = [
           },
         ],
       },
+      {
+        heading: 'Growth in *Easley* and the trees around it',
+        paragraphs: [
+          'Easley had 22,921 residents at the 2020 Census, up from 19,993 in 2010. The Census Bureau estimated 27,319 for July 2025. More homes means more lots, and the trees on those lots were planted at many different times.',
+          'That mix shows up in the work. A newer subdivision can have young trees growing close to a house, while an older lot may have a large oak whose limbs have spread over the roof. We check each tree for its age, its lean, and what it could reach, then explain the options before we quote.',
+        ],
+      },
     ],
     geography:
       'Easley sits in Pickens County, west of the Saluda River, which marks the Greenville County line along US 123. Many properties here have a wooded backdrop, so tree work often involves both yard trees and trees near the edge of the lot. On those lots, the way a crew reaches the tree can shape the whole plan.',
