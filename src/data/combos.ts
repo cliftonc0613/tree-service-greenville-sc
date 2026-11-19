@@ -295,7 +295,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'arborist',
-    title: `Arborist Easley | ${business.name}`,
+    title: `Arborist Services Easley | ${business.name}`,
     metaDescription: 'Tree assessments in Easley, SC for health and hazards on wooded lots, with a plain recommendation. Free written estimate.',
     h1: 'Arborist Assessments in Easley, SC',
     lead: 'On a wooded Easley lot, the question is often which trees are healthy and which are a hazard. We give you a plain answer in writing.',
@@ -406,7 +406,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'arborist',
-    title: `Arborist Greer | ${business.name}`,
+    title: `Arborist Services Greer | ${business.name}`,
     metaDescription: 'Tree assessments in Greer, SC for health and hazards, with a plain written recommendation on keeping, trimming, or removing the tree.',
     h1: 'Arborist Assessments in Greer, SC',
     lead: 'Before you decide what to do about a Greer tree, get a plain look at its health and any hazards it poses.',
@@ -1072,7 +1072,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'arborist',
-    title: `Arborist Berea | ${business.name}`,
+    title: `Arborist Services Berea | ${business.name}`,
     metaDescription: 'Tree assessments in Berea, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Berea, SC',
     lead: 'Not sure whether a Berea tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',

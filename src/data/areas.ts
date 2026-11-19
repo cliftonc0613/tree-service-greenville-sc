@@ -533,7 +533,7 @@ export const areas: Area[] = [
     leadService: 'tree-service',
     title: `Tree Care Travelers Rest | ${business.name}`,
     metaDescription:
-      'Tree service in Travelers Rest, SC for trimming, removal, and stump grinding. Free written estimate and cleanup before we leave. Call to set up a visit.',
+      'Tree service in Travelers Rest, SC for trimming, removal, and stump grinding. Free written estimate. We clean up before we leave. Call to book.',
     h1: 'Tree Service in Travelers Rest, SC',
     lead:
       'Tree service in Travelers Rest, South Carolina, for trimming, removal, and stump grinding. We visit the site for free and give you a written quote before we start.',
@@ -776,7 +776,7 @@ export const areas: Area[] = [
     leadService: 'tree-service',
     title: `Tree Service Powdersville | ${business.name}`,
     metaDescription:
-      'Tree service in Powdersville, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call to set up a visit.',
+      'Tree service in Powdersville, SC for trimming, removal, and stump grinding. Free written estimate. We clean up before we leave. Call to book a visit.',
     h1: 'Tree Service in Powdersville, SC',
     lead:
       'Tree service in Powdersville, South Carolina, for trimming, removal, and stump grinding. We confirm coverage for your address, visit for free, and send a written quote.',
@@ -861,7 +861,7 @@ export const areas: Area[] = [
     leadService: 'tree-service',
     title: `Tree Service in Berea, SC | ${business.name}`,
     metaDescription:
-      'Tree service in Berea, SC for trimming, removal, and stump grinding. Free written estimate, and we clean up before we leave. Call us to set up a visit.',
+      'Tree service in Berea, SC for trimming, removal, and stump grinding. Free written estimate. We clean up before we leave. Call us to book a visit.',
     h1: 'Tree Service in Berea, SC',
     lead:
       'Tree service in Berea, South Carolina, for trimming, removal, and stump grinding. We come out for a free site visit and give you a written quote before we start.',
