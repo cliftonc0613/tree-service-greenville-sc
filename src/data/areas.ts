@@ -1182,6 +1182,7 @@ export const areas: Area[] = [
     landmarks: ['Hagood Mill on US 178 (National Register, 1972)'],
     mainRoads: ['US 178'],
     responseArea: 'Pickens and nearby Easley and Piedmont. Call us with your address first.',
+    landmarkImage: { src: '/images/pages/landmarks/table-rock-state-park.jpg', alt: 'A wooden welcome kiosk with a shingled sloped roof at Table Rock State Park, holding a park map and a Welcome to Table Rock State Park sign, surrounded by tall pine and hardwood trees', credit: { text: 'Table Rock State Park, Google Maps', url: 'https://maps.app.goo.gl/ZVWdQ4RqAxk49ehA8' } },
   },
 
   {
