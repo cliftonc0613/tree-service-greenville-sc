@@ -810,6 +810,13 @@ export const areas: Area[] = [
           'If you have more than one tree to look at, list them all when you call. One visit lets us compare each tree, say which work is urgent and which can wait, and put everything on a single written quote. Stump grinding can go on that quote too.',
         ],
       },
+      {
+        heading: 'Homes and households in *Powdersville*',
+        paragraphs: [
+          'Powdersville had 10,025 residents at the 2020 Census, up from 7,618 in 2010. The Census American Community Survey counted 3,914 households for 2020 to 2024, and 74.7% of homes in that period were owner-occupied.',
+          'Because about three in four homes are owner-occupied, the person we talk to on the visit is usually the one who lives there. We ask which trees are closest to the house, the driveway, or the lines, so the quote covers the spots that matter most day to day.',
+        ],
+      },
     ],
     geography:
       'Powdersville is an unincorporated community in the northern corner of Anderson County. The Saluda River runs along its northeast edge and forms the Greenville County line, and the Pickens County line borders it to the northwest. Because it sits outside Greenville County, call us with your address so we can confirm the visit before you book.',
