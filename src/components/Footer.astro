@@ -41,7 +41,10 @@ const year = new Date().getFullYear();
     </div>
     <div class="site-footer__base">
       <span>&copy; {year} {business.name}. All rights reserved.</span>
-      <a href={nav.privacy.href}>Privacy Policy</a>      <a href={nav.terms.href}>Terms of Service</a>
+      <div class="site-footer__legal">
+        <a href={nav.privacy.href}>Privacy Policy</a>
+        <a href={nav.terms.href}>Terms of Service</a>
+      </div>
     </div>
   </div>
 </footer>
