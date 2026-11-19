@@ -4,7 +4,7 @@ Items that must be resolved by the owner or verified against real sources before
 
 ## Blocking (do not launch without these)
 
-- [ ] **Domain.** `astro.config.mjs` uses `https://greenvilletreeandstump.com` as a stand-in. The playbook suggests GreenvilleTreeRemoval.com, GreenvilleSCTreeRemoval.com, or GreenvilleTreePros.com. Availability was not checked. Set `SITE_URL` or edit the config once chosen.
+- [x] **Domain.** Set to `https://greenvilletreeandstumpremoval.com` in `astro.config.mjs` and `src/data/site.ts`. Confirm it is registered and points to Cloudflare Pages before launch.
 - [x] **Phone.** `src/data/site.ts` now uses `(864) 432-5331`, set in both `phoneDisplay` and `phoneHref`.
 - [ ] **Email.** `hello@greenvilletreeandstump.com` is a placeholder. Replace in `src/data/site.ts`.
 - [x] **Lead webhook.** Set `PUBLIC_LEAD_WEBHOOK_URL` to the GoHighLevel / LeadConnector inbound webhook. Verified: a test lead submitted from the contact page arrived in GoHighLevel. Still set `PUBLIC_LEAD_WEBHOOK_URL` in the hosting provider's environment variables, since `.env` is not deployed. Before wiring it, run the CORS preflight from the user's webhook rule: `curl -sD - -o /dev/null -X OPTIONS <url> -H "Origin: https://YOURSITE" -H "Access-Control-Request-Method: POST"`. The form uses a normal CORS `fetch` and reports success only on a 2xx response. Until the variable is set, the form says online requests are not connected and asks the visitor to call.

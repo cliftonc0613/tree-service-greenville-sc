@@ -12,7 +12,7 @@ const hasPublishedPosts = existsSync(BLOG_DIR) &&
   );
 
 // TODO(launch): replace with the real production domain (see LAUNCH_CHECKLIST.md).
-const SITE = process.env.SITE_URL ?? 'https://greenvilletreeandstump.com';
+const SITE = process.env.SITE_URL ?? 'https://greenvilletreeandstumpremoval.com';
 
 export default defineConfig({
   site: SITE,

@@ -4,7 +4,7 @@
 // email, or credentials. Every value marked PLACEHOLDER below must be replaced
 // before launch. See LAUNCH_CHECKLIST.md.
 
-export const SITE_URL = import.meta.env.SITE ?? 'https://greenvilletreeandstump.com';
+export const SITE_URL = import.meta.env.SITE ?? 'https://greenvilletreeandstumpremoval.com';
 
 export const business = {
   name: 'Greenville Tree & Stump',
