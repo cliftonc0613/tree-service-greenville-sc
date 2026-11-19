@@ -1,13 +1,14 @@
 ---
+import { business } from '@/data/site';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHero from '@/components/PageHero.astro';
 import Icon from '@/components/Icon.astro';
 import CtaBand from '@/components/CtaBand.astro';
 import { services } from '@/data/services';
 
-const title = 'Our Tree Services and Stump Work | Greenville Tree & Stump';
+const title = `Tree Services | ${business.name}`;
 const description =
-  'Tree removal, trimming, stump grinding, arborist assessments, storm work, and land clearing. Free written estimates from Greenville Tree & Stump.';
+  `Tree removal, trimming, stump grinding, arborist assessments, storm work, and land clearing. Free written estimates from ${business.name}.`;
 ---
 
 <BaseLayout title={title} description={description} path="/services">

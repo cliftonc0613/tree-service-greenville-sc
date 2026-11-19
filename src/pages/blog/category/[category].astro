@@ -1,4 +1,5 @@
 ---
+import { business } from '@/data/site';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import BlogListing from '@/components/BlogListing.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
@@ -27,7 +28,7 @@ const name = label.charAt(0).toUpperCase() + label.slice(1);
 
 <BaseLayout
   title={`${name} Tree Care Posts for Greenville, SC Homeowners`}
-  description={`${name} guides from Greenville Tree & Stump: plain answers on tree care for Greenville, SC and nearby Upstate homeowners.`}
+  description={`${name} guides from ${business.name}: plain answers on tree care for Greenville, SC and nearby Upstate homeowners.`}
   path={`/blog/category/${category}`}
 >
   <section class="page-hero blog-hero">

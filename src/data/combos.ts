@@ -1,3 +1,4 @@
+import { business } from '@/data/site';
 // City + service combo pages: /services/[area]/[service]/ (98 pages: 14 towns x 7 services).
 // Each entry has its own copy. Do not reuse paragraphs across entries (playbook: avoid duplicate location copy).
 // Rules: plain periods, no em dashes, no unsourced prices, no credentials, no guaranteed dates.
@@ -19,7 +20,7 @@ export const combos: Combo[] = [
   // ---------- Simpsonville ----------
   {
     area: 'simpsonville', service: 'tree-removal',
-    title: 'Tree Removal Simpsonville, SC | Greenville Tree & Stump',
+    title: `Removal Simpsonville | ${business.name}`,
     metaDescription: 'Tree removal in Simpsonville, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Simpsonville, SC',
     lead: 'A tree close to a Simpsonville house takes planning. We check how near it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
@@ -35,7 +36,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'simpsonville', service: 'tree-trimming',
-    title: 'Tree Trimming Simpsonville, SC | Greenville Tree & Stump',
+    title: `Trimming Simpsonville | ${business.name}`,
     metaDescription: 'Tree trimming in Simpsonville, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and we clean up before we leave.',
     h1: 'Tree Trimming in Simpsonville, SC',
     lead: 'Limbs over a Simpsonville roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -51,7 +52,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'simpsonville', service: 'stump-grinding',
-    title: 'Stump Grinding Simpsonville, SC | Greenville Tree & Stump',
+    title: `Stump Grind Simpsonville | ${business.name}`,
     metaDescription: 'Stump grinding in Simpsonville, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Simpsonville, SC',
     lead: 'A stump in a Simpsonville yard can stay in the way for years after a removal. We grind it below the surface so the spot can be planted, paved, or mowed.',
@@ -68,7 +69,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'simpsonville', service: 'arborist',
-    title: 'Arborist in Simpsonville, SC | Greenville Tree & Stump',
+    title: `Arborist Simpsonville | ${business.name}`,
     metaDescription: 'Tree assessments in Simpsonville, SC for health and hazards, with a plain recommendation on whether to keep, trim, or remove the tree.',
     h1: 'Arborist Assessments in Simpsonville, SC',
     lead: 'Before you decide to remove or trim a Simpsonville tree, get a plain assessment of its health and of any hazard it poses to your home, driveway, or yard.',
@@ -83,7 +84,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'simpsonville', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Simpsonville, SC | Greenville Tree & Stump',
+    title: `Storm Removal Simpsonville | ${business.name}`,
     metaDescription: 'Emergency tree removal in Simpsonville, SC after storm damage. A tree down or leaning on a home or driveway. Call us, then we confirm the plan.',
     h1: 'Emergency Tree Removal in Simpsonville, SC',
     lead: 'A tree down or leaning on a Simpsonville home or driveway needs a call now. If a line is involved, call the power company or 911 first and stay clear.',
@@ -99,7 +100,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'simpsonville', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Simpsonville, SC | Greenville Tree & Stump',
+    title: `Removal Cost Simpsonville | ${business.name}`,
     metaDescription: 'What tree removal costs in Simpsonville, SC, and what changes the price. Compare written quotes with the same scope. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Simpsonville, SC',
     lead: 'A tree removal in Simpsonville is priced by the tree, where it stands on the lot, and how the crew can get to it. Here is what moves the number and how to compare written quotes.',
@@ -117,7 +118,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'simpsonville', service: 'land-clearing',
-    title: 'Land Clearing Simpsonville, SC | Greenville Tree & Stump',
+    title: `Clearing Simpsonville | ${business.name}`,
     metaDescription: 'Land and lot clearing in Simpsonville, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call today.',
     h1: 'Land Clearing in Simpsonville, SC',
     lead: 'Clearing a lot in Simpsonville before a build, a garden, or a new yard. We walk the land with you, mark what stays, and quote the work in writing.',
@@ -137,7 +138,7 @@ export const combos: Combo[] = [
   // ---------- Taylors ----------
   {
     area: 'taylors', service: 'tree-removal',
-    title: 'Tree Removal Taylors, SC | Greenville Tree & Stump',
+    title: `Tree Removal Taylors, SC | ${business.name}`,
     metaDescription: 'Tree removal in Taylors, SC for dead, leaning, or storm-damaged trees near homes along Wade Hampton Blvd. Free written estimate.',
     h1: 'Tree Removal in Taylors, SC',
     lead: 'Taylors yards often have large hardwoods and pines near the house. When one is dead, leaning, or storm-damaged, we explain the removal plan before any work starts.',
@@ -153,7 +154,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'taylors', service: 'tree-trimming',
-    title: 'Tree Trimming Taylors, SC | Greenville Tree & Stump',
+    title: `Tree Trimming Taylors, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Taylors, SC to clear branches from roofs, power lines, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Taylors, SC',
     lead: 'Pines and hardwoods in Taylors drop limbs after heavy weather. Routine trimming keeps branches off the roof and away from the lines.',
@@ -168,7 +169,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'taylors', service: 'stump-grinding',
-    title: 'Stump Grinding Taylors, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Taylors, SC | ${business.name}`,
     metaDescription: 'Stump grinding in Taylors, SC for stumps left after a removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Taylors, SC',
     lead: 'A stump in a Taylors yard can take up space you want for a garden or lawn. We grind it down and clean up the grindings.',
@@ -184,7 +185,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'taylors', service: 'arborist',
-    title: 'Arborist Services in Taylors, SC | Greenville Tree & Stump',
+    title: `Arborist Taylors | ${business.name}`,
     metaDescription: 'Tree assessments in Taylors, SC for health and hazards, with a plain recommendation on keeping, trimming, or removing the tree.',
     h1: 'Arborist Assessments in Taylors, SC',
     lead: 'Before you decide what to do about a Taylors tree, get a plain look at its health and the hazards it poses.',
@@ -199,7 +200,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'taylors', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Taylors, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Taylors | ${business.name}`,
     metaDescription: 'Emergency tree removal in Taylors, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us now.',
     h1: 'Emergency Tree Removal in Taylors, SC',
     lead: 'A tree down or leaning on a Taylors home or driveway needs a call. If a power line is involved, call the power company or 911 first and stay clear.',
@@ -214,7 +215,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'taylors', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Taylors, SC | Greenville Tree & Stump',
+    title: `Removal Cost Taylors | ${business.name}`,
     metaDescription: 'What tree removal costs in Taylors, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Taylors, SC',
     lead: 'Tree removal in Taylors costs more or less depending on the tree, the lot, and the access. Here is how to read a quote.',
@@ -230,7 +231,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'taylors', service: 'land-clearing',
-    title: 'Land Clearing Taylors, SC | Greenville Tree & Stump',
+    title: `Land Clearing Taylors, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Taylors, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call today.',
     h1: 'Land Clearing in Taylors, SC',
     lead: 'Lots in Taylors often need clearing before a build or a garden. We walk the land with you and quote the work in writing.',
@@ -248,7 +249,7 @@ export const combos: Combo[] = [
   // ---------- Easley ----------
   {
     area: 'easley', service: 'tree-removal',
-    title: 'Tree Removal in Easley, SC | Greenville Tree & Stump',
+    title: `Tree Removal in Easley, SC | ${business.name}`,
     metaDescription: 'Tree removal in Easley, SC for dead, leaning, or storm-damaged trees on wooded lots and near homes. Free written estimate.',
     h1: 'Tree Removal in Easley, SC',
     lead: 'Easley lots often border woods, so a removal can involve both the yard tree and trees at the edge of the lot. We plan the work around both.',
@@ -264,7 +265,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'tree-trimming',
-    title: 'Tree Trimming Easley, SC | Greenville Tree & Stump',
+    title: `Tree Trimming Easley, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Easley, SC for overgrown branches, roof clearance, and hazard limbs. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Easley, SC',
     lead: 'Overgrown branches in Easley can reach the roof, the driveway, or the lines. We trim to keep the tree healthy and the space clear.',
@@ -279,7 +280,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'stump-grinding',
-    title: 'Stump Grinding Easley, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Easley, SC | ${business.name}`,
     metaDescription: 'Stump grinding in Easley, SC for stumps left after a removal on wooded or open lots. Free written estimate, cleanup before we leave.',
     h1: 'Stump Grinding in Easley, SC',
     lead: 'Stumps on Easley lots can sit in the way of a new garden, a driveway, or a clearing. We grind them down and clean up.',
@@ -294,7 +295,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'arborist',
-    title: 'Arborist Services in Easley, SC | Greenville Tree & Stump',
+    title: `Arborist Easley | ${business.name}`,
     metaDescription: 'Tree assessments in Easley, SC for health and hazards on wooded lots, with a plain recommendation. Free written estimate.',
     h1: 'Arborist Assessments in Easley, SC',
     lead: 'On a wooded Easley lot, the question is often which trees are healthy and which are a hazard. We give you a plain answer in writing.',
@@ -309,7 +310,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Easley, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Easley | ${business.name}`,
     metaDescription: 'Emergency tree removal in Easley, SC after storm damage on wooded lots and near homes. Call us, then we confirm the plan.',
     h1: 'Emergency Tree Removal in Easley, SC',
     lead: 'A tree down or leaning on an Easley home, driveway, or fence needs a call. If a power line is involved, call the power company or 911 first.',
@@ -324,7 +325,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Easley, SC | Greenville Tree & Stump',
+    title: `Removal Cost Easley | ${business.name}`,
     metaDescription: 'What tree removal costs in Easley, SC, and the factors that change the price on wooded lots. Compare written quotes. Free estimate.',
     h1: 'Tree Removal Cost in Easley, SC',
     lead: 'Wooded Easley lots change the cost of a removal. Here is what moves the price and how to compare written quotes.',
@@ -340,7 +341,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'easley', service: 'land-clearing',
-    title: 'Land Clearing Easley, SC | Greenville Tree & Stump',
+    title: `Land Clearing Easley, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Easley, SC for a new house, pasture, or garden on wooded property. Free written estimate. Call today.',
     h1: 'Land Clearing in Easley, SC',
     lead: 'Clearing a wooded Easley property for a house, a pasture, or a garden takes a plan. We walk the land with you and quote the work in writing.',
@@ -358,7 +359,7 @@ export const combos: Combo[] = [
   // ---------- Greer ----------
   {
     area: 'greer', service: 'tree-removal',
-    title: 'Tree Removal in Greer, SC | Greenville Tree & Stump',
+    title: `Tree Removal in Greer, SC | ${business.name}`,
     metaDescription: 'Tree removal in Greer, SC for dead, leaning, or storm-damaged trees near homes and new construction. Free written estimate.',
     h1: 'Tree Removal in Greer, SC',
     lead: 'Greer has established neighborhoods with mature trees and newer lots where trees sit close to new homes. We plan each removal around what is nearby.',
@@ -374,7 +375,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'tree-trimming',
-    title: 'Tree Trimming in Greer, SC | Greenville Tree & Stump',
+    title: `Tree Trimming in Greer, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Greer, SC to clear branches from roofs, driveways, and power lines in established neighborhoods. Free written estimate.',
     h1: 'Tree Trimming in Greer, SC',
     lead: 'Trees in established Greer neighborhoods can grow into roofs, driveways, and lines. Routine trimming keeps the branches where they belong.',
@@ -389,7 +390,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'stump-grinding',
-    title: 'Stump Grinding Greer, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Greer, SC | ${business.name}`,
     metaDescription: 'Stump grinding in Greer, SC for stumps left after a removal or clearing. Free written estimate, and we clean up before we leave.',
     h1: 'Stump Grinding in Greer, SC',
     lead: 'Stumps left after a removal or a clearing in Greer can get in the way of a lawn, a patio, or a new planting. We grind them down.',
@@ -405,7 +406,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'arborist',
-    title: 'Arborist Services in Greer, SC | Greenville Tree & Stump',
+    title: `Arborist Greer | ${business.name}`,
     metaDescription: 'Tree assessments in Greer, SC for health and hazards, with a plain written recommendation on keeping, trimming, or removing the tree.',
     h1: 'Arborist Assessments in Greer, SC',
     lead: 'Before you decide what to do about a Greer tree, get a plain look at its health and any hazards it poses.',
@@ -420,7 +421,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Greer, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Greer | ${business.name}`,
     metaDescription: 'Emergency tree removal in Greer, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us, then we confirm the plan.',
     h1: 'Emergency Tree Removal in Greer, SC',
     lead: 'A tree down or leaning on a Greer home, car, or driveway needs a call now. If a line is involved, call the power company or 911 first.',
@@ -435,7 +436,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Greer, SC | Greenville Tree & Stump',
+    title: `Removal Cost Greer | ${business.name}`,
     metaDescription: 'What tree removal costs in Greer, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Greer, SC',
     lead: 'What a tree removal costs in Greer depends on the tree, the lot, and the access. Here is how to read a written quote.',
@@ -451,7 +452,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'greer', service: 'land-clearing',
-    title: 'Land Clearing in Greer, SC | Greenville Tree & Stump',
+    title: `Land Clearing in Greer, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Greer, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call today.',
     h1: 'Land Clearing in Greer, SC',
     lead: 'A Greer lot cleared for a new home, a garden, or a yard starts with a walk-through. We mark what stays with you and put the work in a written quote.',
@@ -468,7 +469,7 @@ export const combos: Combo[] = [
   // ---------- Mauldin ----------
   {
     area: 'mauldin', service: 'tree-removal',
-    title: 'Tree Removal Mauldin, SC | Greenville Tree & Stump',
+    title: `Tree Removal Mauldin, SC | ${business.name}`,
     metaDescription: 'Tree removal in Mauldin, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Mauldin, SC',
     lead: 'Removing a tree near a Mauldin house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
@@ -484,7 +485,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'mauldin', service: 'tree-trimming',
-    title: 'Tree Trimming Mauldin, SC | Greenville Tree & Stump',
+    title: `Tree Trimming Mauldin, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Mauldin, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Mauldin, SC',
     lead: 'Limbs over a Mauldin roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -499,7 +500,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'mauldin', service: 'stump-grinding',
-    title: 'Stump Grinding Mauldin, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Mauldin, SC | ${business.name}`,
     metaDescription: 'Stump grinding in Mauldin, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Mauldin, SC',
     lead: 'A stump left in a Mauldin yard after a removal takes up space. We grind it down so the spot can be planted, paved, or mowed.',
@@ -515,7 +516,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'mauldin', service: 'arborist',
-    title: 'Arborist Assessments Mauldin, SC | Greenville Tree & Stump',
+    title: `Arborist Mauldin | ${business.name}`,
     metaDescription: 'Tree assessments in Mauldin, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Mauldin, SC',
     lead: 'Not sure whether a Mauldin tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -530,7 +531,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'mauldin', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Mauldin, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Mauldin | ${business.name}`,
     metaDescription: 'Emergency tree removal in Mauldin, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
     h1: 'Emergency Tree Removal in Mauldin, SC',
     lead: 'A tree down or leaning on a Mauldin home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -545,7 +546,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'mauldin', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Mauldin, SC | Greenville Tree & Stump',
+    title: `Removal Cost Mauldin | ${business.name}`,
     metaDescription: 'What tree removal costs in Mauldin, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Mauldin, SC',
     lead: 'A Mauldin tree removal is priced by the size of the tree, the lot, and the access. These are the questions to ask so two quotes can be compared fairly.',
@@ -561,7 +562,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'mauldin', service: 'land-clearing',
-    title: 'Land Clearing Mauldin, SC | Greenville Tree & Stump',
+    title: `Land Clearing Mauldin, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Mauldin, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Mauldin, SC',
     lead: 'Clearing a Mauldin lot for a new home, a garden, or a yard is a plan you can see before it starts. We walk the land and quote in writing.',
@@ -579,7 +580,7 @@ export const combos: Combo[] = [
   // ---------- Fountain Inn ----------
   {
     area: 'fountain-inn', service: 'tree-removal',
-    title: 'Tree Removal Fountain Inn, SC | Greenville Tree & Stump',
+    title: `Removal Fountain Inn | ${business.name}`,
     metaDescription: 'Tree removal in Fountain Inn, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Fountain Inn, SC',
     lead: 'Removing a tree near a Fountain Inn house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
@@ -595,7 +596,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'tree-trimming',
-    title: 'Tree Trimming Fountain Inn, SC | Greenville Tree & Stump',
+    title: `Trimming Fountain Inn | ${business.name}`,
     metaDescription: 'Tree trimming in Fountain Inn, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Fountain Inn, SC',
     lead: 'Branches over a Fountain Inn roof, scraping a gutter, or crossing a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -611,7 +612,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'stump-grinding',
-    title: 'Stump Grinding Fountain Inn, SC | Greenville Tree & Stump',
+    title: `Stump Grind Fountain Inn | ${business.name}`,
     metaDescription: 'Stump grinding in Fountain Inn, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Fountain Inn, SC',
     lead: 'A stump left behind in Fountain Inn can block a garden bed or a mowing line for years. We grind it down so the space is usable again.',
@@ -627,7 +628,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'arborist',
-    title: 'Tree Assessment Fountain Inn, SC | Greenville Tree & Stump',
+    title: `Assessment Fountain Inn | ${business.name}`,
     metaDescription: 'Tree assessments in Fountain Inn, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Fountain Inn, SC',
     lead: 'Not sure whether a Fountain Inn tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -642,7 +643,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Fountain Inn, SC | Greenville Tree & Stump',
+    title: `Storm Removal Fountain Inn | ${business.name}`,
     metaDescription: 'Emergency tree removal in Fountain Inn, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Fountain Inn, SC',
     lead: 'A tree down or leaning on a Fountain Inn home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -657,7 +658,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Fountain Inn, SC | Greenville Tree & Stump',
+    title: `Removal Cost Fountain Inn | ${business.name}`,
     metaDescription: 'What tree removal costs in Fountain Inn, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Fountain Inn, SC',
     lead: 'A Fountain Inn tree removal is priced on the tree, the yard, and how the crew gets in. Use these points to read and compare written quotes.',
@@ -673,7 +674,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'fountain-inn', service: 'land-clearing',
-    title: 'Land Clearing Fountain Inn, SC | Greenville Tree & Stump',
+    title: `Clearing Fountain Inn | ${business.name}`,
     metaDescription: 'Land and lot clearing in Fountain Inn, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Fountain Inn, SC',
     lead: 'Before a Fountain Inn lot is cleared for a home, a garden, or a yard, we walk it with you. You see the plan and the written quote before any tree comes down.',
@@ -690,7 +691,7 @@ export const combos: Combo[] = [
   // ---------- Travelers Rest ----------
   {
     area: 'travelers-rest', service: 'tree-removal',
-    title: 'Tree Removal Travelers Rest, SC | Greenville Tree & Stump',
+    title: `Removal Travelers Rest | ${business.name}`,
     metaDescription: 'Tree removal in Travelers Rest, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Travelers Rest, SC',
     lead: 'Removing a tree near a Travelers Rest house takes planning. On wooded or sloped lots we check the drop zone and access, then explain the method before any cutting starts.',
@@ -706,7 +707,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'tree-trimming',
-    title: 'Tree Trimming Travelers Rest, SC | Greenville Tree & Stump',
+    title: `Trimming Travelers Rest | ${business.name}`,
     metaDescription: 'Tree trimming in Travelers Rest, SC to clear limbs from roofs, driveways, and power lines. Free written estimate and cleanup before we leave.',
     h1: 'Tree Trimming in Travelers Rest, SC',
     lead: 'Limbs over a Travelers Rest roof, a driveway, or a line are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -722,7 +723,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'stump-grinding',
-    title: 'Stump Grinding Travelers Rest, SC | Greenville Tree & Stump',
+    title: `Stump Grind Travelers Rest | ${business.name}`,
     metaDescription: 'Stump grinding in Travelers Rest, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Travelers Rest, SC',
     lead: 'A stump in a Travelers Rest yard, wooded or open, can sit for years after a removal. We grind it down so the spot is usable again.',
@@ -738,7 +739,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'arborist',
-    title: 'Tree Assessment Travelers Rest, SC | Greenville Tree & Stump',
+    title: `Assessment Travelers Rest | ${business.name}`,
     metaDescription: 'Tree assessments in Travelers Rest, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Travelers Rest, SC',
     lead: 'Not sure whether a Travelers Rest tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -753,7 +754,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'emergency-tree-removal',
-    title: 'Emergency Trees Travelers Rest, SC | Greenville Tree & Stump',
+    title: `Storm Work Travelers Rest | ${business.name}`,
     metaDescription: 'Emergency tree removal in Travelers Rest, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Travelers Rest, SC',
     lead: 'A tree down or leaning on a Travelers Rest home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -768,7 +769,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Travelers Rest | Greenville Tree & Stump',
+    title: `Tree Cost Travelers Rest | ${business.name}`,
     metaDescription: 'What tree removal costs in Travelers Rest, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Travelers Rest, SC',
     lead: 'Removal cost in Travelers Rest turns on the tree, the lot, and how the crew can reach it. Here is what to look for in a written quote.',
@@ -784,7 +785,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'travelers-rest', service: 'land-clearing',
-    title: 'Land Clearing Travelers Rest, SC | Greenville Tree & Stump',
+    title: `Clearing Travelers Rest | ${business.name}`,
     metaDescription: 'Land and lot clearing in Travelers Rest, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Travelers Rest, SC',
     lead: 'A wooded Travelers Rest lot can be cleared for a home, a garden, or a yard once there is a plan. We walk the land with you and put the work in writing.',
@@ -802,7 +803,7 @@ export const combos: Combo[] = [
   // ---------- Five Forks ----------
   {
     area: 'five-forks', service: 'tree-removal',
-    title: 'Tree Removal Five Forks, SC | Greenville Tree & Stump',
+    title: `Removal Five Forks | ${business.name}`,
     metaDescription: 'Tree removal in Five Forks, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Five Forks, SC',
     lead: 'Removing a tree near a Five Forks house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
@@ -818,7 +819,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'tree-trimming',
-    title: 'Tree Trimming Five Forks, SC | Greenville Tree & Stump',
+    title: `Trimming Five Forks | ${business.name}`,
     metaDescription: 'Tree trimming in Five Forks, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Five Forks, SC',
     lead: 'Branches over a Five Forks roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -833,7 +834,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'stump-grinding',
-    title: 'Stump Grinding Five Forks, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Five Forks | ${business.name}`,
     metaDescription: 'Stump grinding in Five Forks, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Five Forks, SC',
     lead: 'A leftover stump in a Five Forks yard is easy to trip over and hard to mow around. We grind it down so the spot can be planted, paved, or mowed.',
@@ -849,7 +850,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'arborist',
-    title: 'Tree Assessment in Five Forks, SC | Greenville Tree & Stump',
+    title: `Tree Assessment Five Forks | ${business.name}`,
     metaDescription: 'Tree assessments in Five Forks, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Five Forks, SC',
     lead: 'Not sure whether a Five Forks tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -864,7 +865,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Five Forks, SC | Greenville Tree & Stump',
+    title: `Storm Removal Five Forks | ${business.name}`,
     metaDescription: 'Emergency tree removal in Five Forks, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
     h1: 'Emergency Tree Removal in Five Forks, SC',
     lead: 'A tree down or leaning on a Five Forks home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -879,7 +880,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Five Forks, SC | Greenville Tree & Stump',
+    title: `Removal Cost Five Forks | ${business.name}`,
     metaDescription: 'What tree removal costs in Five Forks, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Five Forks, SC',
     lead: 'Tree removal cost in Five Forks comes down to the tree, the yard, and the access. Here is how to read a written quote before you choose.',
@@ -895,7 +896,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'five-forks', service: 'land-clearing',
-    title: 'Land Clearing Five Forks, SC | Greenville Tree & Stump',
+    title: `Clearing Five Forks | ${business.name}`,
     metaDescription: 'Land and lot clearing in Five Forks, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Five Forks, SC',
     lead: 'Clearing land in Five Forks for a new home, a yard, or a garden starts with a walk of the lot. You see the plan and the written quote before work begins.',
@@ -912,7 +913,7 @@ export const combos: Combo[] = [
   // ---------- Powdersville ----------
   {
     area: 'powdersville', service: 'tree-removal',
-    title: 'Tree Removal Powdersville, SC | Greenville Tree & Stump',
+    title: `Removal Powdersville | ${business.name}`,
     metaDescription: 'Tree removal in Powdersville, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Powdersville, SC',
     lead: 'Removing a tree near a Powdersville house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
@@ -928,7 +929,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'tree-trimming',
-    title: 'Tree Trimming Powdersville, SC | Greenville Tree & Stump',
+    title: `Trimming Powdersville | ${business.name}`,
     metaDescription: 'Tree trimming in Powdersville, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Powdersville, SC',
     lead: 'Limbs over a Powdersville roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -944,7 +945,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'stump-grinding',
-    title: 'Stump Grinding Powdersville, SC | Greenville Tree & Stump',
+    title: `Stump Grind Powdersville | ${business.name}`,
     metaDescription: 'Stump grinding in Powdersville, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Powdersville, SC',
     lead: 'A stump left in a Powdersville yard can sit in the way for years. We grind it below the surface so the space is usable again.',
@@ -960,7 +961,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'arborist',
-    title: 'Tree Assessment Powdersville, SC | Greenville Tree & Stump',
+    title: `Assessment Powdersville | ${business.name}`,
     metaDescription: 'Tree assessments in Powdersville, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Powdersville, SC',
     lead: 'Not sure whether a Powdersville tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -975,7 +976,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Powdersville, SC | Greenville Tree & Stump',
+    title: `Storm Removal Powdersville | ${business.name}`,
     metaDescription: 'Emergency tree removal in Powdersville, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Powdersville, SC',
     lead: 'A tree down or leaning on a Powdersville home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -990,7 +991,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Powdersville, SC | Greenville Tree & Stump',
+    title: `Removal Cost Powdersville | ${business.name}`,
     metaDescription: 'What tree removal costs in Powdersville, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Powdersville, SC',
     lead: 'A tree removal in Powdersville is priced on the tree, where it stands, and how the crew can reach it. Here is what a fair written quote shows.',
@@ -1006,7 +1007,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'powdersville', service: 'land-clearing',
-    title: 'Land Clearing Powdersville, SC | Greenville Tree & Stump',
+    title: `Clearing Powdersville | ${business.name}`,
     metaDescription: 'Land and lot clearing in Powdersville, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Powdersville, SC',
     lead: 'Clearing a Powdersville lot before a build, a garden, or a yard starts with a walk. We mark what stays with you and quote the work in writing.',
@@ -1024,7 +1025,7 @@ export const combos: Combo[] = [
   // ---------- Berea ----------
   {
     area: 'berea', service: 'tree-removal',
-    title: 'Tree Removal in Berea, SC | Greenville Tree & Stump',
+    title: `Tree Removal in Berea, SC | ${business.name}`,
     metaDescription: 'Tree removal in Berea, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Berea, SC',
     lead: 'Removing a tree near a Berea house takes planning. On wooded lots we check the drop zone and access, then explain the method before any cutting starts.',
@@ -1040,7 +1041,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'tree-trimming',
-    title: 'Tree Trimming in Berea, SC | Greenville Tree & Stump',
+    title: `Tree Trimming in Berea, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Berea, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Berea, SC',
     lead: 'Limbs over a Berea roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -1055,7 +1056,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'stump-grinding',
-    title: 'Stump Grinding Berea, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Berea, SC | ${business.name}`,
     metaDescription: 'Stump grinding in Berea, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Berea, SC',
     lead: 'A Berea stump left from an old removal can take over a corner of the yard. We grind it down so the spot can be used again.',
@@ -1071,7 +1072,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'arborist',
-    title: 'Arborist Assessments Berea, SC | Greenville Tree & Stump',
+    title: `Arborist Berea | ${business.name}`,
     metaDescription: 'Tree assessments in Berea, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Berea, SC',
     lead: 'Not sure whether a Berea tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -1086,7 +1087,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Berea, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Berea | ${business.name}`,
     metaDescription: 'Emergency tree removal in Berea, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm the plan.',
     h1: 'Emergency Tree Removal in Berea, SC',
     lead: 'A tree down or leaning on a Berea home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -1101,7 +1102,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Berea, SC | Greenville Tree & Stump',
+    title: `Removal Cost Berea | ${business.name}`,
     metaDescription: 'What tree removal costs in Berea, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Berea, SC',
     lead: 'A Berea tree removal is priced by the tree, the lot, and how the crew can reach it. Here is what a fair written quote shows.',
@@ -1117,7 +1118,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'berea', service: 'land-clearing',
-    title: 'Land Clearing in Berea, SC | Greenville Tree & Stump',
+    title: `Land Clearing in Berea, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Berea, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Berea, SC',
     lead: 'Wooded Berea lots can be cleared for a home, a garden, or a yard. We walk the land with you first, then quote the clearing in writing.',
@@ -1134,7 +1135,7 @@ export const combos: Combo[] = [
   // ---------- Wade Hampton ----------
   {
     area: 'wade-hampton', service: 'tree-removal',
-    title: 'Tree Removal Wade Hampton, SC | Greenville Tree & Stump',
+    title: `Removal Wade Hampton | ${business.name}`,
     metaDescription: 'Tree removal in Wade Hampton, SC for leaning, dead, or storm-damaged trees near homes. Free written estimate and cleanup before we leave.',
     h1: 'Tree Removal in Wade Hampton, SC',
     lead: 'Removing a tree near a Wade Hampton house takes planning. We check how close it sits to the roof, a fence, or a driveway, then explain the method before any cutting starts.',
@@ -1150,7 +1151,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'tree-trimming',
-    title: 'Tree Trimming Wade Hampton, SC | Greenville Tree & Stump',
+    title: `Trimming Wade Hampton | ${business.name}`,
     metaDescription: 'Tree trimming in Wade Hampton, SC to clear branches from roofs, gutters, and driveways. Free written estimate, and cleanup before we leave.',
     h1: 'Tree Trimming in Wade Hampton, SC',
     lead: 'Limbs over a Wade Hampton roof, rubbing a gutter, or hanging across a driveway are common trimming calls. We trim to keep the tree healthy and the branches clear.',
@@ -1166,7 +1167,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'stump-grinding',
-    title: 'Stump Grinding Wade Hampton, SC | Greenville Tree & Stump',
+    title: `Stump Grind Wade Hampton | ${business.name}`,
     metaDescription: 'Stump grinding in Wade Hampton, SC for stumps left after removal. Free written estimate, and we clean up the grindings before we leave.',
     h1: 'Stump Grinding in Wade Hampton, SC',
     lead: 'A stump on a Wade Hampton lot can stay in the way for years after a removal. We grind it below the surface so the spot can be planted, paved, or mowed.',
@@ -1182,7 +1183,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'arborist',
-    title: 'Tree Assessment Wade Hampton, SC | Greenville Tree & Stump',
+    title: `Assessment Wade Hampton | ${business.name}`,
     metaDescription: 'Tree assessments in Wade Hampton, SC for health, structure, and risk. Written findings and options from a free site visit. Call to schedule.',
     h1: 'Arborist Assessments in Wade Hampton, SC',
     lead: 'Not sure whether a Wade Hampton tree is safe, sick, or just overgrown? We assess the tree on site and tell you what we see, in plain language.',
@@ -1197,7 +1198,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Wade Hampton, SC | Greenville Tree & Stump',
+    title: `Storm Removal Wade Hampton | ${business.name}`,
     metaDescription: 'Emergency tree removal in Wade Hampton, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us and we confirm the plan.',
     h1: 'Emergency Tree Removal in Wade Hampton, SC',
     lead: 'A tree down or leaning on a Wade Hampton home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first.',
@@ -1212,7 +1213,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Wade Hampton, SC | Greenville Tree & Stump',
+    title: `Removal Cost Wade Hampton | ${business.name}`,
     metaDescription: 'What tree removal costs in Wade Hampton, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Wade Hampton, SC',
     lead: 'What a tree removal costs in Wade Hampton comes down to the tree, the lot, and the access. Here is how to read a written quote before you compare.',
@@ -1228,7 +1229,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'wade-hampton', service: 'land-clearing',
-    title: 'Land Clearing Wade Hampton, SC | Greenville Tree & Stump',
+    title: `Clearing Wade Hampton | ${business.name}`,
     metaDescription: 'Land and lot clearing in Wade Hampton, SC for a new house, garden, or yard. Free written estimate and cleanup before we leave. Call us.',
     h1: 'Land Clearing in Wade Hampton, SC',
     lead: 'Clearing a Wade Hampton lot for a new home, a garden, or a yard starts with a walk-through. We mark what stays and quote the work in writing.',
@@ -1246,7 +1247,7 @@ export const combos: Combo[] = [
   // ---------- Piedmont ----------
   {
     area: 'piedmont', service: 'tree-removal',
-    title: 'Tree Removal Piedmont, SC | Greenville Tree & Stump',
+    title: `Tree Removal Piedmont, SC | ${business.name}`,
     metaDescription: 'Tree removal in Piedmont, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Removal in Piedmont, SC',
     lead: 'Removing a tree near a Piedmont house takes planning. Piedmont is at the edge of our service area, so call first and we confirm the visit before we plan the cuts.',
@@ -1262,7 +1263,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'piedmont', service: 'tree-trimming',
-    title: 'Tree Trimming Piedmont, SC | Greenville Tree & Stump',
+    title: `Tree Trimming Piedmont, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Piedmont, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Trimming in Piedmont, SC',
     lead: 'Limbs over a Piedmont roof, rubbing a gutter, or hanging across a driveway are common trimming calls. Call us first to confirm we can reach your address.',
@@ -1278,7 +1279,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'piedmont', service: 'stump-grinding',
-    title: 'Stump Grinding Piedmont, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Piedmont | ${business.name}`,
     metaDescription: 'Stump grinding in Piedmont, SC for stumps left after removal. Call first to confirm coverage. Free written estimate and cleanup.',
     h1: 'Stump Grinding in Piedmont, SC',
     lead: 'A stump left in a Piedmont yard after a removal can stay for years. Call us to confirm coverage, and we grind it below the surface so the spot is usable again.',
@@ -1294,7 +1295,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'piedmont', service: 'arborist',
-    title: 'Arborist Assessments Piedmont, SC | Greenville Tree & Stump',
+    title: `Arborist Piedmont | ${business.name}`,
     metaDescription: 'Tree assessments in Piedmont, SC for health, structure, and risk. Written findings and options from a free visit. Call first to confirm.',
     h1: 'Arborist Assessments in Piedmont, SC',
     lead: 'Not sure whether a Piedmont tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
@@ -1309,7 +1310,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'piedmont', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Piedmont, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Piedmont | ${business.name}`,
     metaDescription: 'Emergency tree removal in Piedmont, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
     h1: 'Emergency Tree Removal in Piedmont, SC',
     lead: 'A tree down or leaning on a Piedmont home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
@@ -1324,7 +1325,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'piedmont', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Piedmont, SC | Greenville Tree & Stump',
+    title: `Removal Cost Piedmont | ${business.name}`,
     metaDescription: 'What tree removal costs in Piedmont, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Piedmont, SC',
     lead: 'Tree removal in Piedmont costs more or less depending on the tree, the lot, and the access. Here is how to read a quote before you compare them.',
@@ -1340,7 +1341,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'piedmont', service: 'land-clearing',
-    title: 'Land Clearing Piedmont, SC | Greenville Tree & Stump',
+    title: `Land Clearing Piedmont, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Piedmont, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
     h1: 'Land Clearing in Piedmont, SC',
     lead: 'Clearing a Piedmont lot for a new home, a garden, or a yard starts with a site walk. Call us to confirm coverage, and we quote the work in writing.',
@@ -1357,7 +1358,7 @@ export const combos: Combo[] = [
   // ---------- Pickens ----------
   {
     area: 'pickens', service: 'tree-removal',
-    title: 'Tree Removal Pickens, SC | Greenville Tree & Stump',
+    title: `Tree Removal Pickens, SC | ${business.name}`,
     metaDescription: 'Tree removal in Pickens, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Removal in Pickens, SC',
     lead: 'Removing a tree near a Pickens house takes planning. Pickens is outside the core of our service area, so call first and we confirm the visit.',
@@ -1373,7 +1374,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'pickens', service: 'tree-trimming',
-    title: 'Tree Trimming Pickens, SC | Greenville Tree & Stump',
+    title: `Tree Trimming Pickens, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Pickens, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Trimming in Pickens, SC',
     lead: 'Limbs over a Pickens roof, rubbing a gutter, or hanging across a driveway are common trimming calls. Call us first to confirm we can reach your address.',
@@ -1389,7 +1390,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'pickens', service: 'stump-grinding',
-    title: 'Stump Grinding Pickens, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Pickens, SC | ${business.name}`,
     metaDescription: 'Stump grinding in Pickens, SC for stumps left after removal. Call first to confirm coverage. Free written estimate and cleanup.',
     h1: 'Stump Grinding in Pickens, SC',
     lead: 'A stump left after a removal in Pickens can sit in the yard for years. Call us to confirm the visit, and we grind it below the surface so the spot is usable again.',
@@ -1405,7 +1406,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'pickens', service: 'arborist',
-    title: 'Arborist Assessments Pickens, SC | Greenville Tree & Stump',
+    title: `Arborist Pickens | ${business.name}`,
     metaDescription: 'Tree assessments in Pickens, SC for health, structure, and risk. Written findings and options from a free visit. Call first to confirm.',
     h1: 'Arborist Assessments in Pickens, SC',
     lead: 'Not sure whether a Pickens tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
@@ -1420,7 +1421,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'pickens', service: 'emergency-tree-removal',
-    title: 'Emergency Tree Removal Pickens, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Pickens | ${business.name}`,
     metaDescription: 'Emergency tree removal in Pickens, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
     h1: 'Emergency Tree Removal in Pickens, SC',
     lead: 'A tree down or leaning on a Pickens home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
@@ -1435,7 +1436,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'pickens', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Pickens, SC | Greenville Tree & Stump',
+    title: `Removal Cost Pickens | ${business.name}`,
     metaDescription: 'What tree removal costs in Pickens, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Pickens, SC',
     lead: 'What a tree removal costs in Pickens depends on the tree, the lot, and the access. Here is how to read a written quote so you can compare.',
@@ -1451,7 +1452,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'pickens', service: 'land-clearing',
-    title: 'Land Clearing Pickens, SC | Greenville Tree & Stump',
+    title: `Land Clearing Pickens, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Pickens, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
     h1: 'Land Clearing in Pickens, SC',
     lead: 'Clearing a Pickens lot for a new home, a garden, or a yard starts with a site walk. Call us to confirm coverage, and we quote the work in writing.',
@@ -1469,7 +1470,7 @@ export const combos: Combo[] = [
   // ---------- Woodruff ----------
   {
     area: 'woodruff', service: 'tree-removal',
-    title: 'Tree Removal Woodruff, SC | Greenville Tree & Stump',
+    title: `Tree Removal Woodruff, SC | ${business.name}`,
     metaDescription: 'Tree removal in Woodruff, SC for leaning, dead, or storm-damaged trees near homes. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Removal in Woodruff, SC',
     lead: 'Removing a tree near a Woodruff house takes planning. Woodruff is at the edge of our service area, so call first and we confirm we can reach you.',
@@ -1485,7 +1486,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'woodruff', service: 'tree-trimming',
-    title: 'Tree Trimming Woodruff, SC | Greenville Tree & Stump',
+    title: `Tree Trimming Woodruff, SC | ${business.name}`,
     metaDescription: 'Tree trimming in Woodruff, SC to clear branches from roofs, gutters, and driveways. Call first to confirm coverage. Free written estimate.',
     h1: 'Tree Trimming in Woodruff, SC',
     lead: 'Limbs over a Woodruff roof, rubbing a gutter, or hanging across a driveway are common trimming calls. Call us first to confirm we can reach your address.',
@@ -1501,7 +1502,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'woodruff', service: 'stump-grinding',
-    title: 'Stump Grinding Woodruff, SC | Greenville Tree & Stump',
+    title: `Stump Grinding Woodruff | ${business.name}`,
     metaDescription: 'Stump grinding in Woodruff, SC for stumps left after removal. Call first to confirm coverage. Free written estimate and cleanup.',
     h1: 'Stump Grinding in Woodruff, SC',
     lead: 'A stump in a Woodruff yard can stay in the way long after a removal. We grind it below the surface so the spot can be planted, paved, or mowed.',
@@ -1517,7 +1518,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'woodruff', service: 'arborist',
-    title: 'Arborist Assessments Woodruff, SC | Greenville Tree & Stump',
+    title: `Arborist Woodruff | ${business.name}`,
     metaDescription: 'Tree assessments in Woodruff, SC for health, structure, and risk. Written findings and options from a free visit. Call first to confirm.',
     h1: 'Arborist Assessments in Woodruff, SC',
     lead: 'Not sure whether a Woodruff tree is safe, sick, or just overgrown? Call us to confirm the visit. We then assess the tree on site and explain what we see.',
@@ -1532,7 +1533,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'woodruff', service: 'emergency-tree-removal',
-    title: 'Emergency Removal Woodruff, SC | Greenville Tree & Stump',
+    title: `Emergency Removal Woodruff | ${business.name}`,
     metaDescription: 'Emergency tree removal in Woodruff, SC after storm damage. A tree down or leaning on a home, car, or driveway. Call us to confirm coverage.',
     h1: 'Emergency Tree Removal in Woodruff, SC',
     lead: 'A tree down or leaning on a Woodruff home, car, or driveway is a safety call. If a power line is involved, call the power company or 911 first, then call us.',
@@ -1547,7 +1548,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'woodruff', service: 'tree-removal-cost',
-    title: 'Tree Removal Cost Woodruff, SC | Greenville Tree & Stump',
+    title: `Removal Cost Woodruff | ${business.name}`,
     metaDescription: 'What tree removal costs in Woodruff, SC, and the factors that change the price. Compare written quotes. Free estimate for your tree.',
     h1: 'Tree Removal Cost in Woodruff, SC',
     lead: 'A Woodruff tree removal is priced on the tree, where it stands, and how the crew gets to it. Here is what to look for in a written quote.',
@@ -1563,7 +1564,7 @@ export const combos: Combo[] = [
   },
   {
     area: 'woodruff', service: 'land-clearing',
-    title: 'Land Clearing Woodruff, SC | Greenville Tree & Stump',
+    title: `Land Clearing Woodruff, SC | ${business.name}`,
     metaDescription: 'Land and lot clearing in Woodruff, SC for a new house, garden, or yard. Call first to confirm coverage. Free written estimate.',
     h1: 'Land Clearing in Woodruff, SC',
     lead: 'Clearing a Woodruff lot for a new home, a garden, or a yard starts with a site walk. We mark what stays with you and quote the work in writing.',

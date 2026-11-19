@@ -4,11 +4,10 @@
 // email, or credentials. Every value marked PLACEHOLDER below must be replaced
 // before launch. See LAUNCH_CHECKLIST.md.
 
-export const SITE_URL = import.meta.env.SITE ?? 'https://greenvilletreeandstump.com';
+export const SITE_URL = import.meta.env.SITE ?? 'https://greenvilletreeandstumpremoval.com';
 
 export const business = {
-  name: 'Greenville Tree & Stump',
-  shortName: 'Greenville Tree & Stump',
+  name: 'Greenville Tree & Stump Removal',
   city: 'Greenville',
   state: 'South Carolina',
   stateCode: 'SC',
@@ -17,8 +16,8 @@ export const business = {
   phoneDisplay: '(864) 432-5331',
   phoneHref: 'tel:+18644325331',
 
-  // PLACEHOLDER: no email in the project files.
-  email: 'hello@greenvilletreeandstump.com',
+  // Business email. Confirm the mailbox exists before launch (LAUNCH_CHECKLIST.md).
+  email: 'hello@greenvilletreeandstumpremoval.com',
 
   // Lead form endpoint (GoHighLevel / LeadConnector webhook). Set PUBLIC_LEAD_WEBHOOK_URL.
   // The form refuses to claim success when this is empty.
@@ -86,6 +85,7 @@ export const nav = {
   contact: { label: 'Contact', href: '/contact' },
   estimate: { label: 'Get a Free Estimate', href: '/contact#estimate' },
   privacy: { label: 'Privacy Policy', href: '/privacy-policy' },
+  terms: { label: 'Terms of Service', href: '/terms-of-service' },
   emergency: { label: 'Storm damage? Call now', href: '/services/emergency-tree-removal' },
 } as const;
 

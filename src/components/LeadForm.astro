@@ -165,6 +165,8 @@ const services = [
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         form.reset();
         say('ok', 'Thanks. We got your request and will call you to set up a free visit.');
+        // Only a confirmed 2xx gets here. The thank-you page fires the generate_lead event (see thank-you.astro).
+        window.location.assign(`/thank-you?from=${encodeURIComponent(window.location.pathname)}`);
       } catch {
         say(
           'error',

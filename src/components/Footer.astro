@@ -35,13 +35,16 @@ const year = new Date().getFullYear();
           <li><a href={nav.about.href}>{nav.about.label}</a></li>
           <li><a href={nav.contact.href}>{nav.contact.label}</a></li>
           <li><a href={nav.estimate.href}>{nav.estimate.label}</a></li>
-          <li><a href={nav.privacy.href}>{nav.privacy.label}</a></li>
+          <li><a href={nav.privacy.href}>{nav.privacy.label}</a></li>          <li><a href={nav.terms.href}>{nav.terms.label}</a></li>
         </ul>
       </nav>
     </div>
     <div class="site-footer__base">
       <span>&copy; {year} {business.name}. All rights reserved.</span>
-      <a href={nav.privacy.href}>Privacy Policy</a>
+      <div class="site-footer__legal">
+        <a href={nav.privacy.href}>Privacy Policy</a>
+        <a href={nav.terms.href}>Terms of Service</a>
+      </div>
     </div>
   </div>
 </footer>

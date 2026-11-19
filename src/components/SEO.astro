@@ -18,14 +18,24 @@ const businessId = `${SITE_URL.replace(/\/$/, '')}/#business`;
 // LocalBusiness is emitted on every page so the entity is consistent sitewide.
 // Fields that are placeholders are omitted rather than guessed (no fabricated address, rating, or credentials).
 const localBusiness = {
-  '@type': 'TreeService',
+  // TreeService is not a schema.org type. HomeAndConstructionBusiness is the closest valid LocalBusiness subtype.
+  '@type': 'HomeAndConstructionBusiness',
   '@id': businessId,
   name: business.name,
   description: business.description,
   url: absoluteUrl('/'),
-  telephone: business.phoneDisplay,
+  // E.164 form, taken from the tel: link so the two cannot drift apart.
+  telephone: business.phoneHref.replace('tel:', ''),
   email: business.email,
+  // Downtown Greenville, SC city center. Service-area business, so this marks the service hub, not a street address.
+  geo: { '@type': 'GeoCoordinates', latitude: 34.8526, longitude: -82.394 },
   areaServed: [
+    // 25-mile service radius around the same center as the contact-page map (ServiceAreaMap.astro). geoRadius is in metres.
+    {
+      '@type': 'GeoCircle',
+      geoMidpoint: { '@type': 'GeoCoordinates', latitude: 34.8526, longitude: -82.394 },
+      geoRadius: Math.round(25 * 1609.344),
+    },
     { '@type': 'City', name: 'Greenville', containedInPlace: { '@type': 'State', name: 'South Carolina' } },
     { '@type': 'City', name: 'Simpsonville' },
     { '@type': 'City', name: 'Taylors' },

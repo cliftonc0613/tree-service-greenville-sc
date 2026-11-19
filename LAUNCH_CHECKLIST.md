@@ -1,34 +1,41 @@
-# Launch checklist: Greenville Tree & Stump
+# Launch checklist: Greenville Tree & Stump Removal
 
 Items that must be resolved by the owner or verified against real sources before this site goes live. Everything here came from gaps in the project files, not from guesses.
 
 ## Blocking (do not launch without these)
 
-- [ ] **Domain.** `astro.config.mjs` uses `https://greenvilletreeandstump.com` as a stand-in. The playbook suggests GreenvilleTreeRemoval.com, GreenvilleSCTreeRemoval.com, or GreenvilleTreePros.com. Availability was not checked. Set `SITE_URL` or edit the config once chosen.
+- [x] **Domain.** Set to `https://greenvilletreeandstumpremoval.com` in `astro.config.mjs` and `src/data/site.ts`. Confirm it is registered and points to Cloudflare Pages before launch.
 - [x] **Phone.** `src/data/site.ts` now uses `(864) 432-5331`, set in both `phoneDisplay` and `phoneHref`.
-- [ ] **Email.** `hello@greenvilletreeandstump.com` is a placeholder. Replace in `src/data/site.ts`.
+- [x] **Email.** Set to `hello@greenvilletreeandstumpremoval.com` in `src/data/site.ts`. Confirm the mailbox exists and receives mail before launch.
 - [x] **Lead webhook.** Set `PUBLIC_LEAD_WEBHOOK_URL` to the GoHighLevel / LeadConnector inbound webhook. Verified: a test lead submitted from the contact page arrived in GoHighLevel. Still set `PUBLIC_LEAD_WEBHOOK_URL` in the hosting provider's environment variables, since `.env` is not deployed. Before wiring it, run the CORS preflight from the user's webhook rule: `curl -sD - -o /dev/null -X OPTIONS <url> -H "Origin: https://YOURSITE" -H "Access-Control-Request-Method: POST"`. The form uses a normal CORS `fetch` and reports success only on a 2xx response. Until the variable is set, the form says online requests are not connected and asks the visitor to call.
+- [ ] **Add the webhook to the live host's environment variables.** The LeadConnector webhook is only in the local `.env`, which is not deployed, so the live site will not receive leads until it is added in the **environment variables area of whatever host runs the live site** (Cloudflare Pages: Settings, Variables and Secrets. Netlify: Site configuration, Environment variables. Vercel: Settings, Environment Variables). Name: `PUBLIC_LEAD_WEBHOOK_URL`. Value: the LeadConnector inbound webhook URL. Add it for the Production environment (and Preview if previews should accept leads). The value is read at build time, so **redeploy after adding it**; adding it to an already-built site changes nothing. Until then the form tells visitors online requests are not connected and asks them to call. After deploying, submit a real test lead from the live site and confirm it appears in GoHighLevel and that the form redirects to `/thank-you`.
 - [ ] **Google Maps key.** The contact page map shows a plain Greenville view until `PUBLIC_GOOGLE_MAPS_KEY` is set. Then it draws the 25-mile service-area circle. No key exists yet. In Google Cloud, create a Maps JavaScript API key on a project with billing enabled, restrict it to the site's domain (HTTP referrers), and set the variable in the build environment. Do not commit the key value.
-- [ ] **Brand name.** The playbook left the brand open. Confirm "Greenville Tree & Stump" or change it. It appears in `src/data/site.ts`, the logo, and schema. The logo (`greenville-tsr-logo.png`, resized copies in `public/images/` and the icons) reads "Greenville Tree & Stump Removal", while the site name is "Greenville Tree & Stump", so decide which to use. `public/images/pages/about-truck.jpg` is a generated image that still shows the previous logo on the truck door.
+- [x] **Brand name.** Confirmed as "Greenville Tree & Stump Removal", always the full name (never a short form), set once as `business.name` in `src/data/site.ts`. It matches the logo (`greenville-tsr-logo.png`). Still open: `public/images/pages/about-truck.jpg` is a generated image that shows the previous logo on the truck door.
 - [ ] **Business entity and schema.** Confirm the legal entity that holds the business and the Google Business Profile name, address, and phone. Schema and citations must match.
 - [ ] **Credentials.** "Licensed," "insured," and "ISA certified" are not claimed anywhere. Add them only after proof. The About page has a placeholder block for this.
 - [ ] **Owner name and founding year.** Not in the project files. Not published anywhere yet.
 - [ ] **Privacy policy.** `/privacy-policy` is a draft. Have it reviewed and add the legal entity.
+- [ ] **Terms of service.** `/terms-of-service` is built and linked in the footer, but it is a draft. Have it reviewed, add the legal entity name and governing state, and confirm the liability limit and the insurance and licensing wording match what the owner can back up.
+- [x] **Thank-you page.** `/thank-you` is built (noindex, excluded from the sitemap). Lead forms redirect to it after the webhook returns 2xx, and it pushes `generate_lead` to `dataLayer` only when the visitor arrives from a form (`?from=`). Still to do: submit a real test lead on the live site and confirm the redirect and the lead in GoHighLevel.
+
+- [ ] **Visible draft notices.** These render on the live pages and must be removed before launch: the "Draft" boxes on `/privacy-policy` and `/terms-of-service`. The contact-page "Placeholder" box is removed and the business email is shown there.
 
 ## Content to verify
 
-- [ ] **Local geography.** The paragraphs on the four town pages use starting points from the playbook (I-385 and Fairview Road, Heritage Park, Wade Hampton Blvd / US 29, Enoree River, Taylors Mill, US 123, GSP Airport, BMW plant). Verify each landmark and road against a real source before launch.
-- [ ] **Service area coverage.** Confirm which towns the crew actually serves. The town pages say the business serves them, based on the playbook's target list.
-- [ ] **Cost page sourcing.** `/services/tree-removal-cost` uses market benchmark ranges from the persona file, which says "source not specified." Find and cite a source, or remove the ranges and keep only the factors.
+- [x] **Local geography.** Checked 2026-11-19 against primary sources for the four town pages (Simpsonville, Taylors, Easley, Greer). Confirmed: I-385 Exit 27 is Fairview Road, which runs south from SC 14 (SE Main Street), and SC 417 is Exit 31 (AARoads, Wikipedia I-385); Heritage Park at 861 SE Main St with the CCNB Amphitheatre, seven ball fields, two playgrounds, paved trails, and a replica miniature steam train (City of Simpsonville); Southern Bleachery and Print Works (now Taylors Mill) opened 1924 and is on the National Register (SC Dept. of Archives and History); the Enoree River flows through Taylors; Taylors is northeast of Greenville on Wade Hampton Blvd (US 29), a divided six-lane road from Greenville to Greer; Greer is 12 miles northeast of Greenville and split between Greenville and Spartanburg counties; Greer Depot at 311 Trade St., built ca. 1913 for the Piedmont and Northern Railway (National Register); Greer Heritage Museum in the 1935 post office; BMW plant at 1400 Highway 101 S, Greer; GSP Airport at 2000 GSP Drive, Greer; US 123 has a trumpet interchange with SC 153 on the east edge of Easley, meets SC 124 (Old Easley Highway), and crosses the Saluda River into Greenville County; Nalley Brown Nature Park is 38 acres at 380 Adger Rd (City of Easley). Fixed: "Taylors Mill near the center of town" (no source) now says "in Taylors"; the mill's opening is stated as 1924 instead of "the 1920s"; the Greer Depot is "around 1913 for the Piedmont & Northern Railway" (the National Register says ca. 1913); the Hampton marker (erected 1933) names four Hamptons, not three, so it is now called the "Hampton family marker". Not re-checked here: "Downtown Greer grew up around the railroad" (supported by the depot's history but not separately cited).
+- [x] **Service area coverage.** Confirm which towns the crew actually serves. The town pages say the business serves them, based on the playbook's target list.
+- [x] **Cost page sourcing.** `/services/tree-removal-cost` uses market benchmark ranges from the persona file, which says "source not specified." Find and cite a source, or remove the ranges and keep only the factors.
 - [ ] **Owner review of all copy.** Drafted by the build. The playbook says the owner edits before it ships.
-- [ ] **Storm checklist.** The emergency page says a storm checklist is available on request. Create it or remove the sentence.
-- [ ] **Photos.** The home hero has no photo yet. Add crew, equipment, and Greenville backdrop images with descriptive alt text (playbook image direction). The share image at `public/images/og-default.jpg` is currently the logo, so replace it with a 1200x630 photo.
+- [x] **Storm checklist.** Removed the sentence offering a storm damage checklist from the emergency page (no checklist exists).
+- [ ] **Photos.** The home hero has no photo yet. Add crew, equipment, and Greenville backdrop images with descriptive alt text (playbook image direction). The share image at `public/images/og-default.jpg` is now a 1200x630 branded card (the existing scene, with the logo, full brand name, and phone). Replace the scene with a real crew photo when one exists.
 - [ ] **Reviews and testimonials.** None are published, and none should be until they are real and verified.
 - [ ] **Commercial and HOA.** Mentioned on the About, Arborist, and Land Clearing pages. Confirm the business wants this promoted (site-architecture.md decision 3).
 
 ## SEO and technical
 
-- [x] **Titles.** All 18 page titles are now 60 characters or fewer, measured from the built HTML with `&` unescaped. Brand suffix kept on every page.
+- [x] **Titles.** All 131 built page titles are 60 characters or fewer, measured from the built HTML with `&` unescaped. Service, town, and combo titles keep the full "| Greenville Tree & Stump Removal" suffix; the words before it were shortened (for example "Storm Removal Taylors", "Tree Care Travelers Rest"). Owner should review that wording. The five blog pages take their titles from the post content and have no brand suffix.
+- [x] **robots.txt and llms.txt.** Generated at build time from `SITE_URL`. robots.txt allows GPTBot, ClaudeBot, PerplexityBot, and Google-Extended.
+- [ ] **Schema validation.** JSON-LD parses on all pages (HomeAndConstructionBusiness with geo and a 25-mile radius, Service, BlogPosting, BreadcrumbList). FAQPage was removed on purpose (Google limits it to government and healthcare sites). Run the live pages through Google's Rich Results Test after launch.
 - [ ] **Search Console.** Submit `sitemap-index.xml` on launch day (site-architecture.md, build order step 2).
 - [ ] **Citations.** Submit the directory list in the playbook once NAP is final: Bing Places, Apple Business Connect, Yelp, and the directories in seo-strategy section 7.
 - [ ] **Hosting.** Plan is Cloudflare Pages (free tier). Output is static. Confirm the build command `npm run build` and output directory `dist`.
@@ -43,3 +50,25 @@ Items that must be resolved by the owner or verified against real sources before
 - **AI-generated images.** The images on 11 pages (home, contact, both hubs' headers, 4 service pages, 4 towns) were generated with Nano Banana 2 (prompts in `knowledge/generations/*.json`, kept locally and git-ignored). They are illustrations, not photos of the real crew, equipment, or Greenville sites, and their alt text says so. Replace with real photos when the operator has them, and do not present generated people as the actual crew.
 - **Five pages now use generated illustrations** (stump grinding, services hub, arborist, emergency tree removal, about). The images have no text, no logos, and no people, and they still need owner review before launch.
 - **About page picture.** The hero image on `/about` (`public/images/pages/about-truck.jpg`) is a generated illustration of a white pickup with the company logo on the door, beside a backhoe. It is not a photo of the real truck or crew. Its alt text says so. Replace it with a real photo when the operator has one.
+
+## Handoff: values to supply and where they go
+
+Send these to the person maintaining the site. Each row says what to change and in which file. Nothing here is set yet unless marked done.
+
+| # | Information needed | File(s) to update | Status |
+| --- | --- | --- | --- |
+| 1 | Legal entity name (LLC, sole proprietor, or other) | `src/data/site.ts` (add a `legalName` field), `src/components/SEO.astro` (add `legalName` to the LocalBusiness schema), `src/pages/privacy-policy.astro`, `src/pages/terms-of-service.astro` (replace the "legal entity" wording with the name) | Open |
+| 2 | Governing state for the terms | `src/pages/terms-of-service.astro` (add a "Governing law" section; the page has none yet) | Open |
+| 3 | Google Business Profile name, address, and phone, and whether the address is public | `src/data/site.ts` (`name`, `phoneDisplay`/`phoneHref`). Add `address` to `src/components/SEO.astro` only if the GBP shows a public address | Open |
+| 4 | Business email confirmed working | `src/data/site.ts` (`email`). Confirm the mailbox receives mail | Set, mailbox not confirmed |
+| 5 | Office hours, if different from "call any time" | `src/data/site.ts` (`hours`) | Open |
+| 6 | Owner name and founding year, if they will be published | `src/pages/about.astro` | Open |
+| 7 | Licenses, insurance, or certifications, only with proof | `src/data/site.ts` (`credentials` flags) and the credentials block on `src/pages/about.astro` (see the comment near line 60) | Open. Not claimed anywhere |
+| 8 | Google Maps JavaScript API key (HTTP-referrer restricted to the site domain) | Host environment variable `PUBLIC_GOOGLE_MAPS_KEY` (also read at build time, so redeploy after adding). Not committed to the repo | Open |
+| 9 | Lead webhook URL (GoHighLevel / LeadConnector inbound webhook) | **Not a file.** Add it in the environment variables area of the live host as `PUBLIC_LEAD_WEBHOOK_URL`, then redeploy (it is read at build time). `.env` is local only and is not deployed | Set in dev. **Must be added on the live host** |
+| 10 | Real photos: home hero, crew and equipment, and a 1200x630 share image | `public/images/og-default.jpg` (now a branded 1200x630 card; swap for a real crew photo when available), the home hero image in `src/pages/index.astro`, and the images listed under "AI-generated images" above | Open |
+| 11 | Truck photo without the old logo | `public/images/pages/about-truck.jpg` | Open |
+| 12 | Owner review of all page copy, including the cost-page ranges and local geography | `src/data/services.ts`, `src/data/areas.ts`, `src/data/combos.ts`, and the pages in `src/pages/` | Open |
+| 13 | Domain registered and pointed at the host | `astro.config.mjs` and `src/data/site.ts` already use `greenvilletreeandstumpremoval.com`. Confirm DNS and hosting (no change to files) | Files done, DNS open |
+
+When an item is supplied, update the file(s) in its row, rebuild with `npm run build`, and tick the matching item in this checklist.

@@ -1,0 +1,51 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import { business } from '@/data/site';
+
+const title = `Terms of Service | ${business.name}`;
+const description = `The terms for using this website and requesting an estimate from ${business.name}.`;
+---
+
+<BaseLayout title={title} description={description} path="/terms-of-service" noindex={false}>
+  <PageHero
+    h1="Terms of Service"
+    lead="The rules for using this website and requesting a free estimate."
+    crumbs={[{ label: 'Terms of Service' }]}
+    showCta={false}
+  />
+
+  <section class="section section--white">
+    <div class="container prose" style="max-width:48rem">
+      <h2>Using this website</h2>
+      <p>This website gives general information about tree removal, trimming, stump grinding, and related services in Greenville, SC and nearby towns. It is not professional tree-risk or legal advice. Please use it for information only and do not rely on it alone for decisions about a specific tree or property.</p>
+
+      <h2>Free estimates and written quotes</h2>
+      <p>Requesting an estimate through this site does not commit you to hire us, and it does not commit us to take any job. Our site visit and written quote are free. A job is booked only after you accept a written quote from us.</p>
+
+      <h2>Prices and scope</h2>
+      <p>Prices depend on the tree, its location, access, and the work requested. The written quote lists the work included and the price. Price ranges on this site are general and are not a quote for your property. Work outside the quoted scope needs your approval before it starts.</p>
+
+      <h2>Your property and access</h2>
+      <p>Please tell us about utility lines, buried lines, structures, and any restrictions before the job. You must own the property or have the owner's permission to have the work done. We will confirm access and the plan with you before work begins.</p>
+
+      <h2>Timing and results</h2>
+      <p>We will try to keep to the schedule in your quote, but weather, equipment, access, and safety can change it. We do not guarantee a particular outcome for a tree, such as its survival or health after trimming.</p>
+
+      <h2>Insurance and licensing</h2>
+      <p>Before any work starts, we will confirm in writing the insurance and licensing details that apply to your job. We do not claim any license or certification on this website unless it is stated in writing with your quote.</p>
+
+      <h2>Liability</h2>
+      <p>To the extent the law allows, our liability for any claim related to a job is limited to the amount you paid for that job. We are not responsible for damage caused by storms, utility lines, or underground conditions that you did not tell us about before the work.</p>
+
+      <h2>Website content and changes</h2>
+      <p>We may change the website and these terms at any time. The page shows the current version. Content on this site, including photos and text, belongs to {business.name} and may not be copied for commercial use without permission.</p>
+
+      <h2>Governing law</h2>
+      <p>These terms are governed by the laws of the State of South Carolina, without regard to its conflict-of-law rules. Any dispute about these terms or a job we perform must be brought in the state or federal courts located in South Carolina.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about these terms: <a href={`mailto:${business.email}`}>{business.email}</a> or call {business.phoneDisplay}.</p>
+    </div>
+  </section>
+</BaseLayout>

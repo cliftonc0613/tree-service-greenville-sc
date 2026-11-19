@@ -8,7 +8,7 @@ import { business, absoluteUrl } from '@/data/site';
 import { services } from '@/data/services';
 import { areas } from '@/data/areas';
 
-const title = 'Tree Service in Greenville, SC | Greenville Tree & Stump';
+const title = `Tree Service Greenville | ${business.name}`;
 const description =
   'Tree removal, trimming, and stump grinding in Greenville, SC. Free written estimates, safety first, and a clean yard before we leave. Call us today.';
 
@@ -21,7 +21,7 @@ const imageFor = (slug: string) => services.find((s) => s.slug === slug)!.image;
 const whyImage = imageFor('arborist');
 const truckImage = {
   src: '/images/pages/about-truck.jpg',
-  alt: 'AI-generated illustration of a white Greenville Tree & Stump pickup with a ladder rack, parked on a cleared lot beside a yellow backhoe loader in front of woods',
+  alt: `AI-generated illustration of a white ${business.name} pickup with a ladder rack, parked on a cleared lot beside a yellow backhoe loader in front of woods`,
 };
 
 // Town names for the intro paragraph, read from the published towns so it never drifts from the service areas page.
