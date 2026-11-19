@@ -9,11 +9,15 @@ Items that must be resolved by the owner or verified against real sources before
 - [x] **Email.** Set to `hello@greenvilletreeandstumpremoval.com` in `src/data/site.ts`. Confirm the mailbox exists and receives mail before launch.
 - [x] **Lead webhook.** Set `PUBLIC_LEAD_WEBHOOK_URL` to the GoHighLevel / LeadConnector inbound webhook. Verified: a test lead submitted from the contact page arrived in GoHighLevel. Still set `PUBLIC_LEAD_WEBHOOK_URL` in the hosting provider's environment variables, since `.env` is not deployed. Before wiring it, run the CORS preflight from the user's webhook rule: `curl -sD - -o /dev/null -X OPTIONS <url> -H "Origin: https://YOURSITE" -H "Access-Control-Request-Method: POST"`. The form uses a normal CORS `fetch` and reports success only on a 2xx response. Until the variable is set, the form says online requests are not connected and asks the visitor to call.
 - [ ] **Google Maps key.** The contact page map shows a plain Greenville view until `PUBLIC_GOOGLE_MAPS_KEY` is set. Then it draws the 25-mile service-area circle. No key exists yet. In Google Cloud, create a Maps JavaScript API key on a project with billing enabled, restrict it to the site's domain (HTTP referrers), and set the variable in the build environment. Do not commit the key value.
-- [x] **Brand name.** The playbook left the brand open. Confirm "Greenville Tree & Stump Removal" or change it. It appears in `src/data/site.ts`, the logo, and schema. The logo (`greenville-tsr-logo.png`, resized copies in `public/images/` and the icons) reads "Greenville Tree & Stump Removal", while the site name is "Greenville Tree & Stump Removal", so decide which to use. `public/images/pages/about-truck.jpg` is a generated image that still shows the previous logo on the truck door.
+- [x] **Brand name.** Confirmed as "Greenville Tree & Stump Removal", always the full name (never a short form), set once as `business.name` in `src/data/site.ts`. It matches the logo (`greenville-tsr-logo.png`). Still open: `public/images/pages/about-truck.jpg` is a generated image that shows the previous logo on the truck door.
 - [ ] **Business entity and schema.** Confirm the legal entity that holds the business and the Google Business Profile name, address, and phone. Schema and citations must match.
 - [ ] **Credentials.** "Licensed," "insured," and "ISA certified" are not claimed anywhere. Add them only after proof. The About page has a placeholder block for this.
 - [ ] **Owner name and founding year.** Not in the project files. Not published anywhere yet.
 - [ ] **Privacy policy.** `/privacy-policy` is a draft. Have it reviewed and add the legal entity.
+- [ ] **Terms of service.** `/terms-of-service` is built and linked in the footer, but it is a draft. Have it reviewed, add the legal entity name and governing state, and confirm the liability limit and the insurance and licensing wording match what the owner can back up.
+- [x] **Thank-you page.** `/thank-you` is built (noindex, excluded from the sitemap). Lead forms redirect to it after the webhook returns 2xx, and it pushes `generate_lead` to `dataLayer` only when the visitor arrives from a form (`?from=`). Still to do: submit a real test lead on the live site and confirm the redirect and the lead in GoHighLevel.
+
+- [ ] **Visible draft notices.** These render on the live pages and must be removed before launch: the "Placeholder" box on `/contact` (`src/pages/contact.astro`, asks for the email, a GoHighLevel tracking number, and office hours; the email is now set), and the "Draft" boxes on `/privacy-policy` and `/terms-of-service`.
 
 ## Content to verify
 
@@ -28,7 +32,9 @@ Items that must be resolved by the owner or verified against real sources before
 
 ## SEO and technical
 
-- [x] **Titles.** All 18 page titles are now 60 characters or fewer, measured from the built HTML with `&` unescaped. Brand suffix kept on every page.
+- [x] **Titles.** All 131 built page titles are 60 characters or fewer, measured from the built HTML with `&` unescaped. Service, town, and combo titles keep the full "| Greenville Tree & Stump Removal" suffix; the words before it were shortened (for example "Storm Removal Taylors", "Tree Care Travelers Rest"). Owner should review that wording. The five blog pages take their titles from the post content and have no brand suffix.
+- [x] **robots.txt and llms.txt.** Generated at build time from `SITE_URL`. robots.txt allows GPTBot, ClaudeBot, PerplexityBot, and Google-Extended.
+- [ ] **Schema validation.** JSON-LD parses on all pages (HomeAndConstructionBusiness with geo and a 25-mile radius, Service, BlogPosting, BreadcrumbList). FAQPage was removed on purpose (Google limits it to government and healthcare sites). Run the live pages through Google's Rich Results Test after launch.
 - [ ] **Search Console.** Submit `sitemap-index.xml` on launch day (site-architecture.md, build order step 2).
 - [ ] **Citations.** Submit the directory list in the playbook once NAP is final: Bing Places, Apple Business Connect, Yelp, and the directories in seo-strategy section 7.
 - [ ] **Hosting.** Plan is Cloudflare Pages (free tier). Output is static. Confirm the build command `npm run build` and output directory `dist`.
