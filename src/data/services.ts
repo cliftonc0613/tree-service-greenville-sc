@@ -12,7 +12,7 @@ export const services: Service[] = [
     icon: 'tree',
     title: `Tree Removal Greenville | ${business.name}`,
     metaDescription:
-      'Safe tree removal in Greenville, SC for dangerous, dead, or unwanted trees. Free written estimate, and we clean the yard before we leave. Call us today.',
+      'Safe tree removal in Greenville, SC for dangerous, dead, or unwanted trees. Free written estimate, and we clean the yard before we leave. Call us.',
     h1: 'Tree Removal in Greenville, SC',
     lead:
       'Tree removal service in Greenville, South Carolina, for trees that are dangerous, dead, or in the wrong place. We come out for a free site visit, give you a written quote, and clean up before we leave.',
@@ -143,7 +143,7 @@ export const services: Service[] = [
     icon: 'saw',
     title: `Tree Trimming Greenville | ${business.name}`,
     metaDescription:
-      'Tree trimming and pruning in Greenville, SC to clear overgrown branches and keep trees healthy and safe. Free written estimate. We clean up before we leave.',
+      'Tree trimming and pruning in Greenville, SC to clear overgrown branches and keep trees healthy. Free written estimate. We clean up before we leave.',
     h1: 'Tree Trimming and Pruning in Greenville, SC',
     lead:
       'Tree trimming and pruning service in Greenville, South Carolina, to clear overgrown branches, lift limbs off the roof, and keep healthy trees safe. We give you a free written estimate before any cutting starts.',
@@ -689,7 +689,7 @@ export const services: Service[] = [
     icon: 'land',
     title: `Land Clearing Greenville | ${business.name}`,
     metaDescription:
-      'Land and lot clearing in Greenville, SC. Trees and brush cleared from your property with a free written estimate and cleanup before we leave. Call today.',
+      'Land and lot clearing in Greenville, SC. Trees and brush cleared from your property with a free written estimate and cleanup before we leave.',
     h1: 'Land and Lot Clearing in Greenville, SC',
     lead:
       'Land clearing service in Greenville, South Carolina, for trees and brush on a lot or property. We walk the land with you, give you a free written quote, and clean up before we leave.',

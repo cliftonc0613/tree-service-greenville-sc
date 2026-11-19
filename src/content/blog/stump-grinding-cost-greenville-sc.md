@@ -1,6 +1,6 @@
 ---
 title: "Stump Grinding Cost in Greenville, SC: DIY or Hire a Pro?"
-description: "What drives stump grinding cost in Greenville, SC, why renting a grinder costs more than it looks, and why a free site visit gives the only accurate quote."
+description: "What drives stump grinding cost in Greenville, SC, why renting a grinder costs more than it looks, and why a free site visit gives an accurate quote."
 date: 2026-11-17
 category: cost
 tags:
