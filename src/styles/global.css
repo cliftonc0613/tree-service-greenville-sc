@@ -84,6 +84,9 @@ h1 { font-size: clamp(2.1rem, 5vw, 3.4rem); text-transform: uppercase; }
 h2 { font-size: clamp(1.7rem, 3.6vw, 2.5rem); text-transform: uppercase; }
 h3 { font-size: clamp(1.2rem, 2.4vw, 1.5rem); }
 
+/* Headings with a highlighted word: the brush stroke sits below the word, so give wrapped lines more room. */
+:is(h1, h2, h3):has(.hl) { line-height: 1.3; }
+
 p {
   margin: 0 0 1em;
 }
