@@ -182,7 +182,7 @@ export const areas: Area[] = [
       },
     ],
     geography:
-      'Taylors sits along Wade Hampton Boulevard (US 29) northeast of Greenville, with the Enoree River nearby. Taylors Mill, the former Southern Bleachery that opened in the 1920s, still stands near the center of town. Lots near the river and along the older roads often have large hardwoods and pines that need a regular look.',
+      'Taylors sits along Wade Hampton Boulevard (US 29) northeast of Greenville, with the Enoree River nearby. Taylors Mill, the former Southern Bleachery that opened in 1924, still stands in Taylors. Lots near the river and along the older roads often have large hardwoods and pines that need a regular look.',
     faqs: [
       {
         q: 'Do you trim trees in Taylors, SC?',
@@ -347,7 +347,7 @@ export const areas: Area[] = [
       },
     ],
     geography:
-      'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Downtown Greer grew up around the railroad. The Greer Depot on Trade Street was built in 1913 by the Piedmont & Northern Railroad, and the Greer Heritage Museum sits in the former 1935 post office. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',
+      'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Downtown Greer grew up around the railroad. The Greer Depot on Trade Street was built around 1913 for the Piedmont & Northern Railway, and the Greer Heritage Museum sits in the former 1935 post office. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',
     faqs: [
       {
         q: 'Is Greer in Greenville or Spartanburg County?',
@@ -366,7 +366,7 @@ export const areas: Area[] = [
       { slug: 'taylors', name: 'Taylors' },
       { slug: 'easley', name: 'Easley' },
     ],
-    landmarks: ['Greenville-Spartanburg International Airport (GSP)', 'BMW plant on Highway 101 South', 'Greer Depot, 311 Trade Street', 'Greer Heritage Museum', 'Hampton Monument, a 1933 marker on East Wade Hampton Blvd honoring three Hamptons'],
+    landmarks: ['Greenville-Spartanburg International Airport (GSP)', 'BMW plant on Highway 101 South', 'Greer Depot, 311 Trade Street', 'Greer Heritage Museum', 'Hampton family marker, erected in 1933 on East Wade Hampton Blvd'],
     mainRoads: ['US 29', 'SC 101'],
     responseArea: 'Greer and nearby Taylors and Easley.',
     landmarkImage: { src: '/images/pages/landmarks/greer-depot.jpg', alt: 'The Greer Depot, a two-story brick railroad station with an orange tile roof and a GREER sign, beside a freight train with a CSX locomotive on the tracks', credit: { text: 'Greer Depot, Google Maps', url: 'https://maps.app.goo.gl/JCpM4CLsw76nhHXc7' } },
