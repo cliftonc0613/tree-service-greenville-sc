@@ -17,7 +17,7 @@ Items that must be resolved by the owner or verified against real sources before
 - [ ] **Terms of service.** `/terms-of-service` is built and linked in the footer, but it is a draft. Have it reviewed, add the legal entity name and governing state, and confirm the liability limit and the insurance and licensing wording match what the owner can back up.
 - [x] **Thank-you page.** `/thank-you` is built (noindex, excluded from the sitemap). Lead forms redirect to it after the webhook returns 2xx, and it pushes `generate_lead` to `dataLayer` only when the visitor arrives from a form (`?from=`). Still to do: submit a real test lead on the live site and confirm the redirect and the lead in GoHighLevel.
 
-- [ ] **Visible draft notices.** These render on the live pages and must be removed before launch: the "Placeholder" box on `/contact` (`src/pages/contact.astro`, asks for the email, a GoHighLevel tracking number, and office hours; the email is now set), and the "Draft" boxes on `/privacy-policy` and `/terms-of-service`.
+- [ ] **Visible draft notices.** These render on the live pages and must be removed before launch: the "Draft" boxes on `/privacy-policy` and `/terms-of-service`. The contact-page "Placeholder" box is removed and the business email is shown there.
 
 ## Content to verify
 

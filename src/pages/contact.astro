@@ -28,13 +28,12 @@ const description =
         <h2>Talk to us now</h2>
         <p><a class="phone-link" href={business.phoneHref} style="font-size:1.9rem">{business.phoneDisplay}</a></p>
         <p>Storm damage or a tree that cannot wait? Call us. If a tree is touching a power line, call the power company or 911 first and stay clear.</p>
+        <h3>Email</h3>
+        <p><a href={`mailto:${business.email}`}>{business.email}</a></p>
         <h3>Service area</h3>
         <p><a href="/">Greenville</a>, <a href="/service-areas/simpsonville">Simpsonville</a>, <a href="/service-areas/taylors">Taylors</a>, <a href="/service-areas/easley">Easley</a>, <a href="/service-areas/greer">Greer</a>, and nearby Upstate towns. <a href="/service-areas">See all service areas</a>.</p>
         <h3>Hours</h3>
         <p>{business.hours}</p>
-        <div class="callout callout--placeholder">
-          <strong>Placeholder:</strong> Add the business email, the GoHighLevel tracking number, and any published office hours before launch.
-        </div>
         <ServiceAreaMap />
       </div>
       <div id="estimate" class="card split__center">
