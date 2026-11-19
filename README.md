@@ -70,3 +70,7 @@ Set `PUBLIC_LEAD_WEBHOOK_URL` and `PUBLIC_GOOGLE_MAPS_KEY` in the host's environ
 Client-facing checklist (plain language, no code): https://claude.ai/artifact/DKjA4HBcWjwHiiC9SuhYYQ. Hand this to the business owner. It lists what they need to send, decide, and review.
 
 For the full technical list, work through `LAUNCH_CHECKLIST.md`. Blocking items include the legal entity name, the governing state for the terms, the Google Business Profile match, the lead webhook on the live host, and the lawyer review of the privacy and terms pages.
+
+## Contact
+
+Questions about this site or its setup: hello@ctwebdesignshop.com
