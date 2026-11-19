@@ -30,6 +30,9 @@ export const business = {
   // Service-area business: no public street address is published.
   hours: 'Call or send a request any time. We reply as soon as a crew lead is free.',
 
+  // X (Twitter) handle for twitter:site, with the @ (for example '@greenvilletree'). Leave empty until the business has one; the tag is omitted when empty.
+  twitterHandle: '',
+
   // Credentials are intentionally NOT claimed anywhere on the site.
   // Flip these only after the operator provides proof (site-architecture.md decision 2).
   credentials: {
