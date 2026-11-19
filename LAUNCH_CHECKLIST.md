@@ -49,3 +49,25 @@ Items that must be resolved by the owner or verified against real sources before
 - **AI-generated images.** The images on 11 pages (home, contact, both hubs' headers, 4 service pages, 4 towns) were generated with Nano Banana 2 (prompts in `knowledge/generations/*.json`, kept locally and git-ignored). They are illustrations, not photos of the real crew, equipment, or Greenville sites, and their alt text says so. Replace with real photos when the operator has them, and do not present generated people as the actual crew.
 - **Five pages now use generated illustrations** (stump grinding, services hub, arborist, emergency tree removal, about). The images have no text, no logos, and no people, and they still need owner review before launch.
 - **About page picture.** The hero image on `/about` (`public/images/pages/about-truck.jpg`) is a generated illustration of a white pickup with the company logo on the door, beside a backhoe. It is not a photo of the real truck or crew. Its alt text says so. Replace it with a real photo when the operator has one.
+
+## Handoff: values to supply and where they go
+
+Send these to the person maintaining the site. Each row says what to change and in which file. Nothing here is set yet unless marked done.
+
+| # | Information needed | File(s) to update | Status |
+|---|---|---|---|
+| 1 | Legal entity name (LLC, sole proprietor, or other) | `src/data/site.ts` (add a `legalName` field), `src/components/SEO.astro` (add `legalName` to the LocalBusiness schema), `src/pages/privacy-policy.astro`, `src/pages/terms-of-service.astro` (replace the "legal entity" wording with the name) | Open |
+| 2 | Governing state for the terms | `src/pages/terms-of-service.astro` (add a "Governing law" section; the page has none yet) | Open |
+| 3 | Google Business Profile name, address, and phone, and whether the address is public | `src/data/site.ts` (`name`, `phoneDisplay`/`phoneHref`). Add `address` to `src/components/SEO.astro` only if the GBP shows a public address | Open |
+| 4 | Business email confirmed working | `src/data/site.ts` (`email`). Confirm the mailbox receives mail | Set, mailbox not confirmed |
+| 5 | Office hours, if different from "call any time" | `src/data/site.ts` (`hours`) | Open |
+| 6 | Owner name and founding year, if they will be published | `src/pages/about.astro` | Open |
+| 7 | Licenses, insurance, or certifications, only with proof | `src/data/site.ts` (`credentials` flags) and the credentials block on `src/pages/about.astro` (see the comment near line 60) | Open. Not claimed anywhere |
+| 8 | Google Maps JavaScript API key (HTTP-referrer restricted to the site domain) | Host environment variable `PUBLIC_GOOGLE_MAPS_KEY`. Not committed to the repo | Open |
+| 9 | Lead webhook URL (GoHighLevel / LeadConnector) | Host environment variable `PUBLIC_LEAD_WEBHOOK_URL`. `.env` is not deployed | Set in dev, host not confirmed |
+| 10 | Real photos: home hero, crew and equipment, and a 1200x630 share image | `public/images/og-default.jpg` (currently the logo), the home hero image in `src/pages/index.astro`, and the images listed under "AI-generated images" above | Open |
+| 11 | Truck photo without the old logo | `public/images/pages/about-truck.jpg` | Open |
+| 12 | Owner review of all page copy, including the cost-page ranges and local geography | `src/data/services.ts`, `src/data/areas.ts`, `src/data/combos.ts`, and the pages in `src/pages/` | Open |
+| 13 | Domain registered and pointed at the host | `astro.config.mjs` and `src/data/site.ts` already use `greenvilletreeandstumpremoval.com`. Confirm DNS and hosting (no change to files) | Files done, DNS open |
+
+When an item is supplied, update the file(s) in its row, rebuild with `npm run build`, and tick the matching item in this checklist.
