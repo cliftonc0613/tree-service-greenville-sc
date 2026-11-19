@@ -30,6 +30,12 @@ const localBusiness = {
   // Downtown Greenville, SC city center. Service-area business, so this marks the service hub, not a street address.
   geo: { '@type': 'GeoCoordinates', latitude: 34.8526, longitude: -82.394 },
   areaServed: [
+    // 25-mile service radius around the same center as the contact-page map (ServiceAreaMap.astro). geoRadius is in metres.
+    {
+      '@type': 'GeoCircle',
+      geoMidpoint: { '@type': 'GeoCoordinates', latitude: 34.8526, longitude: -82.394 },
+      geoRadius: Math.round(25 * 1609.344),
+    },
     { '@type': 'City', name: 'Greenville', containedInPlace: { '@type': 'State', name: 'South Carolina' } },
     { '@type': 'City', name: 'Simpsonville' },
     { '@type': 'City', name: 'Taylors' },
