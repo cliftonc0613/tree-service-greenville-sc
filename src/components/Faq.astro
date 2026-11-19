@@ -1,6 +1,5 @@
 ---
 import type { Faq } from '@/data/types';
-import { absoluteUrl } from '@/data/site';
 import Heading from '@/components/Heading.astro';
 
 interface Props {
@@ -9,15 +8,9 @@ interface Props {
   id?: string;
 }
 
+// No FAQPage JSON-LD on purpose: Google restricted FAQ rich results to government and healthcare sites (Aug 2023).
+// The visible accordion is kept for visitors.
 const { heading = 'Common questions', faqs, id = 'faq' } = Astro.props;
-const ld = {
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
-    '@type': 'Question',
-    name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
-  })),
-};
 ---
 
 <section class="section section--white faq-section" aria-labelledby={`${id}-heading`} id={id}>
@@ -34,4 +27,3 @@ const ld = {
     </div>
   </div>
 </section>
-<script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', ...ld })} />
