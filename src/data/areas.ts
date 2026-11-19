@@ -337,6 +337,13 @@ export const areas: Area[] = [
           },
         ],
       },
+      {
+        heading: 'Growth and homeowners in *Greer*',
+        paragraphs: [
+          'Greer had 35,308 residents at the 2020 Census, up from 25,515 in 2010. The Census Bureau estimated 50,007 for July 2025. The American Community Survey counted 16,285 households for 2020 to 2024, and 72.7% of homes were owner-occupied.',
+          'With an average of 2.53 people per household, a tree near the driveway, play area, or back door often matters more than its size. We ask who uses that part of the yard, then build the trim or removal plan around it.',
+        ],
+      },
     ],
     geography:
       'Greer is split between Greenville and Spartanburg counties, about 12 miles northeast of Greenville along US 29. Downtown Greer grew up around the railroad. The Greer Depot on Trade Street was built in 1913 by the Piedmont & Northern Railroad, and the Greer Heritage Museum sits in the former 1935 post office. Neighborhoods range from older streets near downtown to newer subdivisions where young trees are still filling in.',

@@ -13,7 +13,15 @@ Retrieved 2026-11-16 with WebSearch (Firecrawl out of credits). WebSearch return
 
 **Not confirmed / dropped from copy**
 - "Newer neighborhoods on former farmland" (old page copy). No source found. Removed.
-- Population: not rendered by the template.
+### Greer (Census, added 2026-11-19)
+
+- 2020 Census population: 35,308 (matches the Wikipedia figure in the Location notes). 2010 Census population: 25,515. Source: [U.S. Census Bureau QuickFacts, Greer city, SC](https://www.census.gov/quickfacts/greercitysouthcarolina), retrieved 2026-11-19 via Firecrawl scrape.
+- Population estimate, July 1, 2025 (V2025): 50,007. Source: same QuickFacts page, retrieved 2026-11-19.
+- Households, 2020-2024 (ACS 5-year): 16,285. Persons per household, 2020-2024: 2.53. Owner-occupied housing rate, 2020-2024: 72.7%. Source: same QuickFacts page, retrieved 2026-11-19.
+- Used in copy: the 2020 and 2010 Census figures, the July 2025 estimate, the household count, the persons-per-household figure, and the owner-occupied rate, in the section "Growth and homeowners in Greer" (added 2026-11-19). The yard-use advice is how we work, not a claim about Greer.
+
+**Not confirmed / dropped from copy**
+- Population: the 2020 Census figure is now sourced to QuickFacts above.
 
 ### Downtown Greer (added 2026-11-16)
 - Greer Depot, 311 Trade Street: built 1913 by the Piedmont & Northern Railroad as a passenger station and freight warehouse; National Register listed. Sources: [SC Dept. of Archives and History, Greer Depot](https://schpr.sc.gov/index.php/Detail/properties/S10817723035); [Greer Depot, NPS](https://npgallery.nps.gov/AssetDetail/NRIS/100004447) (via WebSearch).
