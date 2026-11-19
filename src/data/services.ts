@@ -38,6 +38,8 @@ export const services: Service[] = [
           'Some trees are too large or too close to the house to take down in sections by hand. For those jobs, we can use crane-assisted removal, which lifts sections out so they do not land on what you want to keep.',
           'Crane work costs more than a standard removal. We will explain whether a crane is needed during the site visit, and the written quote will show it as its own line.',
         ],
+        imageSide: 'left',
+        image: { src: '/images/pages/bucket-truck-tree.webp', alt: 'A white Greenville Tree & Stump Removal bucket truck parked on gravel beside a brick two-story home, with a crew member in the bucket working high in a large oak' },
       },
       {
         heading: 'What happens to the *stump* and the yard',
