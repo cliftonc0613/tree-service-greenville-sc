@@ -1,0 +1,38 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import { business } from '@/data/site';
+
+const title = `Thank You | ${business.name}`;
+const description = `We got your request. ${business.name} will call you to set up a free visit.`;
+---
+
+<BaseLayout title={title} description={description} path="/thank-you" noindex={true} callbar={false}>
+  <PageHero
+    h1="Thanks, we got your request"
+    lead="We will call you to set up a free visit. Nothing is booked until you accept a written quote."
+    crumbs={[{ label: 'Thank You' }]}
+    showCta={false}
+  />
+
+  <section class="section section--white">
+    <div class="container prose" style="max-width:48rem">
+      <h2>What happens next</h2>
+      <p>A crew lead will call the phone number you gave us to confirm the details and set a time for a free site visit. You will get a written quote after the visit.</p>
+      <p>Need to talk sooner, or the tree is a safety concern? Call us at <a href={business.phoneHref}>{business.phoneDisplay}</a>.</p>
+      <p><a href="/">Back to the home page</a></p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  // Fires the lead event once per visit, and only when the visitor came from a lead form (?from=...).
+  // A direct visit to /thank-you does not count as a lead.
+  const params = new URLSearchParams(window.location.search);
+  const from = params.get('from');
+  if (from) {
+    const tracked = window as Window & { dataLayer?: Record<string, unknown>[] };
+    tracked.dataLayer = tracked.dataLayer ?? [];
+    tracked.dataLayer.push({ event: 'generate_lead', source_page: from });
+  }
+</script>
