@@ -30,7 +30,7 @@ const description =
           <a class="card card--area" href={`/service-areas/${a.slug}`}>
             {a.image && (
               <span class="card__reveal" aria-hidden="true">
-                <img data-src={a.image.src} alt="" width="1440" height="803" decoding="async" />
+                <img data-src={a.image.src} alt={a.image.alt} title={a.image.alt} width="1440" height="803" decoding="async" />
               </span>
             )}
             <span class="eyebrow" style="margin-bottom:0.3rem">{a.county}</span>

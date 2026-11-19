@@ -19,6 +19,7 @@ const { title, description, date, category, image } = post.data;
     <img
       src={image.src}
       alt={image.alt}
+      title={image.alt}
       width={featured ? 900 : 600}
       height={featured ? 560 : 400}
       loading={eager ? 'eager' : 'lazy'}
