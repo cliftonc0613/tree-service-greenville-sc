@@ -58,12 +58,13 @@ const schema = [
     url: absoluteUrl('/'),
   },
 ];
+const heroAlt = 'Illustration of a tree crew member cutting at the base of a large oak beside a brick ranch house';
 ---
 
 <BaseLayout title={title} description={description} path="/" schema={schema}>
   <section class="hero">
     <div class="hero__media" aria-hidden="true">
-      <img src="/images/pages/home.jpg" alt="Illustration of a tree crew member cutting at the base of a large oak beside a brick ranch house" width="1440" height="803" fetchpriority="high" decoding="async" />
+      <img src="/images/pages/home.jpg" alt={heroAlt} title={heroAlt} width="1440" height="803" fetchpriority="high" decoding="async" />
       <svg class="hero__ridge" viewBox="0 0 1440 120" preserveAspectRatio="none" focusable="false">
         <path d="M0 120V78l120-26 150 30 170-52 190 46 150-34 180 40 160-44 170 36 150-24v90z" />
       </svg>
@@ -153,7 +154,7 @@ const schema = [
         </li>
       </ol>
       <figure class="section-media section-media--strip">
-        <img src={truckImage.src} alt={truckImage.alt} width="1280" height="714" loading="lazy" decoding="async" />
+        <img src={truckImage.src} alt={truckImage.alt} title={truckImage.alt} width="1280" height="714" loading="lazy" decoding="async" />
       </figure>
     </div>
   </section>
@@ -166,7 +167,7 @@ const schema = [
         {cards.map((s) => (
           <a class="card" href={`/services/${s.slug}`}>
             <span class="card__media">
-              <img src={s.image.src} alt={s.image.alt} width="1440" height="803" loading="lazy" decoding="async" />
+              <img src={s.image.src} alt={s.image.alt} title={s.image.alt} width="1440" height="803" loading="lazy" decoding="async" />
             </span>
             <h3>{s.name}</h3>
             <p>{s.summary}</p>
@@ -183,7 +184,7 @@ const schema = [
   </section>
 
   <section class="section section--forest section--photo-bg" aria-labelledby="why-heading">
-    <img class="section-bg" src={whyImage.src} alt="" width="1440" height="803" loading="lazy" decoding="async" />
+    <img class="section-bg" src={whyImage.src} alt={whyImage.alt} title={whyImage.alt} aria-hidden="true" width="1440" height="803" loading="lazy" decoding="async" />
     <div class="container split">
       <div>
         <span class="eyebrow">Why homeowners call us</span>
