@@ -165,6 +165,14 @@ const services = [
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         form.reset();
         say('ok', 'Thanks. We got your request and will call you to set up a free visit.');
+        // GTM hook: fires only after the endpoint confirms a 2xx. The site has no thank-you page, so the push happens here.
+        const tracked = window as Window & { dataLayer?: Record<string, unknown>[] };
+        tracked.dataLayer = tracked.dataLayer ?? [];
+        tracked.dataLayer.push({
+          event: 'generate_lead',
+          form_id: form.id,
+          source_page: window.location.pathname,
+        });
       } catch {
         say(
           'error',

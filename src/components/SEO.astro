@@ -18,7 +18,8 @@ const businessId = `${SITE_URL.replace(/\/$/, '')}/#business`;
 // LocalBusiness is emitted on every page so the entity is consistent sitewide.
 // Fields that are placeholders are omitted rather than guessed (no fabricated address, rating, or credentials).
 const localBusiness = {
-  '@type': 'TreeService',
+  // TreeService is not a schema.org type. HomeAndConstructionBusiness is the closest valid LocalBusiness subtype.
+  '@type': 'HomeAndConstructionBusiness',
   '@id': businessId,
   name: business.name,
   description: business.description,
