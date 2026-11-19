@@ -73,4 +73,7 @@ For the full technical list, work through `LAUNCH_CHECKLIST.md`. Blocking items 
 
 ## Contact
 
-Questions about this site or its setup: hello@ctwebdesignshop.com
+Questions about this site or its setup:
+
+- Email: hello@ctwebdesignshop.com
+- GitHub: [@cliftonc0613](https://github.com/cliftonc0613)
