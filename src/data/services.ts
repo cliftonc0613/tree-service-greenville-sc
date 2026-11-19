@@ -10,7 +10,7 @@ export const services: Service[] = [
     image: { src: '/images/pages/tree-removal-street.jpg', alt: 'Illustration of a quiet tree-lined residential street with brick homes and a freshly cut stump on the lawn after a large oak was removed' },
     name: 'Tree Removal',
     icon: 'tree',
-    title: `Tree Removal in Greenville, SC | ${business.name}`,
+    title: `Tree Removal Greenville | ${business.name}`,
     metaDescription:
       'Safe tree removal in Greenville, SC for dangerous, dead, or unwanted trees. Free written estimate, and we clean the yard before we leave. Call us today.',
     h1: 'Tree Removal in Greenville, SC',
@@ -141,7 +141,7 @@ export const services: Service[] = [
     image: { src: '/images/pages/tree-trimming.jpg', alt: 'Illustration of an arborist on a ladder trimming limbs near a roofline with a pole saw' },
     name: 'Tree Trimming and Pruning',
     icon: 'saw',
-    title: `Tree Trimming in Greenville, SC | ${business.name}`,
+    title: `Tree Trimming Greenville | ${business.name}`,
     metaDescription:
       'Tree trimming and pruning in Greenville, SC to clear overgrown branches and keep trees healthy and safe. Free written estimate. We clean up before we leave.',
     h1: 'Tree Trimming and Pruning in Greenville, SC',
@@ -268,7 +268,7 @@ export const services: Service[] = [
     image: { src: '/images/pages/stump-grinding-street.jpg', alt: 'AI-generated illustration of a stump grinder working on a stump in a front lawn, with wood chips flying and a brick home behind' },
     name: 'Stump Grinding',
     icon: 'stump',
-    title: `Stump Grinding in Greenville, SC | ${business.name}`,
+    title: `Stump Grinding Greenville | ${business.name}`,
     metaDescription:
       'Stump grinding in Greenville, SC to clear old stumps from your yard. Free written estimate, and we clean up the grindings before we leave. Call today.',
     h1: 'Stump Grinding in Greenville, SC',
@@ -472,7 +472,7 @@ export const services: Service[] = [
     image: { src: '/images/pages/emergency-tree-removal-street.jpg', alt: 'AI-generated image of a large tree limb fallen across a driveway and lawn beside a brick home, with a car parked in the driveway' },
     name: 'Emergency Tree Removal',
     icon: 'storm',
-    title: `Emergency Tree Removal Greenville | ${business.name}`,
+    title: `Storm Removal Greenville | ${business.name}`,
     metaDescription:
       'Emergency tree removal in Greenville, SC after storm damage. A tree on the house, in the yard, or leaning dangerously. Call us, then we confirm the plan.',
     h1: 'Emergency and Storm Tree Removal in Greenville, SC',
@@ -578,7 +578,7 @@ export const services: Service[] = [
     image: { src: '/images/pages/removal-cost-street.jpg', alt: 'Illustration of a very tall mature oak towering over a brick home at the end of a quiet tree-lined street' },
     name: 'Tree Removal Cost',
     icon: 'dollar',
-    title: `Tree Removal Cost, Greenville SC | ${business.name}`,
+    title: `Removal Cost Greenville | ${business.name}`,
     metaDescription:
       'What tree removal and trimming cost in Greenville, SC, with the factors that change the price. Free written estimate for your exact tree. Call us.',
     h1: 'Tree Removal Cost in Greenville, SC',
@@ -688,7 +688,7 @@ export const services: Service[] = [
     image: { src: '/images/pages/land-clearing-street.jpg', alt: 'Illustration of a cleared lot beside a residential street with tall pines and wooded hills behind and brick homes nearby' },
     name: 'Land Clearing',
     icon: 'land',
-    title: `Land Clearing in Greenville, SC | ${business.name}`,
+    title: `Land Clearing Greenville | ${business.name}`,
     metaDescription:
       'Land and lot clearing in Greenville, SC. Trees and brush cleared from your property with a free written estimate and cleanup before we leave. Call today.',
     h1: 'Land and Lot Clearing in Greenville, SC',
